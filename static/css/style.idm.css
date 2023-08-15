@@ -2,11 +2,11 @@
 :root {
   --primary-accent: #6aae7a;
   --navbar-border-top: #003366;
-  --button-border: #4d8e5c;
+  --button-border: #003366;
   --link-focus: #488456;
   --form-shadow: rgba(106, 174, 122, 0.6);
   --pagination-bg: #cde4d2;
-  --link-hover-bg: #519461;
+  --link-hover-bg: #006633;
   --navbar-focus: #acd2b5;
 }
 
