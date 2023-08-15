@@ -376,7 +376,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 4
     name = "Twitter"
-    url = "http://twitter.com"
+    url = "https://twitter.com/DavidLundell"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
@@ -470,12 +470,16 @@ pluralizelisttitles = false
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = false
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    enable = true
+    text = """
+              <button class="btn btn-primary">
+                <a
+                  href="https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/"
+                  class="btn" style="color: white;"
+                  target="_blank"
+                >
+                  Book time with an Expert</a></button>
+            """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
