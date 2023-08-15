@@ -522,10 +522,10 @@ pluralizelisttitles = false
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "Let us lock down your digital fortress"
+    subtitle = "We have the secured over 2.7 million identities. We can do it for you. Book a free 20 min consultation."
+    link_url = "https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/"
+    link_text = "Book Time with an Expert"
 
 [params.clients]
     enable = true

@@ -22,7 +22,13 @@
 
             <!-- Call to action button -->
             <div class="navbar navbar-nav text-center call-to-action">
-              <button class="btn btn-primary">Book time with an Expert</button>
+              <button class="btn btn-primary"> {{ with .Site.Params.see_more.link_url }}
+                <a
+                  href="{{ . }}"
+                  class="btn btn-lg" style="color: white;"
+                  target="_blank"
+                >
+                  {{ end }}Book time with an Expert</a></button>
             </div>
             <!-- / Call to action -->
           
