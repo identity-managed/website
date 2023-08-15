@@ -452,7 +452,7 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "Identity Managed"
 
-    logo = "img/logo.png"
+    logo = "img/logo.webp"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
