@@ -3,14 +3,14 @@
   <div id="top">
     <div class="container">
       <div class="row">
-        <div class="col-xs-5">
-          {{ .Site.Params.topbar.text | safeHTML }}
-        </div>
+        <div class="col-xs-5">{{ .Site.Params.topbar.text | safeHTML }}</div>
         <div class="col-xs-7">
           <div class="social">
             {{ range .Site.Menus.topbar.ByWeight }}
-            <a href="{{ .URL | safeURL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
-            {{ end }}
+            <a href="{{ .URL | safeURL }}" target="_blank" style="opacity: 1"
+              >{{ .Pre }}</a
+            >
+            &nbsp;&nbsp;&nbsp; {{ end }}
           </div>
         </div>
       </div>

@@ -258,11 +258,11 @@ ul.list-style-none {
 #top .social a {
   color: #999999;
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
+  width: 35px;
+  height: 35px;
+  border-radius: 24px;
   line-height: 24px;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
 }
 #top .social a:hover {
