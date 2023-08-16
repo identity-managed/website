@@ -472,7 +472,7 @@ pluralizelisttitles = false
 [params.topbar]
     enable = true
     text = """
-              <button class="btn btn-primary">
+              <button class="btn-primary">
                 <a
                   href="https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/"
                   class="btn" style="color: white;"
