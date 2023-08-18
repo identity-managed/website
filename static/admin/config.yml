@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow # optional to review post before publishing
 media_folder: "static/img"
 public_folder: "/img/"
 collections:
