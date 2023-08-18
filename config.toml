@@ -455,13 +455,10 @@ pluralizelisttitles = false
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p class="text-uppercase"><strong>Identity Managed LLC</strong>
+        
         <br>
-        <strong>Great Britain</strong>
+        <strong>Chandler, AZ</strong>
       </p>
       """
 
