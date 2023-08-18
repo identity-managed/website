@@ -30,6 +30,22 @@ collections:
       - { label: "Authors", name: "authors", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/privacy-policy.md"
+        label: "Privacy Policy"
+        name: "privacy policy"
+        fields:
+          - {
+              label: Title (Name of Home page tab),
+              name: title,
+              widget: string,
+            }
+          - { label: SEO Description, name: description, widget: text }
+          - { label: "Body", name: body, widget: markdown }
+        #end of privacy policy
+
   - name: "carousel"
     label: "Home Page Carousel"
     description: "The blurb on the items is using HTML tags for effects."

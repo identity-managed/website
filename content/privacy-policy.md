@@ -1,0 +1,93 @@
++++
+title = "Privacy Policy"
+description = "privacy policy"
++++
+
+A genuine commitment to your privacy
+
+Identity Managed LLC (IDM) and our people are committed to protecting the privacy of our website vistors/users, customers and prospective customers.
+
+We do not sell, rent or otherwise disclose your personal data to any third party except where it is necessary to provide you with services you have requested, and only then for that purpose.
+
+We will protect your personal data against loss and unauthorized access using appropriate security measures.
+
+You can unsubscribe from marketing communications at any time, either by clicking the unsubscribe button at the bottom of marketing emails, or by sending an email to privacy@identitymanaged.com.
+
+You can ask us to let you know what personal information we hold about you and ask for it to be deleted.
+
+If you have any questions, please contact us:
+
+    Email: privacy@identitymanaged.com
+    Mail: Identity Managed, ATTN: Privacy Officer, 2925 E Riggs Suite 8-110, Chandler, AZ 85249-3617
+
+Data we gather:
+
+    Usage data (your IP address, geographical location, browser type and version, operating system, referral source, length of visit, page views and website navigation paths, as well as information about the timing, frequency and pattern of your service use)
+    Prospective customer data and customer data (How to communicate with you and what your needs are, assuming you provide that to us)
+    Sales Data (dates, prices, what was contracted)
+
+How we use your personal data:
+
+    Analyzing, Monitoring and improving our website and services
+    Managing our relationships with customers and prospective customers
+    Marketing our services
+    Delivering our services to our customers
+    Communicating with our customers
+
+This data is usually supplied by you, your employer or from our Web Analytics tools.
+
+Providing your personal data to others
+
+    We may disclose your personal data to our services providers and subcontractors so they can help us deliver services to you.
+
+    If required by law we will disclose your data. We may need to disclose your data to our insurers and or professional advisors (legal, accounting, etc.).
+
+Retaining and deleting personal data
+
+    We are required to keep some data by law for certain lengths of time. In general, we try to not retain personal data for longer than is necessary for delivering services to you.
+
+Data category
+
+Retention period
+
+Usage data
+
+A period of 30 months following collection
+
+Prospective customer data
+
+Up to 6 years following our last interaction
+
+Customer data
+
+Between 6 years and 7 years after our last contract expired.
+
+Sales data
+
+Between 6 years and 7 years after our last contract expired.
+
+Personal data collected during delivery of services
+
+We attempt to get rid of personal data as soon as we don't need it anymore to deliver the services needed, such as at the completion of project that has no follow up project. We review annually to eliminate this type of unneeded data. For example, if a file is emailed to us with information about employees that we need to analyze, we would try to delete that data from the email and any of our systems as soon as we don't need it anymore, failing that when we end the project, and failing that during our annual review.
+
+If we are otherwise legally obligated then we will retain the data.
+
+Revisions
+
+We have the right to update this privacy policy at any time. When we do, we will post a notification on this page. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
+
+Third party websites
+
+Our website includes hyperlinks to, and details of, third party websites. We have no control over, and are not responsible for, the privacy policies and practices of third parties.
+
+Personal data of children
+
+Our website and services are targeted at persons over the age of 16. If we believe that we hold personal data of a person under the age of 16 years old in our databases, we will erase that personal data.
+
+About cookies
+
+Our Site will try to use “cookies” to enhance your experience. Sadly, you can not eat these cookies, they are small files containing an identifier. Your web browser places cookies on your hard drive. When you visit a website the cookie(s) placed there by that website are returned to it. This allows Cookies to be used for authentication (this person logged on at such and such date and time), personalization (language preferences for example), security, status and consent (Such as recording your consent to a privacy policy). Most modern Web browsers give you the ability to refuse cookies, or to alert you when cookies are being sent. If you block cookies, you will not be able to use all the features on our website.
+
+Cookies used by our service providers
+
+We use Google Analytics to analyze the use of our website. Google Analytics gathers information about website use by means of cookies. The information gathered relating to our website is used to create reports about the use of our website. Google’s privacy policy is available at: https://www.google.com/policies/privacy/.
