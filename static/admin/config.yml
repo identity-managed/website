@@ -71,6 +71,27 @@ collections:
       - { label: Testimonial, name: text, widget: text }
       - { label: Photo, name: avatar, widget: image, required: false }
 
+  - name: "clients"
+    label: "Clients"
+    folder: "data/clients"
+    description: "This section resides on the bottom of the home page just about the footer. If blank, this section will not be visible. Recommend adding five clients at once from spacing purposes."
+    create: true
+    extension: yaml
+    slug: "{{title}}"
+    fields:
+      - {
+          label: Position,
+          name: title,
+          widget: number,
+          value_type: "int",
+          min: 1,
+          max: 101,
+          step: 1,
+        }
+      - { label: Client Name, name: name, widget: string }
+      - { label: Website, name: url, widget: string }
+      - { label: Logo, name: image, widget: image }
+
   - name: "site_settings"
     label: "Site Settings"
     files:
