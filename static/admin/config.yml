@@ -32,7 +32,7 @@ collections:
 
   - name: "carousel"
     label: "Home Page Carousel"
-    description: "Carousel at the top of the home page"
+    description: "The blurb on the items is using HTML tags for effects."
     folder: "data/carousel"
     create: true
     extension: yaml
@@ -41,7 +41,6 @@ collections:
       - {
           label: Order,
           name: weight,
-          description: by 10s,
           widget: number,
           value_type: "int",
           min: 1,
