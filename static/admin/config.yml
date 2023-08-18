@@ -38,10 +38,10 @@ collections:
     extension: yaml
     slug: "{{title}}"
     fields:
-      - { label: Position, name: title, widget: number }
-      - { label: First and Last Name, name: name, widget: string }
-      - { label: Photo, name: photo, widget: image, required: false }
-      - { label: Short Bio, name: bio, widget: markdown }
+      - { label: Position, name: title, description: the order, widget: number }
+      - { label: Name, name: name, widget: string }
+      - { label: Testimonial, name: text, widget: text }
+      - { label: Photo, name: avatar, widget: image, required: false }
 
   - name: "site_settings"
     label: "Site Settings"
