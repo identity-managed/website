@@ -54,7 +54,7 @@ collections:
   - name: "testimonials"
     label: "Testimonials"
     description: "description here"
-    folder: "data/testimonial"
+    folder: "data/testimonials"
     create: true
     extension: yaml
     slug: "{{title}}"
