@@ -41,6 +41,7 @@ collections:
       - {
           label: Order,
           name: weight,
+          description: by 10s,
           widget: number,
           value_type: "int",
           min: 1,
