@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "static/img"
+public_folder: "/img/"
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "SEO Description", name: "description", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "list",
+          required: false,
+        }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Featured Image",
+          name: "banner",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Authors", name: "authors", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    description: "description here"
+    folder: "data/testimonial"
+    create: true
+    extension: yaml
+    slug: "{{title}}"
+    fields:
+      - { label: Position, name: title, description: the order, widget: number }
+      - { label: Name, name: name, widget: string }
+      - { label: Testimonial, name: text, widget: text }
+      - { label: Photo, name: avatar, widget: image, required: false }
+
+  - name: "site_settings"
+    label: "Site Settings"
+    files:
+      - file: "config.toml"
+        label: Site Config
+        name: config
+        fields:
+          - {
+              label: Google Analytics tracking code,
+              name: googleAnalytics,
+              widget: string,
+              required: false,
+            }

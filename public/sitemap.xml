@@ -3,63 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.com/authors/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
   </url><url>
     <loc>http://example.com/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
   </url><url>
     <loc>http://example.com/categories/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://example.com/blog/2021/08/01/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
   </url><url>
     <loc>http://example.com/tags/golang/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
   </url><url>
     <loc>http://example.com/tags/hugo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/authors/jane-doe/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
   </url><url>
     <loc>http://example.com/authors/john-doe/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/tags/programming/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/categories/programming/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/tags/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/tags/theme/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/blog/2023/08/we-wrote-the-book/</loc>
+    <lastmod>2023-08-15T13:12:23-07:00</lastmod>
+  </url><url>
+    <loc>http://example.com/blog/2021/08/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>http://example.com/categories/lorem/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://example.com/categories/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>http://example.com/categories/pseudo/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://example.com/tags/theme/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://example.com/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://example.com/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://example.com/blog/2015/10/02/linked-post/</loc>
+    <loc>http://example.com/blog/2015/10/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
     <loc>http://example.com/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://example.com/blog/2015/09/17/go-is-for-lovers/</loc>
+    <loc>http://example.com/blog/2015/09/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://example.com/blog/2015/08/03/hugo-is-for-lovers/</loc>
+    <loc>http://example.com/blog/2015/08/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>http://example.com/blog/2015/06/24/creating-a-new-theme/</loc>
+    <loc>http://example.com/blog/2015/06/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>http://example.com/categories/starting/</loc>
@@ -71,6 +74,6 @@
   </url><url>
     <loc>http://example.com/tags/ipsum/</loc>
   </url><url>
-    <loc>http://example.com/blog/1/01/01/migrate-from-jekyll/</loc>
+    <loc>http://example.com/blog/1/01/migrate-from-jekyll/</loc>
   </url>
 </urlset>
