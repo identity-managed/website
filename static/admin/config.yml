@@ -74,7 +74,7 @@ collections:
   - name: "clients"
     label: "Clients"
     folder: "data/clients"
-    description: "This section resides on the bottom of the home page just about the footer. If blank, this section will not be visible. Recommend adding five clients at once from spacing purposes."
+    description: "This section resides on the bottom of the home page just above the footer. If blank, this section will not be visible. Recommend adding five clients at once from spacing purposes."
     create: true
     extension: yaml
     slug: "{{title}}"
