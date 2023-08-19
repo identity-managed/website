@@ -163,6 +163,7 @@ collections:
                 }
               - label: Large Call to Action
                 name: see_more
+                description: This is the transparent background, call to action section
                 widget: object
                 fields:
                   - {
