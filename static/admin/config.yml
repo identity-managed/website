@@ -162,7 +162,7 @@ collections:
                   required: false,
                 }
           - label: Large Call to Action
-            name: params.see_more
+            name: see_more
             widget: object
             fields:
               - { label: Enable, name: enable, widget: boolean, default: true }
