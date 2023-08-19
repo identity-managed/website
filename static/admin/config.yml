@@ -125,6 +125,18 @@ collections:
         name: config
         fields:
           - {
+              label: Site URL,
+              name: baseurl,
+              widget: string,
+              required: true,
+            }
+            - {
+              label: Theme,
+              name: theme,
+              widget: string,
+              required: true,
+            }
+          - {
               label: Google Analytics tracking code,
               name: googleAnalytics,
               widget: string,
