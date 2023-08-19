@@ -161,3 +161,13 @@ collections:
                   widget: image,
                   required: false,
                 }
+          - label: Large Call to Action
+            name: params.see_more
+            widget: object
+            fields:
+              - { label: Enable, name: enable, widget: boolean, default: true }
+              - { label: Awesome Fonts Icon, name: icon, widget: string }
+              - { label: Headline, name: title, widget: string }
+              - { label: Short Body, name: subtitle, widget: text }
+              - { label: Call to Action URL, name: link_url, widget: string }
+              - { label: Call to Action Text, name: link_text, widget: string }
