@@ -198,7 +198,7 @@ collections:
                       name: link_text,
                       widget: string,
                     }
-              --- # Testimonials
+
               - label: Testimonials options
                 name: testimonials
                 collapsed: true
@@ -225,21 +225,31 @@ collections:
                       value_type: "int",
                       min: 1,
                       max: 6,
-                      step: 1
+                      step: 1,
                     }
-                  - { label: Auto Play, name: auto_play, widget: boolean, default: false }
-                  - { label: Slide Speed, name: slide_speed,  widget: number,
+                  - {
+                      label: Auto Play,
+                      name: auto_play,
+                      widget: boolean,
+                      default: false,
+                    }
+                  - {
+                      label: Slide Speed,
+                      name: slide_speed,
+                      widget: number,
                       default: 2000,
                       value_type: "int",
                       min: 1000,
                       max: 6000,
-                      step: 1000 
-                      }
-                  - { label: Pagination Speed, name: pagination_speed,  widget: number,
+                      step: 1000,
+                    }
+                  - {
+                      label: Pagination Speed,
+                      name: pagination_speed,
+                      widget: number,
                       default: 1000,
                       value_type: "int",
                       min: 1000,
                       max: 6000,
-                      step: 1000 
-                      }
-                 
+                      step: 1000,
+                    }
