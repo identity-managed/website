@@ -46,6 +46,15 @@ collections:
           - { label: "Body", name: body, widget: markdown }
         #end of privacy policy
 
+      - file: "content/faq.md"
+        label: "FAQ"
+        name: "faq"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: SEO Description, name: description, widget: text }
+          - { label: "Body", name: body, widget: markdown }
+        #end of faq
+
   - name: "carousel"
     label: "Home Page Carousel"
     description: "The blurb on the items is using HTML tags for effects."
