@@ -143,9 +143,9 @@ collections:
             fields:
               - {
                   label: Style Sheet,
-                  description: Style options: default (light-blue), idm, blue, green, marsala, pink, red, turquoise, violet
+                  description: "Style options are -- default (light-blue), idm, blue, green, marsala, pink, red, turquoise, violet",
                   name: style,
-                  widget: string
+                  widget: string,
                 }
               - {
                   label: Address,
