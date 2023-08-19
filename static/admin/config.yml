@@ -139,11 +139,11 @@ collections:
             }
           - label: Parameters
             name: params
+            description: "Style options are -- default (light-blue), idm, blue, green, marsala, pink, red, turquoise, violet",
             widget: object
             fields:
               - {
                   label: Style Sheet,
-                  description: "Style options are -- default (light-blue), idm, blue, green, marsala, pink, red, turquoise, violet",
                   name: style,
                   widget: string,
                 }
