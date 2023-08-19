@@ -124,17 +124,17 @@ collections:
         label: Site Config
         name: config
         fields:
-            - {
-                label: Site URL,
-                name: baseurl,
-                widget: string,
-                required: true,
-              }
-            - {
-              label: Theme,
-              name: theme,
+          - {
+              label: Site URL,
+              name: baseurl,
               widget: string,
               required: true,
+            }
+          - {
+            label: Theme,
+            name: theme,
+            widget: string,
+            required: true,
             }
           - {
               label: Google Analytics tracking code,
