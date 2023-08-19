@@ -124,18 +124,8 @@ collections:
         label: Site Config
         name: config
         fields:
-          - {
-              label: Site URL,
-              name: baseurl,
-              widget: string,
-              required: true,
-            }
-          - {
-            label: Theme,
-            name: theme,
-            widget: string,
-            required: true,
-            }
+          - { label: Site URL, name: baseurl, widget: string, required: true }
+          - { label: Theme, name: theme, widget: string, required: true }
           - {
               label: Google Analytics tracking code,
               name: googleAnalytics,
@@ -151,14 +141,9 @@ collections:
             }
           - label: Parameters
             name: params
-            description: "Style options are -- default (light-blue), idm, blue, green, marsala, pink, red, turquoise, violet",
             widget: object
             fields:
-              - {
-                  label: Style Sheet,
-                  name: style,
-                  widget: string,
-                }
+              - { label: Style Sheet, name: style, widget: string }
               - {
                   label: Address,
                   name: address,
