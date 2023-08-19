@@ -198,3 +198,48 @@ collections:
                       name: link_text,
                       widget: string,
                     }
+              --- # Testimonials
+              - label: Testimonials options
+                name: testimonials
+                collapsed: true
+                widget: object
+                fields:
+                  - {
+                      label: Enable,
+                      name: enable,
+                      widget: boolean,
+                      default: true,
+                    }
+                  - { label: Headline, name: title, widget: string }
+                  - { label: Short Body, name: subtitle, widget: text }
+              - label: Testimonials Carousel options
+                name: carouselTestimonials
+                collapsed: true
+                widget: object
+                fields:
+                  - {
+                      label: Show how many at a time,
+                      name: items,
+                      widget: number,
+                      default: 4,
+                      value_type: "int",
+                      min: 1,
+                      max: 6,
+                      step: 1
+                    }
+                  - { label: Auto Play, name: auto_play, widget: boolean, default: false }
+                  - { label: Slide Speed, name: slide_speed,  widget: number,
+                      default: 2000,
+                      value_type: "int",
+                      min: 1000,
+                      max: 6000,
+                      step: 1000 
+                      }
+                  - { label: Pagination Speed, name: pagination_speed,  widget: number,
+                      default: 1000,
+                      value_type: "int",
+                      min: 1000,
+                      max: 6000,
+                      step: 1000 
+                      }
+                 
