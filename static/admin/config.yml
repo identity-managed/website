@@ -124,12 +124,12 @@ collections:
         label: Site Config
         name: config
         fields:
-          - {
-              label: Site URL,
-              name: baseurl,
-              widget: string,
-              required: true,
-            }
+            - {
+                label: Site URL,
+                name: baseurl,
+                widget: string,
+                required: true,
+              }
             - {
               label: Theme,
               name: theme,
