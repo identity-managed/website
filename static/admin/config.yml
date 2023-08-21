@@ -55,6 +55,15 @@ collections:
           - { label: "Body", name: body, widget: markdown }
         #end of faq
 
+      - file: "content/contact.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: SEO Description, name: description, widget: text }
+          - { label: "Body", name: body, widget: markdown }
+        #end of contact
+
   - name: "carousel"
     label: "Home Page Carousel"
     description: "The blurb on the items is using HTML tags for effects."
