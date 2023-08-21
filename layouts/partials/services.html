@@ -26,8 +26,10 @@ if isset .Site.Data "services" }} {{ if gt (len .Site.Data.services) 0 }}
             {{ with $element.url }}
           </a>
           {{ end }}
-          <h3>{{ $element.name | markdownify }}</h3>
-          <p>{{ $element.description | markdownify }}</p>
+          <h3 class="services-dropshadow">{{ $element.name | markdownify }}</h3>
+          <p call="services-dropshadow">
+            {{ $element.description | markdownify }}
+          </p>
         </div>
       </div>
       {{ end }} {{ end }}
