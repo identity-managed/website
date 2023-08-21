@@ -16,13 +16,13 @@ copyright = "Copyright (c) 2023 Identity Managed; all rights reserved."
 date_format = "January 2, 2006"
 defaultKeywords = ["identity", "hugo", "go"]
 author = "David"
-logo = "img/logo.png"
+logo = "img/logo.webp"
 disabled_logo = false
 about_us = "<p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>"
 contact_url = "/contact"
 googleRecaptchaKey = "site_key_for_google_recaptcha"
 style = "idm"
-logo_small = "img/logo-small.png"
+logo_small = "img/logo-small.webp"
 viewMorePostLink = "/blog/"
 address = "<p class=\"text-uppercase\"><strong>Identity Managed LLC</strong>\n        \n        <br>\n        <strong>Chandler, AZ</strong>\n      </p>\n      "
 enableRecaptchaInContactForm = false
