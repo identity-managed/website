@@ -20,8 +20,8 @@ if isset .Site.Data "services" }} {{ if gt (len .Site.Data.services) 0 }}
           {{ with $element.url }}
           <a href="{{ $element.url }}">
             {{ end }}
-            <div class="icon">
-              <i class="{{ $element.icon }}"></i>
+            <div class="">
+              <img class="services-icon" src="{{ $element.image }}" />
             </div>
             {{ with $element.url }}
           </a>

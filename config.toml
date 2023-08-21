@@ -86,7 +86,7 @@ enable = true
 cols = 3
 
 [params.services]
-enable = false
+enable = true
 cols = 3
 
 [params.topbar]
