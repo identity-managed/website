@@ -133,11 +133,11 @@ div.section {
 }
 .services-icon {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   color: #fff;
   line-height: 80px;
-  border-radius: 75px;
+  border-radius: 150px;
   border: solid 1px var(--primary-accent);
   font-size: 20px;
 }
