@@ -131,23 +131,7 @@ div.section {
   line-height: 30px;
   border-radius: 15px;
 }
-.services-icon {
-  display: inline-block;
-  width: 250px;
-  height: 250px;
-  color: #fff;
-  line-height: 80px;
-  border-radius: 150px;
-  border: solid 1px var(--primary-accent);
-  font-size: 20px;
-}
-.services-icon.services-icon-lg {
-  font-size: 30px;
-  border-width: 2px;
-}
-.services-dropshadow {
-  text-shadow: 2px 2px #000;
-}
+
 .icon {
   display: inline-block;
   width: 80px;
