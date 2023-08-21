@@ -126,7 +126,7 @@ collections:
       - { label: Client Name, name: name, widget: string }
       - { label: Website, name: url, widget: string }
       - { label: Logo, name: image, widget: image }
-  
+
   - name: "services"
     label: "Services"
     folder: "data/services"
@@ -148,8 +148,6 @@ collections:
       - { label: Website, name: url, widget: string, required: false }
       - { label: Image, name: image, widget: image }
       - { label: Description, name: description, widget: text }
-
-
 
   - name: "site_settings"
     label: "Site Settings"
@@ -245,7 +243,7 @@ collections:
                       widget: boolean,
                       default: true,
                     }
-                    - {
+                  - {
                       label: Columns,
                       name: cols,
                       widget: number,
@@ -256,7 +254,7 @@ collections:
                       step: 1,
                     }
                 #end of services
-                
+
               - label: Testimonials options
                 name: testimonials
                 collapsed: true
