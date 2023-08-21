@@ -126,6 +126,30 @@ collections:
       - { label: Client Name, name: name, widget: string }
       - { label: Website, name: url, widget: string }
       - { label: Logo, name: image, widget: image }
+  
+  - name: "services"
+    label: "Services"
+    folder: "data/services"
+    description: ""
+    create: true
+    extension: yaml
+    slug: "{{title}}"
+    fields:
+      - {
+          label: Position,
+          name: weight,
+          widget: number,
+          value_type: "int",
+          min: 1,
+          max: 6,
+          step: 1,
+        }
+      - { label: Headline, name: name, widget: string }
+      - { label: Website, name: url, widget: string, required: false }
+      - { label: Image, name: image, widget: image }
+      - { label: Description, name: description, widget: text }
+
+
 
   - name: "site_settings"
     label: "Site Settings"
