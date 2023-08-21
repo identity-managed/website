@@ -1,10 +1,10 @@
 ---
-title: '4th of July -- Independence Day'
+title: "4th of July -- Independence Day"
 date: 2009-07-05T22:00:00.001-07:00
 draft: false
 url: /2009/07/4th-of-july-independence-day.html
-tags: 
-- Holidays
+tags:
+  - Holidays
 ---
 
 233 years ago, 56 men signed a document and began a labor to give birth to a nation. I am very grateful for their service and for their sacrifices and for each and every soldier, and dutiful civil servant since then. They have afforded me and my family a great many blessings. As well some of my family members have been privileged to serve. One of my grandfathers taught ground school during World War II and the other served in the Army and was stationed in Greenland. I honor their service.

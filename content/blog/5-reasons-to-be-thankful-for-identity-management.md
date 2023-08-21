@@ -28,8 +28,8 @@ On the eve of Thanksgiving I offer 5 reasons to be thankful for Identity Managem
     1.  Web based Password Reset
     2.  Reporting
     3.  BHOLD suite for RBAC
-2.  [Releasing FIM Best Practices Volume 1 updated for R2](http://blog.ilmbestpractices.com/2012/09/fim-best-practices-volume-1-has-been.html)
-3.  [Being Renewed as a FIM MVP (since 2007 so that makes 6 awards!)](http://blog.ilmbestpractices.com/2012/07/award-for-me-award-for-insight.html)
+2.  [Releasing FIM Best Practices Volume 1 updated for R2](/2012/09/fim-best-practices-volume-1-has-been.html)
+3.  [Being Renewed as a FIM MVP (since 2007 so that makes 6 awards!)](/2012/07/award-for-me-award-for-insight.html)
 4.  Attending and speaking at [The Experts Conference 2012](http://blog.ilmbestpractices.com/search/label/TEC) and attending the Cloud Identity Summit
 5.  Having a great job at Insight where I lead an excellent team in delivering solutions in an area of passionate interest.
 

@@ -1,13 +1,13 @@
 ---
-title: 'A few excellent Live@edu (Outlook Live) Blogs'
+title: "A few excellent Live@edu (Outlook Live) Blogs"
 date: 2009-04-14T12:35:00.001-07:00
 draft: false
 url: /2009/04/few-excellent-liveedu-outlook-live.html
-tags: 
-- ILM
-- Identity Management
-- LiveATedu
-- OutlookLive
+tags:
+  - ILM
+  - Identity Management
+  - LiveATedu
+  - OutlookLive
 ---
 
 I have been involved with the Microsoft [Live@edu](mailto:Live@edu) (formerly Windows [Live@edu](mailto:Live@edu)) and the Outlook Live (formerly Exchange Labs) programs for quite sometime.
@@ -20,7 +20,7 @@ A few weeks ago Robert Hughes of Bridgepoint introduced me to [Jonny Chambers bl
 
 Jonny has a great list of official links to [Live@edu](mailto:Live@edu)
 
-[http://cid-c76eae4d4a509fbd.profile.live.com/Lists/cns!C76EAE4D4A509FBD!495/](http://cid-c76eae4d4a509fbd.profile.live.com/Lists/cns!C76EAE4D4A509FBD!495/ "http://cid-c76eae4d4a509fbd.profile.live.com/Lists/cns!C76EAE4D4A509FBD!495/")
+[http://cid-c76eae4d4a509fbd.profile.live.com/Lists/cns!C76EAE4D4A509FBD!495/]("http://cid-c76eae4d4a509fbd.profile.live.com/Lists/cns!C76EAE4D4A509FBD!495/")
 
 Almero Steyn (pronounced Al mare Roo  Stain)  another ILM MVP has also put together some fantastic [blog posts on Outlook Live](http://puttyq.com/blog/?tag=outlook-live).
 
