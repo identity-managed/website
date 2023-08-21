@@ -208,6 +208,30 @@ collections:
                       widget: string,
                     }
 
+              - label: Services
+                name: service
+                summary: "This is the transparent background, services section"
+                collapsed: true
+                widget: object
+                fields:
+                  - {
+                      label: Enable,
+                      name: enable,
+                      widget: boolean,
+                      default: true,
+                    }
+                    - {
+                      label: Columns,
+                      name: cols,
+                      widget: number,
+                      default: 3,
+                      value_type: "int",
+                      min: 1,
+                      max: 6,
+                      step: 1,
+                    }
+                #end of services
+                
               - label: Testimonials options
                 name: testimonials
                 collapsed: true

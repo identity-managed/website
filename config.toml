@@ -85,6 +85,10 @@ enable = true
 enable = true
 cols = 3
 
+[params.services]
+enable = false
+cols = 3
+
 [params.topbar]
 enable = true
 text = "              <button class=\"btn-primary\">\n                <a\n                  href=\"https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/\"\n                  class=\"btn\" style=\"color: white;\"\n                  target=\"_blank\"\n                >\n                  Free Consultation </a></button>\n            "

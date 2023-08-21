@@ -1,0 +1,38 @@
+{{ if isset .Site.Params "services" }} {{ if .Site.Params.services.enable }} {{
+if isset .Site.Data "services" }} {{ if gt (len .Site.Data.services) 0 }}
+<section class="bar background-image-fixed-2 no-mb color-white text-center">
+  <div class="container">
+    {{ $elements := default 3 .Site.Params.services.cols }} {{ $services := sort
+    .Site.Data.services "weight" }} {{ $total_rows := div (len $services)
+    $elements }} {{ if gt (mod (len $services) $elements) 0 }} {{ $total_rows =
+    add $total_rows 1 }} {{ end }} {{ range $i, $sequence := seq $total_rows }}
+    <div
+      class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}"
+    >
+      {{ range $j, $sequence2 := (seq $elements) }} {{ $services_index := add
+      (mul $i $elements) $j }} {{ if lt $services_index (len $services) }} {{
+      $element := index $services $services_index }}
+
+      <div
+        class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}"
+      >
+        <div class="box-simple">
+          {{ with $element.url }}
+          <a href="{{ $element.url }}">
+            {{ end }}
+            <div class="icon">
+              <i class="{{ $element.icon }}"></i>
+            </div>
+            {{ with $element.url }}
+          </a>
+          {{ end }}
+          <h3>{{ $element.name | markdownify }}</h3>
+          <p>{{ $element.description | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }} {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }} {{ end }} {{ end }} {{ end }}
