@@ -1,5 +1,5 @@
 weight: 2
 name: For Identity Centered on Premise
 image: "/img/MIMcentered.png"
-url: ""
+
 description: "Microsoft Identity Manager -- Many do and will continue to use MIM, especially for those with large on-premises investments that aren’t going away any time soon. Used in conjunction with AAD and/or Clear Skye and your solution can cover the Cloud and all your GRC needs."
