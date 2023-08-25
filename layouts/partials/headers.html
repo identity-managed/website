@@ -16,6 +16,18 @@ $keywords) 0 }} <meta name="keywords" content="{{ delimit (uniq $keywords) ", "
 
 {{ hugo.Generator }}
 
+<!-- CSS animations  -->
+<link href="{{ "css/animate.css" | relURL }}" rel="stylesheet">
+
+<!-- Theme stylesheet, if possible do not edit this stylesheet -->
+{{ with .Site.Params.style }} <link href="{{ "css/style" | relURL }}.{{ .
+}}.css" rel="stylesheet" id="theme-stylesheet"> {{ else }} <link href="{{
+"css/style.default.css" | relURL }}" rel="stylesheet" id="theme-stylesheet"> {{
+end }}
+
+<!-- Custom stylesheet - for your changes -->
+<link href="{{ "css/custom.css" | relURL }}?{{ now.Unix }}" rel="stylesheet">
+
 <!-- Responsivity for older IE -->
 {{ `
 <!--[if lt IE 9]>
