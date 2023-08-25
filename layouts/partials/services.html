@@ -24,7 +24,7 @@ if isset .Site.Data "services" }} {{ if gt (len .Site.Data.services) 0 }}
               <img
                 class="services-icon"
                 src="{{ $element.image }}"
-                alt="{{ .title }}"
+                alt="{{ $element.name }}"
               />
             </div>
             {{ with $element.url }}
