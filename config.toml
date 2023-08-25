@@ -22,7 +22,7 @@ about_us = "<p>We are a US based Identity Management consulting firm focusing on
 contact_url = "/contact"
 googleRecaptchaKey = "site_key_for_google_recaptcha"
 style = "idm"
-logo_small = "img/logo-small.webp"
+logo_small = "img/logo-small.svg"
 viewMorePostLink = "/blog/"
 address = "<p class=\"text-uppercase\"><strong>Identity Managed LLC</strong>\n        \n        <br>\n        <strong>Chandler, AZ</strong>\n      </p>\n      "
 enableRecaptchaInContactForm = false
