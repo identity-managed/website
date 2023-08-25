@@ -15,9 +15,17 @@ $keywords) 0 }} <meta name="keywords" content="{{ delimit (uniq $keywords) ", "
 <meta name="description" content="{{ $description_plain }}" />
 
 {{ hugo.Generator }}
-
-<!-- CSS animations  -->
-<link href="{{ "css/animate.css" | relURL }}" rel="stylesheet">
+<!-- Bootstrap and Font Awesome CSS -->
+<link
+  rel="stylesheet"
+  href="//use.fontawesome.com/releases/v5.11.2/css/all.css"
+/>
+<link
+  rel="stylesheet"
+  href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous"
+/>
 
 <!-- Theme stylesheet, if possible do not edit this stylesheet -->
 {{ with .Site.Params.style }} <link href="{{ "css/style" | relURL }}.{{ .
@@ -27,6 +35,9 @@ end }}
 
 <!-- Custom stylesheet - for your changes -->
 <link href="{{ "css/custom.css" | relURL }}?{{ now.Unix }}" rel="stylesheet">
+
+<!-- CSS animations  -->
+<link href="{{ "css/animate.css" | relURL }}" rel="stylesheet">
 
 <!-- Responsivity for older IE -->
 {{ `

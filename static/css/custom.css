@@ -31,3 +31,7 @@
 .services-dropshadow {
   text-shadow: 2px 2px #000;
 }
+.services-dropshadow:hover {
+  text-shadow: 2px 2px #fff;
+  color: #000;
+}
