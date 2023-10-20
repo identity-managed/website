@@ -43,7 +43,7 @@ title = "Our Clients"
 subtitle = ""
 
 [params.carouselHomepage]
-enable = true
+enable = false
 auto_play = true
 slide_speed = 2000
 pagination_speed = 1000
@@ -120,7 +120,6 @@ name = "FAQ"
 identifier = "menu.faq"
 url = "/faq/"
 weight = 30
-
 
 [[menu.topbar]]
 weight = 10

@@ -1,0 +1,23 @@
+<section>
+  <div class="home-carousel">
+    <div class="dark-mask"></div>
+    <div class="container">
+      <div class="row">
+        {{ range sort .Site.Data.carousel "weight" }}
+        <div class="col-sm-4" style="text-align: center">
+          <img
+            class="img-responsive"
+            src="{{ .image }}"
+            alt="{{ .title }}"
+            style="padding-top: 15px"
+          />
+          <h3 style="text-shadow: 2px 2px black">{{ .title | safeHTML }}</h3>
+          <p style="text-shadow: 2px 2px black">
+            {{ .description | safeHTML }}
+          </p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
