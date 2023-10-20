@@ -121,12 +121,6 @@ identifier = "menu.faq"
 url = "/faq/"
 weight = 30
 
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 40
-
 [[menu.topbar]]
 weight = 10
 name = "LinkedIn"
