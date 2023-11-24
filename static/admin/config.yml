@@ -173,7 +173,7 @@ collections:
             }
 
           - label: YouTube Video
-            name: params
+            name: videos
             summary: "YouTube video links here"
             collapsed: true
             widget: object
