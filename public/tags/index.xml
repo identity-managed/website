@@ -2,64 +2,767 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Identity Managed</title>
-    <link>http://example.com/tags/</link>
+    <link>https://identitymanaged.netlify.app/tags/</link>
     <description>Recent content in Tags on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2023 13:12:23 -0700</lastBuildDate><atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 14:31:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>golang</title>
-      <link>http://example.com/tags/golang/</link>
-      <pubDate>Tue, 15 Aug 2023 13:12:23 -0700</pubDate>
-      
-      <guid>http://example.com/tags/golang/</guid>
+      <title>AOA</title>
+      <link>https://identitymanaged.netlify.app/tags/aoa/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/aoa/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
-      <link>http://example.com/tags/hugo/</link>
-      <pubDate>Tue, 15 Aug 2023 13:12:23 -0700</pubDate>
-      
-      <guid>http://example.com/tags/hugo/</guid>
+      <title>Clustering</title>
+      <link>https://identitymanaged.netlify.app/tags/clustering/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/clustering/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>programming</title>
-      <link>http://example.com/tags/programming/</link>
-      <pubDate>Tue, 15 Aug 2023 13:12:23 -0700</pubDate>
-      
-      <guid>http://example.com/tags/programming/</guid>
+      <title>High Availability</title>
+      <link>https://identitymanaged.netlify.app/tags/high-availability/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/high-availability/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>theme</title>
-      <link>http://example.com/tags/theme/</link>
-      <pubDate>Tue, 15 Aug 2023 13:12:23 -0700</pubDate>
-      
-      <guid>http://example.com/tags/theme/</guid>
+      <title>LogShipping</title>
+      <link>https://identitymanaged.netlify.app/tags/logshipping/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/logshipping/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>go</title>
-      <link>http://example.com/tags/go/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>http://example.com/tags/go/</guid>
+      <title>Microsoft Identity Manager</title>
+      <link>https://identitymanaged.netlify.app/tags/microsoft-identity-manager/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/microsoft-identity-manager/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ipsum</title>
-      <link>http://example.com/tags/ipsum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.com/tags/ipsum/</guid>
+      <title>MIM</title>
+      <link>https://identitymanaged.netlify.app/tags/mim/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/mim/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Mirroring</title>
+      <link>https://identitymanaged.netlify.app/tags/mirroring/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/mirroring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://identitymanaged.netlify.app/tags/sql/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL Clustering</title>
+      <link>https://identitymanaged.netlify.app/tags/sql-clustering/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sql-clustering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity Management</title>
+      <link>https://identitymanaged.netlify.app/tags/identity-management/</link>
+      <pubDate>Thu, 18 Jun 2020 16:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/identity-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forefront Identity Manager</title>
+      <link>https://identitymanaged.netlify.app/tags/forefront-identity-manager/</link>
+      <pubDate>Wed, 30 Oct 2019 14:15:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/forefront-identity-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DEC</title>
+      <link>https://identitymanaged.netlify.app/tags/dec/</link>
+      <pubDate>Mon, 08 Oct 2018 16:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/dec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MVP</title>
+      <link>https://identitymanaged.netlify.app/tags/mvp/</link>
+      <pubDate>Wed, 04 Jul 2018 16:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/mvp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDM</title>
+      <link>https://identitymanaged.netlify.app/tags/idm/</link>
+      <pubDate>Thu, 17 May 2018 03:24:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/idm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kuppingercole</title>
+      <link>https://identitymanaged.netlify.app/tags/kuppingercole/</link>
+      <pubDate>Thu, 29 Mar 2018 19:28:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/kuppingercole/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Identity Summit</title>
+      <link>https://identitymanaged.netlify.app/tags/cloud-identity-summit/</link>
+      <pubDate>Thu, 29 Mar 2018 17:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/cloud-identity-summit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FIM</title>
+      <link>https://identitymanaged.netlify.app/tags/fim/</link>
+      <pubDate>Thu, 29 Mar 2018 15:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/fim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenSource</title>
+      <link>https://identitymanaged.netlify.app/tags/opensource/</link>
+      <pubDate>Fri, 31 Mar 2017 20:09:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/opensource/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerShell</title>
+      <link>https://identitymanaged.netlify.app/tags/powershell/</link>
+      <pubDate>Fri, 31 Mar 2017 20:09:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://identitymanaged.netlify.app/tags/review/</link>
+      <pubDate>Fri, 31 Mar 2017 20:09:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Speaking</title>
+      <link>https://identitymanaged.netlify.app/tags/speaking/</link>
+      <pubDate>Wed, 29 Mar 2017 10:20:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/speaking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BHOLD</title>
+      <link>https://identitymanaged.netlify.app/tags/bhold/</link>
+      <pubDate>Wed, 29 Mar 2017 08:17:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/bhold/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SailPoint</title>
+      <link>https://identitymanaged.netlify.app/tags/sailpoint/</link>
+      <pubDate>Wed, 29 Mar 2017 08:17:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sailpoint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FIM 2010 R2</title>
+      <link>https://identitymanaged.netlify.app/tags/fim-2010-r2/</link>
+      <pubDate>Sat, 24 Dec 2016 13:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/fim-2010-r2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workflow</title>
+      <link>https://identitymanaged.netlify.app/tags/workflow/</link>
+      <pubDate>Sat, 24 Dec 2016 13:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/workflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SharePoint</title>
+      <link>https://identitymanaged.netlify.app/tags/sharepoint/</link>
+      <pubDate>Tue, 28 Jun 2016 19:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sharepoint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://identitymanaged.netlify.app/tags/automation/</link>
+      <pubDate>Sat, 06 Feb 2016 15:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sync Rules</title>
+      <link>https://identitymanaged.netlify.app/tags/sync-rules/</link>
+      <pubDate>Mon, 09 Nov 2015 10:16:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sync-rules/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ILM</title>
+      <link>https://identitymanaged.netlify.app/tags/ilm/</link>
+      <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ilm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIIs</title>
+      <link>https://identitymanaged.netlify.app/tags/miis/</link>
+      <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/miis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AD</title>
+      <link>https://identitymanaged.netlify.app/tags/ad/</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Directory Services</title>
+      <link>https://identitymanaged.netlify.app/tags/directory-services/</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/directory-services/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BigData</title>
+      <link>https://identitymanaged.netlify.app/tags/bigdata/</link>
+      <pubDate>Thu, 28 May 2015 16:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/bigdata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSPR</title>
+      <link>https://identitymanaged.netlify.app/tags/sspr/</link>
+      <pubDate>Wed, 08 Apr 2015 08:42:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sspr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surface Pro 3</title>
+      <link>https://identitymanaged.netlify.app/tags/surface-pro-3/</link>
+      <pubDate>Wed, 11 Mar 2015 09:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/surface-pro-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Server 2003</title>
+      <link>https://identitymanaged.netlify.app/tags/windows-server-2003/</link>
+      <pubDate>Sat, 07 Mar 2015 09:07:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/windows-server-2003/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Server 2008</title>
+      <link>https://identitymanaged.netlify.app/tags/windows-server-2008/</link>
+      <pubDate>Sat, 07 Mar 2015 09:07:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/windows-server-2008/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finances</title>
+      <link>https://identitymanaged.netlify.app/tags/finances/</link>
+      <pubDate>Mon, 02 Feb 2015 09:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/finances/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MBA</title>
+      <link>https://identitymanaged.netlify.app/tags/mba/</link>
+      <pubDate>Mon, 02 Feb 2015 09:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/mba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AADSync</title>
+      <link>https://identitymanaged.netlify.app/tags/aadsync/</link>
+      <pubDate>Wed, 28 Jan 2015 14:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/aadsync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ADFS</title>
+      <link>https://identitymanaged.netlify.app/tags/adfs/</link>
+      <pubDate>Wed, 28 Jan 2015 14:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/adfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DirSync</title>
+      <link>https://identitymanaged.netlify.app/tags/dirsync/</link>
+      <pubDate>Wed, 28 Jan 2015 14:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/dirsync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Holidays</title>
+      <link>https://identitymanaged.netlify.app/tags/holidays/</link>
+      <pubDate>Wed, 24 Dec 2014 18:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/holidays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humor</title>
+      <link>https://identitymanaged.netlify.app/tags/humor/</link>
+      <pubDate>Wed, 24 Dec 2014 18:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/humor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Server 2012 R2</title>
+      <link>https://identitymanaged.netlify.app/tags/windows-server-2012-r2/</link>
+      <pubDate>Tue, 16 Sep 2014 12:19:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/windows-server-2012-r2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reporting</title>
+      <link>https://identitymanaged.netlify.app/tags/reporting/</link>
+      <pubDate>Fri, 04 Jul 2014 15:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/reporting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IIS</title>
+      <link>https://identitymanaged.netlify.app/tags/iis/</link>
+      <pubDate>Fri, 18 Apr 2014 17:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/iis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AAD</title>
+      <link>https://identitymanaged.netlify.app/tags/aad/</link>
+      <pubDate>Thu, 17 Apr 2014 08:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/aad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://identitymanaged.netlify.app/tags/azure/</link>
+      <pubDate>Thu, 17 Apr 2014 08:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Office365</title>
+      <link>https://identitymanaged.netlify.app/tags/office365/</link>
+      <pubDate>Thu, 17 Apr 2014 08:19:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/office365/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AD FS</title>
+      <link>https://identitymanaged.netlify.app/tags/ad-fs/</link>
+      <pubDate>Wed, 11 Sep 2013 13:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ad-fs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://identitymanaged.netlify.app/tags/cloud/</link>
+      <pubDate>Mon, 08 Jul 2013 08:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSO</title>
+      <link>https://identitymanaged.netlify.app/tags/sso/</link>
+      <pubDate>Mon, 08 Jul 2013 08:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AD LDS</title>
+      <link>https://identitymanaged.netlify.app/tags/ad-lds/</link>
+      <pubDate>Thu, 14 Feb 2013 10:26:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ad-lds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LDAP</title>
+      <link>https://identitymanaged.netlify.app/tags/ldap/</link>
+      <pubDate>Sun, 02 Dec 2012 20:59:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ldap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Job</title>
+      <link>https://identitymanaged.netlify.app/tags/job/</link>
+      <pubDate>Wed, 21 Nov 2012 15:48:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/job/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forefront</title>
+      <link>https://identitymanaged.netlify.app/tags/forefront/</link>
+      <pubDate>Wed, 12 Sep 2012 20:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/forefront/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Passwords</title>
+      <link>https://identitymanaged.netlify.app/tags/passwords/</link>
+      <pubDate>Thu, 30 Aug 2012 09:59:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/passwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TEC</title>
+      <link>https://identitymanaged.netlify.app/tags/tec/</link>
+      <pubDate>Mon, 30 Apr 2012 15:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/tec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Phone</title>
+      <link>https://identitymanaged.netlify.app/tags/mobile-phone/</link>
+      <pubDate>Fri, 27 Apr 2012 17:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/mobile-phone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://identitymanaged.netlify.app/tags/education/</link>
+      <pubDate>Fri, 27 Apr 2012 16:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RCDC</title>
+      <link>https://identitymanaged.netlify.app/tags/rcdc/</link>
+      <pubDate>Fri, 27 Apr 2012 06:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/rcdc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project Management</title>
+      <link>https://identitymanaged.netlify.app/tags/project-management/</link>
+      <pubDate>Tue, 24 Apr 2012 11:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/project-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crucial Conversations</title>
+      <link>https://identitymanaged.netlify.app/tags/crucial-conversations/</link>
+      <pubDate>Tue, 14 Feb 2012 20:28:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/crucial-conversations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Star Wars</title>
+      <link>https://identitymanaged.netlify.app/tags/star-wars/</link>
+      <pubDate>Tue, 14 Feb 2012 20:28:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/star-wars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certificates</title>
+      <link>https://identitymanaged.netlify.app/tags/certificates/</link>
+      <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/certificates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RMS</title>
+      <link>https://identitymanaged.netlify.app/tags/rms/</link>
+      <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/rms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XPATH</title>
+      <link>https://identitymanaged.netlify.app/tags/xpath/</link>
+      <pubDate>Wed, 16 Nov 2011 10:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/xpath/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exchange 2010</title>
+      <link>https://identitymanaged.netlify.app/tags/exchange-2010/</link>
+      <pubDate>Wed, 16 Nov 2011 10:05:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/exchange-2010/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Federation</title>
+      <link>https://identitymanaged.netlify.app/tags/federation/</link>
+      <pubDate>Thu, 01 Sep 2011 06:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/federation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BPOS</title>
+      <link>https://identitymanaged.netlify.app/tags/bpos/</link>
+      <pubDate>Wed, 20 Apr 2011 10:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/bpos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quest</title>
+      <link>https://identitymanaged.netlify.app/tags/quest/</link>
+      <pubDate>Tue, 19 Apr 2011 14:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/quest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RBAC</title>
+      <link>https://identitymanaged.netlify.app/tags/rbac/</link>
+      <pubDate>Mon, 18 Apr 2011 16:33:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/rbac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Training</title>
+      <link>https://identitymanaged.netlify.app/tags/training/</link>
+      <pubDate>Mon, 14 Feb 2011 11:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cystic Fibrosis</title>
+      <link>https://identitymanaged.netlify.app/tags/cystic-fibrosis/</link>
+      <pubDate>Wed, 15 Sep 2010 09:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/cystic-fibrosis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ensynch</title>
+      <link>https://identitymanaged.netlify.app/tags/ensynch/</link>
+      <pubDate>Wed, 15 Sep 2010 09:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ensynch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fund Raising</title>
+      <link>https://identitymanaged.netlify.app/tags/fund-raising/</link>
+      <pubDate>Wed, 15 Sep 2010 09:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/fund-raising/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GalSync</title>
+      <link>https://identitymanaged.netlify.app/tags/galsync/</link>
+      <pubDate>Tue, 07 Sep 2010 11:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/galsync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XML</title>
+      <link>https://identitymanaged.netlify.app/tags/xml/</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/xml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>T-SQL</title>
+      <link>https://identitymanaged.netlify.app/tags/t-sql/</link>
+      <pubDate>Tue, 01 Jun 2010 08:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/t-sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backups</title>
+      <link>https://identitymanaged.netlify.app/tags/backups/</link>
+      <pubDate>Thu, 20 May 2010 10:04:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/backups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL Server</title>
+      <link>https://identitymanaged.netlify.app/tags/sql-server/</link>
+      <pubDate>Thu, 20 May 2010 10:04:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SaaS</title>
+      <link>https://identitymanaged.netlify.app/tags/saas/</link>
+      <pubDate>Tue, 18 May 2010 15:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/saas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AD RMS</title>
+      <link>https://identitymanaged.netlify.app/tags/ad-rms/</link>
+      <pubDate>Fri, 14 Aug 2009 21:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ad-rms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geneva</title>
+      <link>https://identitymanaged.netlify.app/tags/geneva/</link>
+      <pubDate>Mon, 20 Jul 2009 17:30:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/geneva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exchange 2007</title>
+      <link>https://identitymanaged.netlify.app/tags/exchange-2007/</link>
+      <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/exchange-2007/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLM</title>
+      <link>https://identitymanaged.netlify.app/tags/clm/</link>
+      <pubDate>Tue, 02 Jun 2009 11:12:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/clm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ILM 2 RC0</title>
+      <link>https://identitymanaged.netlify.app/tags/ilm-2-rc0/</link>
+      <pubDate>Wed, 29 Apr 2009 14:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ilm-2-rc0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ILM 2 Beta 3</title>
+      <link>https://identitymanaged.netlify.app/tags/ilm-2-beta-3/</link>
+      <pubDate>Wed, 15 Apr 2009 07:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ilm-2-beta-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LiveATedu</title>
+      <link>https://identitymanaged.netlify.app/tags/liveatedu/</link>
+      <pubDate>Tue, 14 Apr 2009 12:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/liveatedu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OutlookLive</title>
+      <link>https://identitymanaged.netlify.app/tags/outlooklive/</link>
+      <pubDate>Tue, 14 Apr 2009 12:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/outlooklive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT Manager</title>
+      <link>https://identitymanaged.netlify.app/tags/it-manager/</link>
+      <pubDate>Mon, 19 Jan 2009 12:19:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/it-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL PASS</title>
+      <link>https://identitymanaged.netlify.app/tags/sql-pass/</link>
+      <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sql-pass/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thanksgiving</title>
+      <link>https://identitymanaged.netlify.app/tags/thanksgiving/</link>
+      <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/thanksgiving/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WCF</title>
+      <link>https://identitymanaged.netlify.app/tags/wcf/</link>
+      <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/wcf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Services</title>
+      <link>https://identitymanaged.netlify.app/tags/web-services/</link>
+      <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/web-services/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CardSpace</title>
+      <link>https://identitymanaged.netlify.app/tags/cardspace/</link>
+      <pubDate>Thu, 30 Oct 2008 16:37:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/cardspace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shibboleth</title>
+      <link>https://identitymanaged.netlify.app/tags/shibboleth/</link>
+      <pubDate>Thu, 30 Oct 2008 16:37:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/shibboleth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zermat</title>
+      <link>https://identitymanaged.netlify.app/tags/zermat/</link>
+      <pubDate>Thu, 30 Oct 2008 16:37:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/zermat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WWF</title>
+      <link>https://identitymanaged.netlify.app/tags/wwf/</link>
+      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/wwf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HyperV</title>
+      <link>https://identitymanaged.netlify.app/tags/hyperv/</link>
+      <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/hyperv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL Server Service Broker</title>
+      <link>https://identitymanaged.netlify.app/tags/sql-server-service-broker/</link>
+      <pubDate>Sat, 16 Aug 2008 12:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sql-server-service-broker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSB</title>
+      <link>https://identitymanaged.netlify.app/tags/ssb/</link>
+      <pubDate>Sat, 16 Aug 2008 12:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/ssb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smart Cards</title>
+      <link>https://identitymanaged.netlify.app/tags/smart-cards/</link>
+      <pubDate>Sat, 16 Aug 2008 11:30:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/smart-cards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scripting</title>
+      <link>https://identitymanaged.netlify.app/tags/scripting/</link>
+      <pubDate>Thu, 10 Jul 2008 10:15:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SysAdmin</title>
+      <link>https://identitymanaged.netlify.app/tags/sysadmin/</link>
+      <pubDate>Thu, 10 Jul 2008 10:15:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft Message Queue</title>
+      <link>https://identitymanaged.netlify.app/tags/microsoft-message-queue/</link>
+      <pubDate>Thu, 15 May 2008 06:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/microsoft-message-queue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MSMQ</title>
+      <link>https://identitymanaged.netlify.app/tags/msmq/</link>
+      <pubDate>Thu, 15 May 2008 06:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/tags/msmq/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

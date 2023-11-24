@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LogShipping on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/logshipping/</link>
+    <description>Recent content in LogShipping on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Apr 2022 14:31:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/logshipping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Always On Availability Groups for MIM</title>
+      <link>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</guid>
+      <description>Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft&amp;rsquo;s product team.
+MIM 2016 SP2 (and 4.4.1459.0 or later supports SQL Server Always On Availability Groups (AG))! Yeah!
+Ok let&amp;rsquo;s implement it!
+But wait! It won&amp;rsquo;t give us all we hope for!
+Up to the moment distributed backup of the data &amp;ndash; yes! Automatic instant failover &amp;ndash; not without a huge caveat! What do you mean it won&amp;rsquo;t give us Automatic Instant Failover?</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TEC on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/tec/</link>
+    <description>Recent content in TEC on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Apr 2012 15:39:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/tec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FIM 2010 R2 Showdown: Classic vs. Declarative</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</link>
+      <pubDate>Mon, 30 Apr 2012 15:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</guid>
+      <description>Can you use both declarative and non-declarative a&amp;hellip; yekolo - Aug 4, 2013
+Can you use both declarative and non-declarative at the same time? Declarative for some attribute mappings and non declarative for others?</description>
+    </item>
+    <item>
+      <title>FIM 2010 R2 Showdown: Classic vs. Declarative</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</link>
+      <pubDate>Mon, 30 Apr 2012 15:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</guid>
+      <description>Well I delivered my session FIM 2010 R2 Showdown: Classic vs. Declarative. During lunch they changed the location. But the room was packed by 5 min after I began (guessing about 45-50 people). Many familiar faces.
+We had a rollicking good time. I presented how things worked with Classic and Declarative presented some findings and asked for other opinions. Boy did I receive them.
+My basic conclusion is that Declarative can reduce the code used and in turn improve the maintainability of the FIM implementation.</description>
+    </item>
+    <item>
+      <title>TEC 2012 call for papers open for 2 more days</title>
+      <link>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</link>
+      <pubDate>Wed, 16 Nov 2011 10:05:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</guid>
+      <description>The Experts Conference Call for Papers still open until Nov 18th
+http://www.theexpertsconference.com/us/2012/submit-a-paper/ For general info: http://www.theexpertsconference.com/us/2012/
+I have attended at spoke at this conference since 2007. I love it. It is a great experience and loads of great in-depth technical training by top experts on Directory &amp;amp; Identity, as well as SharePoint, Exchange, Virtualization &amp;amp; Cloud and PowerShell Deep Dive. Also come and learn about the inside joke dealing with the rubber chicken.</description>
+    </item>
+    <item>
+      <title>SQL Extensible Management Agents That Scale (Rebecca Croft)</title>
+      <link>https://identitymanaged.netlify.app/2011/06/sql-extensible-management-agents-that.html</link>
+      <pubDate>Thu, 23 Jun 2011 15:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/06/sql-extensible-management-agents-that.html</guid>
+      <description>Rebecca, a fellow Ensynchian, presented at TEC 2011 on the limitations of the standard out of the box SQL Management and how she overcame them by writing a very fast eXtensible Management Agent (XMA).
+First attempt use ado.net sql reader to read data (really fast) and write one row at a time to the AVP file (but that gets slow when dealing with large data sets).
+Second attempt use the T-SQL “FOR XML” clause to transform the data to XML and then use an XSLT to transform to LDIF.</description>
+    </item>
+    <item>
+      <title>Using FIM to manage BPOS/Office 365</title>
+      <link>https://identitymanaged.netlify.app/2011/04/using-fim-to-managing-bposoffice-365.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/using-fim-to-managing-bposoffice-365.html</guid>
+      <description>Carol presented a solution to a very thorny problem – how to overcome the lack of delegation in BPOS. In BPOS a user is either an admin or a user. So she used FIM to provide the delegation. Very detailed, very complete solution. She illustrated some of the scripts she has posted on her blog such as http://www.wapshere.com/missmiis/a-script-to-create-sets-and-mprs-from-templates Well done Carol!
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM 2010 reporting using SQL Server Reporting Services (Jeremy and Craig)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:53:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</guid>
+      <description>Link to Jeremy and Craig&amp;rsquo;s solution please? Sami - Jul 1, 2011
+Link to Jeremy and Craig&amp;rsquo;s solution please?
+http://www.identitytrench.com/2010/11/simple-reporting-in-fim-2010-with-ssrs.html</description>
+    </item>
+    <item>
+      <title>FIM 2010 reporting using SQL Server Reporting Services (Jeremy and Craig)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:53:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</guid>
+      <description>Jeremy and Craig had an interesting shoot out showing off their differing versions of reporting from FIM. Jeremy has an “agent” that he uses to pull the data out of FIM and store it in SQL, after which doing SSRS reports is not terribly difficult. Craig’s approach was to start off by creating a generic SSRS Data Processing extension for PowerShell, and then adjusted to pull data from FIM. Both approaches look very slick.</description>
+    </item>
+    <item>
+      <title>Cloud computing single sign-on. Making ADFS work with Google and Salesforce (Nikita Ryumin)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/cloud-computing-single-sign-on-making.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/cloud-computing-single-sign-on-making.html</guid>
+      <description>This TEC session on the Directory Services track was short but sweet illustrating how to connect ADFS to Google and SalesForce.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Desktop Virtualization and Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</guid>
+      <description>Any chance of getting an online version of this talk? Paul - Apr 2, 2011
+Any chance of getting an online version of this talk?</description>
+    </item>
+    <item>
+      <title>Desktop Virtualization and Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</guid>
+      <description>I did a lunch time presentation in partnership with Jonathan Sander. We presented how we can use Quest VWorkspace and Quest One Identity Manager to build a corporate store (we code named it VIPER) to provide a dynamic desktop experience.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Creating Authentication Activities in FIM (Ikrima Elhassan)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/creating-authentication-activities-in.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/creating-authentication-activities-in.html</guid>
+      <description>This session at TEC was quite interesting. Ikrima presented quite a lot of material about how to extend FIM with your own authentication activities, demonstrating a OTP password reset approach.
+Code is available at https://github.com/ikrima/Public-Development
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Designing and Implementing RBAC Solutions with FIM 2010 Group Management</title>
+      <link>https://identitymanaged.netlify.app/2011/04/designing-and-implementing-rbac.html</link>
+      <pubDate>Mon, 18 Apr 2011 16:33:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/designing-and-implementing-rbac.html</guid>
+      <description>After I introduced Brad Turner and turned the time over to him, he showed off some really cool FIM extensions to enable RBAC. He even showed how it fits the NIST RBAC definitions even through level 3.
+The key design decision was to extend the Set and Group objects. The Set then functions as a role. This allows for both explicit and criteria based membership. A new object type for a Role Membership allows for the user’s membership in a role to expire at an individual time.</description>
+    </item>
+    <item>
+      <title>FIM Best Practices: Sizing Your FIM Installation</title>
+      <link>https://identitymanaged.netlify.app/2011/04/fim-best-practices-sizing-your-fim.html</link>
+      <pubDate>Mon, 18 Apr 2011 16:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/fim-best-practices-sizing-your-fim.html</guid>
+      <description>I had a lot of fun presenting this session. Largely based on chapter 5 in volume 1 I showed how to decide on your High availability approach, how that impacts your topology choice, and then how to estimate your scale, load, and complexity points. Then based on those factors figure out how big to make your SQL Server that hosts the FIM service database.
+In the middle I did enjoy putting in a plug for our Ensynch sponsored green, dishwasher safe water bottles, as I took a drink of my fruit punch Gatorade mix.</description>
+    </item>
+    <item>
+      <title>Can PXEs Fly? FIM and SCCM Integration (Rob Allen)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/can-pxes-fly-fim-and-sccm-integration.html</link>
+      <pubDate>Mon, 18 Apr 2011 16:16:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/can-pxes-fly-fim-and-sccm-integration.html</guid>
+      <description>I was looking forward to this one, but got called away. I hope to look at the slides soon.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Creating Management Agents with the new EZMA (Andreas Kjellman)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/creating-management-agents-with-new.html</link>
+      <pubDate>Mon, 18 Apr 2011 13:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/creating-management-agents-with-new.html</guid>
+      <description>At TEC 2011, Andreas Kjellman of Microsoft, who “owns” the FIM synchronization engine, showed off the upcoming EZMA framework.
+The problem:
+The existing eXtensible Management Agent (XMA) does not have a call based import method, we are limited to using GUIDs as the initial anchors, and we don’t have partitions in an XMA.
+Solution
+EZMA – which, IMO, will actually be a little harder to do than an XMA but will allow the developer to do much more that will make the FIM admin’s life easier.</description>
+    </item>
+    <item>
+      <title>Files, FIM, and PowerShell (James Booth)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/files-fim-and-powershell-james-booth.html</link>
+      <pubDate>Mon, 18 Apr 2011 11:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/files-fim-and-powershell-james-booth.html</guid>
+      <description>James Booth former Microsoft Group Program Manager for MIIS (precursor to FIM) presented on using PowerShell to process files in preparation for consumption by FIM.
+James points out that “In the beginning, it was all files.” These call based MA’s are the new kids on the block, also said that at Microsoft in 2000 the philosophy was “XML is the answer, now what is your question?”
+James has posted his new commandlets to GitHub https://github.</description>
+    </item>
+    <item>
+      <title>TEC 2011–FIM Workflows Deep dive</title>
+      <link>https://identitymanaged.netlify.app/2011/04/tec-2011fim-workflows-deep-dive.html</link>
+      <pubDate>Sat, 16 Apr 2011 16:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/tec-2011fim-workflows-deep-dive.html</guid>
+      <description>I am already in Las Vegas, prepping to assist my fellow Ensynch coworkers, Joe Zamora, and Rebecca Croft as they lead an awesome value packed pre-conference workshop tomorrow (Sunday) morning at 8 AM to 12 PM (noon). Jerry Camel and Brad Turner will also be around to assist.
+There are so many good sessions to attend this time here are some of the ones I am looking forward to:
+Monday morning gets the FIMsters off to a great start with a choice of two great sessions:</description>
+    </item>
+    <item>
+      <title>TEC 2010 Europe – Sweet German Chocolate!</title>
+      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <description>Sounds like a great conference. The Berliners will&amp;hellip; johnkaiser - Nov 2, 2010
+Sounds like a great conference. The Berliners will want you back soon with Volume2!</description>
+    </item>
+    <item>
+      <title>TEC 2010 Europe – Sweet German Chocolate!</title>
+      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <description>Overall TEC 2010 Europe in Dusseldorf Germany was pretty cool. I enjoyed the speakers reception on Sunday night and got to meet some folks from the SharePoint side some of whom are even interested in FIM and one of them bought my book!
+For the first time I was able to bring my wife along to TEC! We enjoyed some good time in Dusseldorf including seeing Schloss (Palace) Benrather.
+Monday we started off with a keynote from Uday Hegde and Mark Wahl on the future of Directory and Identity Technologies.</description>
+    </item>
+    <item>
+      <title>TEC Europe – Come hear me speak!</title>
+      <link>https://identitymanaged.netlify.app/2010/09/tec-europe-come-hear-me-speak.html</link>
+      <pubDate>Wed, 01 Sep 2010 20:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/tec-europe-come-hear-me-speak.html</guid>
+      <description>I will be presenting at TEC Europe in Dusseldorf Germany Oct 4-6. During my sessions I will give away a copy or two of my book FIM Best Practices Volume 1 .
+FIM 2010 Performance Tuning (SQL and more)
+Speaker: David Lundell
+Learn how to tune FIM 2010 to make it scream. Take a look at the various architectures and what they buy you. Learn how crucial SQL is to FIM performance and what to do about it.</description>
+    </item>
+    <item>
+      <title>TEC Decks Posted!</title>
+      <link>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</link>
+      <pubDate>Tue, 18 May 2010 11:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</guid>
+      <description>If you attended TEC you can now get the Slide Decks by registering on TheExpertsCommunity.com
+and accessing the following item: TEC 2010 Conference Materials Have Been Posted!
+You can find my sessions here:
+http://theexpertscommunity.com/item/list/type/session/meta_expert_tag/speaker%3Adavidlundell
+Proper Care and Feeding of Your Databases: FIM, ILM, CLM, RMS, SharePoint and OCS Without proper care and feeding of your databases (FIM Meta Directory Services, FIM Certificate Services, FIM Web Service, RM&amp;hellip; continue reading &amp;ldquo;Proper Care and Feeding of Your Databases: FIM, ILM, CLM, RMS, SharePoint and OCS&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>TEC 2010 -- Results</title>
+      <link>https://identitymanaged.netlify.app/2010/05/tec-2010-results.html</link>
+      <pubDate>Mon, 17 May 2010 15:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/tec-2010-results.html</guid>
+      <description>TEC 2010 was a blast. In the Kickoff Gil Kirkpatrick issued several challenges including one to Brad Turner to simulate the workings of the FIM Sync Engine. Eventually we expect to see a video of the final presentation posted to YouTube. In the interim Brad has some nice pictures posted: TEC 2010 – Annual Wook Lee Memorial Challenge for Identity Results
+I attended Craig Martin’s session “Automate FIM deployment with Powershell” and learned a few things about the FIM Powershell commandlets.</description>
+    </item>
+    <item>
+      <title>Escape from Prague – Good to go for TEC</title>
+      <link>https://identitymanaged.netlify.app/2010/04/escape-from-prague-good-to-go-for-tec.html</link>
+      <pubDate>Fri, 23 Apr 2010 15:20:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/04/escape-from-prague-good-to-go-for-tec.html</guid>
+      <description>I went to Prague for a project intending to stay one week, but unfortunately I was delayed an additional week (volcanic ash cloud from Iceland – reread the news if you missed it). While Prague is a beautiful city and I met many wonderful people, the uncertainty of when I would be able to get home weighed heavily on me. I was worried about being separated from my family for weeks?</description>
+    </item>
+    <item>
+      <title>Register for TEC 2010 – hope to see you there</title>
+      <link>https://identitymanaged.netlify.app/2010/03/register-for-tec-2010-hope-to-see-you.html</link>
+      <pubDate>Wed, 17 Mar 2010 17:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/register-for-tec-2010-hope-to-see-you.html</guid>
+      <description>Register using this code to get a discount: ATESENSYNC
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>TEC 2010 – Speaking and Sponsoring</title>
+      <link>https://identitymanaged.netlify.app/2010/03/tec-2010-speaking-and-sponsoring.html</link>
+      <pubDate>Wed, 17 Mar 2010 15:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/tec-2010-speaking-and-sponsoring.html</guid>
+      <description>I am super excited about speaking at The Experts Conference 2010 (I also spoke at Directory Experts in ‘07, and ‘08 as well as last year’s The Experts Conference). Register using this code to get a discount: ATESENSYNC
+Once more Ensynch is sponsoring TEC but this year we are a gold sponsor for TEC 2010.
+Here is the lineup of Ensynch Speakers at The Experts Conference (also see Brad Turner’s take on our new speakers)</description>
+    </item>
+    <item>
+      <title>TEC 2009</title>
+      <link>https://identitymanaged.netlify.app/2009/03/tec-2009.html</link>
+      <pubDate>Tue, 24 Mar 2009 15:50:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/03/tec-2009.html</guid>
+      <description>Now that our pre-conference workshop on Taming the Chaos – Building a Practical Lifecycle Mgt. Application in the ILM “2” Portal is done
+and our (Brad, Chris and me) sessions done: Proper Care &amp;amp; Feeding of ILM, CLM and RMS , Designing an Object Expiration &amp;amp; Reconciliation process in ILM 2 , Rescue Your Identity Metasystem from Chaos (reporting against ILM 2), and ADFS Extensibility, we are all able to relax a little and enjoy everyone else&amp;rsquo;s sessions.</description>
+    </item>
+    <item>
+      <title>TEC 2009 -- Ensynch Identity Bus</title>
+      <link>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</link>
+      <pubDate>Tue, 24 Mar 2009 15:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</guid>
+      <description>great dinner. ;) identity bus was also an excell&amp;hellip; Unknown - Mar 3, 2009
+great dinner. ;) identity bus was also an excellent idea - kudos!</description>
+    </item>
+    <item>
+      <title>TEC 2009 -- Ensynch Identity Bus</title>
+      <link>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</link>
+      <pubDate>Tue, 24 Mar 2009 15:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</guid>
+      <description>Last night Fellow ILM MVP&amp;rsquo;s Brad Turner, Chris Calderon, Carol Wapshere (pronounced Wap shear and well known as Miss MIIS) and I along with a number of other TEC 2009 attendees rode on the Ensynch Identity Bus to take us from the Green Valley Ranch Resort to the Las Vegas Strip. After a great steak dinner at Smith and Wollansky&amp;rsquo;s (across from New York New York) a few us of walked the strip hoping to see the fountains at the Bellagio, but alas they shut off at midnight.</description>
+    </item>
+    <item>
+      <title>At TEC get on the Ensynch Identity Bus</title>
+      <link>https://identitymanaged.netlify.app/2009/03/at-tec-get-on-ensynch-identity-bus.html</link>
+      <pubDate>Thu, 12 Mar 2009 00:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/03/at-tec-get-on-ensynch-identity-bus.html</guid>
+      <description>If you are coming to TEC 2009 at the Green Valley Ranch Resort outside of Las Vegas, and want to take a trip to the strip Monday or Tuesday night then you are in luck &amp;ndash; Ensynch is sponsoring the Identity Bus &amp;ndash; we&amp;rsquo;ll have some buses that will be running from the Resort to one of the Monorail stops on the strip. Details will be provided at the conference in your handouts.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSO on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/sso/</link>
+    <description>Recent content in SSO on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jul 2013 08:45:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/sso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is the Password dead? Gotta eat what you kill!</title>
+      <link>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</link>
+      <pubDate>Mon, 08 Jul 2013 08:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</guid>
+      <description>At last year&amp;rsquo;s Cloud Identity Summit in Vail I heard a lot about how the password is dead. I expect to hear a lot more this year.
+Most of it fit into one of several categories:
+Complaints about why passwords should be dead
+In other words all of the various problems with passwords &amp;ndash; and there are
+Schemes to have various applications depend on someone else&amp;rsquo;s password
+While this is helpful it doesn&amp;rsquo;t kill the password</description>
+    </item>
+    <item>
+      <title>Implications of Office 365 Password Sync for ADFS (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</link>
+      <pubDate>Wed, 26 Jun 2013 07:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</guid>
+      <description>Nice recap on the implications of Office 365&amp;rsquo;s&amp;hellip; @binarybrewery - Jun 4, 2013
+Nice recap on the implications of Office 365&amp;rsquo;s Password Sync and why you may still need ADFS.</description>
+    </item>
+    <item>
+      <title>Implications of Office 365 Password Sync for ADFS (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</link>
+      <pubDate>Wed, 26 Jun 2013 07:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</guid>
+      <description>The article on Password Sync for Office 365 is interesting news and clearly states that Federated users can&amp;rsquo;t have their password&amp;rsquo;s synced. In the Community Additions many curious users asked their questions treating it as a forum. Well here are my responses:
+If you do Password Sync do you still need ADFS or any other SSO tool that works with Office365? Password Sync gives you the ability to login to Office365 using the same username and password that you use with your Active Directory.</description>
+    </item>
+    <item>
+      <title>Insight Cloud SSO Solution and FIM Jumpstart offerings</title>
+      <link>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</link>
+      <pubDate>Fri, 22 Mar 2013 15:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</guid>
+      <description>I wrote an article for the Insight Newsletter about two of our new offerings.
+Solving identity and access management for mid-sized business
+By David Lundell, Sr. Manager, Identity and Security Practice
+User productivity, IT budgets, and security and compliance all suffer from ineffective identity and access management. Insight has two new packages aimed at helping mid-sized businesses confront these challenges in the age of the cloud. Read more.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+  </channel>
+</rss>

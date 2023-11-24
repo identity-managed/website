@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FIM on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/fim/</link>
+    <description>Recent content in FIM on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Mar 2018 15:54:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/fim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SharePoint Foundation 2013 IIS Configuration Error</title>
+      <link>https://identitymanaged.netlify.app/2018/03/sharepoint-foundation-2013-iis.html</link>
+      <pubDate>Thu, 29 Mar 2018 15:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2018/03/sharepoint-foundation-2013-iis.html</guid>
+      <description>SharePoint is a great product but I wish that FIM and MIM did not use it. In my opinion, it adds unnecessary infrastructure and really complicates the setup, because SharePoint must be installed and configured (and maintained). Leaving that aside, allow me to point out some gotchas that might impede your ability to install this MIM/FIM prerequisite.
+First up: if your server has limited access to the Internet you should probably download all of these prerequisites and copy them to the server &amp;ndash; because that&amp;rsquo;s what the SharePoint Installer has to do &amp;ndash; it doesn&amp;rsquo;t include these items.</description>
+    </item>
+    <item>
+      <title>Open Source: Review of MIMTools</title>
+      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-mimtools.html</link>
+      <pubDate>Fri, 31 Mar 2017 20:09:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-mimtools.html</guid>
+      <description>JefTek created a niche hybrid tool that tackles a few pieces of the sync and service puzzle in a way that none of the others do.
+One noteable one for sync:
+Get and Export MIM Deltas to CSV (based on a drop file either stop and drop or the audit log dropped during the export
+It is great for setting up SharePoint and the Kerberos authentication to it.
+While it doesn&amp;rsquo;t do all that IS4U-FIM-PowerShell (see my review), does or Lithnext resourcemanagement-powershell or Lithnet-miis-powershell (see my review), or even the he FIM PowerShell Module (see my review), it fills a small niche that none of the rest of them do.</description>
+    </item>
+    <item>
+      <title>Open Source: Review of FIM 2010 PowerShell Cmdlets</title>
+      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-2010.html</link>
+      <pubDate>Fri, 31 Mar 2017 20:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-2010.html</guid>
+      <description>Gil Kirkpatrick (a great guy, fellow MVP, who has taught me a lot over the years) created one of the very first, if not the first, PowerShell commandlets libraries to manage FIM/MIM service. It hasn&amp;rsquo;t had any activity in years, but it served as a great example to get others going.
+If you like this simple approach you could check out Adam Weigert&amp;rsquo;s PowerShell for FIM 2010 (see my review).</description>
+    </item>
+    <item>
+      <title>Open Source: Review of IS4U-FIM-PowerShell</title>
+      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-is4u-fim.html</link>
+      <pubDate>Fri, 31 Mar 2017 19:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-is4u-fim.html</guid>
+      <description>Wim Beck&amp;rsquo;s IS4U-FIM-PowerShell is a great example of open source, in that he has built on top of the FIM PowerShell Module (see my review). This is what Open Source is about, building upon each other&amp;rsquo;s contributions to make great stuff!
+When I looked at it in Dec 2016 I almost dismissed it since it lacked a wiki, but since then Wim has added a lot of pages. They still lack examples, I plan on pitching in to help out with that by adding some examples to my fork and then asking Wim to pull it in.</description>
+    </item>
+    <item>
+      <title>Open Source: Review of Lithnet</title>
+      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-lithnet.html</link>
+      <pubDate>Fri, 31 Mar 2017 19:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-lithnet.html</guid>
+      <description>Ryan Newington&amp;rsquo;s Lithnet consists of several items:
+miis-powershell
+resourcemanagement-powershell
+resourcemanagement-webservice
+googleapps-managementagent
+acma
+&amp;ldquo;Codeless business rules engine for FIM/MIM&amp;rdquo;
+umare
+&amp;ldquo;Codeless data transform engine for FIM/MIM&amp;rdquo;
+I will only review the items I know
+Managing Sync
+miis-powershell is amazing it can almost everything you can do through the UI. For example, Clear-FullSyncWarning and it has a great wiki. Gotta have it!
+It wraps WMI calls, existing PowerShell modules, executables and sync client UI to interact with FIM/MIM Sync.</description>
+    </item>
+    <item>
+      <title>Open Source: Review of PowerShell for FIM 2010</title>
+      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-powershell-for.html</link>
+      <pubDate>Fri, 31 Mar 2017 19:15:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-powershell-for.html</guid>
+      <description>PowerShell for FIM 2010 by Adam Weigert consists of three parts but I further break the last into two:
+Management Agent(MA) and MetaVerse (MV) Extensions that let you run PowerShell scripts as your extensions
+A Workflow Activity
+A PowerShell module
+Managing Sync
+Managing Service
+Management Agent(MA) and MetaVerse (MV) Extensions
+The work done to enable you to write PowerShell scripts to be MA and MV extensions is crazy brilliant. However, I suspect (I haven&amp;rsquo;t tested) that large installations should shy away from this as compiled C# and VB.</description>
+    </item>
+    <item>
+      <title>Open Source: Review of FIM PowerShell Module</title>
+      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-powershell.html</link>
+      <pubDate>Fri, 31 Mar 2017 18:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-powershell.html</guid>
+      <description>The FIM PowerShell Module (started by Craig Martin and now updated most frequently by Brian Desmond) is a great set of commandlets that help you to automate Interactions with FIM Service and FIM Sync Service.
+Managing Sync
+This library is great for automating tests. This library and Ryan Newington&amp;rsquo;s Lithnet-Miis-PowerShell (see my review on LithNet) are very complimentary. You can retrieve CS Objects, Run History, start an MA.
+I found that the most interesting Sync related Cmdlets are the</description>
+    </item>
+    <item>
+      <title>Is MIM dead? Not yet!</title>
+      <link>https://identitymanaged.netlify.app/2017/03/is-mim-dead-not-yet.html</link>
+      <pubDate>Wed, 29 Mar 2017 08:17:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2017/03/is-mim-dead-not-yet.html</guid>
+      <description>From time to time I hear people wonder if MIM is dead.
+Why do people ask?
+They don&amp;rsquo;t feel like they have heard a good road map recently They aren&amp;rsquo;t seeing the improvements they hoped for They aren&amp;rsquo;t paying attention to the actions of the product group Why do I say it isn&amp;rsquo;t dead yet?
+While the Cloud Identity is the future, we are and will be in hybrid identity for a long time and MIM is Microsoft&amp;rsquo;s key component to that.</description>
+    </item>
+    <item>
+      <title>Christmastime FIM/MIM Open Source WF Reviews</title>
+      <link>https://identitymanaged.netlify.app/2016/12/christmastime-fimmim-open-source-wf.html</link>
+      <pubDate>Sat, 24 Dec 2016 13:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2016/12/christmastime-fimmim-open-source-wf.html</guid>
+      <description>Over the years since FIM was first beta&amp;rsquo;d as ILM2 we have seen some cool workflows be released to open source. This is my review of the workflows I can find that are open source. First let me salute everyone who has contributed to the FIM and MIM community with these big undertakings. That said I am trying to give guidance to my readers as to what is the most useful in various situations and so I will make specific recommendations.</description>
+    </item>
+    <item>
+      <title>Post Migration Your MIM/FIM Attribute Flow Precedence is Incorrect</title>
+      <link>https://identitymanaged.netlify.app/2016/10/post-migration-your-mimfim-attribute.html</link>
+      <pubDate>Mon, 17 Oct 2016 23:53:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2016/10/post-migration-your-mimfim-attribute.html</guid>
+      <description>Have you ever found out that attribute flow precedence is messed up, wrong or otherwise in error just after you followed the steps to migrate your MIM/FIM configuration from Dev to Prod or vice-versa? Well I am finally blogging about a discovery I made. The list of steps (reproduced below from the above link) are incomplete:
+Back up the pilot and production environments by using the Backup and Restore procedures.</description>
+    </item>
+    <item>
+      <title>SharePoint MA -- avoid the noise</title>
+      <link>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</link>
+      <pubDate>Tue, 28 Jun 2016 19:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</guid>
+      <description>In using the SharePoint MA from Steve Kean I noticed that some of the fields I imported were coming in with some extra noise or crap at the beginning:
+String;#164
+All I really wanted was the 164. While I can use the Word function in a sync rule to get past it
+Word(strAttribute,2,&amp;ldquo;2&amp;rdquo;) I really would prefer to bypass it altogether.
+Well thanks to Jermaine Snipe I found why this happens and how to bypass it:</description>
+    </item>
+    <item>
+      <title>Check your inputs -- Save your job!</title>
+      <link>https://identitymanaged.netlify.app/2016/02/check-your-inputs-save-your-job.html</link>
+      <pubDate>Sat, 06 Feb 2016 15:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2016/02/check-your-inputs-save-your-job.html</guid>
+      <description>At various times in my 10 years of Identity Management Consulting and 25 years working in the IT industry I have been asked to clean up various messes generated by those before me. Some of those messes involved disk failure or other issues that couldn&amp;rsquo;t be completely prevented. But some involved automated process that didn&amp;rsquo;t check their inputs.
+If garbage into a computer gives you garbage out, then garbage into an automated process that doesn&amp;rsquo;t check its inputs gives you a meltdown!</description>
+    </item>
+    <item>
+      <title>FIM Custom Expressions inside Custom Expressions?</title>
+      <link>https://identitymanaged.netlify.app/2015/11/fim-custom-expressions-inside-custom.html</link>
+      <pubDate>Mon, 09 Nov 2015 10:16:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/11/fim-custom-expressions-inside-custom.html</guid>
+      <description>Recently, I needed to take Longitude and Latitude data that was given to me in the following format and break it into its individual components and then flow it out to AD.
+Let&amp;rsquo;s suppose the data looks like this:
+&amp;ldquo;Point -10.1223 45.945&amp;rdquo;
+I could just use the Left and Right functions to get out the Longitude and Latitude.
+The problem was it could also look like this depending on the level of precision:</description>
+    </item>
+    <item>
+      <title>How many attributes can you have in the Metaverse?</title>
+      <link>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</link>
+      <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</guid>
+      <description>Back in 2013 I published 5 posts about the Secrets of the Metaverse:
+Parts 1-5:
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? The third post was about how many attributes you can have in the Metaverse in which I said that the mms_metaverse_lineageguid table limits us to 502 single valued non-reference attributes in the Metaverse.</description>
+    </item>
+    <item>
+      <title>MIM 2016 is now available</title>
+      <link>https://identitymanaged.netlify.app/2015/08/mim-2016-is-now-available.html</link>
+      <pubDate>Tue, 04 Aug 2015 08:12:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/08/mim-2016-is-now-available.html</guid>
+      <description>MIM 2016 is now available
+MIM &amp;ndash; Microsoft Identity Manager 2016 builds on and replaces Microsoft&amp;rsquo;s Forefront Identity Manager 2010 R2.
+On Microsoft&amp;rsquo;s site they include an introductory (2 min) video about Hybrid Identity but don&amp;rsquo;t mistake that for the MIM UI.
+So has anything been removed?
+No. While the list of deprecated features are still deprecated none of them have been removed from this new version.
+So what&amp;rsquo;s new?</description>
+    </item>
+    <item>
+      <title>Still an MVP but now DS MVP</title>
+      <link>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</guid>
+      <description>Thanks Scott. David Lundell - Jul 3, 2015
+Thanks Scott.</description>
+    </item>
+    <item>
+      <title>Still an MVP but now DS MVP</title>
+      <link>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</guid>
+      <description>I have been awarded the Microsoft Most Valuable Professional for a 9th time. I started off as an MIIS MVP (even though ILM had been released 4 months previous). Then I became an ILM MVP in 2008, then in 2010 it was FIM MVP (or was that 2011). Now with FIM changing to MIM and in an effort to reduce the administrative paperwork the Microsoft MVP team has every time MMS/MIIS/ILM/FIM/MIM changes names all FIM MVPs have become DS (Directory Services) MVPs.</description>
+    </item>
+    <item>
+      <title>FIM Hotfix for PCNS to support 2012 R2 DC&#39;s</title>
+      <link>https://identitymanaged.netlify.app/2015/04/fim-hotfix-for-pcns-to-support-2012-r2.html</link>
+      <pubDate>Thu, 30 Apr 2015 13:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/04/fim-hotfix-for-pcns-to-support-2012-r2.html</guid>
+      <description>With the latest hotfix MSFT now supports running PCNS on Windows Server 2012 R2. FIM still should not be installed on Windows Server 2012 R2 (2012 yes, 2008 R2 yes, 2008 yes). Only PCNS can be installed on Windows Server 2012 R2. The hotfix article has a slight error indicating that it is ok to install FIM Sync Service on 2012 R2 if you have installed the hotfix PCNS on 2012 R2 &amp;ndash; not true (the article should get corrected soon).</description>
+    </item>
+    <item>
+      <title>&#39;Twas the night before Christmas </title>
+      <link>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</link>
+      <pubDate>Wed, 24 Dec 2014 18:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</guid>
+      <description>&amp;lsquo;Twas the night before Christmas, when all through the internet
+Not an identity was stirring, not even a Passport .NET
+The user accounts requests were submitted with care
+Hoping that their access would soon be there
+The users were nestled all snug in their beds
+While visions of being able to do their jobs danced in their heads
+The servers and computers were in sleep mode
+Awaiting someone to move a mouse and send the wake up code</description>
+    </item>
+    <item>
+      <title>SQL Maintenance for FIM and anything other databases</title>
+      <link>https://identitymanaged.netlify.app/2014/10/sql-maintenance-for-fim-and-anything.html</link>
+      <pubDate>Fri, 24 Oct 2014 17:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/10/sql-maintenance-for-fim-and-anything.html</guid>
+      <description>An easy way to take care for your FIM databases is to &amp;ldquo;use Ola Hallengren&amp;rsquo;s script (http://ola.hallengren.com/scripts/MaintenanceSolution.sql). Download the script, adjust the backup paths and run the script on each instance of SQL Server. It will automatically create several jobs some for maintaining the system databases and some for maintain the user databases. You will need to create schedules for each of the jobs.&amp;rdquo; &amp;ndash; FIM Best Practices Volume 1</description>
+    </item>
+    <item>
+      <title>Mistaken Identity</title>
+      <link>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</link>
+      <pubDate>Fri, 03 Oct 2014 12:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</guid>
+      <description>Years ago, I walked into the client site a few months into an Identity Management project, and the PM told me his account had been deactivated by mistake as an employee with the same last name and same first initial was terminated, and they termed his account by mistake.
+Ironic.
+A few years before that I visited a client whose VP of HR had his account disabled when they let the janitor go.</description>
+    </item>
+    <item>
+      <title>To Farm, or not to Farm, that is the question --</title>
+      <link>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</link>
+      <pubDate>Thu, 01 May 2014 12:37:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</guid>
+      <description>In some environments, like government, having that&amp;hellip; REALHIPHOPINYOURLIFE - May 5, 2014
+In some environments, like government, having that local SQL means a whole different security profile&amp;hellip;a lot of security groups aren&amp;rsquo;t going to make a distinction between that local SQL and Full Blown SQL when they scan the system since they use some of the same binaries.
+Good comment. So in those environments that could be an extra reason to farm to avoid local SQL and the extra security</description>
+    </item>
+    <item>
+      <title>To Farm, or not to Farm, that is the question --</title>
+      <link>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</link>
+      <pubDate>Thu, 01 May 2014 12:37:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</guid>
+      <description>Whether &amp;rsquo;tis nobler in the mind to suffer the slings and arrows of outrageous fortune Or to take Farms against a sea of patches and by opposing end them? To, die, to sleep &amp;ndash; Today I will be &amp;ldquo;moderating&amp;rdquo; the debate about using SharePoint Farms vs. Stand-Alone as the foundation for the FIM Portal. In this corner we have Paul Williams of Microsoft sharing knowledge from his hard fought victories with FIM and painful experiences with Farms.</description>
+    </item>
+    <item>
+      <title>MIM&#39;s the word -- New name for FIM</title>
+      <link>https://identitymanaged.netlify.app/2014/04/mim-word-new-name-for-fim.html</link>
+      <pubDate>Wed, 30 Apr 2014 14:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/mim-word-new-name-for-fim.html</guid>
+      <description>Last week the Product group announced the new name for FIM and MIM&amp;rsquo;s the word Microsoft Identity Manager.
+Of course as a good futurist I had made enough guesses that I got this one right, even though as an honest man I must admit I also had it wrong &amp;ndash; Azure is not part of the name.
+Fortunately, they didn&amp;rsquo;t go with APE nor AILMENT, nor MIME, nor MIAMI, nor MICE, nor MAIM, nor WIMP.</description>
+    </item>
+    <item>
+      <title>Mailbag: Learning FIM, SQL and IIS</title>
+      <link>https://identitymanaged.netlify.app/2014/04/mailbag-learning-fim-sql-and-iis.html</link>
+      <pubDate>Fri, 18 Apr 2014 17:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/mailbag-learning-fim-sql-and-iis.html</guid>
+      <description>Recently, a reader reached out to me for advice on learning FIM, SQL and IIS. As well as guidance on setting up a lab (more advice on that part in a later post).
+First think for a moment about your best learning styles for technology. Do you need to read the concepts and architecture first and then do it? Do you need to watch a video and then read, and then do it?</description>
+    </item>
+    <item>
+      <title>New name for FIM?</title>
+      <link>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</link>
+      <pubDate>Thu, 17 Apr 2014 08:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</guid>
+      <description>Actually it&amp;rsquo;s MIM (Microsoft Identity Manager)&amp;hellip; Oliver Hanappi - Apr 3, 2014
+Actually it&amp;rsquo;s MIM (Microsoft Identity Manager). See http://blogs.technet.com/b/server-cloud/archive/2014/04/23/forefront-identity-manager-vnext-roadmap-now-microsoft-identity-manager.aspx
+Like any good futurist I guessed so many things that one of them was bound to be right http://blog.ilmbestpractices.com/2013/07/the-mvp-7-year-itch.html?m=1</description>
+    </item>
+    <item>
+      <title>New name for FIM?</title>
+      <link>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</link>
+      <pubDate>Thu, 17 Apr 2014 08:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</guid>
+      <description>Did you know that if you subscribe to Azure AD Premium you also get licenses for FIM? Well if that isn&amp;rsquo;t a hand tipper I don&amp;rsquo;t know what is. I think we can safely assume the next version of FIM will have Azure in the name. Safe or not I am going speculate that it will.
+Azure Identity Manager (AIM) &amp;ndash; I would be ok with this
+Azure Role Based Access Manager (ARBAM) &amp;ndash; Explosive sounding name</description>
+    </item>
+    <item>
+      <title>Hints of FIM&#39;s Future: Azure Active Directory (AAD) Sync</title>
+      <link>https://identitymanaged.netlify.app/2014/04/hints-of-fims-future-azure-active.html</link>
+      <pubDate>Thu, 17 Apr 2014 08:19:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/hints-of-fims-future-azure-active.html</guid>
+      <description>For years I have been trying to predict the future of Identity Management, but every time I look in my crystal ball it is just too cloudy to see anything. In fact anytime I look in my crystal ball on just about any technology topic the only thing it shows me are clouds! I was beginning to think it was broken.
+But then, yesterday, I watched Andreas Kjellman present at the FIM user group</description>
+    </item>
+    <item>
+      <title>DirSync w/ domain if NetBios and FQDN don&#39;t match</title>
+      <link>https://identitymanaged.netlify.app/2013/10/dirsync-w-domain-if-netbios-and-fqdn.html</link>
+      <pubDate>Fri, 04 Oct 2013 16:14:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/10/dirsync-w-domain-if-netbios-and-fqdn.html</guid>
+      <description>If one of your AD domains has a NetBios domain name that doesn&amp;rsquo;t match the leftmost part of your FQDN you need to have the Replicating Directory Changes permission given to your AD MA account. This is documented in a few places including my book. However, DirSync misses this step. Normally, Dirsync does a very good job of installing and configuring everything which you need without needing you to be an expert in FIM, but this is one thing it misses.</description>
+    </item>
+    <item>
+      <title>Declarative or Bust!</title>
+      <link>https://identitymanaged.netlify.app/2013/10/declarative-or-bust.html</link>
+      <pubDate>Fri, 04 Oct 2013 15:55:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/10/declarative-or-bust.html</guid>
+      <description>I see two challenges: 1. There is not feature pari&amp;hellip; Craig Martin - Oct 3, 2013
+I see two challenges:
+1. There is not feature parity between the two types of sync rules
+2. The imperative support (VBA) in the new sync rules is limited and difficult to debug
+My wish is that we had better extensibility in the new sync rules (scrap VBA, or figure out how to improve the extensibility and debugging).</description>
+    </item>
+    <item>
+      <title>Declarative or Bust!</title>
+      <link>https://identitymanaged.netlify.app/2013/10/declarative-or-bust.html</link>
+      <pubDate>Fri, 04 Oct 2013 15:55:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/10/declarative-or-bust.html</guid>
+      <description>Michael Pearn from down under wrote about his experience trying to use just Declarative Sync Rules
+His experience &amp;ndash; especially the religious debates are similar to my own. It made me recall my presentation at TEC 2012 the FIM 2010 R2 Showdown: Classic vs. Declarative
+The vast majority of old hands at the presentation declared for Classic both before and after the presentation. During the presentation I attempted to view anything you could do without code as declarative whether it came from a sync rule or not, especially if it was a new feature.</description>
+    </item>
+    <item>
+      <title>The MVP 7 year itch</title>
+      <link>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</link>
+      <pubDate>Mon, 01 Jul 2013 09:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</guid>
+      <description>Congratz, David&amp;hellip; Søren Granfeldt - Jul 1, 2013
+Congratz, David&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The MVP 7 year itch</title>
+      <link>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</link>
+      <pubDate>Mon, 01 Jul 2013 09:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</guid>
+      <description>This morning I received an email letting me know that for the 7th time (every year since 2007) I have been honored by Microsoft with the Microsoft Most Valuable Professional (MVP) Award. All 7 times I have received the award for my &amp;ldquo;outstanding contributions in Forefront Identity Manager technical communities&amp;rdquo; and its predecessors.
+In 2007 despite the product rename Identity Lifecycle Manager (ILM) 2007 the MVP award was for Microsoft Identity Integration Server (MIIS) 2003.</description>
+    </item>
+    <item>
+      <title>How to get from the Sync-Rule-ID to the Sync Rule Resource ID</title>
+      <link>https://identitymanaged.netlify.app/2013/05/how-to-get-from-sync-rule-id-to-sync.html</link>
+      <pubDate>Wed, 01 May 2013 12:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/05/how-to-get-from-sync-rule-id-to-sync.html</guid>
+      <description>Thanks, David. You had the knowledge, answered my &amp;hellip; Unknown - May 3, 2013
+Thanks, David. You had the knowledge, answered my forum question and blogged about it as well. Nice work.
+PeteA</description>
+    </item>
+    <item>
+      <title>How to get from the Sync-Rule-ID to the Sync Rule Resource ID</title>
+      <link>https://identitymanaged.netlify.app/2013/05/how-to-get-from-sync-rule-id-to-sync.html</link>
+      <pubDate>Wed, 01 May 2013 12:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/05/how-to-get-from-sync-rule-id-to-sync.html</guid>
+      <description>If you are looking at the XML export of the FIM synchronization config and you are trying to track down which sync rule is supplying a particular flow you just need to know which numbers lead you where.
+For example:
+The key to finding the Sync rule is of course the Sync rule ID. However, this is not the resource ID that I can search for in the FIM Portal. Rather this is the metaverse ID.</description>
+    </item>
+    <item>
+      <title>FIM Functions Updated, Bitwise Functions</title>
+      <link>https://identitymanaged.netlify.app/2013/04/fim-functions-updated-bitwise-functions.html</link>
+      <pubDate>Fri, 12 Apr 2013 10:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/04/fim-functions-updated-bitwise-functions.html</guid>
+      <description>In addition to the official reference for functions I thought I would update my examples from back in the ILM 2 Beta days
+Function Name
+BitAnd
+Parameters
+mask Type: Integer
+flag Type: Integer
+Description
+BitAnd is a bitwise operation anding mask and flag. So if Flag is the UserAccountControl Attribute in AD and mask is **-3
+**(the 64-bit two&amp;rsquo;s complement of 2) Then the result is that the disable bit (bit 2) is turned off leaving all of the other bits unchanged.</description>
+    </item>
+    <item>
+      <title>Insight Cloud SSO Solution and FIM Jumpstart offerings</title>
+      <link>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</link>
+      <pubDate>Fri, 22 Mar 2013 15:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</guid>
+      <description>I wrote an article for the Insight Newsletter about two of our new offerings.
+Solving identity and access management for mid-sized business
+By David Lundell, Sr. Manager, Identity and Security Practice
+User productivity, IT budgets, and security and compliance all suffer from ineffective identity and access management. Insight has two new packages aimed at helping mid-sized businesses confront these challenges in the age of the cloud. Read more.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Secrets of the Metaverse Part 5</title>
+      <link>https://identitymanaged.netlify.app/2013/03/secrets-of-metaverse-part-5.html</link>
+      <pubDate>Fri, 22 Mar 2013 15:42:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/03/secrets-of-metaverse-part-5.html</guid>
+      <description>Parts 1-5:
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? First of all the FIM Product group does not support direct modification of the data in any of the FIM databases.</description>
+    </item>
+    <item>
+      <title>Secrets of the Metaverse Part 4</title>
+      <link>https://identitymanaged.netlify.app/2013/03/secrets-of-metaverse-part-4.html</link>
+      <pubDate>Mon, 11 Mar 2013 14:44:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/03/secrets-of-metaverse-part-4.html</guid>
+      <description>Parts 1-5:
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? Has access to the metaverse gotten faster with recent releases? Well I won&amp;rsquo;t cover everything they have done but two really significant things:</description>
+    </item>
+    <item>
+      <title>Secrets of the Metaverse Part 3</title>
+      <link>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-3.html</link>
+      <pubDate>Mon, 18 Feb 2013 05:10:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-3.html</guid>
+      <description>Parts 1-5:
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? Many times people wonder how many attributes they can create in the Metaverse Designer tool.
+The answer is confusing because &amp;hellip; it depends.</description>
+    </item>
+    <item>
+      <title>Secrets of the Metaverse Part 2</title>
+      <link>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-2.html</link>
+      <pubDate>Fri, 15 Feb 2013 06:16:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-2.html</guid>
+      <description>Parts 1-5:
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? Where and how is the Metaverse data stored?
+Before I get into that I must caution you that modifying data directly will put you in a position that is unsupported by Microsoft.</description>
+    </item>
+    <item>
+      <title>Secrets of the Metaverse Part 1</title>
+      <link>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-1.html</link>
+      <pubDate>Thu, 14 Feb 2013 21:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-1.html</guid>
+      <description>Great explanation. This really came in handy for t&amp;hellip; Unknown - Jul 2, 2013
+Great explanation. This really came in handy for troubleshooting.
+I am so glad it was of use
+I am using MV extension to create users in AD from FIM.
+Need to flow password to AD which is any Random number say &amp;ldquo;$random123&amp;rdquo;
+This attribute flows to AD but can be viewed in account preview etc or the attribute value can be seen.</description>
+    </item>
+    <item>
+      <title>Secrets of the Metaverse Part 1</title>
+      <link>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-1.html</link>
+      <pubDate>Thu, 14 Feb 2013 21:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-1.html</guid>
+      <description>Many FIMsters wonder about the Metaverse and how works, how the data is stored. In this series I will reveal the secrets of the Metaverse. Parts 1-5 (links live but post yet to come)
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse?</description>
+    </item>
+    <item>
+      <title>Updated Vote: Top 5 Deprecated Features of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/02/updated-vote-top-5-deprecated-features.html</link>
+      <pubDate>Thu, 14 Feb 2013 10:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/updated-vote-top-5-deprecated-features.html</guid>
+      <description>Here is an update on the impact of the newly deprecated features: The big change is that XMA has caught up to Multi-Mastery and is tied for first.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Massive FIM and AD LDS project at DPDHL</title>
+      <link>https://identitymanaged.netlify.app/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</link>
+      <pubDate>Thu, 14 Feb 2013 10:26:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</guid>
+      <description>Watch the presentation that James Booth (who worked with us on the project) and Joe Gasowski (DPDHL) gave at the Redmond Identity Summit 2013 about our project at DHL to replace the DPDHL Sun One Directory and deploy FIM to replace both CriticalPath and a home-grown admin portal.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Voted: Top 5 Deprecated Features of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/01/voted-top-5-deprecated-features-of-fim.html</link>
+      <pubDate>Tue, 29 Jan 2013 11:15:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/voted-top-5-deprecated-features-of-fim.html</guid>
+      <description>Looks like ECMA1 deprecation has caught up to the &amp;hellip; Ross - Feb 4, 2013
+Looks like ECMA1 deprecation has caught up to the equal precedence issue since you posted this.
+I think I&amp;rsquo;ll start offering some ECMA1-&amp;gt;ECMA2 upgrade services. I suppose not everybody has an xMA developer in their back pocket!</description>
+    </item>
+    <item>
+      <title>Voted: Top 5 Deprecated Features of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/01/voted-top-5-deprecated-features-of-fim.html</link>
+      <pubDate>Tue, 29 Jan 2013 11:15:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/voted-top-5-deprecated-features-of-fim.html</guid>
+      <description>I conducted a linkedIn poll to find out what others thought of the features that are deprecated starting in FIM 2010 R2 SP1. For the poll I only listed the ones I put in my top 5 list. With 15 votes and 1 abstention I thought it would be worthwhile to publish the results:
+Here we can see the winner:
+Multi-mastery/equal precedence (I had this 2nd)
+ECMA1 (XMA) (I had this third)</description>
+    </item>
+    <item>
+      <title>The rest of the FIM 2010 R2 SP1 Deprecations</title>
+      <link>https://identitymanaged.netlify.app/2013/01/the-rest-of-fim-2010-r2-sp1-deprecations.html</link>
+      <pubDate>Thu, 17 Jan 2013 11:22:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/the-rest-of-fim-2010-r2-sp1-deprecations.html</guid>
+      <description>Remember that these features are still here but will be removed in a future version (probably the next major release or the one after)
+Feature
+Impact
+Unselect “allow nulls” for exported values
+You need to be more careful to ensure that you aren&amp;rsquo;t deleting values
+Web Service configuration interface
+You will no longer be able to send a request to the web service to update the mv-data or ma-data objects in order to configure the sync engine.</description>
+    </item>
+    <item>
+      <title>Top 5 Deprecated features as of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/01/top-5-deprecated-features-as-of-fim.html</link>
+      <pubDate>Wed, 16 Jan 2013 11:28:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/top-5-deprecated-features-as-of-fim.html</guid>
+      <description>I have heard that investments in FIM CM are contin&amp;hellip; David Lundell - Jan 2, 2013
+I have heard that investments in FIM CM are continuing. So don&amp;rsquo;t worry about FIM CM disappearing.</description>
+    </item>
+    <item>
+      <title>Top 5 Deprecated features as of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/01/top-5-deprecated-features-as-of-fim.html</link>
+      <pubDate>Wed, 16 Jan 2013 11:28:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/top-5-deprecated-features-as-of-fim.html</guid>
+      <description>Yesterday Microsoft published a list of features that have been deprecated in FIM and will be removed from the product at some point in the future. In other words these don&amp;rsquo;t require immediate action but when the next major release of * Identity Manager (* because we don&amp;rsquo;t know what the new name will be &amp;ndash; see my tweet from last week at the Redmond Identity Summit) emerges those features will likely be gone.</description>
+    </item>
+    <item>
+      <title>Top 11 new features of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</link>
+      <pubDate>Tue, 15 Jan 2013 20:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</guid>
+      <description>Hello, Is Fim r2 sp1 support sql server 2012 sp1 Unknown - Mar 2, 2015
+Hello,
+Is Fim r2 sp1 support sql server 2012 sp1</description>
+    </item>
+    <item>
+      <title>Top 11 new features of FIM 2010 R2 SP1</title>
+      <link>https://identitymanaged.netlify.app/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</link>
+      <pubDate>Tue, 15 Jan 2013 20:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</guid>
+      <description>My comments on What&amp;rsquo;s new and the release notes for FIM 2010 R2 SP1:
+Rank
+Feature
+Impact
+1
+Deferred evaluation of criteria based groups
+This setting can be enabled one group at a time. You can also change the default so that as new criteria based groups are created they will be set for Deferred. The default is to calculate group membership twice a day at 2:30 AM and 2:30 PM.</description>
+    </item>
+    <item>
+      <title>FIM Lives! UAG Lives! TMG will not</title>
+      <link>https://identitymanaged.netlify.app/2012/09/fim-lives-uag-lives-tmg-will-not.html</link>
+      <pubDate>Wed, 12 Sep 2012 20:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/09/fim-lives-uag-lives-tmg-will-not.html</guid>
+      <description>Today Microsoft announced the discontinuing or subsuming of many products in the Forefront line To be crystal clear Forefront Identity Manager (FIM) and Forefront Unified Access Gateway (UAG) live on as separate products with ongoing investment!
+Insert the obligatory Mark Twain quote here. “The rumors of my death have been greatly exaggerated”
+Product
+Fate
+Forefront Identity Manager (FIM)
+Lives on. R2 was just released in June
+Forefront Unified Access Gateway (UAG)</description>
+    </item>
+    <item>
+      <title>FIM Best Practices Volume 1 has been updated for R2</title>
+      <link>https://identitymanaged.netlify.app/2012/09/fim-best-practices-volume-1-has-been.html</link>
+      <pubDate>Tue, 04 Sep 2012 09:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/09/fim-best-practices-volume-1-has-been.html</guid>
+      <description>We have purchased to original copy, are we entitle&amp;hellip; FMustafa - Sep 2, 2012
+We have purchased to original copy, are we entitled to get a free upgrade to R2 version??
+This comment has been removed by the author.
+Any tentative date for print edition
+The print edition is already available.
+Just downloaded the EBook version from Lulu. Would love to see this available in a Kindle (or other e-reader) edition.</description>
+    </item>
+    <item>
+      <title>FIM Best Practices Volume 1 has been updated for R2</title>
+      <link>https://identitymanaged.netlify.app/2012/09/fim-best-practices-volume-1-has-been.html</link>
+      <pubDate>Tue, 04 Sep 2012 09:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/09/fim-best-practices-volume-1-has-been.html</guid>
+      <description>Just this morning I have published the updated for R2 edition of FIM Best Practices Volume 1. Now called FIM R2 Best Practices Volume 1: Introduction, Architecture And Installation Of Forefront Identity Manager 2010 R2. The EBook edition is in color!
+Print Edition of FIM R2 Best Practices Volume 1 is still B/W
+Go to the lulu.com home page to get a coupon code for 20% off (offer expires 11:59 PM Sept 7 2012).</description>
+    </item>
+    <item>
+      <title>New version PCNS, new FIM hotfix</title>
+      <link>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</link>
+      <pubDate>Thu, 30 Aug 2012 09:59:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</guid>
+      <description>SO, where (or when !?) can we download that hotfix ? redarc coder - Nov 2, 2014
+SO, where (or when !?) can we download that hotfix ?
+So, where (or when !?) can we download that hotfix !?</description>
+    </item>
+    <item>
+      <title>New version PCNS, new FIM hotfix</title>
+      <link>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</link>
+      <pubDate>Thu, 30 Aug 2012 09:59:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</guid>
+      <description>On Aug 24th Microsoft released a new version of PCNS. Version number 4.1.2515.0.
+No release notes are provided with the download. However, this version number matches the version number of the latest FIM R2 hotfix rollup http://support.microsoft.com/kb/2734159 and it does tell us what is fixed:
+Assume that you run Password Change Notification Service (PCNS) setup together with the SCHEMAUPDATE=TRUE option and the schema is updated successfully. In this situation, an error message is displayed at the end of the setup process incorrectly.</description>
+    </item>
+    <item>
+      <title>How to import the Domain attribute into the FIM Portal Part 2</title>
+      <link>https://identitymanaged.netlify.app/2012/08/how-to-import-domain-attribute-into-fim_16.html</link>
+      <pubDate>Thu, 16 Aug 2012 13:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/08/how-to-import-domain-attribute-into-fim_16.html</guid>
+      <description>In Part 1 of How to import the Domain attribute into the FIM Portal I provided you the simple technique for the single domain forest, and the technique that works although is a bit unwieldy – that of looking at the first 41 characters of the object’s SID and using a lookup table through nested IIF statements and this doesn’t .
+What if there was a simpler way?
+What about using the Domain Component option in the attribute flow?</description>
+    </item>
+    <item>
+      <title>How to import the Domain attribute into the FIM Portal Part 1</title>
+      <link>https://identitymanaged.netlify.app/2012/08/how-to-import-domain-attribute-into-fim.html</link>
+      <pubDate>Thu, 16 Aug 2012 12:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/08/how-to-import-domain-attribute-into-fim.html</guid>
+      <description>If you have a single domain forest then you should use a constant flow in your sync rule or advanced attribute flow. If you have a multi-domain forest, then using a constant in the advanced attribute flow won’t work.
+You could create multiple inbound sync rules one for each domain with scoping filters and then use a constant. However, this seems like a waste.
+You could also follow the guidance provided in article originated by my friend Markus Vilcinskas and maintained by the community http://social.</description>
+    </item>
+    <item>
+      <title>Award for Me, Award for Insight</title>
+      <link>https://identitymanaged.netlify.app/2012/07/award-for-me-award-for-insight.html</link>
+      <pubDate>Mon, 02 Jul 2012 06:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/07/award-for-me-award-for-insight.html</guid>
+      <description>Congratulations on your renewal David! Henrik Nilsson - Jul 1, 2012
+Congratulations on your renewal David!
+Congratulations!!
+Way to go man!</description>
+    </item>
+    <item>
+      <title>Award for Me, Award for Insight</title>
+      <link>https://identitymanaged.netlify.app/2012/07/award-for-me-award-for-insight.html</link>
+      <pubDate>Mon, 02 Jul 2012 06:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/07/award-for-me-award-for-insight.html</guid>
+      <description>What a good week – Insight was awarded Microsoft Desktop Partner of the Year, and I just received news of my MVP award in the Forefront Identity Management area has been renewed.
+The Desktop Partner of the Year is a great accomplishment by our Systems Management and Virtualization practice. This one will be added to all of the awards we won as Ensynch:
+As for the MVP, I am always honored.</description>
+    </item>
+    <item>
+      <title>FIM 2010 R2 released today to MSDN</title>
+      <link>https://identitymanaged.netlify.app/2012/06/fim-2010-r2-released-today-to-msdn.html</link>
+      <pubDate>Fri, 01 Jun 2012 19:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/06/fim-2010-r2-released-today-to-msdn.html</guid>
+      <description>Look what just turned up on the MSDN list of downloads:
+Along with FIM 2010 R2 it looks like the BHOLD Suite is available too! Although you can see that it appears to be a separate download.
+I don’t know when the retail version will be available.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>RCDC Replacement</title>
+      <link>https://identitymanaged.netlify.app/2012/05/rcdc-replacement.html</link>
+      <pubDate>Wed, 02 May 2012 12:08:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/rcdc-replacement.html</guid>
+      <description>Is this video posted anywhere? I would love to see&amp;hellip; itswithinmyreach - Jun 2, 2012
+Is this video posted anywhere? I would love to see what the cons are. Currently we have a consultant very eager to re-do our UI.</description>
+    </item>
+    <item>
+      <title>RCDC Replacement</title>
+      <link>https://identitymanaged.netlify.app/2012/05/rcdc-replacement.html</link>
+      <pubDate>Wed, 02 May 2012 12:08:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/rcdc-replacement.html</guid>
+      <description>FIM User Interface Implementation: Replace the rigid RCDC with a customizable UI
+Speaker: Eihab Isaac
+Eihab delivered a very well-reasoned presentation on the pros and cons of replacing some of the forms, especially the create person (user) form. Excellent demo showing creating multiple requests for creating the user as well as requests for additional attributes, and application access. Great session.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM Reporting Craig Martin style</title>
+      <link>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</link>
+      <pubDate>Tue, 01 May 2012 12:10:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</guid>
+      <description>Thanks for attending the session, glad you liked i&amp;hellip; Craig Martin - May 2, 2012
+Thanks for attending the session, glad you liked it! I had fun talking and running with Scissors.</description>
+    </item>
+    <item>
+      <title>FIM Reporting Craig Martin style</title>
+      <link>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</link>
+      <pubDate>Tue, 01 May 2012 12:10:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</guid>
+      <description>Craig’s session is on how to get data out from the FIM Service and FIM Sync with PowerShell and displaying it with SSRS, which he has dubbed Scissors!
+Ok Craig we get it! You have even persuaded me that PowerShell is important! I have started writing scripts. SQL Server of course is still important.
+Key is to hook up a pipeline from PowerShell to pass into his custom SSRS PowerShell Data Processing Extension (DPE).</description>
+    </item>
+    <item>
+      <title>Migrating from ILM to FIM</title>
+      <link>https://identitymanaged.netlify.app/2012/05/migrating-from-ilm-to-fim.html</link>
+      <pubDate>Tue, 01 May 2012 11:04:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/migrating-from-ilm-to-fim.html</guid>
+      <description>Carol Wapshere delivered an excellent session yesterday at TEC 2012 on the thought process for migrating from MIIS/ILM to FIM.
+I loved the incisive logic to focus on the main issue being solved: getting the customer onto supported software (getting the MIIS database off SQL 2000, getting off MIIS/ILM). Avoid the temptation to try and fix everything else at the same time. She had a great list of gotchas. Even more impressive were her discovery scripts designed to analyze the existing implementations and her rubric for estimating the work.</description>
+    </item>
+    <item>
+      <title>SharePoint 2010 User Profile Synchronization Service</title>
+      <link>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</link>
+      <pubDate>Tue, 01 May 2012 01:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</guid>
+      <description>Neat indeed. They are at the forefront of FIM aut&amp;hellip; Craig Martin - May 1, 2012
+Neat indeed. They are at the forefront of FIM automation, since they use the FIM Service component to automate the FIM Sync service. AFAIK they are the reason this automation functionality exists in the FIM Service at all.</description>
+    </item>
+    <item>
+      <title>SharePoint 2010 User Profile Synchronization Service</title>
+      <link>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</link>
+      <pubDate>Tue, 01 May 2012 01:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</guid>
+      <description>The SharePoint 2010 User Profile Synchronization Service is really FIM 2010 pre-packaged in a very special way. Need evidence? Look at the tables in User Profile Service Application_SyncDB
+See how it has mms_connectorspace, mms_cs_link etc. Those are table commonly found in the FIM sync database. See the attributeInternal, the BindingInternal, all of the Membership* tables those are all part of the FIM Service database. So interestingly enough they have both FIM Service and FIM sync merged into a single DB.</description>
+    </item>
+    <item>
+      <title>FIM 2010 R2 Showdown: Classic vs. Declarative</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</link>
+      <pubDate>Mon, 30 Apr 2012 15:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</guid>
+      <description>Can you use both declarative and non-declarative a&amp;hellip; yekolo - Aug 4, 2013
+Can you use both declarative and non-declarative at the same time? Declarative for some attribute mappings and non declarative for others?</description>
+    </item>
+    <item>
+      <title>FIM 2010 R2 Showdown: Classic vs. Declarative</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</link>
+      <pubDate>Mon, 30 Apr 2012 15:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</guid>
+      <description>Well I delivered my session FIM 2010 R2 Showdown: Classic vs. Declarative. During lunch they changed the location. But the room was packed by 5 min after I began (guessing about 45-50 people). Many familiar faces.
+We had a rollicking good time. I presented how things worked with Classic and Declarative presented some findings and asked for other opinions. Boy did I receive them.
+My basic conclusion is that Declarative can reduce the code used and in turn improve the maintainability of the FIM implementation.</description>
+    </item>
+    <item>
+      <title>Opening Edit instead of view from a uocListView</title>
+      <link>https://identitymanaged.netlify.app/2012/04/opening-edit-instead-of-view-from.html</link>
+      <pubDate>Fri, 27 Apr 2012 06:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/opening-edit-instead-of-view-from.html</guid>
+      <description>When using the uocListView control in the FIM RCDC you can have it return a list of objects. However when you open them, they also open for viewing, not editing.
+The key to this is to add a button control inside the uocListView control. You then specify the redirectURL property for the button. Additionally ShowActionBar must be true, ItemClickBehavior must be ModelessDialog (which is the default). Enable Selection must also be true.</description>
+    </item>
+    <item>
+      <title>FIM DB Sizing Calculator</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</link>
+      <pubDate>Wed, 25 Apr 2012 23:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</guid>
+      <description>Pretty slick, man! Craig Martin - May 3, 2012
+Pretty slick, man!
+Thanks Craig. Glad you like it!
+WAY too timely! Thanks Dave!
+Thanks, very helpful.
+Hi very helpul, do you have something like that for the Reporting data base of FIM (SCSM DW)?</description>
+    </item>
+    <item>
+      <title>FIM DB Sizing Calculator</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</link>
+      <pubDate>Wed, 25 Apr 2012 23:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</guid>
+      <description>FIM has two databases (well three if we count the FIM Certificate Management service):
+FIMService FIMSynchronizationService Here is a calculator in excel that you can download and use to calculate how big to make your databases.
+In my experience the FIMService database size depends mostly on how many request objects are in the database.
+The FIM Sync Database depends mostly on how much run history details (step object details) you generate and keep.</description>
+    </item>
+    <item>
+      <title>Vol 1 -- 1000 copies! -- 29% off</title>
+      <link>https://identitymanaged.netlify.app/2012/02/vol-1-1000-copies-29-off.html</link>
+      <pubDate>Wed, 29 Feb 2012 12:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/02/vol-1-1000-copies-29-off.html</guid>
+      <description>Great news &amp;ndash; Any idea when the next volumes will &amp;hellip; Michelle Rutherford - Mar 4, 2012
+Great news &amp;ndash; Any idea when the next volumes will be out?</description>
+    </item>
+    <item>
+      <title>Vol 1 -- 1000 copies! -- 29% off</title>
+      <link>https://identitymanaged.netlify.app/2012/02/vol-1-1000-copies-29-off.html</link>
+      <pubDate>Wed, 29 Feb 2012 12:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/02/vol-1-1000-copies-29-off.html</guid>
+      <description>A few weeks ago FIM Best Practices Volume 1 has surpassed 1000 copies! In honor of that achievement and Leap Day use the following code to get 29% off LEAPYEAR305
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM 2010 -- Update Rollup 2 4.0.3606.2</title>
+      <link>https://identitymanaged.netlify.app/2012/02/fim-2010-update-rollup-2-4036062.html</link>
+      <pubDate>Tue, 28 Feb 2012 09:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/02/fim-2010-update-rollup-2-4036062.html</guid>
+      <description>FIM 2010 Update Rollup 2 is now available. Download from here
+Before blindly applying this update it is critical that you read the release notes, as XMA&amp;rsquo;s or ECMA&amp;rsquo;s may not run after the update. If you changed the MIISServer.exe.config file to tweak the FIM MA performance the update won&amp;rsquo;t replace your file. So you have to make some updates to it by hand. This is documented in the release notes.</description>
+    </item>
+    <item>
+      <title>FIM R2 Showdown -- Classic vs. Declarative</title>
+      <link>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
+      <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
+      <description>Come join me at The Experts Conference 2012 in San Diego April 29 - May2 where I will be presenting:
+FIM R2 Showdown — Classic vs. Declarative
+Speaker: David Lundell
+Is there room enough for both in this town? FIM 2010 R2 has two ways of accomplishing many tasks: Classic and Declarative. Attend this showdown to learn when to saddle up Classic vs. when to saddle up with Declarative Sync Rules and why.</description>
+    </item>
+    <item>
+      <title>Referenced by Other works and Sale at Lulu</title>
+      <link>https://identitymanaged.netlify.app/2011/11/referenced-by-other-works-and-sale-at.html</link>
+      <pubDate>Mon, 28 Nov 2011 07:07:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/referenced-by-other-works-and-sale-at.html</guid>
+      <description>I was pleasantly surprised today to find three other books, referencing FIM Best Practices Volume 1, which because of a Lulu Sale you can get at 25% off until 12/14/2011 Coupon Code: BUYMYBOOK305 Coupon expires December 14, 2011 $50 Max Savings. Of course today only 30% off, CYBERMONDAY305.
+All three have an identical blurb about FIM and reference FIM Best Practices Volume 1 as additional material.
+Title
+Author
+User Provisioning: High-impact Strategies - What You Need to Know: Definitions, Adoptions, Impact, Benefits, Maturity, Vendors</description>
+    </item>
+    <item>
+      <title>FIM exam 70-158 is now live oh and I passed</title>
+      <link>https://identitymanaged.netlify.app/2011/11/exam-70-158-ts-forefront-identity.html</link>
+      <pubDate>Tue, 22 Nov 2011 07:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/exam-70-158-ts-forefront-identity.html</guid>
+      <description>Congrats! This is interesting area -and product &amp;hellip; Savolainen Semi Seniori - May 6, 2012
+Congrats!
+This is interesting area -and product but suffers from availability of learning materials..
+Like i couldn&amp;rsquo;t find practice tests at all. And im used to study with those MS presss books and their companion CD&amp;rsquo;s with practice tests.
+Sure i do labs in virtual environments too but for me those practice tests give that last confidence that i need to book exam.</description>
+    </item>
+    <item>
+      <title>FIM exam 70-158 is now live oh and I passed</title>
+      <link>https://identitymanaged.netlify.app/2011/11/exam-70-158-ts-forefront-identity.html</link>
+      <pubDate>Tue, 22 Nov 2011 07:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/exam-70-158-ts-forefront-identity.html</guid>
+      <description>Exam 70-158: TS: Forefront Identity Manager 2010, Configuring is now live according to the MSL web site. I also received an email indicating that I passed the beta.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>What the %_ is the deal with wildcards in FIM Queries in the latest hotfix?</title>
+      <link>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</link>
+      <pubDate>Wed, 16 Nov 2011 10:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</guid>
+      <description>David - just came across your post. Others readin&amp;hellip; Anonymous - Jan 1, 2012
+David - just came across your post. Others reading it now may wish to follow this thread on the FIM Forum where the issue continues to be discussed at length.
+Cheers
+Bob
+http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/ec15b1d0-3f4c-42fd-a833-3983330be963
+10 years on David and your post came in handy just now - learned something new about the [_] thing in xpath statements :) - kudos - just the ticket!</description>
+    </item>
+    <item>
+      <title>What the %_ is the deal with wildcards in FIM Queries in the latest hotfix?</title>
+      <link>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</link>
+      <pubDate>Wed, 16 Nov 2011 10:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</guid>
+      <description>Ok I am not actually swearing, nor are those substitute words, rather % and _ are two characters that until hotfix rollup package (build 4.0.3594.2) could be used to perform some much needed and cool searches for sets, search scopes, groups and 3rd party client queries against FIM. Such as querying for the presence of string attributes.
+I am sure what happened is that someone created a resource with an underscore in the name and then couldn’t search for it.</description>
+    </item>
+    <item>
+      <title>FIM 2010 hotfix available (4.0.3594.2)</title>
+      <link>https://identitymanaged.netlify.app/2011/11/microsoft-has-released-new-hotfix-kb.html</link>
+      <pubDate>Wed, 16 Nov 2011 10:22:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/microsoft-has-released-new-hotfix-kb.html</guid>
+      <description>Microsoft has released a new hotfix (kb 2520954) at the end of October with some key fixes in it as well as one item that I will blog about next that prevents me from loading this on most implementations, until it is addressed.
+Highlights
+Component
+Official Description
+Comments
+Workflow Engine (FIM Service)
+Assume that you perform an operation that accesses the SQL database when the Microsoft SQL Server connection pooling feature is enabled in the FIM server.</description>
+    </item>
+    <item>
+      <title>Awesome FIM Case Study</title>
+      <link>https://identitymanaged.netlify.app/2011/11/microsoft-recently-published-case-study.html</link>
+      <pubDate>Wed, 16 Nov 2011 09:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/microsoft-recently-published-case-study.html</guid>
+      <description>Is FIM 21010 a much more advanced version of the F&amp;hellip; Craig Martin - Nov 3, 2011
+Is FIM 21010 a much more advanced version of the FIM we know today?</description>
+    </item>
+    <item>
+      <title>Awesome FIM Case Study</title>
+      <link>https://identitymanaged.netlify.app/2011/11/microsoft-recently-published-case-study.html</link>
+      <pubDate>Wed, 16 Nov 2011 09:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/microsoft-recently-published-case-study.html</guid>
+      <description>Microsoft recently published a case study about our work (Ensynch &amp;ndash; now Insight) at Grand Canyon University, implementing a FIM 2010 based identity management solution.
+The document is available for download directly from http://www.microsoft.com/casestudies/Microsoft-Forefront-Identity-Manager-2010/Grand-Canyon-University/Private-University-Reduces-Identity-Management-Workload-by-320-Hours-per-Month/4000011192
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Get 15% off of FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2011/09/get-15-off-of-fim-best-practices-volume.html</link>
+      <pubDate>Fri, 23 Sep 2011 12:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/09/get-15-off-of-fim-best-practices-volume.html</guid>
+      <description>Through Sept 26th get 15% of FIM Best Practices Volume 1 at lulu.com
+Use the following code at checkout OKTOBERFEST305
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Get 20% of FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2011/09/get-20-of-fim-best-practices-volume-1.html</link>
+      <pubDate>Tue, 06 Sep 2011 05:33:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/09/get-20-of-fim-best-practices-volume-1.html</guid>
+      <description>Buy FIM Best Practices Volume 1 in Soft Cover or E-Book
+Enter coupon code SEPTEMBER305 at checkout and receive 20% off your order. The maximum savings for this offer is $100. Offer expires on September 9 at 11:59 PM
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Using FIM Best Practices Volume 1 to study for the FIM exam</title>
+      <link>https://identitymanaged.netlify.app/2011/07/using-fim-best-practices-volume-1-to.html</link>
+      <pubDate>Thu, 28 Jul 2011 21:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/07/using-fim-best-practices-volume-1-to.html</guid>
+      <description>Took the exam last week, the book was a very helpf&amp;hellip; Anonymous - Aug 3, 2011
+Took the exam last week, the book was a very helpful study tool.
+Phil</description>
+    </item>
+    <item>
+      <title>Using FIM Best Practices Volume 1 to study for the FIM exam</title>
+      <link>https://identitymanaged.netlify.app/2011/07/using-fim-best-practices-volume-1-to.html</link>
+      <pubDate>Thu, 28 Jul 2011 21:45:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/07/using-fim-best-practices-volume-1-to.html</guid>
+      <description>Ok so info on the exam and its list of items covered is provided here
+For fun I thought I would map out the domain objectives to items in the FIM Best Practices Volume 1
+The book helps with items in area 1 Planning a FIM Implementation and Installing FIM.
+Objective
+Chapter
+1. Planning a FIM Implementation and Installing FIM 1.1 Plan and design FIM topology
+4 and 5
+1.2. Install the FIM Service and the FIM Portal.</description>
+    </item>
+    <item>
+      <title>Beta Exam for FIM available until Aug 4th</title>
+      <link>https://identitymanaged.netlify.app/2011/07/beta-exam-for-fim-available-until-aug.html</link>
+      <pubDate>Thu, 28 Jul 2011 21:17:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/07/beta-exam-for-fim-available-until-aug.html</guid>
+      <description>http://borntolearn.mslearn.net/btl/b/weblog/archive/2011/07/18/forefront-identity-manager-fim-beta-exam-now-available.aspx
+Beta exam 71-158_, TS: Forefront Identity Manager 2010, Configuring_
+So in a short while we should see some folks who are actually Microsoft Certified Technical Specialists(MCTS) for FIM!
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM Bug for multi-valued strings that need approval</title>
+      <link>https://identitymanaged.netlify.app/2011/06/fim-bug-for-multi-valued-strings-that.html</link>
+      <pubDate>Tue, 28 Jun 2011 09:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/06/fim-bug-for-multi-valued-strings-that.html</guid>
+      <description>I think I found a bug in FIM Version 4.0.3576.2 take a look:
+It appears that when you have a multi-valued string attribute when you add more than 1 value at a time and you need approval to create the object or to update the attribute, the request will fail. In the event log you will see an error (UnwillingToPerformException … CREATE UNIQUE INDEX statement terminated because a duplicate key was found for the object).</description>
+    </item>
+    <item>
+      <title>SQL Extensible Management Agents That Scale (Rebecca Croft)</title>
+      <link>https://identitymanaged.netlify.app/2011/06/sql-extensible-management-agents-that.html</link>
+      <pubDate>Thu, 23 Jun 2011 15:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/06/sql-extensible-management-agents-that.html</guid>
+      <description>Rebecca, a fellow Ensynchian, presented at TEC 2011 on the limitations of the standard out of the box SQL Management and how she overcame them by writing a very fast eXtensible Management Agent (XMA).
+First attempt use ado.net sql reader to read data (really fast) and write one row at a time to the AVP file (but that gets slow when dealing with large data sets).
+Second attempt use the T-SQL “FOR XML” clause to transform the data to XML and then use an XSLT to transform to LDIF.</description>
+    </item>
+    <item>
+      <title>RCDC Editor</title>
+      <link>https://identitymanaged.netlify.app/2011/06/rcdc-editor.html</link>
+      <pubDate>Fri, 17 Jun 2011 06:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/06/rcdc-editor.html</guid>
+      <description>As previously discussed the RCDC is a very powerful tool for customizing FIM without writing your own front-end and web client. There are several drawbacks to the RCDC. The worst is that you have to export the RCDC to an xml file, open it up in your favorite XML editor, modify it by hand, load it back into the FIM Portal and then run iisreset. All of which means that mistakes are quite painful, as it can take you several minutes to discover your mistake.</description>
+    </item>
+    <item>
+      <title>RCDC Requiring another field</title>
+      <link>https://identitymanaged.netlify.app/2011/06/rcdc-requiring-another-field.html</link>
+      <pubDate>Tue, 14 Jun 2011 20:30:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/06/rcdc-requiring-another-field.html</guid>
+      <description>Ok I just had to blog this.
+I created a custom resource type in FIM for resource mailboxes (Room and Equipment) with accompanying RCDC’s. Based on a Boolean attribute I hide or make visible a tab of info about Room resources on the edit and view RCDC’s. (You can’t do that to the create RCDC because the object doesn’t yet exist)
+But, I would like to make room number on the Hidden tab to be required when the tab is visible, and not when the tab isn’t.</description>
+    </item>
+    <item>
+      <title>FIM 2010 R2 News</title>
+      <link>https://identitymanaged.netlify.app/2011/05/fim-2010-r2-news.html</link>
+      <pubDate>Mon, 23 May 2011 08:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/05/fim-2010-r2-news.html</guid>
+      <description>At Tech Ed Atlanta Brjann Brekkan and Mark Wahl discussed FIM 2010 R2 in a public forum – so here is a lot of info that is now in the public forum.
+Mark covered the new items that will come out in R2:
+Web Based Password reset (no need for a domain joined computer, no need to install Password Client no need for Active X, support for Firefox)
+Although for integration with the GINA (the login screen) you still need to install the FIM Password Reset Client</description>
+    </item>
+    <item>
+      <title>Behind the scenes of RoomResources–Custom Properties</title>
+      <link>https://identitymanaged.netlify.app/2011/05/behind-scenes-of-roomresourcescustom.html</link>
+      <pubDate>Mon, 16 May 2011 22:26:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/05/behind-scenes-of-roomresourcescustom.html</guid>
+      <description>While using FIM and PowerShell to manage Exchange 2010 I was following along a wonderful article on resource mailboxes that left me wondering a few things.
+Exactly how is the data stored in the msExchResourceDisplay and msExchResourceSearchProperties attributes?
+How is it stored with multiple custom properties?
+Is manipulating those AD attributes sufficient or is PowerShell storing something in the Exchange Data store?
+Here are the answers:
+msExchResourceDisplay = “Room,FlatScreenTV” It appears to be a single valued string with commas.</description>
+    </item>
+    <item>
+      <title>RSS feed for FIM Hotfixes</title>
+      <link>https://identitymanaged.netlify.app/2011/05/rss-feed-for-fim-hotfixes.html</link>
+      <pubDate>Wed, 11 May 2011 12:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/05/rss-feed-for-fim-hotfixes.html</guid>
+      <description>Now you can be informed about FIM 2010 hotfixes through an RSS newsfeed
+http://services.social.microsoft.com/feeds/feed/FIM2010_Hotfixes
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Using FIM to manage BPOS/Office 365</title>
+      <link>https://identitymanaged.netlify.app/2011/04/using-fim-to-managing-bposoffice-365.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/using-fim-to-managing-bposoffice-365.html</guid>
+      <description>Carol presented a solution to a very thorny problem – how to overcome the lack of delegation in BPOS. In BPOS a user is either an admin or a user. So she used FIM to provide the delegation. Very detailed, very complete solution. She illustrated some of the scripts she has posted on her blog such as http://www.wapshere.com/missmiis/a-script-to-create-sets-and-mprs-from-templates Well done Carol!
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM 2010 reporting using SQL Server Reporting Services (Jeremy and Craig)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:53:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</guid>
+      <description>Link to Jeremy and Craig&amp;rsquo;s solution please? Sami - Jul 1, 2011
+Link to Jeremy and Craig&amp;rsquo;s solution please?
+http://www.identitytrench.com/2010/11/simple-reporting-in-fim-2010-with-ssrs.html</description>
+    </item>
+    <item>
+      <title>FIM 2010 reporting using SQL Server Reporting Services (Jeremy and Craig)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</link>
+      <pubDate>Wed, 20 Apr 2011 10:53:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</guid>
+      <description>Jeremy and Craig had an interesting shoot out showing off their differing versions of reporting from FIM. Jeremy has an “agent” that he uses to pull the data out of FIM and store it in SQL, after which doing SSRS reports is not terribly difficult. Craig’s approach was to start off by creating a generic SSRS Data Processing extension for PowerShell, and then adjusted to pull data from FIM. Both approaches look very slick.</description>
+    </item>
+    <item>
+      <title>Creating Authentication Activities in FIM (Ikrima Elhassan)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/creating-authentication-activities-in.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/creating-authentication-activities-in.html</guid>
+      <description>This session at TEC was quite interesting. Ikrima presented quite a lot of material about how to extend FIM with your own authentication activities, demonstrating a OTP password reset approach.
+Code is available at https://github.com/ikrima/Public-Development
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Recruiting</title>
+      <link>https://identitymanaged.netlify.app/2011/04/recruiting.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:30:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/recruiting.html</guid>
+      <description>Hey readers, our Identity Practice at Ensynch is keeping us very busy. We would like to have more Identity consultants as part of our team. Come work with me and the rest of our fantastically talented Identity Team.
+We are looking for people with experience in Forefront Identity Manager 2010 and people with experience in ADFS 2.0. We are looking for both Full Time Employees as well as people interested in being contractors for us.</description>
+    </item>
+    <item>
+      <title>Designing and Implementing RBAC Solutions with FIM 2010 Group Management</title>
+      <link>https://identitymanaged.netlify.app/2011/04/designing-and-implementing-rbac.html</link>
+      <pubDate>Mon, 18 Apr 2011 16:33:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/designing-and-implementing-rbac.html</guid>
+      <description>After I introduced Brad Turner and turned the time over to him, he showed off some really cool FIM extensions to enable RBAC. He even showed how it fits the NIST RBAC definitions even through level 3.
+The key design decision was to extend the Set and Group objects. The Set then functions as a role. This allows for both explicit and criteria based membership. A new object type for a Role Membership allows for the user’s membership in a role to expire at an individual time.</description>
+    </item>
+    <item>
+      <title>FIM Best Practices: Sizing Your FIM Installation</title>
+      <link>https://identitymanaged.netlify.app/2011/04/fim-best-practices-sizing-your-fim.html</link>
+      <pubDate>Mon, 18 Apr 2011 16:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/fim-best-practices-sizing-your-fim.html</guid>
+      <description>I had a lot of fun presenting this session. Largely based on chapter 5 in volume 1 I showed how to decide on your High availability approach, how that impacts your topology choice, and then how to estimate your scale, load, and complexity points. Then based on those factors figure out how big to make your SQL Server that hosts the FIM service database.
+In the middle I did enjoy putting in a plug for our Ensynch sponsored green, dishwasher safe water bottles, as I took a drink of my fruit punch Gatorade mix.</description>
+    </item>
+    <item>
+      <title>Can PXEs Fly? FIM and SCCM Integration (Rob Allen)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/can-pxes-fly-fim-and-sccm-integration.html</link>
+      <pubDate>Mon, 18 Apr 2011 16:16:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/can-pxes-fly-fim-and-sccm-integration.html</guid>
+      <description>I was looking forward to this one, but got called away. I hope to look at the slides soon.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Creating Management Agents with the new EZMA (Andreas Kjellman)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/creating-management-agents-with-new.html</link>
+      <pubDate>Mon, 18 Apr 2011 13:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/creating-management-agents-with-new.html</guid>
+      <description>At TEC 2011, Andreas Kjellman of Microsoft, who “owns” the FIM synchronization engine, showed off the upcoming EZMA framework.
+The problem:
+The existing eXtensible Management Agent (XMA) does not have a call based import method, we are limited to using GUIDs as the initial anchors, and we don’t have partitions in an XMA.
+Solution
+EZMA – which, IMO, will actually be a little harder to do than an XMA but will allow the developer to do much more that will make the FIM admin’s life easier.</description>
+    </item>
+    <item>
+      <title>Files, FIM, and PowerShell (James Booth)</title>
+      <link>https://identitymanaged.netlify.app/2011/04/files-fim-and-powershell-james-booth.html</link>
+      <pubDate>Mon, 18 Apr 2011 11:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/files-fim-and-powershell-james-booth.html</guid>
+      <description>James Booth former Microsoft Group Program Manager for MIIS (precursor to FIM) presented on using PowerShell to process files in preparation for consumption by FIM.
+James points out that “In the beginning, it was all files.” These call based MA’s are the new kids on the block, also said that at Microsoft in 2000 the philosophy was “XML is the answer, now what is your question?”
+James has posted his new commandlets to GitHub https://github.</description>
+    </item>
+    <item>
+      <title>TEC 2011–FIM Workflows Deep dive</title>
+      <link>https://identitymanaged.netlify.app/2011/04/tec-2011fim-workflows-deep-dive.html</link>
+      <pubDate>Sat, 16 Apr 2011 16:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/tec-2011fim-workflows-deep-dive.html</guid>
+      <description>I am already in Las Vegas, prepping to assist my fellow Ensynch coworkers, Joe Zamora, and Rebecca Croft as they lead an awesome value packed pre-conference workshop tomorrow (Sunday) morning at 8 AM to 12 PM (noon). Jerry Camel and Brad Turner will also be around to assist.
+There are so many good sessions to attend this time here are some of the ones I am looking forward to:
+Monday morning gets the FIMsters off to a great start with a choice of two great sessions:</description>
+    </item>
+    <item>
+      <title>EBook of Vol 1 is now available</title>
+      <link>https://identitymanaged.netlify.app/2011/03/ebook-of-vol-1-is-now-available.html</link>
+      <pubDate>Tue, 15 Mar 2011 17:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/03/ebook-of-vol-1-is-now-available.html</guid>
+      <description>After listening to many pleas for an e-book version of FIM Best Practices Volume 1, I have relented and created an e-book version. List price is $22.00 but here is a 10% off discount for the next week to $19.80.
+Most of the requests were for speed of delivery, searching, but the one that got me was a request based on eyesight made by Bill Singh. So you can all thank him for there being an e-book of volume 1.</description>
+    </item>
+    <item>
+      <title>Webinar: Cloud’s Silver Lining: Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2011/03/webinar-clouds-silver-lining-identity.html</link>
+      <pubDate>Wed, 02 Mar 2011 11:30:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/03/webinar-clouds-silver-lining-identity.html</guid>
+      <description>Business Insights Webcast: The Cloud&amp;rsquo;s Silver Lining: Identity Management
+Join Us for an Informative Webcast on the Value of IDA in the Cloud
+- Part 2 in a Series of Webcasts from Microsoft FIM MVP David Lundell -
+Identity Management is a critical component to realizing the true value of the Cloud.
+Solutions from Microsoft including Forefront Identity Manager (FIM), Active Directory Federation Services (AD FS), and Microsoft Forefront Unified Access Gateway (Forefront UAG) allow you to get the most out of your cloud applications (such as Office 365, BPOS, and other Software a Service (SaaS) solutions); while enabling a seamless transition in managing the identities of your users.</description>
+    </item>
+    <item>
+      <title>FIM Training back—on May 23-26 in Phoenix</title>
+      <link>https://identitymanaged.netlify.app/2011/02/fim-training-backon-may-23-26-in.html</link>
+      <pubDate>Mon, 14 Feb 2011 11:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/02/fim-training-backon-may-23-26-in.html</guid>
+      <description>Last week I taught a group of students 50382A Implementing Forefront Identity Manager 2010, and referenced FIM Best Practices Volume 1 to supplement. It was a great bunch, full of humor. We even had one gentleman fly all the way from Australia to attend my class. I felt quite honored.
+Well due to popular demand we are going to run it again May 23-May 26 (M-Th) once more in downtown Phoenix.</description>
+    </item>
+    <item>
+      <title>Get FIM Training from Author of FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2011/01/get-fim-training-from-author-of-fim.html</link>
+      <pubDate>Tue, 04 Jan 2011 09:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/01/get-fim-training-from-author-of-fim.html</guid>
+      <description>Come get FIM training from David Lundell, FIM MVP and author of FIM Best Practices Volume 1.
+Register by emailing FIMTraining@Ensynch.com, providing your contact info, which class and date you want to attend. You will then be contacted to complete the registration.
+On Feb 8th - Feb 11th in downtown Phoenix (class will start at 8 AM), I will be teaching 50382A Implementing Forefront Identity Manager 2010 and of course adding in lots of valuable information from various FIM implementations that I have performed and supervised.</description>
+    </item>
+    <item>
+      <title>Buy FIM Vol 1 and Get free ground shipping through Dec 12th</title>
+      <link>https://identitymanaged.netlify.app/2010/12/buy-fim-vol-1-and-get-free-ground.html</link>
+      <pubDate>Tue, 07 Dec 2010 17:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/12/buy-fim-vol-1-and-get-free-ground.html</guid>
+      <description>From LULU:
+Enter coupon code HOLIDAY305 to receive free ground shipping. Shipping address must be within the United States. The maximum savings for this offer is $45. Sorry, but this offer is only valid in US dollars and cannot be applied to previous orders. You can only use this code once per account, and unfortunately you can&amp;rsquo;t use this coupon in combination with other coupon codes. This great offer expires on December 12, 2010 at 11:59 PM PST, so don&amp;rsquo;t miss out!</description>
+    </item>
+    <item>
+      <title>Get 25% off of FIM Best Practices Volume 1 Today only</title>
+      <link>https://identitymanaged.netlify.app/2010/11/get-25-off-of-fim-best-practices-volume.html</link>
+      <pubDate>Tue, 30 Nov 2010 13:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/11/get-25-off-of-fim-best-practices-volume.html</guid>
+      <description>Valid today only through 11:59 PM (EST) and only valid in the US, Lulu is offering 25% off. So you can order FIM Best Practices at 25% off. Enter the following promo code at Checkout: CYBER305
+Click here to look at the book: http://www.lulu.com/spotlight/david_lundell
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>TEC 2010 Europe – Sweet German Chocolate!</title>
+      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <description>Sounds like a great conference. The Berliners will&amp;hellip; johnkaiser - Nov 2, 2010
+Sounds like a great conference. The Berliners will want you back soon with Volume2!</description>
+    </item>
+    <item>
+      <title>TEC 2010 Europe – Sweet German Chocolate!</title>
+      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <description>Overall TEC 2010 Europe in Dusseldorf Germany was pretty cool. I enjoyed the speakers reception on Sunday night and got to meet some folks from the SharePoint side some of whom are even interested in FIM and one of them bought my book!
+For the first time I was able to bring my wife along to TEC! We enjoyed some good time in Dusseldorf including seeing Schloss (Palace) Benrather.
+Monday we started off with a keynote from Uday Hegde and Mark Wahl on the future of Directory and Identity Technologies.</description>
+    </item>
+    <item>
+      <title>Details of Errata</title>
+      <link>https://identitymanaged.netlify.app/2010/09/details-of-errata.html</link>
+      <pubDate>Wed, 29 Sep 2010 15:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/details-of-errata.html</guid>
+      <description>Here is what the text on page 183 should say (the italicized items are the new or changed bits of text)
+Unattended Install of the FIM Client This is the component that you will perhaps most desperately see the need for unattended install.
+Use the following table to help you plan your install as well as to understand the relationship between the UI parameters, the Unattended parameters and where these items are persisted.</description>
+    </item>
+    <item>
+      <title>Errata and Updates to FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2010/09/errata-and-updates-to-fim-best.html</link>
+      <pubDate>Wed, 29 Sep 2010 07:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/errata-and-updates-to-fim-best.html</guid>
+      <description>Could you post a complete listing of the correctio&amp;hellip; Keith Crosby - Sep 3, 2010
+Could you post a complete listing of the corrections? In particular, the changes around the unattended client install. BTW, great job on Volume 1. I&amp;rsquo;m, looking forward to Volume 2 (and an eBook version would be great as well).
+I love volume 1! Is it too soon to start asking about volume 2 :-)
+Keith,</description>
+    </item>
+    <item>
+      <title>Errata and Updates to FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2010/09/errata-and-updates-to-fim-best.html</link>
+      <pubDate>Wed, 29 Sep 2010 07:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/errata-and-updates-to-fim-best.html</guid>
+      <description>Thanks to several readers including Freek Berson, for catching a few errors I made while revising after my first round of reviewers.
+Changes: in version 1.1 (Sept 28, 2010)
+Chapter 1, updated the manager to director card, previously the word director was not visible (page 2)
+Manager
+Director
+Chapter 1 Fixed “Error Missing Reference” in Chapter 1 (page 4) to refer to Figure 1-2 Actual Photo of Smart Card
+Fixed client unattended install in Chapter 7: deleted reference to config files and corrected registry references.</description>
+    </item>
+    <item>
+      <title>Default GalSync Connector Filter</title>
+      <link>https://identitymanaged.netlify.app/2010/09/default-galsync-connector-filter.html</link>
+      <pubDate>Tue, 07 Sep 2010 11:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/default-galsync-connector-filter.html</guid>
+      <description>Hi , If I want to exclude a handful of users fr&amp;hellip; Unknown - Aug 3, 2013
+Hi ,
+If I want to exclude a handful of users from an OU moving across with the GALSync , am I correct to click on the user datasource object type and do a declared import filter then add their display names equals , will this work ?</description>
+    </item>
+    <item>
+      <title>Default GalSync Connector Filter</title>
+      <link>https://identitymanaged.netlify.app/2010/09/default-galsync-connector-filter.html</link>
+      <pubDate>Tue, 07 Sep 2010 11:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/default-galsync-connector-filter.html</guid>
+      <description>Using FIM 2010 RTM Update 1:
+The default GalSync Connector Filter is to filter out user objects that are hidden from the addressbook, OR missing the legacyExchangeDN, OR missing both the msExchangeHomeServerName and targetAddress are missing, OR proxyAddresses are missing, OR if it is a Mailbox Plan, Arbitration Mailbox, or Discovery Mailbox.
+Consequently, this answers the question are mail-enabled users filtered out by default?
+No they are not, as a mail-enabled user will have the target address populated, and none of the other rules will filter it out.</description>
+    </item>
+    <item>
+      <title>When moving the FIM DB ensure FT Indexing enabled</title>
+      <link>https://identitymanaged.netlify.app/2010/09/when-moving-fim-db-ensure-ft-indexing.html</link>
+      <pubDate>Sat, 04 Sep 2010 06:39:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/when-moving-fim-db-ensure-ft-indexing.html</guid>
+      <description>I just found a very intriguing blog post from Thomas Vuylsteke, about a potential danger when moving your FIM Service Database from SQL Server to another: The case of the new attributes that didn’t want to be found
+In short there is the potential that when you move the database that it might arrive on the new server with the Full Text Indexing disabled. The way Thomas tumbled to the problem was that he couldn’t search for a new attribute.</description>
+    </item>
+    <item>
+      <title>TEC Europe – Come hear me speak!</title>
+      <link>https://identitymanaged.netlify.app/2010/09/tec-europe-come-hear-me-speak.html</link>
+      <pubDate>Wed, 01 Sep 2010 20:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/09/tec-europe-come-hear-me-speak.html</guid>
+      <description>I will be presenting at TEC Europe in Dusseldorf Germany Oct 4-6. During my sessions I will give away a copy or two of my book FIM Best Practices Volume 1 .
+FIM 2010 Performance Tuning (SQL and more)
+Speaker: David Lundell
+Learn how to tune FIM 2010 to make it scream. Take a look at the various architectures and what they buy you. Learn how crucial SQL is to FIM performance and what to do about it.</description>
+    </item>
+    <item>
+      <title>The Book is here! FIM Best Practices Volume 1 is Available</title>
+      <link>https://identitymanaged.netlify.app/2010/08/book-is-here-fim-best-practices-volume.html</link>
+      <pubDate>Sun, 29 Aug 2010 23:17:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/08/book-is-here-fim-best-practices-volume.html</guid>
+      <description>Congratulations!! I&amp;rsquo;ll order it immediately. Naohiro Fujie - Aug 1, 2010
+Congratulations!!
+I&amp;rsquo;ll order it immediately.
+Congrats, any chance of an ebook?
+Dan,
+I considered the e-book route, but at least for the time being decided to go with a printed version. Feel free to lobby and persuade me why an ebook version would be better.
+Thanks for the orders!
+Ordered!
+I was hoping there&amp;rsquo;d be an eBook for instant gratification and keyword search.</description>
+    </item>
+    <item>
+      <title>The Book is here! FIM Best Practices Volume 1 is Available</title>
+      <link>https://identitymanaged.netlify.app/2010/08/book-is-here-fim-best-practices-volume.html</link>
+      <pubDate>Sun, 29 Aug 2010 23:17:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/08/book-is-here-fim-best-practices-volume.html</guid>
+      <description>To purchase a copy of the book please follow this link. The best view to present from the lulu site is probably this one: http://www.lulu.com/spotlight/david_lundell as it has the brief description of the book and the author bio.
+You also have the ability to preview a few parts of the book
+The book came out to be 258 pages from cover to cover, and yes we included an index! By publishing it through Lulu.</description>
+    </item>
+    <item>
+      <title>Book update</title>
+      <link>https://identitymanaged.netlify.app/2010/08/book-update.html</link>
+      <pubDate>Fri, 20 Aug 2010 18:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/08/book-update.html</guid>
+      <description>Early last week I sent the book out for review. I have been digesting the excellent feedback I have gotten (thanks to Peter Geelen, Paul Loonen, Andreas Kjellman, and Glenn Zuckerman). Apparently, they liked Brad’s architecture diagrams more than mine (so do I) so I need to update the other architecture diagrams to be like his. They really do look neater. Check out this one on FIM multi-tier with an admin partition:</description>
+    </item>
+    <item>
+      <title>The Book: FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2010/07/book-fim-best-practices-volume-1.html</link>
+      <pubDate>Thu, 29 Jul 2010 17:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/book-fim-best-practices-volume-1.html</guid>
+      <description>Hi David, any update on the availability date? Unknown - Aug 2, 2010
+Hi David, any update on the availability date?
+The day it&amp;rsquo;s out I&amp;rsquo;ll have my card ready!
+Hi David, any news on the book? Hope your back is better!
+The book is now available! My back is better too!
+I have already placed my order and I am looking forward to getting the book in the mail.</description>
+    </item>
+    <item>
+      <title>The Book: FIM Best Practices Volume 1</title>
+      <link>https://identitymanaged.netlify.app/2010/07/book-fim-best-practices-volume-1.html</link>
+      <pubDate>Thu, 29 Jul 2010 17:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/book-fim-best-practices-volume-1.html</guid>
+      <description>In two weeks we (Brad Turner is my co-author) will make available for ordering a book on FIM entitled:
+FIM Best Practices Volume 1: Introduction, Architecture And Installation Of Forefront Identity Manager 2010
+Information on order will be posted here on my blog
+This will be the first book on Forefront Identity Manager in English that is not focused on Certificate Management (Brian Komar wrote on book on FIM Certificate Management deployment and two gentlemen from Japan wrote a book on FIM in Japanese as blogged about by fellow MVP, Naohiro Fujie.</description>
+    </item>
+    <item>
+      <title>Embedding comments in your XPATH Filters</title>
+      <link>https://identitymanaged.netlify.app/2010/07/embedding-comments-in-your-xpath.html</link>
+      <pubDate>Tue, 20 Jul 2010 13:22:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/embedding-comments-in-your-xpath.html</guid>
+      <description>One thing I love to do is provide self-documenting code and configurations. Well when I have to customize sets the XPATH filter can get a bit complex so I recently found a way to comment the XPATH Filter in my sets and groups:
+/Person[starts-with(DisplayName,&amp;rsquo;%&amp;rsquo;)] By using to enclose my comments and only after the last closing ] of the predicate I can comment on the filter itself.
+The following will error (don’t put the comment inside the predicate [].</description>
+    </item>
+    <item>
+      <title>MVP’d again</title>
+      <link>https://identitymanaged.netlify.app/2010/07/mvpd-again.html</link>
+      <pubDate>Fri, 09 Jul 2010 14:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/mvpd-again.html</guid>
+      <description>Congratulations! I hope your continuous writing f&amp;hellip; Naohiro Fujie - Jul 2, 2010
+Congratulations!
+I hope your continuous writing for exciting articles!</description>
+    </item>
+    <item>
+      <title>MVP’d again</title>
+      <link>https://identitymanaged.netlify.app/2010/07/mvpd-again.html</link>
+      <pubDate>Fri, 09 Jul 2010 14:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/mvpd-again.html</guid>
+      <description>Thanks to the folks at Microsoft for continuing to recognize my contributions to the world of FIM. I awarded MVP for the fourth time.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Finding a Binary Value in the Haystack (FIMService Database)</title>
+      <link>https://identitymanaged.netlify.app/2010/07/finding-binary-value-in-haystack.html</link>
+      <pubDate>Fri, 09 Jul 2010 14:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/finding-binary-value-in-haystack.html</guid>
+      <description>While Query the FIM Service Database at the SQL layer is not supported by Microsoft I had an issue the other day where I couldn’t find what object had a conflicting SID that was preventing the update of another user. I could see in the error detail that it referenced the ObjectSID attribute. So I created this script and replaced the binary value down below with the SID of the object I was looking for.</description>
+    </item>
+    <item>
+      <title>Technical Overview Whitepaper on FIM released!</title>
+      <link>https://identitymanaged.netlify.app/2010/06/technical-overview-whitepaper-on-fim.html</link>
+      <pubDate>Wed, 30 Jun 2010 19:28:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/technical-overview-whitepaper-on-fim.html</guid>
+      <description>Technical overview whitepaper on FIM 2010 (download)
+Brad and I spent many long hours writing this! Glad to see it come out in the long form. Thanks to the product group for the opportunity and the Brjann, Mark, and Markus for reviewing and editing it.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule</title>
+      <link>https://identitymanaged.netlify.app/2010/06/dependent-sync-rules-disconnection-on.html</link>
+      <pubDate>Tue, 29 Jun 2010 14:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/dependent-sync-rules-disconnection-on.html</guid>
+      <description>Hi David, I have a dependent sync rule and I have&amp;hellip; V - Jul 1, 2013
+Hi David,
+I have a dependent sync rule and I have confirmed that it will not disconnect the object when the dependent sync rule is removed. However, everytime the dependent sync rule is removed, FIM tries to export a &amp;ldquo;Provisioning Delete/Add&amp;rdquo; to AD. Have you experienced this issue? Any tips would be appreciated. Thanks</description>
+    </item>
+    <item>
+      <title>Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule</title>
+      <link>https://identitymanaged.netlify.app/2010/06/dependent-sync-rules-disconnection-on.html</link>
+      <pubDate>Tue, 29 Jun 2010 14:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/dependent-sync-rules-disconnection-on.html</guid>
+      <description>Recently, I discovered that under certain conditions the removal of a dependent sync rule could cause the disconnection of objects in AD or other connected data sources. So I had to investigate the inner workings of dependent Sync Rules to uncover this mystery and fix it.
+FIM allows us to create dependent Sync Rules. First let me explain the what and then a little why. Then allow me to explain a bug that I discovered and how to work around it.</description>
+    </item>
+    <item>
+      <title>Object reference not set to an instance of an object</title>
+      <link>https://identitymanaged.netlify.app/2010/06/object-reference-not-set-to-instance-of.html</link>
+      <pubDate>Sun, 13 Jun 2010 12:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/object-reference-not-set-to-instance-of.html</guid>
+      <description>/Remi - Nov 3, 2010
+This comment has been removed by the author.
+Hello David! :) Have you got the time to test this in a lab ?
+I`am experiencing the same problem. And I`ve tried everything without any luck.
+http://social.technet.microsoft.com/Forums/en/ilm2/thread/deae65d0-ede6-4b36-994b-3695d0cc8260</description>
+    </item>
+    <item>
+      <title>Object reference not set to an instance of an object</title>
+      <link>https://identitymanaged.netlify.app/2010/06/object-reference-not-set-to-instance-of.html</link>
+      <pubDate>Sun, 13 Jun 2010 12:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/object-reference-not-set-to-instance-of.html</guid>
+      <description>Lessons learned:
+Run the Do a FIM MA account configuration quick test script.
+Always refresh the schema of the FIM MA using the real FIM MA Service Account which we usually call svc-FIMMA.
+Scenario:
+You have just modified the schema of FIM Service by creating a new Boolean attribute and have bound it to the user resource type. You refresh the FIM Schema, select the new attribute setup a direct export attribute flow from the corresponding Boolean metaverse attribute to the FIM MA attribute.</description>
+    </item>
+    <item>
+      <title>FIM Sets, XPATH, finding nulls with Strings</title>
+      <link>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</guid>
+      <description>Watch out for the latest FIM hotfix. It appears i&amp;hellip; Chris Clayton - Nov 4, 2011
+Watch out for the latest FIM hotfix. It appears it will treat the % as a literal rather than a SQL wildcard.</description>
+    </item>
+    <item>
+      <title>FIM Sets, XPATH, finding nulls with Strings</title>
+      <link>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</guid>
+      <description>A little while ago I encountered some rather strange behavior of a Set vs. the XPATH query in FIM 2010.
+Using the Export-FIMConfig with the -onlyBaseResources -CustomConfig switches I run the following query to see if there are any users without a DisplayName
+/Person[not(starts-with(DisplayName,&amp;rsquo;&amp;rsquo;))]
+It showed 20
+So then I created a set, called “~ People with no displayname”, with that as the custom filter. I checked it doesn&amp;rsquo;t violate any of the limitations listed in the Business Policy Modeling doc (which I must say is a pretty good doc)</description>
+    </item>
+    <item>
+      <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <description>I think they can really help in a lot of ways. Acc&amp;hellip; Karl - Sep 4, 2011
+I think they can really help in a lot of ways. Accelerate your business with the help of these factors. Thanks a lot for sharing.
+business consultant</description>
+    </item>
+    <item>
+      <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <description>Jun 10, 2010
+1:00 p.m. Eastern / 10:00 a.m. Pacific (60 minutes)
+To Register follow this link
+Christopher Yeich - Editor, Strategic Content - Ziff Davis Enterprise
+David Lundell - Identity Management Practice Director, Ensynch | Microsoft Identity Management MVP
+Jonathan Sander - IAM and Security Analyst - Quest Software
+Has your business experienced identity theft, with unauthorized access to your systems, data, and/or trade secrets?
+Have you lost business because your customers and/or employees didn’t have access when needed?</description>
+    </item>
+    <item>
+      <title>Restoring your FIM databases to the moment before oops</title>
+      <link>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</link>
+      <pubDate>Thu, 20 May 2010 10:04:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</guid>
+      <description>At the FIM Birds of a Feather (BOF) after a discussion about FIM database backups I was asked to make a blog post to more fully elucidate the benefits of using the full recovery model.
+Since Recovery models affect the transaction log you may find it useful to have the following background about transaction logs:
+•The Data in tables and indexes are stored in data files not the transaction log</description>
+    </item>
+    <item>
+      <title>TEC 2010 -- Results</title>
+      <link>https://identitymanaged.netlify.app/2010/05/tec-2010-results.html</link>
+      <pubDate>Mon, 17 May 2010 15:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/tec-2010-results.html</guid>
+      <description>TEC 2010 was a blast. In the Kickoff Gil Kirkpatrick issued several challenges including one to Brad Turner to simulate the workings of the FIM Sync Engine. Eventually we expect to see a video of the final presentation posted to YouTube. In the interim Brad has some nice pictures posted: TEC 2010 – Annual Wook Lee Memorial Challenge for Identity Results
+I attended Craig Martin’s session “Automate FIM deployment with Powershell” and learned a few things about the FIM Powershell commandlets.</description>
+    </item>
+    <item>
+      <title>Escape from Prague – Good to go for TEC</title>
+      <link>https://identitymanaged.netlify.app/2010/04/escape-from-prague-good-to-go-for-tec.html</link>
+      <pubDate>Fri, 23 Apr 2010 15:20:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/04/escape-from-prague-good-to-go-for-tec.html</guid>
+      <description>I went to Prague for a project intending to stay one week, but unfortunately I was delayed an additional week (volcanic ash cloud from Iceland – reread the news if you missed it). While Prague is a beautiful city and I met many wonderful people, the uncertainty of when I would be able to get home weighed heavily on me. I was worried about being separated from my family for weeks?</description>
+    </item>
+    <item>
+      <title>FIM 2010 Technical Overview Published – short version</title>
+      <link>https://identitymanaged.netlify.app/2010/04/fim-2010-technical-overview-published.html</link>
+      <pubDate>Thu, 08 Apr 2010 22:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/04/fim-2010-technical-overview-published.html</guid>
+      <description>Great job David and crew! Marc Mac Donell, CISSP - Apr 4, 2010
+Great job David and crew!</description>
+    </item>
+    <item>
+      <title>FIM 2010 Technical Overview Published – short version</title>
+      <link>https://identitymanaged.netlify.app/2010/04/fim-2010-technical-overview-published.html</link>
+      <pubDate>Thu, 08 Apr 2010 22:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/04/fim-2010-technical-overview-published.html</guid>
+      <description>Microsoft has published a short version of the FIM Technical Overview whitepaper written by David Lundell (me), Brad Turner, Chris Calderon and Joe Zamora. The longer version will come out a bit later. Short version, long version makes me feel kind of like I am figure skating in the Olympics. Thank you to Brjann Brekkan, Mark Wahl, Joe Schulman, Darryl Russi, Jack Kabat and Andreas Kjellman for their support, editing, eluciations on blogs and encouragement on this paper.</description>
+    </item>
+    <item>
+      <title>FIM Pitfall for old ILM hands</title>
+      <link>https://identitymanaged.netlify.app/2010/03/fim-pitfall-for-old-ilm-hands.html</link>
+      <pubDate>Thu, 25 Mar 2010 21:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/fim-pitfall-for-old-ilm-hands.html</guid>
+      <description>In the days of MIIS 2003 and ILM 2007 we usually wrote our provisioning code to provision a new AD account only when the particular metaverse object didn’t already have any connectors in the AD connector space. With FIM your outbound synchronization rule is quite happy to provision another AD account if the existing one it is joined to doesn’t meet the relationship criteria. So I have usually been in the habit of not worrying about extraneous provisioning if I already had an account connected to that metaverse object.</description>
+    </item>
+    <item>
+      <title>Register for TEC 2010 – hope to see you there</title>
+      <link>https://identitymanaged.netlify.app/2010/03/register-for-tec-2010-hope-to-see-you.html</link>
+      <pubDate>Wed, 17 Mar 2010 17:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/register-for-tec-2010-hope-to-see-you.html</guid>
+      <description>Register using this code to get a discount: ATESENSYNC
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>TEC 2010 – Speaking and Sponsoring</title>
+      <link>https://identitymanaged.netlify.app/2010/03/tec-2010-speaking-and-sponsoring.html</link>
+      <pubDate>Wed, 17 Mar 2010 15:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/tec-2010-speaking-and-sponsoring.html</guid>
+      <description>I am super excited about speaking at The Experts Conference 2010 (I also spoke at Directory Experts in ‘07, and ‘08 as well as last year’s The Experts Conference). Register using this code to get a discount: ATESENSYNC
+Once more Ensynch is sponsoring TEC but this year we are a gold sponsor for TEC 2010.
+Here is the lineup of Ensynch Speakers at The Experts Conference (also see Brad Turner’s take on our new speakers)</description>
+    </item>
+    <item>
+      <title>FIM Technet Webcasts</title>
+      <link>https://identitymanaged.netlify.app/2010/03/fim-technet-webcasts.html</link>
+      <pubDate>Tue, 09 Mar 2010 15:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/fim-technet-webcasts.html</guid>
+      <description>The FIM product group has some great webcasts coming up on technet
+Forefront Identity Manager 2010 has RTM&amp;rsquo;ed
+This first webinar is using many of the slides that I created as part of our engagement to write the FIM 2010 Technical Overview Whitepaper (due out soon). Anyhow it makes me feel cool.
+3/9/2010 6 PM Pacific time- TechNet Webcast: Forefront Identity Manager 2010: Technical Overview and Deployment (Level 300)
+http://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032444011&amp;amp;Culture=en-US</description>
+    </item>
+    <item>
+      <title>FIM 2010 RTM Today!</title>
+      <link>https://identitymanaged.netlify.app/2010/03/fim-2010-rtm-today.html</link>
+      <pubDate>Tue, 02 Mar 2010 13:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/03/fim-2010-rtm-today.html</guid>
+      <description>Today, March 2, at the RSA conference Microsoft announced the release to manufacturing of Forefront Identity Manager 2010 (FIM, formerly codenamed ILM “2”) with General Availability starting next month.
+Download the eval here:
+Microsoft® Forefront™ Identity Manager 2010 Evaluation Version
+Yeah!
+FIM gives us capabilities for User provisioning (and deprovisioning), Group management, Self-Service Password Reset, Password Synchronization, Workflows with Approvals, User profile self-service management, and accomplishing these items through Declarative Provisioning.</description>
+    </item>
+    <item>
+      <title>Final Update for FIM RC1 released</title>
+      <link>https://identitymanaged.netlify.app/2010/02/final-update-for-fim-rc1-released.html</link>
+      <pubDate>Mon, 01 Feb 2010 10:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/02/final-update-for-fim-rc1-released.html</guid>
+      <description>On Friday the product group released Update 3 for Forefront Identity Manager 2010 RC1 available through connect
+https://connect.microsoft.com/site433/Downloads
+Major changes as part of Update 3 (my regurgitation and comments from the release notes):
+Fewer trips to the FIM Service event log – since the FIM MA export errors will now show up in the Synchronization Service Manager! Hallelujah! Less need for custom old style code Now more than 1 MA can be authoritative for deleting an object (resource) New functions for Sync Rules (Declarative Provisioning) – I guess I will have to update my function cheatsheet Null – not certain what they mean by this – null out the value or let another sync rule provide the value.</description>
+    </item>
+    <item>
+      <title>FIM RCDC explained in brief</title>
+      <link>https://identitymanaged.netlify.app/2009/11/fim-rcdc-explained-in-brief.html</link>
+      <pubDate>Sun, 29 Nov 2009 09:50:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/11/fim-rcdc-explained-in-brief.html</guid>
+      <description>In this post I attempt to give you the reader a quick overview of how the FIM RCDC works conceptually. As for the mechanics of modifying the RCDC the nearly complete but growing collection of documents downloadable from MSFT will suffice.
+As you will recall FIM is the new abbreviation for ILM, since it has been renamed Forefront Identity Manager, and RCDC is the Resource Control Display Configuration formerly known as the Object Visualization Configuration (OVC).</description>
+    </item>
+    <item>
+      <title>Answering my FIM RC 1 question</title>
+      <link>https://identitymanaged.netlify.app/2009/11/answering-my-fim-rc-1-question.html</link>
+      <pubDate>Tue, 24 Nov 2009 09:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/11/answering-my-fim-rc-1-question.html</guid>
+      <description>Thanks to Darryl Russi for answering my questions in my earlier post An Update to FIM RC1 where I was asked about something I had read in the release notes:
+Some of those items raise a few questions, like how to setup a FIM service that only takes requests from the sync service? Do we setup multiple FIM Service instances and then configure the FIM MA to talk to one of them, and not make that one available to web clients?</description>
+    </item>
+    <item>
+      <title>Identity Synchronization FIM 2010 HOL Irvine California</title>
+      <link>https://identitymanaged.netlify.app/2009/11/identity-synchronization-fim-2010-hol.html</link>
+      <pubDate>Mon, 23 Nov 2009 17:44:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/11/identity-synchronization-fim-2010-hol.html</guid>
+      <description>I will be at the Microsoft Technical Center in Irvine on Dec 1 and 2 presenting this HOL with Marvin Tansley of Gemalto.
+Identity Synchronization – Hands on Training
+****
+Date: December 1-2, 2009
+Location: 3 Park Plaza, Suite 1800 Irvine, CA 92614 949-263-3000
+Microsoft, Gemalto and Ensynch invite you to a free 2-day training seminar and hands-on-lab on Microsoft’s Forefront Lifecycle Manager (FIM 2010).
+Come and learn how FIM 2010 can help you by delivering simplicity, agility and efficiency while increasing security and compliance within your enterprise identity infrastructure.</description>
+    </item>
+    <item>
+      <title>An Update to FIM RC1</title>
+      <link>https://identitymanaged.netlify.app/2009/11/update-to-fim-rc1.html</link>
+      <pubDate>Sun, 08 Nov 2009 23:14:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/11/update-to-fim-rc1.html</guid>
+      <description>Microsoft has posted an update to FIM RC 1, dated Nov 6.
+It looks like this update covers pretty much everywhere except Certificate Services (sorry Brian and Paul).
+The Release notes included in the download lists the follow improvements:
+Query and Sets
+Resolved a number of issues that resulted in incorrect dynamic set membership.
+Removed support for the use of the != operator with multivalued attributes. Xpath equality expressions on multivalued attributes must use the not() function.</description>
+    </item>
+    <item>
+      <title>Password Reset?</title>
+      <link>https://identitymanaged.netlify.app/2009/10/password-reset.html</link>
+      <pubDate>Tue, 06 Oct 2009 20:59:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/10/password-reset.html</guid>
+      <description>How would you feel if this was the only barrier between the hacker and your data – a single password reset question? Just one!
+I won’t tell you who this is since then you’ll just want to go after my data on that site.
+Oh well. The barn door won’t be shut until the wolf has gotten into the sheep
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM RC 1 is here – what’s new?</title>
+      <link>https://identitymanaged.netlify.app/2009/10/fim-rc-1-is-here-whats-new.html</link>
+      <pubDate>Sun, 04 Oct 2009 22:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/10/fim-rc-1-is-here-whats-new.html</guid>
+      <description>FIM RC 1 is here. Microsoft released it on Sept 30th which is the end of Q3 of 2009 which means the ILM/FIM team at Microsoft met their stated deadline announced back in March.
+Here is the download:
+http://technet.microsoft.com/en-us/evalcenter/cc872861.aspx
+What’s new:
+Gil Kirkpatrick has a nice post about the differences in the data structure:
+Auditing FIM 2010 RC1
+Darryl Russi a Sr. Test Lead at Microsoft has started blogging about FIM RC 1 performance:</description>
+    </item>
+    <item>
+      <title>AD RMS on R2 -- new Federation Features</title>
+      <link>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</link>
+      <pubDate>Fri, 14 Aug 2009 21:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</guid>
+      <description>AD RMS on Windows Server 2008 R2 adds a really slick feature blogged about here: Group Expansion for Federated Users
+Prior to R2 to issue a use license to a federated user they need to specifically be granted permissions. With Windows Server 2008 R2 you can create a contact matching the external federated user and then place the contact in the group and then they have the same RMS permissions as that group.</description>
+    </item>
+    <item>
+      <title>The attributes behind Message Delivery Restrictions</title>
+      <link>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</link>
+      <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</guid>
+      <description>Very helpfull!! I was about to block sending email&amp;hellip; Paweł Jarosz - Sep 1, 2010
+Very helpfull!! I was about to block sending emails to disabled accounts - not mailbox but accounts - so I can easily and quick retrieve some data from inactive inboxes. The solution is to create an empty group in AD and set the &amp;ldquo;dLMemSubmitPerms&amp;rdquo; parameter to accept messages only from that empty group! Amazing and great many thanks!</description>
+    </item>
+    <item>
+      <title>The attributes behind Message Delivery Restrictions</title>
+      <link>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</link>
+      <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</guid>
+      <description>Do you know what attributes are used to control who can and can&amp;rsquo;t send to a Distribution List in Exchange 2003 and Exchange 2007? or Does it use a DACL?
+Knowing such things is key if you are going to automate distribution list management through .NET programs, or MIIS/ILM/FIM, Quest ARS or any other tool that is talking to LDAP attributes. For Powershell you need a separate list since the names are different.</description>
+    </item>
+    <item>
+      <title>Dealing with the ILM 2 RC 0 Cert in Windows server 2003 domain</title>
+      <link>https://identitymanaged.netlify.app/2009/04/dealing-with-ilm-2-rc-0-cert-in-windows.html</link>
+      <pubDate>Wed, 29 Apr 2009 14:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/dealing-with-ilm-2-rc-0-cert-in-windows.html</guid>
+      <description>The Password Reset instructions ask us to use Group Policy to distribute the cert to the clients. This only works in Windows Server 2008 functional level domains. In Windows Server 2003 domains you can automate this using cerutil.exe
+The following command will export the cert generated by ILM 2 install to the ilm2cert.cer file in the working directory
+certutil -store trustedpeople IdentityLifeCycleManager2 ilm2cert.cer
+This command can be used to import the cert from the command line</description>
+    </item>
+    <item>
+      <title>Problems with Sync Rules in ILM 2 RC0 (err FIM RC0)?</title>
+      <link>https://identitymanaged.netlify.app/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</link>
+      <pubDate>Mon, 20 Apr 2009 18:08:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</guid>
+      <description>If you will take a look at FIM(ILM) connections sc&amp;hellip; Unknown - Apr 2, 2009
+If you will take a look at FIM(ILM) connections schema you will see that ILM MA has a direct SQL connectivity to FIM database (not through web service). As far as I know any change to metaverse schema fires up synchronization of this change to FIM database directly through SQL connection.</description>
+    </item>
+    <item>
+      <title>Problems with Sync Rules in ILM 2 RC0 (err FIM RC0)?</title>
+      <link>https://identitymanaged.netlify.app/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</link>
+      <pubDate>Mon, 20 Apr 2009 18:08:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</guid>
+      <description>Well I had a problem with a recent install &amp;ndash; the Metaverse Object Type Dropdown list was empty!
+Turns out the source of this drop down list is the mv-data object type. However my install didn&amp;rsquo;t have this object. Obviously something was wrong. How does one create this object in the first place? Not directly in the portal. I am not certain when this object is supposed to be created. Install time?</description>
+    </item>
+    <item>
+      <title>ILM FIM Webinar Custom Workflow -- Joe Zamora</title>
+      <link>https://identitymanaged.netlify.app/2009/04/ilm-fim-webinar-custom-workflow-joe.html</link>
+      <pubDate>Mon, 20 Apr 2009 11:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/ilm-fim-webinar-custom-workflow-joe.html</guid>
+      <description>Joe Zamora the maintainer of the Ensynch ILM 2 Custom Workflow Walkthrough is our main presenter at our next Webinar this Thursday at 9 AM Pacific. To register click on the image below. The code from our Pre-con workshop is posted on CodePlex Ensynch Custom WF Activities
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Install ILM 2 in a SharePoint Farm</title>
+      <link>https://identitymanaged.netlify.app/2009/04/install-ilm-2-in-sharepoint-farm.html</link>
+      <pubDate>Thu, 16 Apr 2009 17:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/install-ilm-2-in-sharepoint-farm.html</guid>
+      <description>As I endeavored to install the ILM 2 Portal into a SharePoint farm (WSS 3.0 SP 1) with a remote database I encountered the following problem:
+The dreaded Premature Failure during installation.
+When I turned on logging for the install and examined the file, I found:
+Action 14:55:25: ConfigPortalAnonymousAccess.
+CAQuietExec: CAQuietExec: This operation can be performed only on a computer that is joined to a server farm by users who have permissions in SQL Server to read from the configuration database.</description>
+    </item>
+    <item>
+      <title>What&#39;s in name? Forefront Identity Manager 2010</title>
+      <link>https://identitymanaged.netlify.app/2009/04/what-in-name-forefront-identity-manager.html</link>
+      <pubDate>Thu, 16 Apr 2009 17:26:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/what-in-name-forefront-identity-manager.html</guid>
+      <description>In case you haven&amp;rsquo;t heard Zoomit VIA or rather Microsoft MetaDirectory Services has been renamed yet again, from Microsoft Identity Integration Server 2003 to Identity Lifecycle Manager 2007 to Forefront Identity Manager 2010 or FIM for short. For obvious reasons the L was dropped when the F was added (Forefront + ILM = FILM).
+So ILM 2 =&amp;gt; FIM 2010 (stole this graphic from Brad Turner&amp;rsquo;s blog &amp;ndash; his Smart Art creations are beautiful &amp;ndash; recently I have been studying smart art under his tutelage I hope to soon approach his level of skill)</description>
+    </item>
+  </channel>
+</rss>

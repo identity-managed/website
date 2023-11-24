@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XML on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/xml/</link>
+    <description>Recent content in XML on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jun 2010 00:29:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FIM Sets, XPATH, finding nulls with Strings</title>
+      <link>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</guid>
+      <description>Watch out for the latest FIM hotfix. It appears i&amp;hellip; Chris Clayton - Nov 4, 2011
+Watch out for the latest FIM hotfix. It appears it will treat the % as a literal rather than a SQL wildcard.</description>
+    </item>
+    <item>
+      <title>FIM Sets, XPATH, finding nulls with Strings</title>
+      <link>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</guid>
+      <description>A little while ago I encountered some rather strange behavior of a Set vs. the XPATH query in FIM 2010.
+Using the Export-FIMConfig with the -onlyBaseResources -CustomConfig switches I run the following query to see if there are any users without a DisplayName
+/Person[not(starts-with(DisplayName,&amp;rsquo;&amp;rsquo;))]
+It showed 20
+So then I created a set, called “~ People with no displayname”, with that as the custom filter. I checked it doesn&amp;rsquo;t violate any of the limitations listed in the Business Policy Modeling doc (which I must say is a pretty good doc)</description>
+    </item>
+    <item>
+      <title>Pending Exports Report in ILM</title>
+      <link>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</link>
+      <pubDate>Wed, 30 Jul 2008 14:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</guid>
+      <description>Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.
+As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</description>
+    </item>
+  </channel>
+</rss>

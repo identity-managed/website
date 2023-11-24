@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSB on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/ssb/</link>
+    <description>Recent content in SSB on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Aug 2008 12:57:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/ssb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL 2008: Processor or Server/CAL</title>
+      <link>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</link>
+      <pubDate>Sat, 16 Aug 2008 12:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</guid>
+      <description>Congrats to the SQL Server team for shipping 2008. It looks like a great product. Congrats as well for keeping the licensing costs the same and adding a new option with the web edition.
+One question that many still have in mind is how to license SQL server. Processor licensing allows unlimited users and devices, whereas a server license allows unlimited users or devices as long as they have a CAL.</description>
+    </item>
+    <item>
+      <title>Processing Actions Asynchronously outside of ILM MA&#39;s</title>
+      <link>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</link>
+      <pubDate>Thu, 15 May 2008 06:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</guid>
+      <description>For years developers have had access to the Microsoft Message Queue (MSMQ) as a way to be able to queue up actions for processing later or on a remote machine. With the release of SQL 2005 back in well 2005, developers with access to SQL 2005 could replace these MSMQ apps with SQL Service Broker Queues (SSB). With ILM 2007 /MIIS 2003 SP 2 supporting SQL 2005 the use of SQL Service Broker Queues became much more accessible to ILM Developers.</description>
+    </item>
+  </channel>
+</rss>

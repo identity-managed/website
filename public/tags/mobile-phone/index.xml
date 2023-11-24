@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Phone on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/mobile-phone/</link>
+    <description>Recent content in Mobile Phone on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Apr 2012 17:00:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/mobile-phone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Picking a mobile phone plan: AT&amp;T</title>
+      <link>https://identitymanaged.netlify.app/2012/04/picking-mobile-phone-plan-at.html</link>
+      <pubDate>Fri, 27 Apr 2012 17:00:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/picking-mobile-phone-plan-at.html</guid>
+      <description>I am currently a Sprint customer, and I am in the process of considering a replacement. So I analyzed AT&amp;amp;T’s plans. I found some interesting things:
+They have three individual plans that don’t include long distance to Canada but do include US long distance.
+min
+cost
+$/min
+Over $/min
+Min over to break even with next plan
+Rollover
+Weekend min
+450
+$ 39.99
+$ 0.089
+0.45
+44
+yes
+5000
+900</description>
+    </item>
+  </channel>
+</rss>

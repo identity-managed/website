@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XPATH on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/xpath/</link>
+    <description>Recent content in XPATH on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Nov 2011 10:38:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/xpath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What the %_ is the deal with wildcards in FIM Queries in the latest hotfix?</title>
+      <link>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</link>
+      <pubDate>Wed, 16 Nov 2011 10:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</guid>
+      <description>David - just came across your post. Others readin&amp;hellip; Anonymous - Jan 1, 2012
+David - just came across your post. Others reading it now may wish to follow this thread on the FIM Forum where the issue continues to be discussed at length.
+Cheers
+Bob
+http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/ec15b1d0-3f4c-42fd-a833-3983330be963
+10 years on David and your post came in handy just now - learned something new about the [_] thing in xpath statements :) - kudos - just the ticket!</description>
+    </item>
+    <item>
+      <title>What the %_ is the deal with wildcards in FIM Queries in the latest hotfix?</title>
+      <link>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</link>
+      <pubDate>Wed, 16 Nov 2011 10:38:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</guid>
+      <description>Ok I am not actually swearing, nor are those substitute words, rather % and _ are two characters that until hotfix rollup package (build 4.0.3594.2) could be used to perform some much needed and cool searches for sets, search scopes, groups and 3rd party client queries against FIM. Such as querying for the presence of string attributes.
+I am sure what happened is that someone created a resource with an underscore in the name and then couldn’t search for it.</description>
+    </item>
+    <item>
+      <title>Embedding comments in your XPATH Filters</title>
+      <link>https://identitymanaged.netlify.app/2010/07/embedding-comments-in-your-xpath.html</link>
+      <pubDate>Tue, 20 Jul 2010 13:22:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/embedding-comments-in-your-xpath.html</guid>
+      <description>One thing I love to do is provide self-documenting code and configurations. Well when I have to customize sets the XPATH filter can get a bit complex so I recently found a way to comment the XPATH Filter in my sets and groups:
+/Person[starts-with(DisplayName,&amp;rsquo;%&amp;rsquo;)] By using to enclose my comments and only after the last closing ] of the predicate I can comment on the filter itself.
+The following will error (don’t put the comment inside the predicate [].</description>
+    </item>
+    <item>
+      <title>FIM Sets, XPATH, finding nulls with Strings</title>
+      <link>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</guid>
+      <description>Watch out for the latest FIM hotfix. It appears i&amp;hellip; Chris Clayton - Nov 4, 2011
+Watch out for the latest FIM hotfix. It appears it will treat the % as a literal rather than a SQL wildcard.</description>
+    </item>
+    <item>
+      <title>FIM Sets, XPATH, finding nulls with Strings</title>
+      <link>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</link>
+      <pubDate>Thu, 10 Jun 2010 00:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</guid>
+      <description>A little while ago I encountered some rather strange behavior of a Set vs. the XPATH query in FIM 2010.
+Using the Export-FIMConfig with the -onlyBaseResources -CustomConfig switches I run the following query to see if there are any users without a DisplayName
+/Person[not(starts-with(DisplayName,&amp;rsquo;&amp;rsquo;))]
+It showed 20
+So then I created a set, called “~ People with no displayname”, with that as the custom filter. I checked it doesn&amp;rsquo;t violate any of the limitations listed in the Business Policy Modeling doc (which I must say is a pretty good doc)</description>
+    </item>
+  </channel>
+</rss>

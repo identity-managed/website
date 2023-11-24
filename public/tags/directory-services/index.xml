@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Directory Services on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/directory-services/</link>
+    <description>Recent content in Directory Services on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2015 14:49:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/directory-services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Still an MVP but now DS MVP</title>
+      <link>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</guid>
+      <description>Thanks Scott. David Lundell - Jul 3, 2015
+Thanks Scott.</description>
+    </item>
+    <item>
+      <title>Still an MVP but now DS MVP</title>
+      <link>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</guid>
+      <description>I have been awarded the Microsoft Most Valuable Professional for a 9th time. I started off as an MIIS MVP (even though ILM had been released 4 months previous). Then I became an ILM MVP in 2008, then in 2010 it was FIM MVP (or was that 2011). Now with FIM changing to MIM and in an effort to reduce the administrative paperwork the Microsoft MVP team has every time MMS/MIIS/ILM/FIM/MIM changes names all FIM MVPs have become DS (Directory Services) MVPs.</description>
+    </item>
+  </channel>
+</rss>

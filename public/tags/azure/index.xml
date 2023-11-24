@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/azure/</link>
+    <description>Recent content in Azure on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2014 08:29:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New name for FIM?</title>
+      <link>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</link>
+      <pubDate>Thu, 17 Apr 2014 08:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</guid>
+      <description>Actually it&amp;rsquo;s MIM (Microsoft Identity Manager)&amp;hellip; Oliver Hanappi - Apr 3, 2014
+Actually it&amp;rsquo;s MIM (Microsoft Identity Manager). See http://blogs.technet.com/b/server-cloud/archive/2014/04/23/forefront-identity-manager-vnext-roadmap-now-microsoft-identity-manager.aspx
+Like any good futurist I guessed so many things that one of them was bound to be right http://blog.ilmbestpractices.com/2013/07/the-mvp-7-year-itch.html?m=1</description>
+    </item>
+    <item>
+      <title>New name for FIM?</title>
+      <link>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</link>
+      <pubDate>Thu, 17 Apr 2014 08:29:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</guid>
+      <description>Did you know that if you subscribe to Azure AD Premium you also get licenses for FIM? Well if that isn&amp;rsquo;t a hand tipper I don&amp;rsquo;t know what is. I think we can safely assume the next version of FIM will have Azure in the name. Safe or not I am going speculate that it will.
+Azure Identity Manager (AIM) &amp;ndash; I would be ok with this
+Azure Role Based Access Manager (ARBAM) &amp;ndash; Explosive sounding name</description>
+    </item>
+    <item>
+      <title>Hints of FIM&#39;s Future: Azure Active Directory (AAD) Sync</title>
+      <link>https://identitymanaged.netlify.app/2014/04/hints-of-fims-future-azure-active.html</link>
+      <pubDate>Thu, 17 Apr 2014 08:19:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/hints-of-fims-future-azure-active.html</guid>
+      <description>For years I have been trying to predict the future of Identity Management, but every time I look in my crystal ball it is just too cloudy to see anything. In fact anytime I look in my crystal ball on just about any technology topic the only thing it shows me are clouds! I was beginning to think it was broken.
+But then, yesterday, I watched Andreas Kjellman present at the FIM user group</description>
+    </item>
+  </channel>
+</rss>

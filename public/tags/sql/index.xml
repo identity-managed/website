@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/sql/</link>
+    <description>Recent content in SQL on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Apr 2022 14:31:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Always On Availability Groups for MIM</title>
+      <link>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</guid>
+      <description>Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft&amp;rsquo;s product team.
+MIM 2016 SP2 (and 4.4.1459.0 or later supports SQL Server Always On Availability Groups (AG))! Yeah!
+Ok let&amp;rsquo;s implement it!
+But wait! It won&amp;rsquo;t give us all we hope for!
+Up to the moment distributed backup of the data &amp;ndash; yes! Automatic instant failover &amp;ndash; not without a huge caveat! What do you mean it won&amp;rsquo;t give us Automatic Instant Failover?</description>
+    </item>
+    <item>
+      <title>How many attributes can you have in the Metaverse?</title>
+      <link>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</link>
+      <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</guid>
+      <description>Back in 2013 I published 5 posts about the Secrets of the Metaverse:
+Parts 1-5:
+What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? The third post was about how many attributes you can have in the Metaverse in which I said that the mms_metaverse_lineageguid table limits us to 502 single valued non-reference attributes in the Metaverse.</description>
+    </item>
+    <item>
+      <title>SQL Maintenance for FIM and anything other databases</title>
+      <link>https://identitymanaged.netlify.app/2014/10/sql-maintenance-for-fim-and-anything.html</link>
+      <pubDate>Fri, 24 Oct 2014 17:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/10/sql-maintenance-for-fim-and-anything.html</guid>
+      <description>An easy way to take care for your FIM databases is to &amp;ldquo;use Ola Hallengren&amp;rsquo;s script (http://ola.hallengren.com/scripts/MaintenanceSolution.sql). Download the script, adjust the backup paths and run the script on each instance of SQL Server. It will automatically create several jobs some for maintaining the system databases and some for maintain the user databases. You will need to create schedules for each of the jobs.&amp;rdquo; &amp;ndash; FIM Best Practices Volume 1</description>
+    </item>
+    <item>
+      <title>Mailbag: Learning FIM, SQL and IIS</title>
+      <link>https://identitymanaged.netlify.app/2014/04/mailbag-learning-fim-sql-and-iis.html</link>
+      <pubDate>Fri, 18 Apr 2014 17:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/04/mailbag-learning-fim-sql-and-iis.html</guid>
+      <description>Recently, a reader reached out to me for advice on learning FIM, SQL and IIS. As well as guidance on setting up a lab (more advice on that part in a later post).
+First think for a moment about your best learning styles for technology. Do you need to read the concepts and architecture first and then do it? Do you need to watch a video and then read, and then do it?</description>
+    </item>
+    <item>
+      <title>FIM Reporting Craig Martin style</title>
+      <link>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</link>
+      <pubDate>Tue, 01 May 2012 12:10:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</guid>
+      <description>Thanks for attending the session, glad you liked i&amp;hellip; Craig Martin - May 2, 2012
+Thanks for attending the session, glad you liked it! I had fun talking and running with Scissors.</description>
+    </item>
+    <item>
+      <title>FIM Reporting Craig Martin style</title>
+      <link>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</link>
+      <pubDate>Tue, 01 May 2012 12:10:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</guid>
+      <description>Craig’s session is on how to get data out from the FIM Service and FIM Sync with PowerShell and displaying it with SSRS, which he has dubbed Scissors!
+Ok Craig we get it! You have even persuaded me that PowerShell is important! I have started writing scripts. SQL Server of course is still important.
+Key is to hook up a pipeline from PowerShell to pass into his custom SSRS PowerShell Data Processing Extension (DPE).</description>
+    </item>
+    <item>
+      <title>FIM DB Sizing Calculator</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</link>
+      <pubDate>Wed, 25 Apr 2012 23:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</guid>
+      <description>Pretty slick, man! Craig Martin - May 3, 2012
+Pretty slick, man!
+Thanks Craig. Glad you like it!
+WAY too timely! Thanks Dave!
+Thanks, very helpful.
+Hi very helpul, do you have something like that for the Reporting data base of FIM (SCSM DW)?</description>
+    </item>
+    <item>
+      <title>FIM DB Sizing Calculator</title>
+      <link>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</link>
+      <pubDate>Wed, 25 Apr 2012 23:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</guid>
+      <description>FIM has two databases (well three if we count the FIM Certificate Management service):
+FIMService FIMSynchronizationService Here is a calculator in excel that you can download and use to calculate how big to make your databases.
+In my experience the FIMService database size depends mostly on how many request objects are in the database.
+The FIM Sync Database depends mostly on how much run history details (step object details) you generate and keep.</description>
+    </item>
+    <item>
+      <title>Calling a stored procedure in an ADFS claims rule</title>
+      <link>https://identitymanaged.netlify.app/2011/09/calling-stored-procedure-in-adfs-claims.html</link>
+      <pubDate>Thu, 01 Sep 2011 06:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/09/calling-stored-procedure-in-adfs-claims.html</guid>
+      <description>After you have setup your SQL Attribute Claims Store in ADFS. If you want to use it and in fact test it you must set up a claims rule that makes use of it. To do this you must create a claim using a custom rule, which allows you to employ the claims rule language.
+The following technet entry is a good start as it illustrates how to enter a SQL Query and even a stored procedure.</description>
+    </item>
+    <item>
+      <title>Troubleshooting SQL Attribute Stores with ADFS</title>
+      <link>https://identitymanaged.netlify.app/2011/09/troubleshooting-sql-attribute-stores.html</link>
+      <pubDate>Thu, 01 Sep 2011 06:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/09/troubleshooting-sql-attribute-stores.html</guid>
+      <description>Several others have showed how to define SQL attribute stores with ADFS.
+Note that when entering the connection string there is no validation or feedback to the administrator. If there is a problem you usually won’t see it until you setup a claims rule that uses it and you get an error. So make certain to carefully build and test your connection string. Remember that if you use integrated authentication to connect to the SQL Server that it will run under the context of your ADFS Service account so you will need to grant your ADFS service account permissions to the SQL Server and Database.</description>
+    </item>
+    <item>
+      <title>Finding a Binary Value in the Haystack (FIMService Database)</title>
+      <link>https://identitymanaged.netlify.app/2010/07/finding-binary-value-in-haystack.html</link>
+      <pubDate>Fri, 09 Jul 2010 14:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/07/finding-binary-value-in-haystack.html</guid>
+      <description>While Query the FIM Service Database at the SQL layer is not supported by Microsoft I had an issue the other day where I couldn’t find what object had a conflicting SID that was preventing the update of another user. I could see in the error detail that it referenced the ObjectSID attribute. So I created this script and replaced the binary value down below with the SID of the object I was looking for.</description>
+    </item>
+    <item>
+      <title>Searching an entire database for a Guid or Unique Identifier</title>
+      <link>https://identitymanaged.netlify.app/2010/06/searching-entire-database-for-guid-or.html</link>
+      <pubDate>Tue, 01 Jun 2010 08:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/searching-entire-database-for-guid-or.html</guid>
+      <description>Searching an entire database for a Guid or Unique Identifier can be a bit of a tricky proposition. However a little bit of using T-SQL to generate T-SQL and viola
+DECLARE @GUIDHunted nvarchar(60)
+SET @GUIDHunted = &amp;lsquo;0A24EC0C-65EE-4519-89DF-ABD3DD24F7EF&amp;rsquo;
+SELECT *, &amp;lsquo;UNION ALL SELECT &amp;rsquo;&amp;rsquo;&amp;rsquo; + s.name + &amp;lsquo;.&amp;rsquo; + ao.name + &amp;lsquo;&amp;rsquo;&amp;rsquo;, count(*) FROM &amp;rsquo;
++ s.name +&amp;rsquo;.[&amp;rsquo; + ao.name + &amp;lsquo;] WHERE &amp;rsquo; + ac.name + &amp;rsquo; = &amp;rsquo;&amp;rsquo;&amp;rsquo; + @GuidHunted + &amp;rsquo;&amp;rsquo;&amp;rsquo;&amp;rsquo;</description>
+    </item>
+  </channel>
+</rss>

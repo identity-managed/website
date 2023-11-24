@@ -12,7 +12,7 @@ baseurl = "https://identitymanaged.netlify.app/"
 [params]
 logo_text = "Identity Managed"
 mainSections = ["blog"]
-copyright = "Copyright (c) 2023 Identity Managed; all rights reserved."
+copyright = "Copyright (c) 2023 Identity Managed"
 date_format = "January 2, 2006"
 defaultKeywords = ["identity", "hugo", "go"]
 author = "David"

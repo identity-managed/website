@@ -4,21 +4,14 @@
     <meta charset="utf-8" />
 <meta name="robots" content="all,follow" />
 <meta name="googlebot" content="index,follow,snippet,archive" />
+<meta name="theme-color" content="#6aae7a" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>Identity Managed</title>
 <meta name="author" content="David" />     <meta name="keywords" content="identity, hugo, go">  
 <meta name="description" content="Identity Managed" />
 
-<meta name="generator" content="Hugo 0.117.0">
-
-
-<link
-  href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
-  rel="stylesheet"
-  type="text/css"
-/>
-
+<meta name="generator" content="Hugo 0.120.4">
 
 <link
   rel="stylesheet"
@@ -32,16 +25,10 @@
 />
 
 
-<link href="/css/animate.css" rel="stylesheet">
+ <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
- <link href="/css/style.idm.css" rel="stylesheet" id="theme-stylesheet"> 
-
-
-<link href="/css/custom.css?1692393576" rel="stylesheet">
-
-
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<link href="/css/custom.css?1700829792" rel="stylesheet">
 
 
 
@@ -60,22 +47,12 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="http://example.com/index.xml"
+<link rel="alternate" href="https://identitymanaged.netlify.app/index.xml"
 type="application/rss+xml" title="Identity Managed">
 
 
-      <meta property="og:locale" content="en_us">
-<meta property="og:site_name" content="Identity Managed" />
-<meta property="og:title" content="Identity Managed" />
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://example.com/" />
-<meta property="og:description" content="Identity Managed" />
-<meta property="og:image" content="http://example.com/img/sharing-default.png" />
-<meta property="og:image:type" content="image/png">   
-<meta property="og:image:width" content="800" />
-<meta property="og:image:height" content="420" />
-  <meta property="og:updated_time"
-content="2023-08-15T13:12:23-0700"> 
+     <meta property="og:updated_time"
+content="2022-04-26T14:31:00-0700"> 
 
 
 <meta
@@ -84,8 +61,6 @@ content="2023-08-15T13:12:23-0700">
 />
 
 <meta name="twitter:title" content="Identity Managed" />
-
-<meta name="twitter:image" content="http://example.com/img/sharing-default.png" />
 
 <meta
   name="twitter:description"
@@ -140,8 +115,8 @@ content="2023-08-15T13:12:23-0700">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logo.png" alt="Identity Managed logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo-small.png" alt="Identity Managed logo" class="visible-xs visible-sm" />
+                      <img src="/img/logo.svg" style="width:auto" alt="Identity Managed logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo-small.svg" style="width:auto" alt="Identity Managed logo" class="visible-xs visible-sm" />
                     
                     <span class="sr-only">Identity Managed - go to homepage</span>
                 </a>
@@ -208,21 +183,6 @@ content="2023-08-15T13:12:23-0700">
                   </li>
                   
                   
-                  
-                  
-
-                  
-
-                  
-
-                  
-
-                  
-                  <li class="dropdown ">
-                    <a href="/contact/">Contact</a>
-                  </li>
-                  
-                  
                 </ul>
             </div>
             
@@ -245,72 +205,55 @@ content="2023-08-15T13:12:23-0700">
 
 
       
-      
-
-
-<section>
-    <div class="home-carousel">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel"
-                data-autoplay="true"
-                data-slide-speed="2000"
-                data-pagination-speed="1000">
-                
-                <div class="item">
-                    
-                        <div class="row">
-                            <div class="col-sm-5 right">
-                                <h1>2.7M+ Identities</h1>
-                                <p>In our first seven years we have secured & managed: Over 2.7 million enterprise identities for over a dozen different organizations <h3>Saving an estimated $50M-$79M annually</h3></p>
-                            </div>
-                            <div class="col-sm-7">
-                                <img class="img-responsive" src="img/touch-secure.webp" alt="">
-                            </div>
-                        </div>
-                    
-                </div>
-                
-                <div class="item">
-                    
-                    <a href="faq" target="_blank" title="12-Time MVP">
-                    
-                        <div class="row">
-                            <div class="col-sm-5 right">
-                                <h1>12-Time MVP</h1>
-                                <p>From 2007-2019, our founder, David Lundell received the Microsoft Most Valuable Professional Award</p>
-                            </div>
-                            <div class="col-sm-7">
-                                <img class="img-responsive" src="img/MVP_10_year_ring.JPG" alt="">
-                            </div>
-                        </div>
-                    
-                    </a>
-                    
-                </div>
-                
-                <div class="item">
-                    
-                        <div class="row">
-                            <div class="col-sm-5 right">
-                                <h1>Wrote the Book</h1>
-                                <p>As pioneers in this ever-evolving field, we took on the formidable task of creating the first comprehensive book on identity management. </p>
-                            </div>
-                            <div class="col-sm-7">
-                                <img class="img-responsive" src="img/FIM-R2-Best-Practices-Volume-1.webp" alt="">
-                            </div>
-                        </div>
-                    
-                </div>
-                
-            </div>
-            
+      <section>
+  <div class="home-carousel">
+    <div class="dark-mask"></div>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-4" style="text-align: center">
+          <img
+            class="img-responsive"
+            src="img/touch-secure.webp"
+            alt="2.7M&#43; Identities"
+            style="padding-top: 15px"
+          />
+          <h3 style="text-shadow: 2px 2px black">2.7M+ Identities</h3>
+          <p style="text-shadow: 2px 2px black">
+            In our first seven years we have secured & managed: Over 2.7 million enterprise identities for over a dozen different organizations <br><br> Saving an estimated $50M-$79M annually
+          </p>
         </div>
+        
+        <div class="col-sm-4" style="text-align: center">
+          <img
+            class="img-responsive"
+            src="img/MVP_10_year_ring.webp"
+            alt="12-Time MVP"
+            style="padding-top: 15px"
+          />
+          <h3 style="text-shadow: 2px 2px black">12-Time MVP</h3>
+          <p style="text-shadow: 2px 2px black">
+            From 2007-2019, our founder, David Lundell, received the Microsoft Most Valuable Professional Award
+          </p>
+        </div>
+        
+        <div class="col-sm-4" style="text-align: center">
+          <img
+            class="img-responsive"
+            src="img/FIM-R2-Best-Practices-Volume-1.webp"
+            alt="Wrote the Book"
+            style="padding-top: 15px"
+          />
+          <h3 style="text-shadow: 2px 2px black">Wrote the Book</h3>
+          <p style="text-shadow: 2px 2px black">
+            As pioneers in this ever-evolving field, we took on the formidable task of creating the first comprehensive book on identity management.
+          </p>
+        </div>
+        
+      </div>
     </div>
+  </div>
 </section>
-
-
-
 
       
        
@@ -319,18 +262,20 @@ content="2023-08-15T13:12:23-0700">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="icon icon-lg">
+        <div class="icon icon-lg services-dropshadow">
           <i class="far fa-file-alt"></i>
         </div>
-        <h3 class="text-uppercase">
+        <h3 class="text-uppercase services-dropshadow">
           Let us lock down your digital fortress
         </h3>
-        <p class="lead">We have the secured over 2.7 million identities. We can do it for you. Book a free 20 min consultation.</p>
-        <p class="text-center">
+        <p class="lead services-dropshadow">
+          We have secured over 2.7 million identities. We can do it for you. Book a free 20 min consultation.
+        </p>
+        <p class="text-center services-dropshadow">
           
           <a
             href="https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/"
-            class="btn btn-template-transparent-black btn-lg"
+            class="btn btn-template-transparent-black btn-lg btn-hover"
             target="_blank"
           >
               Book Time with an Expert  
@@ -354,19 +299,16 @@ content="2023-08-15T13:12:23-0700">
   <div class="heading">
     <h2>Our Latest Video</h2>
   </div>
-  <iframe
-    class="youtube-video"
-    src="https://www.youtube.com/embed/videoseries?list=UUA0WSj1hhc4RjIg8guYFL1Q"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-  ></iframe>
+  
+  <lite-youtube playlistid="UUA0WSj1hhc4RjIg8guYFL1Q"></lite-youtube>
+
+  
+  
 </section>
 
       
          
-<section class="bar background-white">
+<section class="bar background-image-fixed-2 no-mb color-white text-center">
   <div class="container">
         
     <div
@@ -379,12 +321,18 @@ content="2023-08-15T13:12:23-0700">
       >
         <div class="box-simple">
           
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
+            <div class="">
+              <img
+                class="services-icon"
+                src="/img/AzureAD.png"
+                alt="For Identity Centered on Microsoft Cloud"
+              />
             </div>
             
-          <h3>Webdesign</h3>
-          <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them behold green moved fowl Moved life us beast good yielding. Have bring.</p>
+          <h3 class="services-dropshadow">For Identity Centered on Microsoft Cloud</h3>
+          <p class="services-dropshadow">
+            Azure Active Directory &ndash; Microsoft is pouring more connections to cloud services, more GRC capabilities into AAD.
+          </p>
         </div>
       </div>
           
@@ -394,12 +342,18 @@ content="2023-08-15T13:12:23-0700">
       >
         <div class="box-simple">
           
-            <div class="icon">
-              <i class="fas fa-print"></i>
+            <div class="">
+              <img
+                class="services-icon"
+                src="/img/MIMcentered.png"
+                alt="For Identity Centered on Premise"
+              />
             </div>
             
-          <h3>Print</h3>
-          <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil.</p>
+          <h3 class="services-dropshadow">For Identity Centered on Premise</h3>
+          <p class="services-dropshadow">
+            Microsoft Identity Manager &ndash; Many do and will continue to use MIM, especially for those with large on-premises investments that aren’t going away any time soon. Used in conjunction with AAD and/or Clear Skye and your solution can cover the Cloud and all your GRC needs.
+          </p>
         </div>
       </div>
           
@@ -409,63 +363,18 @@ content="2023-08-15T13:12:23-0700">
       >
         <div class="box-simple">
           
-            <div class="icon">
-              <i class="fas fa-globe"></i>
+            <div class="">
+              <img
+                class="services-icon"
+                src="/img/ClearSkyeCentered.webp"
+                alt="For Identity Centered on Service Desk"
+              />
             </div>
             
-          <h3>SEO and SEM</h3>
-          <p>Am terminated it excellence invitation projection as. She graceful shy believed distance use nay. Lively is people so basket ladies window expect.</p>
-        </div>
-      </div>
-       
-    </div>
-    
-    <div
-      class="row row-1 row-even"
-    >
-         
-
-      <div
-        class="col-md-4 col-0 col-odd"
-      >
-        <div class="box-simple">
-          
-            <div class="icon">
-              <i class="fas fa-lightbulb"></i>
-            </div>
-            
-          <h3>Consulting</h3>
-          <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them behold green moved fowl Moved life us beast good yielding. Have bring.</p>
-        </div>
-      </div>
-          
-
-      <div
-        class="col-md-4 col-1 col-even"
-      >
-        <div class="box-simple">
-          
-            <div class="icon">
-              <i class="far fa-envelope"></i>
-            </div>
-            
-          <h3>Email Marketing</h3>
-          <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil.</p>
-        </div>
-      </div>
-          
-
-      <div
-        class="col-md-4 col-2 col-odd"
-      >
-        <div class="box-simple">
-          
-            <div class="icon">
-              <i class="fas fa-user"></i>
-            </div>
-            
-          <h3>UI/UX</h3>
-          <p>Am terminated it excellence invitation projection as. She graceful shy believed distance use nay. Lively is people so basket ladies window expect.</p>
+          <h3 class="services-dropshadow">For Identity Centered on Service Desk</h3>
+          <p class="services-dropshadow">
+            Clear Skye &ndash; A most intriguing option, an Identity Management system built into Service Now. Used in conjunction with AAD and MIM or apart, Clear Skye provides incredible GRC capabilities right where everyone already goes — the Service Desk.
+          </p>
         </div>
       </div>
        
@@ -495,7 +404,7 @@ content="2023-08-15T13:12:23-0700">
                 
 
                 <ul class="owl-carousel testimonials same-height-row"
-                    data-items="4"
+                    data-items="3"
                     data-autoplay="false"
                     data-slide-speed="2000"
                     data-pagination-speed="1000">
@@ -509,7 +418,7 @@ content="2023-08-15T13:12:23-0700">
                                 <div class="icon"><i class="fas fa-quote-left"></i>
                                 </div>
                                 <div class="name-picture">
-                                    <img class="" alt="" src="http://example.com">
+                                    <img class="" alt="" src="https://identitymanaged.netlify.app/">
                                     <h5>Todd Kliewer</h5>
                                     <p>Owner</p>
                                 </div>
@@ -526,7 +435,7 @@ content="2023-08-15T13:12:23-0700">
                                 <div class="icon"><i class="fas fa-quote-left"></i>
                                 </div>
                                 <div class="name-picture">
-                                    <img class="" alt="" src="http://example.com">
+                                    <img class="" alt="" src="https://identitymanaged.netlify.app/">
                                     <h5>Brad Turner</h5>
                                     <p>Principal Engineering Services Manager at Microsoft</p>
                                 </div>
@@ -543,43 +452,9 @@ content="2023-08-15T13:12:23-0700">
                                 <div class="icon"><i class="fas fa-quote-left"></i>
                                 </div>
                                 <div class="name-picture">
-                                    <img class="" alt="" src="http://example.com">
+                                    <img class="" alt="" src="https://identitymanaged.netlify.app/">
                                     <h5>Jose Garza</h5>
                                     <p>Premier Field Engineer at Microsoft</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="item">
-                        <div class="testimonial same-height-always">
-                            <div class="text">
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="icon"><i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="name-picture">
-                                    <img class="" alt="" src="http://example.com/img/testimonials/person-4.jpg">
-                                    <h5>John McIntyre</h5>
-                                    <p>CEO, TransTech</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="item">
-                        <div class="testimonial same-height-always">
-                            <div class="text">
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="icon"><i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="name-picture">
-                                    <img class="" alt="" src="http://example.com/img/testimonials/person-1.jpg">
-                                    <h5>John McIntyre</h5>
-                                    <p>CEO, TransTech</p>
                                 </div>
                             </div>
                         </div>
@@ -612,7 +487,7 @@ content="2023-08-15T13:12:23-0700">
             </div>
 
             <p class="lead">
-              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+              
             </p>
 
             
@@ -625,23 +500,21 @@ content="2023-08-15T13:12:23-0700">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
                                 
-                                <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="" >
+                                <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                 
                             </div>
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="http://example.com/blog/2023/08/we-wrote-the-book/" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
+                                    <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
                                 </p>
                             </div>
                         </div>
 
                         <div class="content">
-                            <h4><a href="http://example.com/blog/2023/08/we-wrote-the-book/">We Wrote the Book</a></h4>
+                            <h4><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h4>
                             <p class="author-category">
 			    
-			      By <a href="/authors/john-doe">John Doe</a>, <a href="/authors/jane-doe">Jane Doe</a>
-                            
                             
                                 
                                 
@@ -669,13 +542,17 @@ content="2023-08-15T13:12:23-0700">
                                 
                                     
                                 
-                                on August 15, 2023
+                                on April 26, 2022
                             
                             </p>
                             
-                            <p class="intro">In the realm of digital technology and cybersecurity, the concept of identity management emerged as a pivotal solution in safeguarding sensitive information and protecting individuals from unauthorized access. As pioneers in this ever-evolving field, we took on the formidable task of creating the first comprehensive book on identity management. Drawing on our expertise and extensive research, we delved into the intricate workings of identity management systems, exploring their fundamental principles, best practices, and potential challenges.</p>
+                            <p class="intro">Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft&rsquo;s product team.
+MIM 2016 SP2 (and 4.4.1459.0 or later supports SQL Server Always On Availability Groups (AG))! Yeah!
+Ok let&rsquo;s implement it!
+But wait! It won&rsquo;t give us all we hope for!
+Up to the moment distributed backup of the data &ndash; yes! Automatic instant failover &ndash; not without a huge caveat! What do you mean it won&rsquo;t give us Automatic Instant Failover?</p>
                             <p class="read-more">
-                              <a href="http://example.com/blog/2023/08/we-wrote-the-book/" class="btn btn-template-main">Continue reading</a>
+                              <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html" class="btn btn-template-main">Continue reading</a>
                             </p>
                             
                         </div>
@@ -689,23 +566,21 @@ content="2023-08-15T13:12:23-0700">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
                                 
-                                <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="" >
+                                <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                 
                             </div>
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="http://example.com/blog/2021/08/categories-post/" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
+                                    <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
                                 </p>
                             </div>
                         </div>
 
                         <div class="content">
-                            <h4><a href="http://example.com/blog/2021/08/categories-post/">Categories Post</a></h4>
+                            <h4><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h4>
                             <p class="author-category">
 			    
-			      By <a href="/authors/john-doe">John Doe</a>
-                            
                             
                                 
                                 
@@ -733,14 +608,18 @@ content="2023-08-15T13:12:23-0700">
                                 
                                     
                                 
-                                on August 1, 2021
+                                on June 18, 2020
                             
                             </p>
                             
-                            <p class="intro">I&rsquo;m a post with multiple categories in the frontmatter:
-categories = [&quot;programming&quot;,&quot;lorem&quot;,&quot;pseudo&quot;] Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</p>
+                            <p class="intro">Cyber Security &ndash; Identity Management Implementer
+Secure your identities against the dangers of the Cyber World, automate the repetitive, and empower your users!
+Let&rsquo;s
+Shut the front door on the most obvious vector for Cyber-attacks Reduce the IT department&rsquo;s compliance burden (SOX, HIPAA, FERPA, GLBA, ISO etc). Free IT people to do tasks that require more brain power By
+Automating the drone-like work of managing user identities
+Disabling accounts of terminated users</p>
                             <p class="read-more">
-                              <a href="http://example.com/blog/2021/08/categories-post/" class="btn btn-template-main">Continue reading</a>
+                              <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html" class="btn btn-template-main">Continue reading</a>
                             </p>
                             
                         </div>
@@ -754,23 +633,21 @@ categories = [&quot;programming&quot;,&quot;lorem&quot;,&quot;pseudo&quot;] Lore
                         <div class="top">
                             <div class="image" style="overflow:hidden">
                                 
-                                <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="" >
+                                <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                 
                             </div>
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="http://example.com/blog/2015/10/linked-post/" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
+                                    <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
                                 </p>
                             </div>
                         </div>
 
                         <div class="content">
-                            <h4><a href="http://example.com/blog/2015/10/linked-post/">Linked post</a></h4>
+                            <h4><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h4>
                             <p class="author-category">
 			    
-			      By <a href="/authors/john-doe">John Doe</a>, <a href="/authors/jane-doe">Jane Doe</a>
-                            
                             
                                 
                                 
@@ -798,14 +675,24 @@ categories = [&quot;programming&quot;,&quot;lorem&quot;,&quot;pseudo&quot;] Lore
                                 
                                     
                                 
-                                on October 2, 2015
+                                on October 30, 2019
                             
                             </p>
                             
-                            <p class="intro">I&rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &quot;main&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</p>
+                            <p class="intro">In the MIM Portal it will create issues if you have a group whose displayedOwner isn&rsquo;t among the objects in the multivalued reference attribute Owner. Querying this through XPath is just about impossible so here is the SQL query to do it.
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+GO​
+USE FIMService​
+GO​
+​
+SELECT DOwn.*
+FROM (​
+SELECT groupObjID = G.[objectID]
+, GroupDisplayName = GAOVS.ValueString
+, userDisplayName= UAOVS.ValueString
+, UserObjID = U.</p>
                             <p class="read-more">
-                              <a href="http://example.com/blog/2015/10/linked-post/" class="btn btn-template-main">Continue reading</a>
+                              <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html" class="btn btn-template-main">Continue reading</a>
                             </p>
                             
                         </div>
@@ -819,19 +706,19 @@ menu = &quot;main&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         <div class="top">
                             <div class="image" style="overflow:hidden">
                                 
-                                <img src="/img/banners/banner-2.jpg" class="img-responsive" alt="" >
+                                <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                 
                             </div>
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="http://example.com/blog/2015/09/go-is-for-lovers/" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
+                                    <a href="https://identitymanaged.netlify.app/2019/01/latency-vs-cloud.html" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> Read more</a>
                                 </p>
                             </div>
                         </div>
 
                         <div class="content">
-                            <h4><a href="http://example.com/blog/2015/09/go-is-for-lovers/">Go is for lovers</a></h4>
+                            <h4><a href="https://identitymanaged.netlify.app/2019/01/latency-vs-cloud.html">Latency vs the Cloud</a></h4>
                             <p class="author-category">
 			    
                             
@@ -861,14 +748,15 @@ menu = &quot;main&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 
                                     
                                 
-                                on September 17, 2015
+                                on January 23, 2019
                             
                             </p>
                             
-                            <p class="intro">Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</p>
+                            <p class="intro">&ldquo;The cloud is so fast! We can spin up servers and services so quickly to extend our environment and then all the users across the globe can access these services, so why does it take so long for you to get our users into the cloud?&rdquo;
+(Latency) x (# of Round Trips)
+Most CLoud Identity Management APIs are built so that consumers must retrieve the data one object at a time or load it one object at a time.</p>
                             <p class="read-more">
-                              <a href="http://example.com/blog/2015/09/go-is-for-lovers/" class="btn btn-template-main">Continue reading</a>
+                              <a href="https://identitymanaged.netlify.app/2019/01/latency-vs-cloud.html" class="btn btn-template-main">Continue reading</a>
                             </p>
                             
                         </div>
@@ -893,81 +781,6 @@ This document is a brief primer on using go templates.</p>
 
       
       
-
-
-
-<section class="bar background-gray no-mb">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="heading text-center">
-                    <h2>Our Clients</h2>
-                </div>
-
-                <p class="lead">
-                  
-                </p>
-
-                <ul class="owl-carousel customers"
-                    data-items="6"
-                    data-autoplay="false"
-                    data-slide-speed="2000"
-                    data-pagination-speed="1000">
-                    
-                    <li class="item" title="customer-1">
-                        
-                          <a href="http://www.customer1.com" target="_blank">
-                            <img src="img/clients/customer-1.png" alt="customer-1" class="img-responsive" />
-                          </a>
-                        
-                    </li>
-                    
-                    <li class="item" title="customer-2">
-                        
-                          <a href="http://www.customer2.com" target="_blank">
-                            <img src="img/clients/customer-2.png" alt="customer-2" class="img-responsive" />
-                          </a>
-                        
-                    </li>
-                    
-                    <li class="item" title="customer-3">
-                        
-                          <a href="http://www.customer3.com" target="_blank">
-                            <img src="img/clients/customer-3.png" alt="customer-3" class="img-responsive" />
-                          </a>
-                        
-                    </li>
-                    
-                    <li class="item" title="customer-4">
-                        
-                          <a href="http://www.customer4.com" target="_blank">
-                            <img src="img/clients/customer-4.png" alt="customer-4" class="img-responsive" />
-                          </a>
-                        
-                    </li>
-                    
-                    <li class="item" title="customer-5">
-                        
-                          <a href="http://www.customer5.com" target="_blank">
-                            <img src="img/clients/customer-5.png" alt="customer-5" class="img-responsive" />
-                          </a>
-                        
-                    </li>
-                    
-                    <li class="item" title="customer-6">
-                        
-                          <a href="http://www.customer6.com" target="_blank">
-                            <img src="img/clients/customer-6.png" alt="customer-6" class="img-responsive" />
-                          </a>
-                        
-                    </li>
-                    
-                </ul>
-                
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
@@ -998,40 +811,40 @@ This document is a brief primer on using go templates.</p>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="http://example.com/blog/2023/08/we-wrote-the-book/">
+                        <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
                           
-                            <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="We Wrote the Book">
+                            <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="http://example.com/blog/2023/08/we-wrote-the-book/">We Wrote the Book</a></h5>
+                        <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
                     </div>
                 </div>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="http://example.com/blog/2021/08/categories-post/">
+                        <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
                           
-                            <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="Categories Post">
+                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="http://example.com/blog/2021/08/categories-post/">Categories Post</a></h5>
+                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
                     </div>
                 </div>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="http://example.com/blog/2015/10/linked-post/">
+                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
                           
-                            <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="Linked post">
+                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="http://example.com/blog/2015/10/linked-post/">Linked post</a></h5>
+                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
                     </div>
                 </div>
                 
@@ -1074,21 +887,43 @@ This document is a brief primer on using go templates.</p>
 
 
 <div id="copyright">
-    <div class="container">
-        <div class="col-md-12">
+    <div class="container text-center">
+      
+    
+        <div class="row ">
+      
+          <div class="col-sm-4">
             
-            <p class="pull-left">Copyright (c) 2023 Identity Managed; all rights reserved.</p>
+            <p>Copyright (c) 2023 Identity Managed</p>
             
-            <p class="pull-right">
+          </div>
+
+           <div class="col-sm-4">
+              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+           </div>
+
+            <div class="col-sm-4">
+              <p>
                 Powered by
               <a href="https://colbal.com" target="_blank">Colbal</a>
             </p>
+            </div>
+            
+            
         </div>
     </div>
 </div>
 
 
 
+
+
+
+<link
+  href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
+  rel="stylesheet"
+  type="text/css"
+/>
 
     </div>
     
@@ -1109,6 +944,10 @@ This document is a brief primer on using go templates.</p>
 <script src="/js/owl.carousel.min.js"></script>
 
 
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
     
 <script

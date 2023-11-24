@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OutlookLive on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/outlooklive/</link>
+    <description>Recent content in OutlookLive on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2009 12:35:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/outlooklive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A few excellent Live@edu (Outlook Live) Blogs</title>
+      <link>https://identitymanaged.netlify.app/2009/04/few-excellent-liveedu-outlook-live.html</link>
+      <pubDate>Tue, 14 Apr 2009 12:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/few-excellent-liveedu-outlook-live.html</guid>
+      <description>I have been involved with the Microsoft Live@edu (formerly Windows Live@edu) and the Outlook Live (formerly Exchange Labs) programs for quite sometime.
+What a wonderful opportunity for schools to alleviate the cost of hosting email for students and then to be able to offer it to alumni helping provide them with lifelong connection to the university and way to keep their email address from their student days. Maintaining stronger ties leads to more evangelism on the school&amp;rsquo;s behalf and will lead to more Alumni donations.</description>
+    </item>
+  </channel>
+</rss>

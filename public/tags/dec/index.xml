@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DEC on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/dec/</link>
+    <description>Recent content in DEC on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Oct 2018 16:13:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/dec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Missing the old Directory Experts Conference? Try HIP!</title>
+      <link>https://identitymanaged.netlify.app/2018/10/missing-old-directory-experts.html</link>
+      <pubDate>Mon, 08 Oct 2018 16:13:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2018/10/missing-old-directory-experts.html</guid>
+      <description>On Monday, Nov 5th, and Tuesday the 6th I will be attending and speaking at the Hybrid Identity Protection (HIP) Conference in NYC. On Monday at 4 PM I will be giving an updated version of Top Lessons Learned from Disasters in Identity Management as well as a sneak peek of my new book, How to be an MVP in Life.
+I am very excited to attend this conference. Thanks to Darren Mar-Elia and Micky Bresman at Semperis for putting it all together.</description>
+    </item>
+  </channel>
+</rss>

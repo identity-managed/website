@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finances on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/finances/</link>
+    <description>Recent content in Finances on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Feb 2015 09:01:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/finances/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Follow up #1 on How does Identity Management Impact the Bottom Line? Selling IDM</title>
+      <link>https://identitymanaged.netlify.app/2015/02/follow-up-1-on-how-does-identity.html</link>
+      <pubDate>Mon, 02 Feb 2015 09:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/02/follow-up-1-on-how-does-identity.html</guid>
+      <description>In my presentation last week at #OCGUS15 The Redmond Summit put on by my friends at OCG, on &amp;ldquo;How does Identity Management Impact the Bottom Line? Selling IDM&amp;rdquo; I illustrated how understanding more about Financial statements such as Profit/Loss statements as well as Balance Sheets can be helpful. So here is a link to learn more:
+•http://www.investopedia.com/articles/basics/06/financialreporting.asp
+Among other things this is helpful to be able to articulate how your projects and programs can impact the bottom line such as how User provisioning/Deprovisioning impacts the Profit and Loss Statement:</description>
+    </item>
+    <item>
+      <title>Millionaire Next Door and All Your Worth</title>
+      <link>https://identitymanaged.netlify.app/2008/12/millionaire-next-door-and-all-your.html</link>
+      <pubDate>Sat, 06 Dec 2008 04:04:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/12/millionaire-next-door-and-all-your.html</guid>
+      <description>No this post isn&amp;rsquo;t about my new neighbors, or my new house.
+Its about the secret to wealth.
+First you buy two copies of the Millionaire Next Door and then you give one to each of your next door neighbors. Suddenly your odds of getting rich will improve.
+Ok hopefully that gives you a chuckle. Nonetheless, here is my prescription for improving America&amp;rsquo;s financial health. While I normally write on the topics of Identity Management and SQL Server, I did also earn an MBA from the Eller College of Business at the University of Arizona, and have done some financial counseling as a volunteer through church.</description>
+    </item>
+  </channel>
+</rss>

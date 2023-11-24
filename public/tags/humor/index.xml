@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Humor on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/humor/</link>
+    <description>Recent content in Humor on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Dec 2014 18:34:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/humor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#39;Twas the night before Christmas </title>
+      <link>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</link>
+      <pubDate>Wed, 24 Dec 2014 18:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</guid>
+      <description>&amp;lsquo;Twas the night before Christmas, when all through the internet
+Not an identity was stirring, not even a Passport .NET
+The user accounts requests were submitted with care
+Hoping that their access would soon be there
+The users were nestled all snug in their beds
+While visions of being able to do their jobs danced in their heads
+The servers and computers were in sleep mode
+Awaiting someone to move a mouse and send the wake up code</description>
+    </item>
+    <item>
+      <title>Mistaken Identity</title>
+      <link>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</link>
+      <pubDate>Fri, 03 Oct 2014 12:03:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</guid>
+      <description>Years ago, I walked into the client site a few months into an Identity Management project, and the PM told me his account had been deactivated by mistake as an employee with the same last name and same first initial was terminated, and they termed his account by mistake.
+Ironic.
+A few years before that I visited a client whose VP of HR had his account disabled when they let the janitor go.</description>
+    </item>
+    <item>
+      <title>Look what I found in the news</title>
+      <link>https://identitymanaged.netlify.app/2012/05/look-what-i-found-in-news.html</link>
+      <pubDate>Tue, 01 May 2012 07:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/05/look-what-i-found-in-news.html</guid>
+      <description>I didn’t even know that Identity and Access Management (IAM) workers had a union!
+Of course, imagine my disappointment to learn that it is International Association of Machinists and Aerospace Workers union.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Darth Vader – Project Manager Part 2</title>
+      <link>https://identitymanaged.netlify.app/2012/04/darth-vader-project-manager-part-2.html</link>
+      <pubDate>Tue, 24 Apr 2012 11:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/darth-vader-project-manager-part-2.html</guid>
+      <description>Have you ever wondered what it would be like to be on a project that was managed by Darth Vader?
+In Part 1 I analyzed the good side of his skills. In Part 2 I tried to find the bad but I only find more good.
+Once more thanks to George Lucas for inventing Star Wars and thanks again my co-workers for not utilizing Darth Vader&amp;rsquo;s style.
+More Good
+Characteristic</description>
+    </item>
+    <item>
+      <title>What does “no commitment” really mean?</title>
+      <link>https://identitymanaged.netlify.app/2012/04/what-does-no-commitment-really-mean.html</link>
+      <pubDate>Mon, 23 Apr 2012 21:35:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/04/what-does-no-commitment-really-mean.html</guid>
+      <description>I recently received a mailer for YouFit Health Clubs, offering me “$1 down, $10 month with no commitment” for a club they opened near my house (limited to the first 125 to sign up).
+Sounds good, but following the principle of caveat emptor (buyer beware), I always read the fine print. According to the “Billing for Monthly Dues” agreement you may “discontinue your Month-to-Month membership you may do so at any time with a payment of a twenty-five (25) dollar processing fee.</description>
+    </item>
+    <item>
+      <title>Law of Unintended Consequences</title>
+      <link>https://identitymanaged.netlify.app/2010/12/law-of-unintended-consequences.html</link>
+      <pubDate>Fri, 03 Dec 2010 16:41:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/12/law-of-unintended-consequences.html</guid>
+      <description>Any news on certification paths for IDM? Derek A. Hanson - Dec 6, 2010
+Any news on certification paths for IDM?
+Hey Derek,
+No news yet. Just my own speculation but I would expect to see an exam covering several Microsoft Identity Technologies emerging sometime next year.</description>
+    </item>
+    <item>
+      <title>Law of Unintended Consequences</title>
+      <link>https://identitymanaged.netlify.app/2010/12/law-of-unintended-consequences.html</link>
+      <pubDate>Fri, 03 Dec 2010 16:41:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/12/law-of-unintended-consequences.html</guid>
+      <description>In the process of setting up to teach 50382A - Implementing Forefront Identity Manager 2010 in Phoenix, AZ (Feb 8-11 and May 23 – May 26 – registration info to follow in a subsequent post) and looking at other courses in the Microsoft Courseware library I have noticed an interesting trend – most courses have lots of very bland reviews like this:
+“Good Course”
+“Good one”
+“Good content and best practices”</description>
+    </item>
+    <item>
+      <title>ILM &#34;2&#34; confirmHumanity=&#34;false&#34;</title>
+      <link>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</link>
+      <pubDate>Tue, 23 Dec 2008 12:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</guid>
+      <description>With Joe&amp;rsquo;s permissions I am posting the comment he&amp;hellip; David Lundell - Dec 3, 2008
+With Joe&amp;rsquo;s permissions I am posting the comment he attempted to post earlier:
+Apologies for spoiling the fun, but the confirm humanity config setting has no effect in ILM “2”.
+This config setting is leftover from the early days of the product when we included Captcha support for AuthN. Setting this to true meant that users would go through a Captcha gate during AuthN, much like I had to do when submitting a comment.</description>
+    </item>
+    <item>
+      <title>ILM &#34;2&#34; confirmHumanity=&#34;false&#34;</title>
+      <link>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</link>
+      <pubDate>Tue, 23 Dec 2008 12:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</guid>
+      <description>I was getting ready to try out some of the various installation topologies that may be possible with ILM &amp;ldquo;2&amp;rdquo; including: separating the Portal and the Service (definitely possible), having two portals point back to the same service (I think it&amp;rsquo;s possible), when I came across the most interesting item in the ILM &amp;ldquo;2&amp;rdquo; installation guide in the section on Installing the ILM Service and ILM Portal on separate servers. Let&amp;rsquo;s see if you can spot it too:</description>
+    </item>
+  </channel>
+</rss>

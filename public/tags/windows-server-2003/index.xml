@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Server 2003 on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/windows-server-2003/</link>
+    <description>Recent content in Windows Server 2003 on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2015 09:07:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/windows-server-2003/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escaping an AD Replication Island</title>
+      <link>https://identitymanaged.netlify.app/2015/03/escaping-ad-replication-island.html</link>
+      <pubDate>Sat, 07 Mar 2015 09:07:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/03/escaping-ad-replication-island.html</guid>
+      <description>On a dark and stormy night an Active Directory upgrade was underway, Windows Server 2003 domain controllers decommissioned, consolidated and replaced with Window Server 2008 R2 servers. Suddenly I got a call from those doing the upgrade, &amp;ldquo;I can&amp;rsquo;t see some of the new domain controllers on the existing domain controllers, what&amp;rsquo;s wrong?&amp;rdquo;
+A replication island had been created and several domain controllers were trapped on it. Could we rescue them in time?</description>
+    </item>
+  </channel>
+</rss>

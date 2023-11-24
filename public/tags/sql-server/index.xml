@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL Server on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/sql-server/</link>
+    <description>Recent content in SQL Server on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 May 2010 10:04:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Restoring your FIM databases to the moment before oops</title>
+      <link>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</link>
+      <pubDate>Thu, 20 May 2010 10:04:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</guid>
+      <description>At the FIM Birds of a Feather (BOF) after a discussion about FIM database backups I was asked to make a blog post to more fully elucidate the benefits of using the full recovery model.
+Since Recovery models affect the transaction log you may find it useful to have the following background about transaction logs:
+•The Data in tables and indexes are stored in data files not the transaction log</description>
+    </item>
+    <item>
+      <title>Live@edu Partner Airlift and SQL PASS, Flat Tires, and Thanksgiving</title>
+      <link>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</link>
+      <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</guid>
+      <description>As for me why no posts since Nov 11th &amp;ndash; well, I have attended the Live@edu Partner Airlift in Redmond, SQL PASS, had a flat tire, and enjoyed Thanksgiving. In this post
+I attended the Live@edu Partner Airlift in Redmond to see what&amp;rsquo;s new under the sun for schools and universities. Exchange Labs is now available on a widespread basis (see fellow MVP Almero Steyn&amp;rsquo;s blog posts on Live@edu and on Exchange Labs) !</description>
+    </item>
+    <item>
+      <title>SQL Server Agent should be running or install of ILM 2 Services fails</title>
+      <link>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</link>
+      <pubDate>Wed, 22 Oct 2008 20:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</guid>
+      <description>I posted the following to the Community Content Section of the ILM 2 Beta 3 Installation Guide
+The SQL Agent Service account must be a sql sysadmin and the SQL Agent Service must be running or during install you may get &amp;ldquo;error -2147217900
+Failed to execute sql string addtemporaleventsjobtoSQLServer&amp;rdquo; while trying to install ILM 2 Beta 3 Identity Management Platform Services. Apparently, the install routine needs to create a SQL Agent Job and with SQL 2005 the Agent must be running to create a job.</description>
+    </item>
+    <item>
+      <title>Installing a Multi-Instance SQL 2005 Cluster</title>
+      <link>https://identitymanaged.netlify.app/2008/10/installing-multi-instance-sql-2005.html</link>
+      <pubDate>Wed, 15 Oct 2008 00:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/installing-multi-instance-sql-2005.html</guid>
+      <description>Hi, I&amp;rsquo;m installing SQL Server 2005 in 2 node &amp;hellip; Unknown - Jun 3, 2010
+Hi,
+I&amp;rsquo;m installing SQL Server 2005 in 2 node cluster setup and I&amp;rsquo;m getting the below error:
+TITLE: Microsoft SQL Server 2005 Setup
+-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+SQL Server Setup has determined that the following account properties are not specified: &amp;lsquo;SQLBROWSERACCOUNT&amp;rsquo; . The properties specify the startup account for the services that are installed. To proceed, refer to the template.</description>
+    </item>
+    <item>
+      <title>Installing a Multi-Instance SQL 2005 Cluster</title>
+      <link>https://identitymanaged.netlify.app/2008/10/installing-multi-instance-sql-2005.html</link>
+      <pubDate>Wed, 15 Oct 2008 00:54:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/installing-multi-instance-sql-2005.html</guid>
+      <description>Some of you may run into a problem when installing a multi-instance SQL Server Cluster, in particular when you install the second or third instance in your cluster.
+Like this one:
+Microsoft SQI Server 2005 Setup
+SQL server Setup has determined that the Following account properties are not specified: ‘SQLBROWSERACCOUNT’. The properties specify the startup account for the services that are installed. To proceed, refer to the template.ini and set the properties to valid account names.</description>
+    </item>
+    <item>
+      <title>SQL 2008: Processor or Server/CAL</title>
+      <link>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</link>
+      <pubDate>Sat, 16 Aug 2008 12:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</guid>
+      <description>Congrats to the SQL Server team for shipping 2008. It looks like a great product. Congrats as well for keeping the licensing costs the same and adding a new option with the web edition.
+One question that many still have in mind is how to license SQL server. Processor licensing allows unlimited users and devices, whereas a server license allows unlimited users or devices as long as they have a CAL.</description>
+    </item>
+    <item>
+      <title>Pending Exports Report in ILM</title>
+      <link>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</link>
+      <pubDate>Wed, 30 Jul 2008 14:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</guid>
+      <description>Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.
+As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</description>
+    </item>
+    <item>
+      <title>Processing Actions Asynchronously outside of ILM MA&#39;s</title>
+      <link>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</link>
+      <pubDate>Thu, 15 May 2008 06:25:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</guid>
+      <description>For years developers have had access to the Microsoft Message Queue (MSMQ) as a way to be able to queue up actions for processing later or on a remote machine. With the release of SQL 2005 back in well 2005, developers with access to SQL 2005 could replace these MSMQ apps with SQL Service Broker Queues (SSB). With ILM 2007 /MIIS 2003 SP 2 supporting SQL 2005 the use of SQL Service Broker Queues became much more accessible to ILM Developers.</description>
+    </item>
+  </channel>
+</rss>

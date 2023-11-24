@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ILM 2 Beta 3 on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/ilm-2-beta-3/</link>
+    <description>Recent content in ILM 2 Beta 3 on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2009 07:46:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/ilm-2-beta-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ensynch The Place to Be</title>
+      <link>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</link>
+      <pubDate>Wed, 15 Apr 2009 07:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</guid>
+      <description>In the last four months two very talented people have joined Ensynch, Chris Calderon, ILM MVP, and Mark Struck.
+Chris Calderon of IdentityJunkie.com fame is extremely talented with ILM, AD Federated Services (AD FS) and many other tools.
+Mark Struck, is a very talented developer, and experienced implementer of ILM. Even before Mark joined the team he and I collaborated to figure out how to use the ILM 2 web services.</description>
+    </item>
+    <item>
+      <title>ILM 2 Web Services Part 1 The Service Reference</title>
+      <link>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</link>
+      <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</guid>
+      <description>Does ILM open SOAP interfaces native? So that dev&amp;hellip; RobertW - Mar 4, 2009
+Does ILM open SOAP interfaces native? So that developers who are simply looking for a .wsdl file to build their client can get up and running quickly.
+not exactly you need to use the WCF approach.</description>
+    </item>
+    <item>
+      <title>ILM 2 Web Services Part 1 The Service Reference</title>
+      <link>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</link>
+      <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</guid>
+      <description>Together, Mark Struck of Ipseity Inc and I, have figured out (after much beating of our heads against brick walls) how to use the ILM 2 Enumeration Endpoint to perform some basic reporting. (I figured out how to send the enumeration and get a response and then Mark figured out how to correctly form the pull messages so as to be able to retrieve the actual objects &amp;ndash; teamwork at its finest).</description>
+    </item>
+    <item>
+      <title>Under the hood of ILM 2 -- Part 2 Read the WCF Trace!</title>
+      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</link>
+      <pubDate>Sat, 01 Nov 2008 10:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</guid>
+      <description>Take a look at Part 1 to enable tracing
+To view the log you need to have installed the Windows SDK and then you use the Service Trace Viewer
+C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\SvcTraceViewer.exe
+If the file is over 50 MB you will get the partial loading screen like this one. Try and limited the estimated size, if you open too much it will be very slow. Even 20 MB can be really slow.</description>
+    </item>
+    <item>
+      <title>Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!</title>
+      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
+      <pubDate>Sat, 01 Nov 2008 09:23:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
+      <description>Thanks David, for those of you looking for the rig&amp;hellip; Brad Turner - Nov 5, 2008
+Thanks David, for those of you looking for the right SDK, you&amp;rsquo;re likely going to want the most recent version for Server 2008 and .NET 3.5 which can be found here:
+http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&amp;amp;displaylang=en</description>
+    </item>
+    <item>
+      <title>Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!</title>
+      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
+      <pubDate>Sat, 01 Nov 2008 09:23:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
+      <description>Want to understand what is happening with your custom ILM 2 workflow? or your calls to the web service?
+Try enabling WCF Tracing. By enabling WCF tracing for the Identity Lifecycle Manager Resource Management Service you get to track requests to the webservice. This can help you figure out if your requests are even getting to the webservice.
+To enable tracing open the config file:
+C:\Program Files\Microsoft Identity Management\Common Services\</description>
+    </item>
+    <item>
+      <title>The Semi-Automated Install of ILM 2 Beta 3</title>
+      <link>https://identitymanaged.netlify.app/2008/10/semi-automated-install-of-ilm-2-beta-3.html</link>
+      <pubDate>Wed, 22 Oct 2008 21:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/semi-automated-install-of-ilm-2-beta-3.html</guid>
+      <description>ILM 2 Beta 3 won&amp;rsquo;t perform a completely automatic quiet install but we can come close. Colleague Brad Turner and I have developed the following approach to the install and the post install tasks.
+Brad worked out most of the issues with the ILM 2 Services install itself and then I worked on most of the issues with the post install tasks. I will cover the install of the Metadirectory services first, then the ILM 2 Beta 3 Identity Management Platform Services including its batch files and then discuss the post install tasks and present its related files.</description>
+    </item>
+    <item>
+      <title>SQL Server Agent should be running or install of ILM 2 Services fails</title>
+      <link>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</link>
+      <pubDate>Wed, 22 Oct 2008 20:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</guid>
+      <description>I posted the following to the Community Content Section of the ILM 2 Beta 3 Installation Guide
+The SQL Agent Service account must be a sql sysadmin and the SQL Agent Service must be running or during install you may get &amp;ldquo;error -2147217900
+Failed to execute sql string addtemporaleventsjobtoSQLServer&amp;rdquo; while trying to install ILM 2 Beta 3 Identity Management Platform Services. Apparently, the install routine needs to create a SQL Agent Job and with SQL 2005 the Agent must be running to create a job.</description>
+    </item>
+    <item>
+      <title>Projections showing up as Joins?</title>
+      <link>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</link>
+      <pubDate>Wed, 08 Oct 2008 14:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</guid>
+      <description>Hi David, I this fast paced growing technology s&amp;hellip; Unknown - Jun 5, 2021
+Hi David,
+I this fast paced growing technology space, dominating cloud technologies how do you feel about MIM&amp;rsquo;s future. Give i don&amp;rsquo;t see Microsoft doing any innovations/upgrade in this arena. Please help me understand.
+Thank you,
+Durgesh</description>
+    </item>
+    <item>
+      <title>Projections showing up as Joins?</title>
+      <link>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</link>
+      <pubDate>Wed, 08 Oct 2008 14:27:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</guid>
+      <description>https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=373881&amp;amp;SiteID=433
+So I found a slight inconsistency when following some of the ILM 2 walk-throughs. When you setup an inbound synch rule that creates objects in ILM the lineage says that the connector space object became a connector through join rules instead of projection rules. Minor bug &amp;ndash; but it sure can be confusing.
+HR Inbound Sync Rule
+General Information
+Created Time
+8/27/2008 8:10:09 PM
+Connected System
+{0cd165ec-2745-4afd-95c0-a8f7dbeefe44}
+Connected Object Type</description>
+    </item>
+    <item>
+      <title>a sprinkling of understanding Workflow in ILM 2</title>
+      <link>https://identitymanaged.netlify.app/2008/09/sprinkling-of-understanding-workflow-in.html</link>
+      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/09/sprinkling-of-understanding-workflow-in.html</guid>
+      <description>Very nice David, I would also urge readers to chec&amp;hellip; Brad Turner - Sep 3, 2008
+Very nice David, I would also urge readers to check out Mark Gabarra&amp;rsquo;s blog for information relating WF and ILM 2. I also hope that we&amp;rsquo;ll be able to goad our own Paul Divan into bringing his experiences to the blogosphere!</description>
+    </item>
+    <item>
+      <title>a sprinkling of understanding Workflow in ILM 2</title>
+      <link>https://identitymanaged.netlify.app/2008/09/sprinkling-of-understanding-workflow-in.html</link>
+      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/09/sprinkling-of-understanding-workflow-in.html</guid>
+      <description>So by now all of you know that understanding Windows Workflow Foundation is going to be quite helpful in implementing ILM 2.
+Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more about sprinkling
+So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.
+Category
+Activity
+Composite
+Notes
+Invoke Web Service
+Conditional</description>
+    </item>
+    <item>
+      <title>ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</title>
+      <link>https://identitymanaged.netlify.app/2008/09/ilm-2-beta-3-bug-action-process.html</link>
+      <pubDate>Fri, 12 Sep 2008 02:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/09/ilm-2-beta-3-bug-action-process.html</guid>
+      <description>Yeah, so this one frustrated me for awhile and if &amp;hellip; Brad Turner - Sep 3, 2008
+Yeah, so this one frustrated me for awhile and if you hadn&amp;rsquo;t discovered this I would have lost even more time!</description>
+    </item>
+    <item>
+      <title>ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</title>
+      <link>https://identitymanaged.netlify.app/2008/09/ilm-2-beta-3-bug-action-process.html</link>
+      <pubDate>Fri, 12 Sep 2008 02:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/09/ilm-2-beta-3-bug-action-process.html</guid>
+      <description>ID: 367381
+Description
+Action Process Function Evaluator Activity doesn&amp;rsquo;t work when using only one field, but when I concatenate with 2 it works.
+Repro Steps
+Create an action Process
+Add one activity &amp;ndash; Function Evaluator
+Set a destination to an attribute (like DisplayName) and select only one field in the value &amp;ndash; LastName
+Then build an MPR to apply to All People (don&amp;rsquo;t check Grants Permission), Operations: Create and Modify</description>
+    </item>
+    <item>
+      <title>Expanding a Windows Server 2008 System partition on a HyperV Guest</title>
+      <link>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</link>
+      <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</guid>
+      <description>Yeah, WOW, not a quick and easy process by any means! Brad Turner - Sep 3, 2008
+Yeah, WOW, not a quick and easy process by any means!
+Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&amp;rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:</description>
+    </item>
+    <item>
+      <title>Expanding a Windows Server 2008 System partition on a HyperV Guest</title>
+      <link>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</link>
+      <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</guid>
+      <description>While building out some virtual machines for our ILM 2 Beta 3 environment&amp;hellip;
+We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&amp;rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition).</description>
+    </item>
+    <item>
+      <title>Pending Exports Report in ILM</title>
+      <link>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</link>
+      <pubDate>Wed, 30 Jul 2008 14:52:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</guid>
+      <description>Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.
+As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</description>
+    </item>
+    <item>
+      <title>I like my passwords Plain --in plaintext that is</title>
+      <link>https://identitymanaged.netlify.app/2008/07/i-like-my-passwords-plain-in-plaintext.html</link>
+      <pubDate>Thu, 03 Jul 2008 16:32:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/07/i-like-my-passwords-plain-in-plaintext.html</guid>
+      <description>Bug in ILM2 Beta 3 &amp;ndash; go vote on MSConnect to register your taste!
+Look for Bug ID 354953
+Do you like your passwords plain or with encrypted butter?
+As for me and my house we will choose the encrypted butter! I mean passwords.
+ILM 2 codeless provisioning looks great! You can add complex rules without code and then you can even see these rules as they get synchronized into the ILM synch engine (what we know and love from the MIIS 2003 and ILM 2007 days).</description>
+    </item>
+    <item>
+      <title>Tech Ed -- Lotsa Buzz ILM 2 and CLM</title>
+      <link>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</link>
+      <pubDate>Mon, 16 Jun 2008 16:33:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</guid>
+      <description>On Tuesday Bob Muglia made a big announcement &amp;ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.
+Thanks to Nima for inviting me to participate at the booth.
+Best session I went was by Candy Stark from MS IT.</description>
+    </item>
+  </channel>
+</rss>

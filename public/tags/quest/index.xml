@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quest on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/quest/</link>
+    <description>Recent content in Quest on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Apr 2011 14:36:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/quest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desktop Virtualization and Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</guid>
+      <description>Any chance of getting an online version of this talk? Paul - Apr 2, 2011
+Any chance of getting an online version of this talk?</description>
+    </item>
+    <item>
+      <title>Desktop Virtualization and Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</link>
+      <pubDate>Tue, 19 Apr 2011 14:36:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</guid>
+      <description>I did a lunch time presentation in partnership with Jonathan Sander. We presented how we can use Quest VWorkspace and Quest One Identity Manager to build a corporate store (we code named it VIPER) to provide a dynamic desktop experience.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Case Study: Real World organizations simplify Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2010/11/case-study-real-world-organizations.html</link>
+      <pubDate>Thu, 11 Nov 2010 16:53:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/11/case-study-real-world-organizations.html</guid>
+      <description>Tomorrow morning at 8 AM PST I will be participating as a speaker in a webinar with Jonathan Sander from Quest.
+http://www.brighttalk.com/webcast/22703 Successful identity and access management means different things to different organizations, but in almost every case, it requires complex, time-consuming, and expensive solutions. However, an ever-growing number of organizations have found a new way to achieve their identity and access management objectives simply, inexpensively, and powerfully.
+In this webcast, identity and access management experts will discuss how organizations like yours have discovered and are implementing a simplified approach to identity and access management.</description>
+    </item>
+    <item>
+      <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <description>I think they can really help in a lot of ways. Acc&amp;hellip; Karl - Sep 4, 2011
+I think they can really help in a lot of ways. Accelerate your business with the help of these factors. Thanks a lot for sharing.
+business consultant</description>
+    </item>
+    <item>
+      <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <description>Jun 10, 2010
+1:00 p.m. Eastern / 10:00 a.m. Pacific (60 minutes)
+To Register follow this link
+Christopher Yeich - Editor, Strategic Content - Ziff Davis Enterprise
+David Lundell - Identity Management Practice Director, Ensynch | Microsoft Identity Management MVP
+Jonathan Sander - IAM and Security Analyst - Quest Software
+Has your business experienced identity theft, with unauthorized access to your systems, data, and/or trade secrets?
+Have you lost business because your customers and/or employees didn’t have access when needed?</description>
+    </item>
+  </channel>
+</rss>

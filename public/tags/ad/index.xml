@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AD on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/ad/</link>
+    <description>Recent content in AD on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2015 14:49:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/ad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Still an MVP but now DS MVP</title>
+      <link>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</guid>
+      <description>Thanks Scott. David Lundell - Jul 3, 2015
+Thanks Scott.</description>
+    </item>
+    <item>
+      <title>Still an MVP but now DS MVP</title>
+      <link>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</link>
+      <pubDate>Thu, 02 Jul 2015 14:49:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</guid>
+      <description>I have been awarded the Microsoft Most Valuable Professional for a 9th time. I started off as an MIIS MVP (even though ILM had been released 4 months previous). Then I became an ILM MVP in 2008, then in 2010 it was FIM MVP (or was that 2011). Now with FIM changing to MIM and in an effort to reduce the administrative paperwork the Microsoft MVP team has every time MMS/MIIS/ILM/FIM/MIM changes names all FIM MVPs have become DS (Directory Services) MVPs.</description>
+    </item>
+    <item>
+      <title>Escaping an AD Replication Island</title>
+      <link>https://identitymanaged.netlify.app/2015/03/escaping-ad-replication-island.html</link>
+      <pubDate>Sat, 07 Mar 2015 09:07:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/03/escaping-ad-replication-island.html</guid>
+      <description>On a dark and stormy night an Active Directory upgrade was underway, Windows Server 2003 domain controllers decommissioned, consolidated and replaced with Window Server 2008 R2 servers. Suddenly I got a call from those doing the upgrade, &amp;ldquo;I can&amp;rsquo;t see some of the new domain controllers on the existing domain controllers, what&amp;rsquo;s wrong?&amp;rdquo;
+A replication island had been created and several domain controllers were trapped on it. Could we rescue them in time?</description>
+    </item>
+    <item>
+      <title>What AD Attributes are indexed? ANR? Tuple? PowerShell</title>
+      <link>https://identitymanaged.netlify.app/2014/12/what-ad-attributes-are-indexed-anr.html</link>
+      <pubDate>Thu, 04 Dec 2014 11:50:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/12/what-ad-attributes-are-indexed-anr.html</guid>
+      <description>Import-Module ActiveDirectory
+Write-Host &amp;ldquo;Tuple Index Enabled Attributes&amp;rdquo;
+Get-ADObject -SearchBase ((Get-ADRootDSE).schemaNamingContext) -SearchScope OneLevel -LDAPFilter &amp;ldquo;(searchFlags:1.2.840.113556.1.4.803:=32)&amp;rdquo; -Property objectClass, name, whenChanged, whenCreated, LDAPDisplayNAme | Out-GridView
+Write-Host &amp;ldquo;ANR Enabled Attributes&amp;rdquo;
+Get-ADObject -SearchBase ((Get-ADRootDSE).schemaNamingContext) -SearchScope OneLevel -LDAPFilter &amp;ldquo;(searchFlags:1.2.840.113556.1.4.803:=4)&amp;rdquo; -Property objectClass, name, whenChanged, whenCreated, LDAPDisplayNAme | Out-GridView
+Write-Host &amp;ldquo;Indexed Enabled Attributes&amp;rdquo;
+Get-ADObject -SearchBase ((Get-ADRootDSE).schemaNamingContext) -SearchScope OneLevel -LDAPFilter &amp;ldquo;(searchFlags:1.2.840.113556.1.4.803:=1)&amp;rdquo; -Property objectClass, name, whenChanged, whenCreated, LDAPDisplayNAme | Out-GridView
+The above script is something I use to quickly look and see what is indexed in an AD environment</description>
+    </item>
+    <item>
+      <title>Phoenix MVP Roadshow Transform the DataCenter Wed Sept 24 4 PM-8PM</title>
+      <link>https://identitymanaged.netlify.app/2014/09/phoenix-mvp-roadshow-transform.html</link>
+      <pubDate>Tue, 16 Sep 2014 12:19:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/09/phoenix-mvp-roadshow-transform.html</guid>
+      <description>Register Now! to attend MVP Roadshow Sept 24th 4 PM - 8PM
+I will be presenting on why we want to get to Active Directory based on Windows Server 2012 R2 and how to get there. My fellow MVP&amp;rsquo;s will be covering the rest of the agenda. I also created an IT clue game to play in small groups where the objective is to figure out who stole the data and how it could have been prevented.</description>
+    </item>
+    <item>
+      <title>ADUC Common Queries: Days Since Last Logon</title>
+      <link>https://identitymanaged.netlify.app/2014/09/aduc-common-queries-days-since-last.html</link>
+      <pubDate>Tue, 16 Sep 2014 12:08:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/09/aduc-common-queries-days-since-last.html</guid>
+      <description>Recently a client asked me how Active Directory Users and Computers (ADUC) performs the Days Since Last Logon query found in the Find Dialog box&amp;rsquo;s Common Queries option.
+LastLogon is not replicated so to really get it you have to query every single DC. So I was reasonably certain that the query didn&amp;rsquo;t use LastLogon but rather used the LastLogonTimestamp which was created &amp;ldquo;to help identify inactive computer and user accounts.</description>
+    </item>
+    <item>
+      <title>Happy Independence Day -- Using PowerShell for Reporting</title>
+      <link>https://identitymanaged.netlify.app/2014/07/happy-independence-day-using-powershell.html</link>
+      <pubDate>Fri, 04 Jul 2014 15:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/07/happy-independence-day-using-powershell.html</guid>
+      <description>Unfortunately, my Independence day is not free &amp;ndash; I am working. Just so happens I need to report on when computer objects are getting migrated to a new AD forest. Day 1 4 Day 2 30 Day 3 25 etc.
+Now I could have taken the data and imported it into SQL and then busted out some awesome queries in no time flat. But my buddy Craig Martin, keeps insisting how awesome this PowerShell stuff is.</description>
+    </item>
+    <item>
+      <title>Windows 2012 R2 and Windows 8.1 RTM now on MSDN and Technet</title>
+      <link>https://identitymanaged.netlify.app/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</link>
+      <pubDate>Wed, 11 Sep 2013 13:11:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</guid>
+      <description>One of my fellow MVPs and Insight teammates Alessandro Cardoso (he runs one of our practices down under) announced on his blog that Windows 2012 R2 and Windows 8.1 RTM now on MSDN and Technet.
+He goes on to mention the salient points around 2012 R2 for virtualization so I thought I would discuss some of the benefits for Active Directory and ADFS
+One key thing is that ADFS on Windows Server 2012 R2 doesn&amp;rsquo;t require IIS so now it can and should be installed on domain controllers.</description>
+    </item>
+    <item>
+      <title>Massive FIM and AD LDS project at DPDHL</title>
+      <link>https://identitymanaged.netlify.app/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</link>
+      <pubDate>Thu, 14 Feb 2013 10:26:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</guid>
+      <description>Watch the presentation that James Booth (who worked with us on the project) and Joe Gasowski (DPDHL) gave at the Redmond Identity Summit 2013 about our project at DHL to replace the DPDHL Sun One Directory and deploy FIM to replace both CriticalPath and a home-grown admin portal.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Revisiting GUIDs, Octets and Base64</title>
+      <link>https://identitymanaged.netlify.app/2012/12/revisiting-guids-octets-and-base64.html</link>
+      <pubDate>Sun, 02 Dec 2012 20:59:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/12/revisiting-guids-octets-and-base64.html</guid>
+      <description>After re-reading my earlier post on this subject I decided I could be clearer.
+GUIDs are often used in three different formats:
+Representation
+Example
+Canonical form
+8c4ac332-975f-4717-ad7b-ba4a4e968fff
+Octet String
+32c34a8c5f971747ad7bba4a4e968fff
+Base64 Encoded
+MsNKjF+XF0ete7pKTpaP/w==
+Representation
+Comment
+Used in
+Canonical form
+This format stems from the way GUIDs (UUIDs) are generated. Each dash separating the various components. In version one of the UUID specification, the first the last component was the MAC address of the computer that generated the GUID.</description>
+    </item>
+    <item>
+      <title>Property Sets for Permissions in AD and AD LDS</title>
+      <link>https://identitymanaged.netlify.app/2011/12/property-sets-for-permissions-in-ad-and.html</link>
+      <pubDate>Mon, 26 Dec 2011 12:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/12/property-sets-for-permissions-in-ad-and.html</guid>
+      <description>It’s very good post! Congratulations! I really enj&amp;hellip; Unknown - Jul 4, 2013
+It’s very good post! Congratulations! I really enjoyed to reading your blog. Thanks for share all this information. I’m looking forward your next post</description>
+    </item>
+    <item>
+      <title>Property Sets for Permissions in AD and AD LDS</title>
+      <link>https://identitymanaged.netlify.app/2011/12/property-sets-for-permissions-in-ad-and.html</link>
+      <pubDate>Mon, 26 Dec 2011 12:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/12/property-sets-for-permissions-in-ad-and.html</guid>
+      <description>A while back I needed to set up Property Sets in AD LDS for granting of permissions to many of the attributes on the person object all at once, as I reviewed the Technet documentation on AD Property Sets I realized that it doesn’t tell you what object type property sets are, nor does it tell you how to create a property set, nor does it tell you how to assign an attribute to a property set.</description>
+    </item>
+  </channel>
+</rss>

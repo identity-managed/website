@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigData on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/bigdata/</link>
+    <description>Recent content in BigData on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2015 16:40:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/bigdata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Big Data needs Identity in order to Act</title>
+      <link>https://identitymanaged.netlify.app/2015/05/big-data-needs-identity-in-order-to-act.html</link>
+      <pubDate>Thu, 28 May 2015 16:40:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/05/big-data-needs-identity-in-order-to-act.html</guid>
+      <description>At the 2015 Identity Summit Scott McNeely declared &amp;ldquo;Big data without Identity is not actionable&amp;rdquo;
+Let&amp;rsquo;s discuss.
+Pulling from Information Week and IBM the Top 6 use cases of Big Data are:
+1. Big Data Exploration
+2. 360 degree view of customer
+3. Information Security and Intelligence
+4. Operation Analysis of data from Internet of Things
+5. Data warehouse Augmentation/Optimization
+6. Big Data Efficiency play (break down silos)
+Big Data use case</description>
+    </item>
+  </channel>
+</rss>

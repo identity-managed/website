@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ADFS on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/adfs/</link>
+    <description>Recent content in ADFS on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jan 2015 14:21:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/adfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redmond Summit 2015</title>
+      <link>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</link>
+      <pubDate>Wed, 28 Jan 2015 14:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</guid>
+      <description>I am looking forward to presenting in an hour or so on &amp;ldquo;How Identity Management Impacts the bottom line.&amp;rdquo;
+Yesterday I had fun delivering a session on &amp;ldquo;ADFS vs Password Sync? It depends&amp;rdquo; This morning Alex Simons of Microsoft revealed a few new things that change some of my advice.
+Soon Azure AD can do the location restriction by application for SSO. This potentially eliminates a deal breaker for some people You can now run Password Sync and ADFS at the same time.</description>
+    </item>
+    <item>
+      <title>Implications of Office 365 Password Sync for ADFS (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</link>
+      <pubDate>Wed, 26 Jun 2013 07:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</guid>
+      <description>Nice recap on the implications of Office 365&amp;rsquo;s&amp;hellip; @binarybrewery - Jun 4, 2013
+Nice recap on the implications of Office 365&amp;rsquo;s Password Sync and why you may still need ADFS.</description>
+    </item>
+    <item>
+      <title>Implications of Office 365 Password Sync for ADFS (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</link>
+      <pubDate>Wed, 26 Jun 2013 07:18:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</guid>
+      <description>The article on Password Sync for Office 365 is interesting news and clearly states that Federated users can&amp;rsquo;t have their password&amp;rsquo;s synced. In the Community Additions many curious users asked their questions treating it as a forum. Well here are my responses:
+If you do Password Sync do you still need ADFS or any other SSO tool that works with Office365? Password Sync gives you the ability to login to Office365 using the same username and password that you use with your Active Directory.</description>
+    </item>
+    <item>
+      <title>Insight Cloud SSO Solution and FIM Jumpstart offerings</title>
+      <link>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</link>
+      <pubDate>Fri, 22 Mar 2013 15:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</guid>
+      <description>I wrote an article for the Insight Newsletter about two of our new offerings.
+Solving identity and access management for mid-sized business
+By David Lundell, Sr. Manager, Identity and Security Practice
+User productivity, IT budgets, and security and compliance all suffer from ineffective identity and access management. Insight has two new packages aimed at helping mid-sized businesses confront these challenges in the age of the cloud. Read more.
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>FIM R2 Showdown -- Classic vs. Declarative</title>
+      <link>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
+      <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
+      <description>Come join me at The Experts Conference 2012 in San Diego April 29 - May2 where I will be presenting:
+FIM R2 Showdown — Classic vs. Declarative
+Speaker: David Lundell
+Is there room enough for both in this town? FIM 2010 R2 has two ways of accomplishing many tasks: Classic and Declarative. Attend this showdown to learn when to saddle up Classic vs. when to saddle up with Declarative Sync Rules and why.</description>
+    </item>
+    <item>
+      <title>Calling a stored procedure in an ADFS claims rule</title>
+      <link>https://identitymanaged.netlify.app/2011/09/calling-stored-procedure-in-adfs-claims.html</link>
+      <pubDate>Thu, 01 Sep 2011 06:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/09/calling-stored-procedure-in-adfs-claims.html</guid>
+      <description>After you have setup your SQL Attribute Claims Store in ADFS. If you want to use it and in fact test it you must set up a claims rule that makes use of it. To do this you must create a claim using a custom rule, which allows you to employ the claims rule language.
+The following technet entry is a good start as it illustrates how to enter a SQL Query and even a stored procedure.</description>
+    </item>
+    <item>
+      <title>Troubleshooting SQL Attribute Stores with ADFS</title>
+      <link>https://identitymanaged.netlify.app/2011/09/troubleshooting-sql-attribute-stores.html</link>
+      <pubDate>Thu, 01 Sep 2011 06:21:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2011/09/troubleshooting-sql-attribute-stores.html</guid>
+      <description>Several others have showed how to define SQL attribute stores with ADFS.
+Note that when entering the connection string there is no validation or feedback to the administrator. If there is a problem you usually won’t see it until you setup a claims rule that uses it and you get an error. So make certain to carefully build and test your connection string. Remember that if you use integrated authentication to connect to the SQL Server that it will run under the context of your ADFS Service account so you will need to grant your ADFS service account permissions to the SQL Server and Database.</description>
+    </item>
+    <item>
+      <title>TEC 2010 Europe – Sweet German Chocolate!</title>
+      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <description>Sounds like a great conference. The Berliners will&amp;hellip; johnkaiser - Nov 2, 2010
+Sounds like a great conference. The Berliners will want you back soon with Volume2!</description>
+    </item>
+    <item>
+      <title>TEC 2010 Europe – Sweet German Chocolate!</title>
+      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <description>Overall TEC 2010 Europe in Dusseldorf Germany was pretty cool. I enjoyed the speakers reception on Sunday night and got to meet some folks from the SharePoint side some of whom are even interested in FIM and one of them bought my book!
+For the first time I was able to bring my wife along to TEC! We enjoyed some good time in Dusseldorf including seeing Schloss (Palace) Benrather.
+Monday we started off with a keynote from Uday Hegde and Mark Wahl on the future of Directory and Identity Technologies.</description>
+    </item>
+    <item>
+      <title>ADFS v2 Test Report -- Found</title>
+      <link>https://identitymanaged.netlify.app/2010/08/adfs-v2-test-report-found.html</link>
+      <pubDate>Fri, 20 Aug 2010 07:58:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/08/adfs-v2-test-report-found.html</guid>
+      <description>Something has happened with the project liberty website and most links to it are now broken, including the link to the test results from last year which includes which profiles ADFS v2 passed. So here it is:
+http://projectliberty.org/liberty/content/download/4732/32917/file/SAML_3Q09_%20IOP_Test_Event_Final_Report.pdf
+ADFS v2 passed: IDP Lite, SP Lite, eGov 1.5
+http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
+    </item>
+    <item>
+      <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <description>I think they can really help in a lot of ways. Acc&amp;hellip; Karl - Sep 4, 2011
+I think they can really help in a lot of ways. Accelerate your business with the help of these factors. Thanks a lot for sharing.
+business consultant</description>
+    </item>
+    <item>
+      <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
+      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <description>Jun 10, 2010
+1:00 p.m. Eastern / 10:00 a.m. Pacific (60 minutes)
+To Register follow this link
+Christopher Yeich - Editor, Strategic Content - Ziff Davis Enterprise
+David Lundell - Identity Management Practice Director, Ensynch | Microsoft Identity Management MVP
+Jonathan Sander - IAM and Security Analyst - Quest Software
+Has your business experienced identity theft, with unauthorized access to your systems, data, and/or trade secrets?
+Have you lost business because your customers and/or employees didn’t have access when needed?</description>
+    </item>
+    <item>
+      <title>ADFS v.2 shipped</title>
+      <link>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</link>
+      <pubDate>Tue, 18 May 2010 15:46:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</guid>
+      <description>Active Directory Federation Services v2 Ships!
+This is awesome stuff – with ADFS v2 we can help you setup SSO with your SaaS vendors.
+Here is an example that has been rendered generic.
+ADFS 2.0 supports SAML 2.0 (the idp lite profile and rdp lite profile) which opens up many federation doors and WIF allows us to write custom security token services (sts) just in case the idp lite and rdp lite profile support isn’t up to handling the interaction.</description>
+    </item>
+    <item>
+      <title>TEC Decks Posted!</title>
+      <link>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</link>
+      <pubDate>Tue, 18 May 2010 11:34:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</guid>
+      <description>If you attended TEC you can now get the Slide Decks by registering on TheExpertsCommunity.com
+and accessing the following item: TEC 2010 Conference Materials Have Been Posted!
+You can find my sessions here:
+http://theexpertscommunity.com/item/list/type/session/meta_expert_tag/speaker%3Adavidlundell
+Proper Care and Feeding of Your Databases: FIM, ILM, CLM, RMS, SharePoint and OCS Without proper care and feeding of your databases (FIM Meta Directory Services, FIM Certificate Services, FIM Web Service, RM&amp;hellip; continue reading &amp;ldquo;Proper Care and Feeding of Your Databases: FIM, ILM, CLM, RMS, SharePoint and OCS&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>AD RMS on R2 -- new Federation Features</title>
+      <link>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</link>
+      <pubDate>Fri, 14 Aug 2009 21:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</guid>
+      <description>AD RMS on Windows Server 2008 R2 adds a really slick feature blogged about here: Group Expansion for Federated Users
+Prior to R2 to issue a use license to a federated user they need to specifically be granted permissions. With Windows Server 2008 R2 you can create a contact matching the external federated user and then place the contact in the group and then they have the same RMS permissions as that group.</description>
+    </item>
+    <item>
+      <title>H30, Geneva Cola, Sitrus and Orange Fizz</title>
+      <link>https://identitymanaged.netlify.app/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</link>
+      <pubDate>Wed, 24 Jun 2009 22:23:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</guid>
+      <description>Back in business school I was a connoisseur of fine commercials. Recently I watched a commercial for Lipton Ice Tea (note I am a teetotaler who doesn&amp;rsquo;t drink tea) and I have to admire their cleverness in coming up with names for competitor products (see the title) in their &amp;ldquo;Lipton Tea, I think I love you&amp;rdquo; commercial. (Lyrics here)
+Really the names are clever although the best is the H30 &amp;ndash; I just love it, a chemical compound that as far as I can tell can&amp;rsquo;t exist, but we all know they are making fun of flavored water.</description>
+    </item>
+    <item>
+      <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
+      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <description>It&amp;rsquo;s nice to know its impact to the business. &amp;hellip; Karl - Sep 4, 2011
+It&amp;rsquo;s nice to know its impact to the business. Thanks a lot for sharing that valuable information.
+business consultant</description>
+    </item>
+    <item>
+      <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
+      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <description>Brad and I are going to cover the value of the whole Identity Management Stack from Microsoft and a few additional pieces from partners.
+**When:
+Thursday, May 28th
+**Where:
+Webinar/Online
+(Live Meeting links will be
+sent to all registrants) (Click Here to RSVP)
+Presenters:
+David Lundell – Microsoft MVP for ILM, Ensynch Practice Director
+Brad Turner – Microsoft MVP for ILM, Ensynch Sr. Technical Architect
+**Time:
+**9am-10am Pacific/Arizona
+10am-11am Mountain</description>
+    </item>
+    <item>
+      <title>Netpro DEC -&gt; Quest TEC -- Ensynch&#39;s Sessions</title>
+      <link>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</link>
+      <pubDate>Wed, 11 Mar 2009 12:09:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</guid>
+      <description>Back in business school we always studied name changes and rebranding, and this one has been interesting
+Last summer NetPro deciding to expand the Directory Experts Conference (DEC) to include an exchange conference and so they re-branded the conference NetPro&amp;rsquo;s The Experts Conference. Then Quest acquired NetPro, so it became a completely re-branded conference as Quest&amp;rsquo;s The Expert Conference. So NetPro DEC became Quest TEC.
+Sunday Mar 22nd - Wed Mar 25th in Vegas www.</description>
+    </item>
+    <item>
+      <title>Live ID&#39;s are now Open ID&#39;s, Geneva supports SAML 2.0</title>
+      <link>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</link>
+      <pubDate>Thu, 30 Oct 2008 16:37:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</guid>
+      <description>At the PDC Microsoft&amp;rsquo;s Kim Cameron and colleague Bertocci Vittorio announced that Microsoft Live is now an Open Id provider. Additionally, when signing into Live you can use Information Cards (Info Card, Card Space, Geneva Card Space).
+They also demonstrated the new Geneva Framework (formerly known as Zermat) &amp;ndash; essentially a successor to Windows Server 2008 Active Directory Federation Services, and showed it supporting SAML 2.0 the &amp;ldquo;protocol&amp;rdquo; not just SAML 2.</description>
+    </item>
+    <item>
+      <title>The Grand Unified Demo of Identity Management</title>
+      <link>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</link>
+      <pubDate>Wed, 07 May 2008 13:57:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</guid>
+      <description>As I was architecting and assembling the Identity All Up workshop (part of the 2008 Directory Experts Conference see the review by Felix Gaehtgens, an analyst for Kuppinger Cole) designed to expose the attendees (or delegates) to all facets of the Microsoft Identity Access Platform, Lori Craw, from Microsoft referred to this as the &amp;ldquo;Grand Unified Demo&amp;rdquo;. I chuckled, instantly catching the reference to the still undiscovered Grand Unified Field theory that eluded Einstein and even today&amp;rsquo;s theoretical physicists.</description>
+    </item>
+  </channel>
+</rss>

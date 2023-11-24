@@ -2,28 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Identity Managed</title>
-    <link>http://example.com/authors/</link>
+    <link>https://identitymanaged.netlify.app/authors/</link>
     <description>Recent content in Authors on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2023 13:12:23 -0700</lastBuildDate><atom:link href="http://example.com/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Jane Doe</title>
-      <link>http://example.com/authors/jane-doe/</link>
-      <pubDate>Tue, 15 Aug 2023 13:12:23 -0700</pubDate>
-      
-      <guid>http://example.com/authors/jane-doe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>John Doe</title>
-      <link>http://example.com/authors/john-doe/</link>
-      <pubDate>Tue, 15 Aug 2023 13:12:23 -0700</pubDate>
-      
-      <guid>http://example.com/authors/john-doe/</guid>
-      <description></description>
-    </item>
-    
+    <atom:link href="https://identitymanaged.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

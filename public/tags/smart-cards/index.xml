@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Cards on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/smart-cards/</link>
+    <description>Recent content in Smart Cards on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Aug 2008 11:30:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/smart-cards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDM in pop culture</title>
+      <link>https://identitymanaged.netlify.app/2008/08/idm-in-pop-culture.html</link>
+      <pubDate>Sat, 16 Aug 2008 11:30:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/08/idm-in-pop-culture.html</guid>
+      <description>Some days I am amazed at how deeply the identity management concepts have penetrated into popular culture:
+&amp;ldquo;Mr Big Stuff, who do you think you are?&amp;rdquo; clearly relates to an authentication issue or authorization issue.
+&amp;ldquo;Won&amp;rsquo;t get fooled again&amp;rdquo; by the WHO is clearly making a reference to a Certificate Revocation List, now that I have revoked your certificate you won&amp;rsquo;t be authenticated again.
+One area where pop culture is still shockingly uninformed still need help is in asset protection.</description>
+    </item>
+    <item>
+      <title>Tech Ed -- Lotsa Buzz ILM 2 and CLM</title>
+      <link>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</link>
+      <pubDate>Mon, 16 Jun 2008 16:33:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</guid>
+      <description>On Tuesday Bob Muglia made a big announcement &amp;ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.
+Thanks to Nima for inviting me to participate at the booth.
+Best session I went was by Candy Stark from MS IT.</description>
+    </item>
+  </channel>
+</rss>

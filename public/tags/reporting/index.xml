@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reporting on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/tags/reporting/</link>
+    <description>Recent content in Reporting on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2014 15:06:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.netlify.app/tags/reporting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy Independence Day -- Using PowerShell for Reporting</title>
+      <link>https://identitymanaged.netlify.app/2014/07/happy-independence-day-using-powershell.html</link>
+      <pubDate>Fri, 04 Jul 2014 15:06:00 -0700</pubDate>
+      <guid>https://identitymanaged.netlify.app/2014/07/happy-independence-day-using-powershell.html</guid>
+      <description>Unfortunately, my Independence day is not free &amp;ndash; I am working. Just so happens I need to report on when computer objects are getting migrated to a new AD forest. Day 1 4 Day 2 30 Day 3 25 etc.
+Now I could have taken the data and imported it into SQL and then busted out some awesome queries in no time flat. But my buddy Craig Martin, keeps insisting how awesome this PowerShell stuff is.</description>
+    </item>
+  </channel>
+</rss>

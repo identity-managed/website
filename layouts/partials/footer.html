@@ -70,15 +70,29 @@
 _________________________________________________________ -->
 
 <div id="copyright">
-    <div class="container">
-        <div class="col-md-12">
+    <div class="container text-center">
+      
+    
+        <div class="row ">
+      
+          <div class="col-sm-4">
             {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            <p>{{ .Site.Params.copyright | safeHTML }}</p>
             {{ end }}
-            <p class="pull-right">
+          </div>
+
+           <div class="col-sm-4">
+              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+           </div>
+
+            <div class="col-sm-4">
+              <p>
                 Powered by
               <a href="https://colbal.com" target="_blank">Colbal</a>
             </p>
+            </div>
+            
+            
         </div>
     </div>
 </div>
