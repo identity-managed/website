@@ -172,37 +172,36 @@ collections:
               required: false,
             }
 
-          - label: YouTube Video
-            name: video
-            summary: "YouTube video links here"
-            collapsed: true
-            widget: object
-            fields:
-              - {
-                  label: Latest Video,
-                  name: latest_video,
-                  description: Latest video post on channel,
-                  widget: string,
-                }
-              - {
-                  label: Introduction Video,
-                  name: introduction_video,
-                  description: Introduction video,
-                  widget: string,
-                }
-              - {
-                  label: Featured Video,
-                  name: featured_video,
-                  description: Featured video,
-                  widget: string,
-                }
-
           - label: Parameters
             name: params
             summary: "Style options: default (light-blue), idm, blue, green, marsala, pink, red, turquoise, violet"
             collapsed: true
             widget: object
             fields:
+              - label: YouTube Video
+                name: video
+                summary: "YouTube video links here"
+                collapsed: true
+                widget: object
+                fields:
+                  - {
+                      label: Latest Video,
+                      name: latest_video,
+                      description: Latest video post on channel,
+                      widget: string,
+                    }
+                  - {
+                      label: Introduction Video,
+                      name: introduction_video,
+                      description: Introduction video,
+                      widget: string,
+                    }
+                  - {
+                      label: Featured Video,
+                      name: featured_video,
+                      description: Featured video,
+                      widget: string,
+                    }
               - { label: Style Sheet, name: style, widget: string }
               - { label: About Us, name: about_us, widget: string }
               - { label: Copyright, name: copyright, widget: string }
