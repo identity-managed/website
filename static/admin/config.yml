@@ -178,12 +178,6 @@ collections:
             widget: object
             fields:
               - { label: Style Sheet, name: style, widget: string }
-              - {
-                  label: Address,
-                  name: address,
-                  widget: string,
-                  required: false,
-                }
               - { label: About Us, name: about_us, widget: string }
               - { label: Copyright, name: copyright, widget: string }
               - {
@@ -205,6 +199,25 @@ collections:
                   widget: image,
                   required: false,
                 }
+              - {
+                  label: Latest Video,
+                  name: latest_video,
+                  description: Latest video post on channel,
+                  widget: string,
+                }
+              - {
+                  label: Introduction Video,
+                  name: introduction_video,
+                  description: Introduction video,
+                  widget: string,
+                }
+              - {
+                  label: Featured Video,
+                  name: featured_video,
+                  description: Featured video,
+                  widget: string,
+                }
+
               - label: Large Call to Action
                 name: see_more
                 summary: "This is the transparent background, call to action section"

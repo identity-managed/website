@@ -2,25 +2,48 @@
   <style>
     .youtube-video {
       aspect-ratio: 16 / 9;
-      width: 80%;
+      width: 100%;
     }
   </style>
-  <div class="heading">
-    <h2>Our Latest Video</h2>
-  </div>
-  <!-- lazy load using external CDN -->
-  <lite-youtube playlistid="UUA0WSj1hhc4RjIg8guYFL1Q"></lite-youtube>
 
   <!-- embed code from YouTube -->
-  <!-- 
-  <iframe
-    class="youtube-video"
-    loading="lazy"
-    src="https://www.youtube.com/embed/videoseries?list=UUA0WSj1hhc4RjIg8guYFL1Q"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-  ></iframe>
- -->
+
+  <div class="row" style="padding-top: 40px">
+    <div class="col-sm-4">
+      <iframe
+        class="youtube-video"
+        loading="lazy"
+        src="https://www.youtube.com/embed/videoseries?list={{ .Site.Params.latest_video }}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="heading"><h4>Latest</h4></div>
+    </div>
+    <div class="col-sm-4">
+      <iframe
+        class="youtube-video"
+        loading="lazy"
+        src="https://www.youtube.com/embed/{{ .Site.Params.introduction_video }}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="heading"><h4>Introduction</h4></div>
+    </div>
+    <div class="col-sm-4">
+      <iframe
+        class="youtube-video"
+        loading="lazy"
+        src="https://www.youtube.com/embed/{{ .Site.Params.featured_video }}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="heading"><h4>Featured</h4></div>
+    </div>
+  </div>
 </section>
