@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700829792" rel="stylesheet">
+<link href="/css/custom.css?1700841979" rel="stylesheet">
 
 
 
@@ -281,14 +281,42 @@ content="2010-06-13T12:00:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="heading"></h4>
-<p><a href="https://www.blogger.com/profile/10727925205994704553" title="noreply@blogger.com">/Remi</a> - <!-- raw HTML omitted -->Nov 3, 2010<!-- raw HTML omitted --></p>
-<p>This comment has been removed by the author.</p>
-<!-- raw HTML omitted -->
-<p>Hello David! :) Have you got the time to test this in a lab ?<br>
-I`am experiencing the same problem. And I`ve tried everything without any luck.</p>
-<p><a href="http://social.technet.microsoft.com/Forums/en/ilm2/thread/deae65d0-ede6-4b36-994b-3695d0cc8260">http://social.technet.microsoft.com/Forums/en/ilm2/thread/deae65d0-ede6-4b36-994b-3695d0cc8260</a></p>
-<!-- raw HTML omitted -->
+                          <p>Lessons learned:</p>
+<ol>
+<li>
+<p>Run the <a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/215ae0cf-e406-4a76-8596-057c7e184626">Do a FIM MA account configuration quick test</a> script.</p>
+</li>
+<li>
+<p>Always refresh the schema of the FIM MA using the real FIM MA Service Account which we usually call svc-FIMMA.</p>
+</li>
+</ol>
+<p>Scenario:</p>
+<p>You have just modified the schema of FIM Service by creating a new Boolean attribute and have bound it to the user resource type. You refresh the FIM Schema, select the new attribute setup a direct export attribute flow from the corresponding Boolean metaverse attribute to the FIM MA attribute. You sync and the only pending export is to this attribute, and then when you run the export to FIM MA you get:</p>
+<p>failed-modification-via-web-services</p>
+<p>Then when you click on details:</p>
+<blockquote>
+<p>There is an error executing a web service object modification request.<br>
+Type: System.NullReferenceException</p>
+<p>Message: Object reference not set to an instance of an object.</p>
+<p>Stack Trace:    at MIIS.ManagementAgent.RavenMA.DoAttributeLevelExport(DataSourceObject dsObject, String objClass, UninitializedResource resource)<br>
+   at MIIS.ManagementAgent.RavenMA.ExportObjectModification(DataSourceObject dsObject, SchemaManager schemaManager)<br>
+   at MIIS.ManagementAgent.RavenMA.Export(DataSourceObject dsObject)</p>
+<p>Inner Exception:</p>
+</blockquote>
+<p>I have encountered this twice and <a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/ace5af61-bc44-4187-9190-4d1a693814ce">Brad once</a>. The first time (1 month ago)  I discovered that the FIM MA was set to use the svc-fimws (this is the credentials used to run the FIM Service) user account instead of the svc-fimma (the account that actually belongs to the Synchronization Engine Set and therefore has all of the permissions to modify objects in the portal and bypasses the authn and authz workflows and is sometimes referred to as the Built-in Synchronization account). So I changed the FIM MA to use the svc-fimma account and when prompted clicked yes Refresh Schema.  The <a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/215ae0cf-e406-4a76-8596-057c7e184626">Do a FIM MA account configuration quick test</a> script had told me that the two weren’t the same (go <a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/807617bc-b560-4cbe-a137-b9f338bfbd8e">FIM Scriptbox</a>!)</p>
+<p>Which means that when I ran the refresh schema the first time it was under the svc-fimws account not the svc-fimma account.</p>
+<p>The second time we refreshed the schema using the credentials of an admin user as opposed to the svc-fimma credentials. I tried refreshing the schema with the svc-fimma account but of course it said no changes. I tried stopping and starting all of the services. I turned on messaging logging (this isn’t even sending messages it is dying on the MA without even talking to the web service). So after carefully studying my memory (foolish me I didn’t blog it or make a note) and the request history on the other system I remembered what the root problem and solution had been. But I had already checked if the MA was using the true Built-in Synchronization Account using the <a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/215ae0cf-e406-4a76-8596-057c7e184626">Do a FIM MA account configuration quick test</a> script . So then I thought what if I create the <em>exact same</em> problem I had last time and then fix it. So I changed the FIM MA to use an admin user account and when prompted clicked yes Refresh Schema. Then I changed the FIM MA to use the svc-fimma account and when prompted clicked yes Refresh Schema. Then my export worked!</p>
+<p>Lessons learned:</p>
+<ol>
+<li>
+<p>Run the <a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/215ae0cf-e406-4a76-8596-057c7e184626">Do a FIM MA account configuration quick test</a> script.</p>
+</li>
+<li>
+<p>Always refresh the schema of the FIM MA using the real FIM MA Service Account which we usually call svc-FIMMA. (Anyone from Microsoft want to give an official statement of best practice on that?)</p>
+</li>
+</ol>
+<p>I plan to repro this in a test environment to ensure this is the problem.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
@@ -798,220 +826,66 @@ I`am experiencing the same problem. And I`ve tried everything without any luck.<
         <footer id="footer">
     <div class="container">
 
-        
-        <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        
-        
-
-        <div class="col-md-4 col-sm-6">
-
-            
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            
-
-        </div>
-        
-
-        
-        <div class="col-md-4 col-sm-6">
-
-          <h4>Contact</h4>
-
-            <p class="text-uppercase"><strong>Identity Managed LLC</strong>
-        
-        <br>
-        <strong>Chandler, AZ</strong>
-      </p>
       
 
-	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        
-        
-
-    </div>
-    
-</footer>
-
-
-
-
-
-
-
-<div id="copyright">
-    <div class="container text-center">
       
-    
-        <div class="row ">
+      <div class="col-md-6 col-sm-6">
+          <h4>About us</h4>
+          <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
+          <hr class="hidden-md hidden-lg hidden-sm">
+      </div>
       
-          <div class="col-sm-4">
-            
-            <p>Copyright (c) 2023 Identity Managed</p>
-            
+      <div class="col-md-6 col-sm-6">
+          
+          <h4>Recent posts</h4>
+
+          <div class="blog-entries">
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
           </div>
-
-           <div class="col-sm-4">
-              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-           </div>
-
-            <div class="col-sm-4">
-              <p>
-                Powered by
-              <a href="https://colbal.com" target="_blank">Colbal</a>
-            </p>
-            </div>
-            
-            
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<link
-  href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
-  rel="stylesheet"
-  type="text/css"
-/>
-
-
-    </div>
-    
-
-    
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
-
-<script src="/js/front.js"></script>
-
-
-<script src="/js/owl.carousel.min.js"></script>
-
-
-<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
-
-
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-  </body>
-</html>
-nd-coming-cyber-security.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            
-
-        </div>
-        
-
-        
-        <div class="col-md-4 col-sm-6">
-
-          <h4>Contact</h4>
-
-            <p class="text-uppercase"><strong>Identity Managed LLC</strong>
-        
-        <br>
-        <strong>Chandler, AZ</strong>
-      </p>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
       
-
-	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
         
-        
-
     </div>
     
 </footer>

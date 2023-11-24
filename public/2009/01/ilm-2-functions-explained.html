@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700829792" rel="stylesheet">
+<link href="/css/custom.css?1700841979" rel="stylesheet">
 
 
 
@@ -277,239 +277,14 @@ content="2009-01-06T13:08:00-0700">
                         
 
                         <div id="post-content">
-                          <p>Function Name</p>
-<p>Parameters</p>
-<p>David&rsquo;s Description</p>
-<p>Example</p>
-<p>Example Explanation</p>
-<p>BitAnd</p>
-<ol>
-<li>
-<p>mask<br>
-Type: Integer</p>
-</li>
-<li>
-<p>flag<br>
-Type: Integer</p>
-</li>
-</ol>
-<p>BitAnd is a bitwise operation anding <strong>mask</strong> and <strong>flag</strong>. So if <strong>Flag</strong> is the UserAccountControl Attribute in AD and <strong>mask</strong> is negative 2147483645 (the <a href="http://mathforum.org/library/drmath/view/54344.html">two&rsquo;s complement</a> of 2) Then the result is that the disable bit (bit 2) is turned off leaving all of the other bits unchanged.</p>
-<p>BitAnd can be combined with Eq to detect if a bit is set</p>
-<p>BitAnd(-2147483645 , userAccountControl) </p>
-<p>BitAnd(-2147483645 , 514) =512</p>
-<p>BitAnd(-2147483645 , 512) =512</p>
-<p>BitAnd(-2147483631 , 528) =512</p>
-<p>BitAnd(-2147483631 , 512) =512</p>
-<p>Eq( BitAnd(2,userAccountControl),2)</p>
-<p>Turn off the disable bit Flow the result into <a href="http://msdn.microsoft.com/en-us/library/ms680832(VS.85).aspx">userAccountControl</a> in AD to enable a user.</p>
-<p>if userAccountControl is 514 then the example gives us 512,</p>
-<p>if it is 512 then it remains unchanged.</p>
-<p>To figure out what to use as the mask we first start with what bit we want to set bit 16 &ndash; account is locked out) then take the <a href="http://mathforum.org/library/drmath/view/54344.html">two&rsquo;s complement</a> (start with negative of (2^31 -1)<br>
--2147483647 and add the value of the bit, in this case 16 to give us -2147483631)</p>
-<p>If that is true then the disable bit is currently set in AD</p>
-<p>BitOr</p>
-<ol>
-<li>
-<p>mask<br>
-Type: Integer</p>
-</li>
-<li>
-<p>flag<br>
-Type: Integer</p>
-</li>
-</ol>
-<p>BitOr is a bitwise operation ORing <strong>mask</strong> and <strong>flag</strong>. So if <strong>Flag</strong> is the UserAccountControl Attribute in AD and <strong>mask</strong> is 2 Then the result is that the disable bit is turned on</p>
-<p>BitOr(2, userAccountControl)</p>
-<p>BitOr(2, 512) = 514</p>
-<p>BitOr(2, 514) = 514</p>
-<p>Doesn&rsquo;t work (<a href="https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=391175&amp;SiteID=433">vote on this feedback</a>):<br>
-BitOr(<br>
-IIF( Eq(scope,&ldquo;Universal&rdquo;),8,IIF(Eq(scope,&ldquo;DomainLocal&rdquo;),4,IIF(Eq(scope,&ldquo;Global&rdquo;),2,0)))<br>
-, IIF(Eq(type,&ldquo;Distribution&rdquo;),0,2147483648)<br>
-)</p>
-<p>Turn on the disable bit. Flow the result into userAccountControl in AD to disable a user.  <br>
-if userAccountControl is 512 then the example gives us 514.<br>
-if it is 514 then it remains unchanged. </p>
-<p>returns an error of &ldquo;return type (Object) of function IIF is not Integer&rdquo;</p>
-<p>CRLF</p>
-<p>None</p>
-<p>puts in a Carriage return line feed</p>
-<p>CRLF()=&quot;<br>
-&quot;<br>
-&ldquo;Fred&rdquo;+ CRLF() + &ldquo;Flatstone&rdquo; =<br>
-&ldquo;Fred<br>
-Flatstone&rdquo;</p>
-<p>The only function with no parameters but it still needs the () otherwise ILM thinks you are looking for an attribute.</p>
-<p>DateTimeFormat</p>
-<p>1)dateTimeString<br>
-Type:String</p>
-<p>2)format<br>
-Type:String</p>
-<p>Take the date and time in the <strong>dateTimeString</strong> and format it according to the <strong>format</strong> parameter. As far as I have tested it works according to <a href="http://msdn.microsoft.com/en-us/library/az4se3k1.aspx">Standard Date Time Formats</a> and .<a href="http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx">NET Custom Date and Time Format Strings</a></p>
-<p>DateTimeFormat(&ldquo;12-28-2008 12:34:01.213 PM&rdquo;, &ldquo;MM/dd/yyyy  ddd dddd hh:mm:ss  d  f M&rdquo;) =&ldquo;12/28/2008 ;Sun ;Sunday ;<br>
-12:34:01 ;28 ;2 ;12&rdquo;</p>
-<p>DateTimeFormat(&ldquo;12-28-2008 12:34:01.213 PM&rdquo;, &ldquo;G&rdquo;)  =&ldquo;12/28/2008 ;12:34:01 ;PM&rdquo;</p>
-<p>It looks like you can use either the custom strings (like MM/dd/yyyy) or standard strings (like G)</p>
-<p>ConvertSidToString</p>
-<ol>
-<li>ObjectSID<br>
-Type:Binary</li>
-</ol>
-<p>I suppose that this one works just like our good old <a href="http://msdn.microsoft.com/en-us/library/ms698815(VS.85).aspx">Utils.ConvertSidToString method in the Metadirectory namespace</a><br>
-and is used to convert a SID to a string</p>
-<p>EscapeDNComponent</p>
-<ol>
-<li>dnStr<br>
-Type:String</li>
-</ol>
-<p>Again I suppose this one works just like<br>
-<a href="http://msdn.microsoft.com/en-us/library/ms696769(VS.85).aspx">ConnectedMA.EscapeDNComponent</a></p>
-<p>EscapeDNComponent(&ldquo;CN=Turner, Brad&rdquo;) = &ldquo;CN=Turner\, Brad&rdquo;</p>
-<p>The function will escape out characters that are not permitted in distinguished names (this will vary MA by MA)</p>
-<p>IIF</p>
-<p>1)condition<br>
-Type:Boolean</p>
-<p>2)valueTrue<br>
-Type: Object</p>
-<p>3)valueFalse<br>
-Type: Object</p>
-<p>If <strong>condition</strong> is true then return <strong>valueTrue</strong> if condition is false return <strong>valueFalse</strong></p>
-<p>IIF(Eq(1,1), &ldquo;Yes it&rsquo;s true&rdquo;, &ldquo;No it&rsquo;s false&rdquo;) = &ldquo;Yes it&rsquo;s true&rdquo;</p>
-<p>IIF(Eq(1,2), &ldquo;Yes it&rsquo;s true&rdquo;, &ldquo;No it&rsquo;s false&rdquo;) = &ldquo;No it&rsquo;s false&rdquo;</p>
-<p>IIF(Eq(type,&ldquo;Distribution&rdquo;),<br>
-IIF(Eq(scope,&ldquo;Universal&rdquo;),8,<br>
-IIF(Eq(scope,&ldquo;DomainLocal&rdquo;),4,<br>
-IIF(Eq(scope,&ldquo;Global&rdquo;),2,0))),<br>
-IIF(Eq(scope,&ldquo;Universal&rdquo;),-2147483640,IIF(Eq(scope,&ldquo;DomainLocal&rdquo;),-2147483644,IIF(Eq(scope,&ldquo;Global&rdquo;),-2147483646,0))))</p>
-<p><a href="http://www.identitychaos.com/search?q=grouptype">Example Brad and I cooked up</a> for group translating the string attributes type, and scope into an integer which we then flowed into the AD group attribute <a href="http://msdn.microsoft.com/en-us/library/ms675935(VS.85).aspx">groupType</a> which combines group scope with whether it is a distribution list or not.</p>
-<p>Left</p>
-<ol>
-<li>str<br>
-Type:String</li>
-<li>numchars<br>
-Type:Integer</li>
-</ol>
-<p>Get a substring of <strong>str</strong> starting at the left and going <strong>numChars</strong> long</p>
-<p>Left(&ldquo;David Lundell&rdquo;,5)=&ldquo;David&rdquo;</p>
-<p>LowerCase</p>
-<ol>
-<li>str<br>
-Type:String</li>
-</ol>
-<p>The name says it all</p>
-<p>LeftPad</p>
-<ol>
-<li>str<br>
-Type:String</li>
-<li>length<br>
-Type:Integer<br>
-3)padCharacter<br>
-Type:String</li>
-</ol>
-<p>According to my testing this function works like LeftPad in the String Utils library in [<strong>org.apache.commons.</strong>](<a href="http://commons.apache.org/lang/api/org/apache/commons/lang/StringUtils.html#leftPad(java.lang.String">http://commons.apache.org/lang/api/org/apache/commons/lang/StringUtils.html#leftPad(java.lang.String</a>, int, char))<br>
-take <strong>padcharacter</strong> and add it to the beginning of <strong>str</strong> until <strong>str</strong> is as long as <strong>length</strong>. If <strong>str</strong> is already as long as or longer than <strong>length</strong> then don&rsquo;t pad.</p>
-<p>LeftPad(&ldquo;David&rdquo;,3,&ldquo;a&rdquo;)=&ldquo;David&rdquo;<br>
-LeftPad(&ldquo;David&rdquo;,6,&ldquo;a&rdquo;)=&ldquo;aDavid&rdquo;<br>
-LeftPad(&ldquo;David&rdquo;,8,&ldquo;a&rdquo;)=&ldquo;aaaDavid&rdquo;<br>
-LeftPad(&ldquo;David&rdquo;,-1,&ldquo;a&rdquo;)=&ldquo;David&rdquo;</p>
-<p>LeftPad and RightPad will never truncate or overwrite the original <strong>str</strong></p>
-<p>Mid</p>
-<p>1)str<br>
-Type: String<br>
-2)pos<br>
-Type: String<br>
-3)numChars<br>
-Type: Integer</p>
-<p>Get a substring of <strong>str</strong> starting at <strong>pos</strong> and going for <strong>numChars</strong>.</p>
-<p>Mid(&ldquo;Brad ILM Turner&rdquo;,3,5) = &ldquo;ad IL&rdquo;</p>
-<p>LTrim</p>
-<ol>
-<li>str<br>
-Type:String</li>
-</ol>
-<p>Remove leading whitespace</p>
-<p>LTrim(&quot;  Fred Mitchell  &ldquo;) = &ldquo;Fred Mitchell  &quot;</p>
-<p>ProperCase</p>
-<ol>
-<li>str<br>
-Type:String</li>
-</ol>
-<p>Capitalize the first letter of every word (presumably words are determined by having whitespace in between them)</p>
-<p>ProperCase(&ldquo;david lundell&rdquo;) = &ldquo;David Lundell&rdquo;<br>
-ProperCase(&ldquo;David lundell&rdquo;) = &ldquo;David Lundell&rdquo;)<br>
-ProperCase(&ldquo;DAVID lundell&rdquo;) = &ldquo;David Lundell&rdquo;)</p>
-<p>RandomNum</p>
-<p>1)start<br>
-Type:Integer<br>
-2)end<br>
-Type:Integer</p>
-<p>Generate a random Integer in between (inclusive) <strong>start</strong> and <strong>end</strong></p>
-<p>RandomNum(10,15) = ? where ? is between 10 and 15 (inclusive)</p>
-<p>Right</p>
-<ol>
-<li>str<br>
-Type:String</li>
-<li>numchars<br>
-Type:Integer</li>
-</ol>
-<p>Get a substring of <strong>str</strong> starting at the Right going <strong>numChars</strong> long</p>
-<p>Right(&ldquo;David Lundell&rdquo;,5) = &ldquo;ndell&rdquo;</p>
-<p>Trim</p>
-<ol>
-<li>str<br>
-Type:String</li>
-</ol>
-<p>Remove leading and trailing whitespace</p>
-<p>Trim(&rdquo;  Fred Mitchell  &ldquo;) = &ldquo;Fred Mitchell&rdquo;</p>
-<p>I haven&rsquo;t tested all of the whitespace characters like CRLF</p>
-<p>RTrim</p>
-<ol>
-<li>str<br>
-Type:String</li>
-</ol>
-<p>Remove trailing whitespace</p>
-<p>RTrim(&rdquo;  Fred Mitchell  &ldquo;) = &quot;  Fred Mitchell&rdquo;</p>
-<p>RightPad</p>
-<ol>
-<li>str<br>
-Type:String</li>
-<li>length<br>
-Type:Integer<br>
-3)padCharacter<br>
-Type:String</li>
-</ol>
-<p>According to my testing this function works like RightPad in the String Utils library in <strong>[org.apache.commons](<a href="http://commons.apache.org/lang/api/org/apache/commons/lang/StringUtils.html#rightPad(java.lang.String">http://commons.apache.org/lang/api/org/apache/commons/lang/StringUtils.html#rightPad(java.lang.String</a>, int, char))</strong><br>
-take <strong>padcharacter</strong> and add it to the end of <strong>str</strong> until <strong>str</strong> is as long as <strong>length</strong>. If <strong>str</strong> is already as long as or longer than <strong>length</strong> then don&rsquo;t pad.</p>
-<p>RightPad(&ldquo;David&rdquo;,3,&ldquo;a&rdquo;)=&ldquo;David&rdquo;<br>
-RightPad(&ldquo;David&rdquo;,6,&ldquo;a&rdquo;)=&ldquo;Davida&rdquo;<br>
-RightPad(&ldquo;David&rdquo;,8,&ldquo;a&rdquo;)=&ldquo;Davidaaa&rdquo;<br>
-RightPad(&ldquo;David&rdquo;,-1,&ldquo;a&rdquo;)=&ldquo;David&rdquo;</p>
-<p>LeftPad and RightPad will never truncate or overwrite the original <strong>str</strong></p>
-<p>UpperCase</p>
-<ol>
-<li>str<br>
-Type:String</li>
-</ol>
-<p>Self-Explanatory</p>
-<p>Word</p>
-<ol>
-<li>str<br>
-Type:String<br>
-2)wordIndex<br>
-Type:Integer<br>
-3)delimiters<br>
-Type:String</li>
-</ol>
-<p>Take <strong>str</strong> and chop it up into words based <strong>delimiters</strong>, and then return the 1st, 2nd, 3rd, 4th etc word based on <strong>wordIndex</strong></p>
-<p>Word(&ldquo;Brad;ILM,Turner&rdquo;,2,&rdquo;;,&quot;) = &ldquo;ILM&rdquo;<br>
-Word(&ldquo;Brad;ILM;Turner&rdquo;,2,&quot;;&quot;) = &ldquo;ILM&rdquo;<br>
-Word(&ldquo;Brad;,ILM;,Turner&rdquo;,2,&quot;;,&quot;)=&quot;&quot;<br>
-Word(&ldquo;Brad;,ILM;,Turner&rdquo;,3,&quot;;,&quot;) = &ldquo;ILM&rdquo;<br>
-Word(&ldquo;Brad;ILM,Turner&rdquo;,3,&quot;;,&quot;)=&ldquo;Turner&rdquo;</p>
-<p><strong>delimeters</strong> takes each delimiter character and uses them as separate delimitters not as a combination delimitter so &ldquo;;,&rdquo; means that the second word in &ldquo;Brad;,ILM;,Turner&rdquo; is &quot;&quot; and the third word is &ldquo;ILM&rdquo;</p>
-<p>Hopefully this helps you in your codeless provisioning quest.<br>
-Remember there are limitations like the output of IIF can&rsquo;t feed into a function parameter expecting an Integer like the mask or the flag in BitAND or BitOR &ndash; and no, I am not BitOr about it. Without casting and conversion functions that is an obstacle that can&rsquo;t be overcome using the ILM 2 functions for that you may need to turn to <a href="http://www.identitychaos.com/2008/12/ilm-2-rc0-workflow-activity-walkthrough.html">custom workflows</a>.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="excellent-post-david-thanks-for-putting-this-toge">Excellent post David, thanks for putting this toge&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Jan 3, 2009<!-- raw HTML omitted --></p>
+<p>Excellent post David, thanks for putting this together!</p>
+<!-- raw HTML omitted -->
+<p>To remove bit #2 shouldn&rsquo;t you use BitAnd(-3,userAccountControl) ?</p>
+<!-- raw HTML omitted -->
+<p>Paolo is correct in pointing out that the numbers I calculated for masks are wrong. I did 32-bit numbers and tested it back on the 32-bit version of the ILM 2 Beta 3 VM. The calcs should be done using 64-bit as explained here: Using FIM to enable or disable accounts in Active Directory (<a href="http://social.technet.microsoft.com/wiki/contents/articles/using-fim-to-enable-or-disable-accounts-in-active-directory.aspx">http://social.technet.microsoft.com/wiki/contents/articles/using-fim-to-enable-or-disable-accounts-in-active-directory.aspx</a> )</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -1019,92 +794,66 @@ Remember there are limitations like the output of IIF can&rsquo;t feed into a fu
         <footer id="footer">
     <div class="container">
 
-        
-        <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        
-        
-
-        <div class="col-md-4 col-sm-6">
-
-            
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            
-
-        </div>
-        
-
-        
-        <div class="col-md-4 col-sm-6">
-
-          <h4>Contact</h4>
-
-            <p class="text-uppercase"><strong>Identity Managed LLC</strong>
-        
-        <br>
-        <strong>Chandler, AZ</strong>
-      </p>
       
 
-	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+      
+      <div class="col-md-6 col-sm-6">
+          <h4>About us</h4>
+          <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
+          <hr class="hidden-md hidden-lg hidden-sm">
+      </div>
+      
+      <div class="col-md-6 col-sm-6">
+          
+          <h4>Recent posts</h4>
 
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
+          <div class="blog-entries">
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
+          </div>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
+      
         
-        
-
     </div>
     
 </footer>

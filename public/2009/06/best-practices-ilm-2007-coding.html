@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700829792" rel="stylesheet">
+<link href="/css/custom.css?1700841979" rel="stylesheet">
 
 
 
@@ -273,26 +273,19 @@ content="2009-06-22T15:31:00-0700">
                         
 
                         <div id="post-content">
-                          <p>In response to question in the MMSUG yahoo group I thought I would post the following:</p>
-<p><strong>Naming conventions for MV objects and attributes.</strong></p>
-<p>Most CS objects and attributes come to us with names &ndash; the exception being when we are writing our own views in SQL or Oracle</p>
-<p>There are many object types and attributes pre-defined in the metaverse if you use those no need to rename most of them seem to come from the required and suggested  attributes for either an X.500 Directory or LDAP Directory.</p>
-<p>For new objects it depends on how you want to process things. If you need to take some code based actions that are identical for similar but different object types then using a prefix or suffix can help. I have seen some very complex GALSync scenarios implemented that way, div-Person, div2-Person, div3-Person, div-DL, Div2-DL, Div3-DL, div-Contact, div2-Contact, div3-Contact.  Then in provisioning code you can match on patterns to make decisions.</p>
-<p>For Attributes some like to create them with a prefix with the client name. I generally like to match my attributes to the names from LDAP.</p>
-<p><strong>Naming conventions for coded attribute flows (AF).</strong></p>
-<p>In the 2731 class the instructions have you replacing the generated name User.samAccountName -&gt; Person.sAMAccountName with something more like SamAccountName.</p>
-<p>The benefit of the generated names is that they are pretty much unique and human readable although they are long. These days I tend to leave the default names.</p>
-<p><strong>Ways to make extensions for AF more adjustable without re-coding.</strong></p>
-<p>I have seen one developer use the flow rule names as a language to processor module to handle 90% of his string manipulation. That certainly cut down on the need for re-coding.</p>
-<p>That may have been an extreme example but it shows you what is possible.</p>
-<p>Another tactic is to preprocess Attribute flow by performing the transformations in a SQL view &ndash; it is much faster, but you can only use information available from that database. If you need to change it you won&rsquo;t need to change the MA Extension code. This is my preferred approach.</p>
-<p><strong>Ways to make provisioning code more adjustable without re-coding.</strong></p>
-<p>Make use of XML config files to store things like Exchange Mailbox stores to use, and then read them in during the initialize method (called once when the dll is loaded, since the dll&rsquo;s stay in cache for 5 min after use this won&rsquo;t necessarily be every run) of the Provisioning dll, and then make use of them during the provision method (called once per connected cs object being synchronized). Don&rsquo;t load an xml config file in the provisioning method unless you are looking for a way to slow down performance.</p>
-<p><strong>Favorite ways to make the status for any particular object easy to understand for people who don&rsquo;t know ILM/AD, etc.</strong></p>
-<p>We like to use reports and give the reports and their columns good descriptive names like ILM Disconnectors. Uh I mean AD Objects (Users, Groups OUs etc) that don&rsquo;t have matches in the other systems (like HR).</p>
-<p>In the reports on connected objects using the binary functions in SQL to translate</p>
-<p>For info on reports see Brad Turner&rsquo;s blog on the <a href="http://www.identitychaos.com/2007/05/update-miis-reporting-pack-announced.html">community reporting pack</a> that he created (I helped but only on one report).</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="thanks-for-writing-this-up-david-thats-goo">Thanks for writing this up, David. That&rsquo;s goo&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/00592893535303741690" title="noreply@blogger.com">matthew gibson</a> - <!-- raw HTML omitted -->Jun 2, 2009<!-- raw HTML omitted --></p>
+<p>Thanks for writing this up, David. That&rsquo;s good information.</p>
+<p>Can you explain this point&hellip;<br>
+I have seen one developer use the flow rule names as a language to processor module to handle 90% of his string manipulation. That certainly cut down on the need for re-coding.</p>
+<p>I&rsquo;m not sure I follow.</p>
+<p>Thanks, Again. Matthew</p>
+<!-- raw HTML omitted -->
+<p>One developer wrote a module that could interpret stuff like this<br>
+Person:SN + &ldquo;,&rdquo; + GivenName -&gt; User: displayname</p>
+<p>Person:Propercase(SN) + &ldquo;,&rdquo; + Propercase(GivenName) -&gt; User:Displayname</p>
+<p>Kind of like codeless provisioning in ILM 2 except that his mechanism for entering the codeless code (grin) was to put it in the flow rule name in Identity Manager so that it would be passed to his code at run time. It was very innovative but confusing as all get out to someone looking at it the first time.</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -802,92 +795,66 @@ content="2009-06-22T15:31:00-0700">
         <footer id="footer">
     <div class="container">
 
-        
-        <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        
-        
-
-        <div class="col-md-4 col-sm-6">
-
-            
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            
-
-        </div>
-        
-
-        
-        <div class="col-md-4 col-sm-6">
-
-          <h4>Contact</h4>
-
-            <p class="text-uppercase"><strong>Identity Managed LLC</strong>
-        
-        <br>
-        <strong>Chandler, AZ</strong>
-      </p>
       
 
-	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+      
+      <div class="col-md-6 col-sm-6">
+          <h4>About us</h4>
+          <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
+          <hr class="hidden-md hidden-lg hidden-sm">
+      </div>
+      
+      <div class="col-md-6 col-sm-6">
+          
+          <h4>Recent posts</h4>
 
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
+          <div class="blog-entries">
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
+          </div>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
+      
         
-        
-
     </div>
     
 </footer>

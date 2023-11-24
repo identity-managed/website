@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700829792" rel="stylesheet">
+<link href="/css/custom.css?1700841979" rel="stylesheet">
 
 
 
@@ -281,10 +281,24 @@ content="2011-12-26T12:46:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="its-very-good-post-congratulations-i-really-enj">It’s very good post! Congratulations! I really enj&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/14790267611332318019" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->Jul 4, 2013<!-- raw HTML omitted --></p>
-<p>It’s very good post! Congratulations! I really enjoyed to reading your blog. Thanks for share all this information. I’m looking forward your next post</p>
-<!-- raw HTML omitted -->
+                          <p>A while back I needed to set up Property Sets in AD LDS for granting of permissions to many of the attributes on the person object all at once, as I reviewed the Technet documentation on <a href="http://technet.microsoft.com/en-us/library/cc755430(WS.10).aspx">AD Property Sets</a> I realized that it doesn’t tell you what object type property sets are, nor does it tell you how to create a property set, nor does it tell you how to assign an attribute to a property set. The <a href="http://msdn.microsoft.com/en-us/library/ms683990(v=VS.85).aspx">MSDN documentation on Property Sets</a> lets you see which attributes where included in which property sets in the different versions of AD, and it hints that property sets are part of <a href="http://msdn.microsoft.com/en-us/library/ms680945(v=VS.85).aspx">Control Access Rights</a>. Finally there is some more MSDN documentation on <a href="http://msdn.microsoft.com/en-us/library/ms675747(v=VS.85).aspx">Control Access Rights</a> that starts to spell it out:</p>
+<blockquote>
+<ul>
+<li>For defining property sets, to enable controlling access to a subset of an object&rsquo;s attributes, rather than just to the individual attributes. Using the standard access rights, a single ACE can grant or deny access to all of an object&rsquo;s attributes or to a single attribute. Control access rights provide a way for a single ACE to control access to a set of attributes. For example, the user class supports the <strong>Personal-Information</strong> property set that includes attributes such as street address and telephone number. Property set rights are created on <strong>controlAccessRight</strong> objects by setting the <strong>validAccesses</strong> attribute to contain both the <strong>ACTR_DS_READ_PROP</strong> (16) and the <strong>ACTRL_DS_WRITE_PROP</strong> (32) access rights.</li>
+</ul>
+</blockquote>
+<p>This illustrates the first goal of my post: property sets exist in AD as controlAccessRight objects. But still doesn’t tell us where in the AD do they live. In fact they live in the CN=Extended-Rights container inside the Configuration partition(not the schema):</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/60062c88a23b_ABFA/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/60062c88a23b_ABFA/image_thumb.png" alt="image" title="image"></a></p>
+<p>Digging deeper into the MSDN docs on <a href="http://msdn.microsoft.com/en-us/library/ms675767(v=VS.85).aspx">Creating Control Access Rights</a> illustrates how you link attributes to a property set:</p>
+<blockquote>
+<p>If you define a control access right for a property set, use the <strong>rightsGUID</strong> of the <a href="http://msdn.microsoft.com/en-us/library/ms681001(v=VS.85).aspx"><strong>controlAccessRight</strong></a> object to identify the properties in the set. Every property is defined by an <a href="http://msdn.microsoft.com/en-us/library/ms680969(v=VS.85).aspx"><strong>attributeSchema</strong></a> object in the Active Directory schema. The <a href="http://msdn.microsoft.com/en-us/library/ms675235(v=VS.85).aspx"><strong>attributeSecurityGUID</strong></a> property of an <strong>attributeSchema</strong> object identifies the property set, if any, that the property belongs to. Be aware that the <strong>attributeSecurityGUID</strong> property is single-valued and stores the GUID in binary format (octet string syntax).</p>
+</blockquote>
+<p>Another goal of this post is to help by making this a little more visual.When you create a property set, you must first generate a GUID and place in the rightsGUID attribute on the controlAccessRights object. To assign an attribute to a property set you need to place this same GUID in the attributeSecurityGUID attribute on the attributeSchema object (in the Schema partition). Remember an attribute can only belong to one property set.</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/60062c88a23b_ABFA/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/60062c88a23b_ABFA/image_thumb_3.png" alt="image" title="image"></a></p>
+<p>Take a look at the following</p>
+<p><a href="http://technet.microsoft.com/en-us/library/ff406260.aspx">Instructions on how to assign permissions to someone using a Property Set</a></p>
+<p>For information on how to get the <a href="http://blog.ilmbestpractices.com/2011/12/guids-to-octets-guids-to-base64-strings.html">GUIDs into the right forms see my post</a></p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
@@ -794,92 +808,66 @@ content="2011-12-26T12:46:00-0700">
         <footer id="footer">
     <div class="container">
 
-        
-        <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        
-        
-
-        <div class="col-md-4 col-sm-6">
-
-            
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            
-
-        </div>
-        
-
-        
-        <div class="col-md-4 col-sm-6">
-
-          <h4>Contact</h4>
-
-            <p class="text-uppercase"><strong>Identity Managed LLC</strong>
-        
-        <br>
-        <strong>Chandler, AZ</strong>
-      </p>
       
 
-	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+      
+      <div class="col-md-6 col-sm-6">
+          <h4>About us</h4>
+          <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
+          <hr class="hidden-md hidden-lg hidden-sm">
+      </div>
+      
+      <div class="col-md-6 col-sm-6">
+          
+          <h4>Recent posts</h4>
 
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
+          <div class="blog-entries">
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
+          </div>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
+      
         
-        
-
     </div>
     
 </footer>

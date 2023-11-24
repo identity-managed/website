@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700829792" rel="stylesheet">
+<link href="/css/custom.css?1700841979" rel="stylesheet">
 
 
 
@@ -285,43 +285,26 @@ content="2013-10-04T15:55:00-0700">
                         
 
                         <div id="post-content">
-                          <p>Michael Pearn from down under wrote about his <a href="http://blog.kloud.com.au/2013/10/04/fim-case-study-trying-to-achieve-a-100-declarative-or-codeless-architecture/">experience trying to use just Declarative Sync Rules</a></p>
-<p>His experience &ndash; especially the religious debates are similar to my own. It made me recall my presentation at TEC 2012 the FIM 2010 R2 Showdown: Classic vs. Declarative</p>
-<p>The vast majority of old hands at the presentation declared for Classic both before and after the presentation. During the presentation I attempted to view anything you could do without code as declarative whether it came from a sync rule or not, especially if it was a new feature. But the crowd wouldn&rsquo;t let me claim anything configured in the sync engine as declarative. But in this post only classic code counts as not declarative.</p>
-<p>Michael found that he needed classic code for Advance Join rules, doing anything with multi-valued attributes other than just flowing them and &ldquo;Converting Binary values to ISO8601 Datetime.&rdquo; In his example he could have modified his SQL query that gets the data from HR and avoided the need for the Advanced Join rule.</p>
-<p>In addition to Michael&rsquo;s list here are some other things that you may need <strong>classic code</strong> to do:</p>
-<ul>
-<li>Advanced Filtering scenario to cause disconnections</li>
-<li>Changing the Metaverse object type when a connector joins to it</li>
-<li>Join Resolution Rules</li>
-<li>Manual Precedence Import Flows</li>
-<li>Provision objects with Auxiliary classes</li>
-<li>Decide on a case by case basis whether to deprovision as a Disconnector, Explicit Disconnector or just delete the object.</li>
-</ul>
-<p>But what does the FIM Sync engine bring us beyond what we had in ILM 2007 FP1?</p>
-<ul>
-<li>A lot less need for MVDeletion rules extension since we can indicate that disconnection from any of a list of MA&rsquo;s should trigger MV Deletion or if it is disconnected from all MA&rsquo;s (but ignore this one and that one)</li>
-<li>Many, many attribute transformations can be done with Sync Rules and don&rsquo;t need code</li>
-<li>A way to do fairly sophisticated provisioning logic without code (Transition Sets, MPRs, Workflows, OutBound Sync Rules)</li>
-<li>R2: A way to do some basic provisioning logic with filter based Outbound Sync rules that performs pretty decently and doesn&rsquo;t require a detour through the FIM Service</li>
-<li>New ways to trigger deprovisioning (Transition Sets, MPRs, Workflows, OutBound Sync Rules)</li>
-<li>OU creation w/o code (That sure is nice and no worried about the OU being a connector to the MV object that first needed it)</li>
-<li>DN Rename w/o code (also very nice)</li>
-</ul>
-<p>In my presentation I contrasted the new sync rules with the classic config and code:</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_3.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_4.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_4.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_5.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_5.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_6.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_6.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_7.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_7.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_8.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_8.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_9.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_9.png" alt="image" title="image"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_10.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_10.png" alt="image" title="image"></a></p>
-<p>Finally here were my recommendations that many disagreed with but it sounds like Michael would agree:</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_11.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/762586ead43a_D293/image_thumb_11.png" alt="image" title="image"></a></p>
-<p>There are some high volume scenarios where sync rules are too slow and there are still some customers that get all they want out the classic sync engine and don&rsquo;t want to pay for CALs.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="i-see-two-challenges-1-there-is-not-feature-pari">I see two challenges: 1. There is not feature pari&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/09808879680127031778" title="noreply@blogger.com">Craig Martin</a> - <!-- raw HTML omitted -->Oct 3, 2013<!-- raw HTML omitted --></p>
+<p>I see two challenges:<br>
+1. There is not feature parity between the two types of sync rules<br>
+2. The imperative support (VBA) in the new sync rules is limited and difficult to debug</p>
+<p>My wish is that we had better extensibility in the new sync rules (scrap VBA, or figure out how to improve the extensibility and debugging).</p>
+<p>Also, choosing between declarative or imperative is a bad choice because you&rsquo;ll always need bits of both. PowerShell is a good example, in the new Desired State Configuration feature:<br>
+<a href="http://www.powershellmagazine.com/2013/07/05/imperative-versus-declarative-syntax-in-powershell/">http://www.powershellmagazine.com/2013/07/05/imperative-versus-declarative-syntax-in-powershell/</a></p>
+<!-- raw HTML omitted -->
+<p>This is a very technical comparison. Let’s look at other arguments.<br>
+• Skilled people for declarative are easier to find. Software writers are scares.<br>
+• The portal knows the sync, but not vice versa. So Understanding the whole logic is much easier when using Declarative.<br>
+• Are we integrators or a software house? We don’t write our own virus scanner, do we?<br>
+• Reporting over Declarative is OOTB. Reporting over Classic is not available.<br>
+• Clients dislike these DLLs where all the “secret stuff” is.<br>
+• While it’s true that classic can do anything, that’s also the problem. If you look at the code you will often find some very creative stuff… I would lough if it wasn’t me.<br>
+• Judging by the development since ILM 2007, the future is Declarative. Who wants to be left behind?</p>
+<!-- raw HTML omitted -->
+<p>I think I get your perspective, Guy; you prefer a system that is easier to build and operate, and your priority is not extensibility. That sounds reasonable, but I think the goals are not exclusive. Maybe someday we&rsquo;ll have both, but in the interim Microsoft agrees with you ;-)</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -831,92 +814,172 @@ content="2013-10-04T15:55:00-0700">
         <footer id="footer">
     <div class="container">
 
-        
-        <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        
-        
-
-        <div class="col-md-4 col-sm-6">
-
-            
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                          
-                            <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            
-
-        </div>
-        
-
-        
-        <div class="col-md-4 col-sm-6">
-
-          <h4>Contact</h4>
-
-            <p class="text-uppercase"><strong>Identity Managed LLC</strong>
-        
-        <br>
-        <strong>Chandler, AZ</strong>
-      </p>
       
 
-	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+      
+      <div class="col-md-6 col-sm-6">
+          <h4>About us</h4>
+          <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
+          <hr class="hidden-md hidden-lg hidden-sm">
+      </div>
+      
+      <div class="col-md-6 col-sm-6">
+          
+          <h4>Recent posts</h4>
 
-            <hr class="hidden-md hidden-lg hidden-sm">
+          <div class="blog-entries">
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
+          </div>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
+      
+        
+    </div>
+    
+</footer>
 
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container text-center">
+      
+    
+        <div class="row ">
+      
+          <div class="col-sm-4">
+            
+            <p>Copyright (c) 2023 Identity Managed</p>
+            
+          </div>
+
+           <div class="col-sm-4">
+              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+           </div>
+
+            <div class="col-sm-4">
+              <p>
+                Powered by
+              <a href="https://colbal.com" target="_blank">Colbal</a>
+            </p>
+            </div>
+            
+            
         </div>
-        
-        
+    </div>
+</div>
 
+
+
+
+
+
+<link
+  href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  </body>
+</html>
+cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
+          </div>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
+      
+        
     </div>
     
 </footer>
