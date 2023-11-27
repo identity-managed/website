@@ -121,10 +121,34 @@ url = "/blog/"
 weight = 20
 
 [[menu.main]]
-name = "FAQ"
-identifier = "menu.faq"
-url = "/faq/"
+name = "About"
+identifier = "menu.about"
+url = "/about/"
 weight = 30
+
+[[menu.main]]
+name = "Case Studies"
+parent = "menu.about"
+url = "/about/case-studies"
+weight = 31
+
+[[menu.main]]
+name = "Founder"
+parent = "menu.about"
+url = "/about/founder"
+weight = 32
+
+[[menu.main]]
+name = "Books"
+parent = "menu.about"
+url = "/about/books"
+weight = 33
+
+[[menu.main]]
+name = "FAQ"
+parent = "menu.about"
+url = "/faq/"
+weight = 39
 
 [[menu.topbar]]
 weight = 10
