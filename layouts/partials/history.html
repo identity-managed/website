@@ -5,6 +5,7 @@
       <div class="row">
         {{ range sort .Site.Data.carousel "weight" }}
         <div class="col-sm-4" style="text-align: center">
+          <a href="{{ .href }}">
           <img
             class="img-responsive"
             src="{{ .image }}"
@@ -15,6 +16,7 @@
           <p style="text-shadow: 2px 2px black">
             {{ .description | safeHTML }}
           </p>
+        </a>
         </div>
         {{ end }}
       </div>
