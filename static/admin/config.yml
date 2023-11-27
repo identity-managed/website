@@ -55,14 +55,32 @@ collections:
           - { label: "Body", name: body, widget: markdown }
         #end of faq
 
-      - file: "content/contact.md"
-        label: "Contact"
-        name: "contact"
+      - file: "content/about/case-studies.md"
+        label: "Case Studies"
+        name: "case-studies"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: SEO Description, name: description, widget: text }
           - { label: "Body", name: body, widget: markdown }
-        #end of contact
+        #end of case studies
+      
+      - file: "content/about/founder.md"
+        label: "Founder"
+        name: "founder"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: SEO Description, name: description, widget: text }
+          - { label: "Body", name: body, widget: markdown }
+        #end of founder
+
+      - file: "content/about/books.md"
+        label: "Books"
+        name: "books"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: SEO Description, name: description, widget: text }
+          - { label: "Body", name: body, widget: markdown }
+        #end of books
 
   - name: "carousel"
     label: "Home Page Carousel"
