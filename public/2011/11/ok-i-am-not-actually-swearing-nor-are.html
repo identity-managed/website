@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145380" rel="stylesheet">
 
 
 
@@ -137,11 +137,11 @@ content="2011-11-16T10:38:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="What the %_ is the deal with wildcards in FIM Queries in the latest hotfix? logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="What the %_ is the deal with wildcards in FIM Queries in the latest hotfix? logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">What the %_ is the deal with wildcards in FIM Queries in the latest hotfix? - go to homepage</span>
+                    <span class="sr-only">What the %_ is the deal with wildcards in FIM Queries in the latest hotfix? - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -197,9 +197,24 @@ content="2011-11-16T10:38:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -275,41 +290,22 @@ content="2011-11-16T10:38:00-0700">
                               
                                   
                               
-                              November 16, 2011
+                               16, 2011
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p>Ok I am not actually swearing, nor are those substitute words, rather % and _ are two characters that until <a href="http://support.microsoft.com/kb/2520954">hotfix rollup package (build 4.0.3594.2)</a> could be used to perform some <a href="http://blog.ilmbestpractices.com/2010/06/fim-sets-xpath-finding-nulls-with.html">much needed and cool searches for sets, search scopes, groups and 3rd party client queries against FIM</a>. Such as querying for the presence of string attributes.</p>
-<p>I am sure what happened is that someone created a resource with an underscore in the name and then couldn’t search for it. So the fix. However it wasn’t broken. We need this functionality. Furthermore, simply enclosing the wildcard character in [] would cause it to be evaluated as a literal.</p>
-<p>The secret, as <a href="http://blog.ilmbestpractices.com/2010/06/fim-sets-xpath-finding-nulls-with.html">I previously blogged</a>, is that FIM takes what you type in (on some searches) and passes it as the right hand parameter of the T-SQL LIKE operator. Ergo, whatever wildcards you can do with LIKE you can do here. Was this a form of SQL injection? Perhaps, but I tested it for other kinds of SQL injection, such as adding a single quote and other commands, and those don’t work. So it wasn’t a vulnerability, but a feature. Undocumented? Sure, but needed.</p>
-<p><a href="http://msdn.microsoft.com/en-us/library/ms179859.aspx">Using Wildcard Characters As Literals</a></p>
-<p>You can use the wildcard pattern matching characters as literal characters. To use a wildcard character as a literal character, enclose the wildcard character in brackets. The following table shows several examples of using the LIKE keyword and the [ ] wildcard characters</p>
-<p>The problem with this hotfix is that it destroys our ability to build sets and queries that test for presence of values in string attributes. This will break many of the implementations of FIM that I and my team have done. We need a mechanism for detecting nulls in the attributes in the FIM Service database so that we can create sets based on the presence or absence of attributes.</p>
-<p>Some might say that we can use DRE’s to accomplish this too, but the calculation of sets of objects that have DRE is non-trivial requiring the creation of an Outbound Sync Rule, the creation of a set of DRE objects, and then another set of objects whose DRL has members in the first set. But worst of all this only applies to attributes in the connector space and their matching attribute in the Metaverse and requires a few syncs and I cannot apply this approach to attributes that exist only in the FIM Service, but not in the Metaverse.</p>
-<p>Another alternative would be to create an IsPresent function in the XPath queries, but please ensure that it works on all attribute types.</p>
-<p>Preference of fixes (in decreasing order of desirability):</p>
-<ol>
-<li>
-<p>We can still use the wildcards in the queries, but have a way to escape them and get an IsPresent function, in other words roll back this portion of the fix and teach/document how to have the wildcards treated as literals.</p>
-</li>
-<li>
-<p>If we can’t do that then I would prefer to see an IsPresent function in the XPath</p>
-</li>
-<li>
-<p>If we can’t do that still use the wildcards in the queries, but have a way to escape them</p>
-</li>
-</ol>
-<p>Official text from <a href="http://support.microsoft.com/kb/2520954">hotfix rollup package (build 4.0.3594.2)</a>:</p>
-<h6 id="issue-2">Issue 2</h6>
-<p>Revised the FIM &ldquo;Query and Sets&rdquo; features to correctly treat percent signs, underscores, and opening brackets as literals instead of as SQL wildcard characters.<br>
-The approved character sets for strings that are used in FIM attribute values are defined in the attribute and binding schema in the FIM service. The syntax for representing an XPath filter is documented on MSDN in the following &ldquo;FIM XPath Filter Dialect&rdquo; article:</p>
-<p><a href="http://msdn.microsoft.com/en-us/library/ee652287.aspx">http://msdn.microsoft.com/en-us/library/ee652287.aspx</a> ( <a href="http://msdn.microsoft.com/en-us/library/ee652287.aspx">http://msdn.microsoft.com/en-us/library/ee652287.aspx</a>)</p>
-<p>Some customers may have included characters that SQL defines as query wildcard characters, such as the percent character, in FIM searches and Set filters. In this case, the customers intended FIM to treat the characters as SQL wildcard characters. This is not a documented or supported feature of the product. In some cases, customers may be able to achieve the intended functionality by removing the wildcard and by using a “contains” query/filter instead.<br>
-Existing Set resources that have filters that contain SQL wildcard characters may not continue to function as the filters functioned before this hotfix was applied. Also, a filter that contains wildcard characters and that continued to function as expected after the hotfix was applied may function differently if the administrator later updates the filter definition.<br>
-<strong>Customers who used characters that SQL defined as query wildcard characters must check and revise their Set filters either before or after they upgrade to this hotfix. Customers should consider the impact of Set membership changes on Set transition MPRs</strong>. And, customers may want to temporarily disable MPRs or update workflow definitions while they change their Set filters to avoid unintentionally triggering provisioning or deprovisioning operations during Set definition maintenance.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="david---just-came-across-your-post-others-readin">David - just came across your post. Others readin&hellip;</h4>
+<p><a href="%22noreply@blogger.com%22">Anonymous</a> - <!-- raw HTML omitted -->Jan 1, 2012<!-- raw HTML omitted --></p>
+<p>David - just came across your post. Others reading it now may wish to follow this thread on the FIM Forum where the issue continues to be discussed at length.<br>
+Cheers<br>
+Bob<br>
+<a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/ec15b1d0-3f4c-42fd-a833-3983330be963">http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/ec15b1d0-3f4c-42fd-a833-3983330be963</a></p>
+<!-- raw HTML omitted -->
+<p>10 years on David and your post came in handy just now - learned something new about the [_] thing in xpath statements :) - kudos - just the ticket!<br>
+My xpath: &ldquo;/*[starts-with(DisplayName,&rsquo;[_]&rsquo;)]&rdquo;</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -352,7 +348,7 @@ Existing Set resources that have filters that contain SQL wildcard characters ma
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -823,14 +819,14 @@ Existing Set resources that have filters that contain SQL wildcard characters ma
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               

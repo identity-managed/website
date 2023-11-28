@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145380" rel="stylesheet">
 
 
 
@@ -137,11 +137,11 @@ content="2013-01-16T11:28:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="Top 5 Deprecated features as of FIM 2010 R2 SP1 logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="Top 5 Deprecated features as of FIM 2010 R2 SP1 logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Top 5 Deprecated features as of FIM 2010 R2 SP1 - go to homepage</span>
+                    <span class="sr-only">Top 5 Deprecated features as of FIM 2010 R2 SP1 - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -197,9 +197,24 @@ content="2013-01-16T11:28:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -275,16 +290,39 @@ content="2013-01-16T11:28:00-0700">
                               
                                   
                               
-                              January 16, 2013
+                               16, 2013
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <h4 id="i-have-heard-that-investments-in-fim-cm-are-contin">I have heard that investments in FIM CM are contin&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/17202883653808140101" title="noreply@blogger.com">David Lundell</a> - <!-- raw HTML omitted -->Jan 2, 2013<!-- raw HTML omitted --></p>
-<p>I have heard that investments in FIM CM are continuing. So don&rsquo;t worry about FIM CM disappearing.</p>
-<!-- raw HTML omitted -->
+                          <p>Yesterday Microsoft published a list of features that have been <a href="http://technet.microsoft.com/en-us/library/jj879229(v=ws.10).aspx">deprecated in FIM</a> and will be removed from the product at some point in the future. In other words these don&rsquo;t require immediate action but when the next major release of * Identity Manager (* because we don&rsquo;t know what the new name will be &ndash; see my tweet from last week at the Redmond Identity Summit) emerges those features will likely be gone. So over the next 18-36 months you need to begin working away from these issues.</p>
+<p>Rank</p>
+<p>Feature</p>
+<p>Impact</p>
+<p>1</p>
+<p>Combined Run Profiles steps such as Delta Import/Delta Sync, Full Import/Delta Sync, and Full Import/Full Sync</p>
+<p>Removing the Delta Import/Delta Sync combined run profile step will have a huge impact on shops that have lots of disconnectors in their connector space. Remember that disconnectors are considered pending and so a delta sync always processes them. The Delta Import/Delta Sync single step only processes pending objects that were imported during the delta import.</p>
+<p>Hopefully, MSFT will add a feature: a checkbox to determine whether you want to process all disconnectors or just those with import changes since your last sync.</p>
+<p>2</p>
+<p>Multi-mastery/equal precedence</p>
+<p>As <a href="http://social.technet.microsoft.com/Forums/en-US/identitylifecyclemanager/thread/2c4f5c39-de0b-4fed-9cdd-057d0394085b">Paul Loonen describes it</a>:</p>
+<p>As a net effect, when the MV attribute is multi-valued, all values contributed by the different MAs are accumulated in the MV attribute.<br>
+When the MV attribute is single valued, the value that is last contributed is stored in the MV attribute, or, “<em>the last writer wins</em>”.</p>
+<p>The deprecation article leaves in a bit of confusion it says it will be removed but you can still keep using it if you have the FIM MA deployed:</p>
+<p>You can continue to use this feature if your environment has a FIM Service management agent deployed (this management agent does not provide manual precedence) and to avoid export-not-precedent for declarative provisioning.</p>
+<p>So will it be removed or not?</p>
+<p>3</p>
+<p>ECMA1 (XMA)</p>
+<p>Lots of XMA (ECMA 1) code running out there and all of it will need to be switched to ECMA 2.0 at some point in the future. While I have this one third this could actually have the biggest impact. If someone could create a tool that would auto-magically transform them that would be cool. I don&rsquo;t expect that they would take advantage of all of the new features but at least people will be able to upgrade without tons of recoding.</p>
+<p>4</p>
+<p>Transaction properties</p>
+<p>This handy feature is used in many advanced coding scenarios to be able to signal to your provisioning code that this object just projected or joined and then to take some one time action or skip taking some action.</p>
+<p>5</p>
+<p>FIM CM MA and CLMUtils</p>
+<p>So unlike the Lotus Notes MA and SAP R/3 MA which have been replaced with newer versions the FIM CM MA doesn&rsquo;t look like it will be getting replaced. Honestly there aren&rsquo;t many implementations using this MA. But this has some portents about the future of FIM Certificate Management. I would say that it suggests no future development of FIM CM but they did just add support for the DataCard CD800 printer as part of SP1 so I don&rsquo;t think it is going away entirely.   At a minimum it does suggest a decoupling of the FIM CM from the rest of FIM.</p>
+<p>I do think that the acquisition of PhoneFactor suggests that Smart Cards and certificates will have less importance in the authentication game.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
@@ -327,7 +365,7 @@ content="2013-01-16T11:28:00-0700">
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -798,14 +836,14 @@ content="2013-01-16T11:28:00-0700">
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               

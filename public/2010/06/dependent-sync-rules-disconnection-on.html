@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145379" rel="stylesheet">
 
 
 
@@ -133,11 +133,11 @@ content="2010-06-29T14:32:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule - go to homepage</span>
+                    <span class="sr-only">Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -193,9 +193,24 @@ content="2010-06-29T14:32:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -271,102 +286,17 @@ content="2010-06-29T14:32:00-0700">
                               
                                   
                               
-                              June 29, 2010
+                               29, 2010
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p>Recently, I discovered that under certain conditions the removal of a dependent sync rule could cause the disconnection of objects in AD or other connected data sources. So I had to investigate the inner workings of dependent Sync Rules to uncover this mystery and fix it.</p>
-<p>FIM allows us to create dependent Sync Rules. First let me explain the what and then a little why. Then allow me to explain a bug that I discovered and how to work around it.</p>
-<p>A Dependent Sync Rule is an outbound sync rule, or and inbound and outbound sync rule (with only the outbound side working) that depends on and inherits (at the time of creation) from its parent or base sync rule.</p>
-<p>A base Sync Rule is one that doesn’t depend on any other sync rule.</p>
-<p>A dependent sync rule can depend on another dependent sync rule.</p>
-<p>A dependent sync rule cannot be applied to a resource until its parent sync rule has been applied</p>
-<p>When you create a sync rule as a dependent sync rule it inherits a number of attributes from the parent</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb.png" alt="image" title="image"></a></p>
-<p>Let’s break it down:</p>
-<blockquote>
-<p>The resource Type is obviously sync rule</p>
-</blockquote>
-<blockquote>
-<p>Create External System Resource, Create FIM Resource, and Disconnect External System Resource are all set to false because this is a dependent sync rule. Back in RC 1 Disconnect External System Resource inherited the value of the parent which leads to odd behavior I will describe further on in the post. The attributes and their corresponding actions are the province of base sync rules.</p>
-</blockquote>
-<blockquote>
-<p>Data Flow Direction (1 for outbound or 2 for in and out), External System, External System Resource Type, FIM Resource Type, and Relationship criteria are inherited from the parent.</p>
-</blockquote>
-<blockquote>
-<p>Workflow Parameters and persistent flow can be set as well as the DisplayName and the Description. Initial flow can’t be set as that is also the province of base sync rules.</p>
-</blockquote>
-<p>Why implement dependent sync rules? Flow additional attributes in a situational fashion but only if some base sync rule is already applied.</p>
-<p><strong>One danger can occur</strong>. If you create a base sync rule, set the Disconnect External System Resource to true and then change it to a dependent sync rule, the disconnect remains true and you have no way in the UI to change it since the scoping and relationship tabs are hidden for dependent sync rules. So the bug is either that you can’t change it in the UI or that the UI or service should be changing it to false if the rule becomes dependent.</p>
-<p>If this setting is set to true then it might disconnect the resource when the dependent sync rule is removed.</p>
-<p>This can also happen if you load a sync rule through the web service as dependent and set the Disconnect External System Resource to true.</p>
-<p>How did it get this way? Well if you were an RDP or TAP customer and you had RC 1 and then upgraded your FIM Service database it could be that way. Or if you export the FIM sync rule from one system and it was like that and then went to another it would load in with it set to true</p>
-<p>How to find out if you have this?</p>
-<p>Assuming you have already imported and sync’d from the FIM MA then In the Sync Service Manager, go to metaverse search. Search for Sync rules. Search for those with the DisconnectConnectedSystemObject set to true and dependency is present. If anything turns up then you have this issue.</p>
-<p>To solve it you can use the UI or this  PowerShell script against the web service.</p>
-<p>To use the UI you open the dependent sync rule change it to not have a dependency and then change it back to depend on the one that it had before. That seems to tell the UI to set Disconnect External System Resource to false</p>
-<p>Initially your dependent sync rule looks like this:</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_3.png" alt="image" title="image"></a></p>
-<p>So change it to look like this (but don’t click OK and submit – not yet anyway)</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_4.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_4.png" alt="image" title="image"></a></p>
-<p>Then change it back</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_3.png" alt="image" title="image"></a></p>
-<p>Then click OK and you should see this and nothing else getting changed</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_5.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_5.png" alt="image" title="image"></a></p>
-<p>Then click Submit.</p>
-<p>Or use PowerShell on your next import and sync from FIM your sync rule will be fixed.</p>
-<p>. C:\FIMTasks\FIMHelper\FIMPowerShell.ps1</p>
-<p># includes the helper functions from: <a href="http://technet.microsoft.com/en-us/library/ff720152(WS.10).aspx">http://technet.microsoft.com/en-us/library/ff720152(WS.10).aspx</a></p>
-<p># and the GenerateFilter from <a href="http://technet.microsoft.com/en-us/library/ff720142(WS.10).aspx">http://technet.microsoft.com/en-us/library/ff720142(WS.10).aspx</a></p>
-<p># and GetAttributeValueFromResource from <a href="http://technet.microsoft.com/en-us/library/ff720158(WS.10).aspx">http://technet.microsoft.com/en-us/library/ff720158(WS.10).aspx</a></p>
-<p># take the above helper functions and create a file called FIMPowerShell.ps1 and put them in it</p>
-<p># Purpose of this script is to Identify sync rules with dependencies</p>
-<p># where the DisconnectConnectedSystemObject=true and set it to false</p>
-<p># step 1 find Sync rules with dependencies and DisconnectConnectedSystemObject=true</p>
-<p># step 2 Modify the DisconnectConnectedSystemObject=false for each of these</p>
-<p># step 3 commit to FIM</p>
-<p>function QueryResourceOnlyBase</p>
-<p>{</p>
-<p>PARAM($Filter, $Uri = $DefaultUri)</p>
-<p>END</p>
-<p>{</p>
-<p>$resources = Export-FIMConfig -CustomConfig $Filter -Uri $Uri -OnlyBaseResources</p>
-<p>$resources</p>
-<p>}</p>
-<p>}</p>
-<p># step 1 find Sync rules with dependencies and DisconnectConnectedSystemObject=true</p>
-<p>$uri = &ldquo;<a href="http://localhost:5725/ResourceManagementService">http://localhost:5725/ResourceManagementService</a>&rdquo;</p>
-<p>$exportedSyncRules = QueryResourceOnlyBase -Filter &ldquo;/SynchronizationRule[DisconnectConnectedSystemObject=true</p>
-<p>and Dependency = /SynchronizationRule ]&rdquo; -Uri $Uri</p>
-<p>Write-Host (&ldquo;The script has exported &quot; + $exportedSyncRules.Count + &quot; sync rules based on the filter: &quot; + $query)</p>
-<p># step 2 Modify the DisconnectConnectedSystemObject=false for each of these</p>
-<p>$importList = @()</p>
-<p>foreach ($syncRule in $exportedSyncRules)</p>
-<p>{</p>
-<p>$importObject = ModifyImportObject $syncRule.ResourceManagementObject.ObjectIdentifier &ldquo;SynchronizationRule&rdquo;</p>
-<p>SetSingleValue $importObject &ldquo;DisconnectConnectedSystemObject&rdquo; &ldquo;false&rdquo; 1</p>
-<p>$importList += $importObject</p>
-<p>}</p>
-<p># step 3 commit to FIM</p>
-<p>if ($importList.Count -gt 0 )</p>
-<p>{</p>
-<p>$undoneChanges = $importList | Import-FIMConfig -Uri $Uri</p>
-<p># Use ConvertFrom-FIMResource cmdlet to convert contents of $undoneChanges to the file &ldquo;undone.xml&rdquo;.</p>
-<p>if ($undoneChanges.Count -gt 0)</p>
-<p>{</p>
-<p>Write-Host &ldquo;There are &quot; + $undoneChanges.Count + &quot; sync rules that failed to update&rdquo;</p>
-<p>Write-Host &ldquo;The undone imports are written to undone.xml&rdquo;</p>
-<p>$undoneChanges | ConvertFrom-FIMResource -file undone.xml</p>
-<p>}</p>
-<p>Write-Host &ldquo;Import complete&rdquo;</p>
-<p>}</p>
-<p>else</p>
-<p>{</p>
-<p>Write-Host &ldquo;Nothing to import&rdquo;</p>
-<p>}</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="hi-david-i-have-a-dependent-sync-rule-and-i-have">Hi David, I have a dependent sync rule and I have&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/07657669311243080791" title="noreply@blogger.com">V</a> - <!-- raw HTML omitted -->Jul 1, 2013<!-- raw HTML omitted --></p>
+<p>Hi David,</p>
+<p>I have a dependent sync rule and I have confirmed that it will not disconnect the object when the dependent sync rule is removed. However, everytime the dependent sync rule is removed, FIM tries to export a &ldquo;Provisioning Delete/Add&rdquo; to AD. Have you experienced this issue? Any tips would be appreciated. Thanks</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -409,7 +339,7 @@ content="2010-06-29T14:32:00-0700">
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -880,14 +810,14 @@ content="2010-06-29T14:32:00-0700">
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               

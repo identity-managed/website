@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145380" rel="stylesheet">
 
 
 
@@ -137,11 +137,11 @@ content="2013-01-15T20:25:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="Top 11 new features of FIM 2010 R2 SP1 logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="Top 11 new features of FIM 2010 R2 SP1 logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Top 11 new features of FIM 2010 R2 SP1 - go to homepage</span>
+                    <span class="sr-only">Top 11 new features of FIM 2010 R2 SP1 - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -197,9 +197,24 @@ content="2013-01-15T20:25:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -275,17 +290,65 @@ content="2013-01-15T20:25:00-0700">
                               
                                   
                               
-                              January 15, 2013
+                               15, 2013
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <h4 id="hello-is-fim-r2-sp1-support-sql-server-2012-sp1">Hello, Is Fim r2 sp1 support sql server 2012 sp1</h4>
-<p><a href="https://www.blogger.com/profile/10907643659245129628" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->Mar 2, 2015<!-- raw HTML omitted --></p>
-<p>Hello,<br>
-Is Fim r2 sp1 support sql server 2012 sp1</p>
-<!-- raw HTML omitted -->
+                          <p>My comments on What&rsquo;s new and the release notes for FIM 2010 R2 SP1:</p>
+<p>Rank</p>
+<p>Feature</p>
+<p>Impact</p>
+<p>1</p>
+<p><a href="http://technet.microsoft.com/en-us/library/jj863243(v=ws.10).aspx">Deferred evaluation of criteria based groups</a><br>
+This setting can be enabled one group at a time. You can also change the default so that as new criteria based groups are created they will be set for Deferred. The default is to calculate group membership twice a day at 2:30 AM and 2:30 PM.</p>
+<p>HUGE! Thank you product group for answering my wishes. You see whenever a request is received by the FIM Service it evaluates permissions, it evaluates whether the request will cause any criteria based set memberships to change, and it also evaluates whether criteria based group memberships to change. For large systems with lots of users and lots of criteria based groups this can take a long time.Now we have the option to defer those calculations, and then the system can perform those calculations using SQL based set logic. I suspect that this is done using SQL Agent jobs and if a more frequent schedule is needed you could tweak the schedule of the job.</p>
+<p>2</p>
+<p>Upgrading the FIM database from FIM 2010 to R2 used to be quite time consuming &ndash; this has been improved by at least an order of magnitude from &ldquo;days [down] to hours.&rdquo;</p>
+<p>Phew! It is now safe to get up and upgrade!</p>
+<p>3</p>
+<p>&ldquo;imports of groups with 30,000 members are 2.5 times faster&rdquo; for AD MA, FIM MA and ECMA 2.0</p>
+<p>This is on the import side rather than the sync side but every bit of additional speed we get on dealing with references without sacrificing integrity is appreciated.</p>
+<p>4</p>
+<p>ECMA has been updated to 2.1</p>
+<p>You can now do updates on multi-valued attributes instead of having to do a replace.</p>
+<p>You can also skip doing confirmations on add.<br>
+Good impact on performance</p>
+<p>5</p>
+<p>FIM Server components are now supported for:<br>
+Windows Server 2012<br>
+SQL 2012<br>
+SharePoint Foundation 2013 (read <a href="http://technet.microsoft.com/en-us/library/jj863242(v=ws.10).aspx">Installing FIM 2010 R2 on SharePoint Foundation 2013</a>.)<br>
+SCSM 2012</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>6</p>
+<p>FIM Client components are now supported for:<br>
+Windows 8<br>
+Outlook 2013</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>7</p>
+<p>Support for Windows Server 2012 based AD and Exchange 2013 has been added to the AD MA</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>8</p>
+<p>Support for SQL Server 2012 has been added to the SQL MA</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>9</p>
+<p>Support for the FIM Portal in IE 10 (be sure to install the hotfixes mentioned)</p>
+<ul>
+<li>Windows Server 2008: <a href="http://support.microsoft.com/kb/2600100">http://support.microsoft.com/kb/2600100</a></li>
+<li>Windows Server 2008 R2: <a href="http://support.microsoft.com/kb/2608565">http://support.microsoft.com/kb/2608565</a></li>
+</ul>
+<p>10</p>
+<p>The Sun and Netscape MA is now called Oracle Directory Servers and includes support for Sun 7.x and Oracle 11</p>
+<p>Support for Oracle Internet Directory 11g!!!</p>
+<p>11</p>
+<p>&ldquo;Import-MIISServerConfig PowerShell cmdlet supports now overwriting an existing configuration&rdquo;</p>
+<p>This will help with automated testing scenarios!</p>
+<p>Source Articles:</p>
+<p><a href="http://technet.microsoft.com/en-us/library/jj863246(v=ws.10).aspx">What&rsquo;s New in Forefront Identity Manager 2010 R2 SP1</a></p>
+<p><a href="http://technet.microsoft.com/en-us/library/jj863245(v=ws.10).aspx">Release Notes for Forefront Identity Manager 2010 R2 SP1</a></p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
@@ -328,7 +391,7 @@ Is Fim r2 sp1 support sql server 2012 sp1</p>
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -799,14 +862,14 @@ Is Fim r2 sp1 support sql server 2012 sp1</p>
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               
@@ -821,116 +884,6 @@ Is Fim r2 sp1 support sql server 2012 sp1</p>
                   <div class="name same-height-always">
                       <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
                   </div>
-              </div>
-              
-              <div class="item same-height-row clearfix">
-                  <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
-                        
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
-                        
-                      </a>
-                  </div>
-                  <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
-                  </div>
-              </div>
-              
-              <div class="item same-height-row clearfix">
-                  <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
-                        
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
-                        
-                      </a>
-                  </div>
-                  <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
-                  </div>
-              </div>
-              
-          </div>
-          <hr class="hidden-md hidden-lg">
-          
-      </div>
-      
-        
-    </div>
-    
-</footer>
-
-
-
-
-
-
-
-<div id="copyright">
-    <div class="container text-center">
-      
-    
-        <div class="row ">
-      
-          <div class="col-sm-4">
-            
-            <p>Copyright (c) 2023 Identity Managed</p>
-            
-          </div>
-
-           <div class="col-sm-4">
-              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-           </div>
-
-            <div class="col-sm-4">
-              <p>
-                Powered by
-              <a href="https://colbal.com" target="_blank">Colbal</a>
-            </p>
-            </div>
-            
-            
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<link
-  href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
-  rel="stylesheet"
-  type="text/css"
-/>
-
-
-    </div>
-    
-
-    
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
-
-<script src="/js/front.js"></script>
-
-
-<script src="/js/owl.carousel.min.js"></script>
-
-
-<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
-
-
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-  </body>
-</html>
               </div>
               
               <div class="item same-height-row clearfix">

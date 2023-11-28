@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145380" rel="stylesheet">
 
 
 
@@ -129,11 +129,11 @@ content="2008-09-12T02:52:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field - go to homepage</span>
+                    <span class="sr-only">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -189,9 +189,24 @@ content="2008-09-12T02:52:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -267,37 +282,16 @@ content="2008-09-12T02:52:00-0700">
                               
                                   
                               
-                              September 12, 2008
+                               12, 2008
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p><a href="https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=367381&amp;SiteID=433">ID: 367381</a></p>
-<hr>
-<p>Description</p>
-<p>Action Process Function Evaluator Activity doesn&rsquo;t work when using only one field, but when I concatenate with 2 it works.</p>
-<p><strong>Repro Steps</strong></p>
-<p>Create an action Process<br>
-Add one activity &ndash; Function Evaluator<br>
-Set a destination to an attribute (like DisplayName) and select only one field in the value &ndash; LastName<br>
-Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), Operations: Create and Modify<br>
-Requestors: All People<br>
-All Attributes<br>
-Condition Before All People<br>
-Condition After All People<br>
-Policy Workflows: Add your Action Process<br>
-Then create or modify a user<br>
-open the user again and note that it did not work<br>
-Then look at search requests, view the request and note the following error: Data at the root level is invalid. Line 1, position 1.</p>
-<p>This fails</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/image_thumb.png" alt="image"></a></p>
-<p>and when used gives this error:</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image001.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image001_thumb.png" alt="clip_image001"></a></p>
-<p>But this works (as does concatenating with a &quot;&quot; string)</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image0017.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image0017_thumb.png" alt="clip_image001[7]"></a></p>
-<p>Please repro and validate as a bug</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="yeah-so-this-one-frustrated-me-for-awhile-and-if-">Yeah, so this one frustrated me for awhile and if &hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered this I would have lost even more time!</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -340,7 +334,7 @@ Then look at search requests, view the request and note the following error: Dat
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -811,14 +805,14 @@ Then look at search requests, view the request and note the following error: Dat
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               

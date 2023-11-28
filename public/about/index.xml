@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Identity Managed</title>
+    <link>https://identitymanaged.netlify.app/about/</link>
+    <description>Recent content in About on Identity Managed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://identitymanaged.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://identitymanaged.netlify.app/about/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://identitymanaged.netlify.app/about/books/</guid>
+      <description>stuff about books</description>
+    </item>
+    <item>
+      <title>Case Studies</title>
+      <link>https://identitymanaged.netlify.app/about/case-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://identitymanaged.netlify.app/about/case-studies/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Our Founder</title>
+      <link>https://identitymanaged.netlify.app/about/founder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://identitymanaged.netlify.app/about/founder/</guid>
+      <description>David Lundell David got started in technology when his dad brought home first an Atari PC (not the video game console) and later an IBM PC. David picked up a book on programming in BASIC when he was 8. Every week when he was a teenager his dad dragged him into the office of his startup software company to vacuum, clean the bathrooms and haul out the trash. One day his dad handed him the manual for their network management software, sat him down at the computer and commanded, “Test the software!</description>
+    </item>
+  </channel>
+</rss>

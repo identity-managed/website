@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145380" rel="stylesheet">
 
 
 
@@ -141,11 +141,11 @@ content="2009-06-29T00:40:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="The attributes behind Message Delivery Restrictions logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="The attributes behind Message Delivery Restrictions logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">The attributes behind Message Delivery Restrictions - go to homepage</span>
+                    <span class="sr-only">The attributes behind Message Delivery Restrictions - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -201,9 +201,24 @@ content="2009-06-29T00:40:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -279,19 +294,63 @@ content="2009-06-29T00:40:00-0700">
                               
                                   
                               
-                              June 29, 2009
+                               29, 2009
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <h4 id="very-helpfull-i-was-about-to-block-sending-email">Very helpfull!! I was about to block sending email&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/13335116341105925023" title="noreply@blogger.com">Paweł Jarosz</a> - <!-- raw HTML omitted -->Sep 1, 2010<!-- raw HTML omitted --></p>
-<p>Very helpfull!! I was about to block sending emails to disabled accounts - not mailbox but accounts - so I can easily and quick retrieve some data from inactive inboxes. The solution is to create an empty group in AD and set the &ldquo;dLMemSubmitPerms&rdquo; parameter to accept messages only from that empty group! Amazing and great many thanks! If somebody else has problem here is the link to the forum with whole conversation -&gt; <a href="http://wss.pl/frmThread.aspx?tid=98879">http://wss.pl/frmThread.aspx?tid=98879</a></p>
-<!-- raw HTML omitted -->
-<p>It is helpful. If only provide local AD powershell cmd to run the setting together.<br>
-Thanks.</p>
-<!-- raw HTML omitted -->
+                          <p>Do you know what attributes are used to control who can and can&rsquo;t send to a Distribution List in Exchange 2003 and Exchange 2007? or Does it use a DACL?</p>
+<p>Knowing such things is key if you are going to automate distribution list management through .NET programs, or MIIS/ILM/FIM, Quest ARS or any other tool that is talking to LDAP attributes. For Powershell you need a separate list since the names are different.</p>
+<p>Seeing as how a picture is worth a thousand words I&rsquo;ll include some after a brief explanation:</p>
+<p>At first I was afraid that it used the SendTo permission on DACLs but fortunately that is not what the Exchange GUI tools change. This is fortunate since ILM does not have an out of the box MA that modifies DACLs on AD objects, it is also fortunate since programming against DACLs is somewhat complicated. I must give thanks to my friend <a href="http://www.joekaplan.net/">Joe Kaplan</a> and his co-author Ryan Dunn for the helps in their book (see page 302 listing 8.2 listing the DACL) and their forum <a href="http://directoryprogramming.net/default.aspx" title="http://directoryprogramming.net/default.aspx">http://directoryprogramming.net/default.aspx</a></p>
+<p><a href="http://www.amazon.com/Developers-Directory-Programming-Microsoft-Development/dp/0321350170/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1246251608&amp;sr=8-1">The .NET Developer&rsquo;s Guide to Directory Services Programming</a></p>
+<p>With the help from their book I was able to eliminate DACLs since the darn things never changed. FC never lies.</p>
+<p>Open the Exchange Console, navigate to the Distribution lists open their properties and go to Mail Flow Settings click on Message Delivery Restrictions and then click on the Blue check mark next to Properties:</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_thumb.png" alt="image"></a></p>
+<p>So what I found was five attributes that control the fate of who can and who can&rsquo;t send to a particular recipient (in this case a distribution list)</p>
+<p>authOrig, unauthOrig, and msExchRequireAuthToSendTo,</p>
+<p>Attribute Name</p>
+<p>Name in GUI</p>
+<p>Explanation</p>
+<p><a href="http://technet.microsoft.com/en-us/library/bb124955.aspx">Powershell (Set-DistributionGroup)</a> <br>
+Just as an FYI</p>
+<p>authOrig</p>
+<p>Accept messages from<br>
+Only senders in the following list:</p>
+<p>If this attribute and dLMemSubmitPerms are both empty then that is the equivalent of All Senders. If populated only those recipients and the members of Distribution Lists enumerated in dLMemSubmitPerms can sends listed can send items to this distribution list minus anyone listed in unauthOrig and anyone that is a member of distribution lists enumerated in dLMemRejectPerms</p>
+<p>-AcceptMessagesOnlyFrom</p>
+<p>dLMemSubmitPerms</p>
+<p>same as above</p>
+<p>see above</p>
+<p>-AcceptMessagesOnlyFromDLMembers</p>
+<p>unauthOrig</p>
+<p>Reject messages from<br>
+Senders in the following list:</p>
+<p>Prevents recipients listed here from sending to this Distribution list</p>
+<p>-RejectMessagesFrom</p>
+<p>dLMemRejectPerms</p>
+<p>same as above</p>
+<p>Prevents recipients who are members of the Distribution lists mentioned from sending email to this Distribution list</p>
+<p>-RejectMessagesFromDLMembers</p>
+<p>msExchRequireAuthToSendTo</p>
+<p>Require that all senders are authenticated</p>
+<p>When set to True only authenticated users (no external users) can send mail to this Distribution list</p>
+<p>-RequireAllSendersAreAuthenticated</p>
+<p>For more info on attribute to Powershell attribute name conversions see</p>
+<p><a href="http://blogs.technet.com/evand/archive/2007/02/19/filterable-properties-in-exchange-2007-rtm.aspx" title="http://blogs.technet.com/evand/archive/2007/02/19/filterable-properties-in-exchange-2007-rtm.aspx">http://blogs.technet.com/evand/archive/2007/02/19/filterable-properties-in-exchange-2007-rtm.aspx</a></p>
+<p>For more on the Powershell commands with some examples see</p>
+<p><a href="http://technet.microsoft.com/en-us/library/bb397214.aspx" title="http://technet.microsoft.com/en-us/library/bb397214.aspx">http://technet.microsoft.com/en-us/library/bb397214.aspx</a></p>
+<p>What would be really nice would be if FIM 2010 already had the schema and OVC extended for this. Since this is the very next thing people at a big company ask for after finding out they can automate distribution list maintenance.</p>
+<p>As promised some pretty pictures to help explain (on the left you see the screenshot from ADSI edit and on the right the snapshot of the Exchange Console</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_thumb_3.png" alt="authOrig"></a></p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_4.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_thumb_4.png" alt="dLMemSubmitPerms"></a></p>
+<p>On this one I reverse the order</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_5.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_thumb_5.png" alt="unauthOrig"></a></p>
+<p>By now you get the idea, that if you select a distribution listt in the Senders in the following list they get put here:</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_6.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/TheattributesbehindMessageDeliveryRestri_132C9/image_thumb_6.png" alt="dLMemRejectPerms"></a></p>
+<p>So we see that the Exchange Console clever sorts the DLs from the individuals and puts them into their separate attributes.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
@@ -334,7 +393,7 @@ Thanks.</p>
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -805,14 +864,14 @@ Thanks.</p>
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               

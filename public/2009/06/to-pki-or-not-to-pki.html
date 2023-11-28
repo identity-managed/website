@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1700841979" rel="stylesheet">
+<link href="/css/custom.css?1701145380" rel="stylesheet">
 
 
 
@@ -149,11 +149,11 @@ content="2009-06-02T11:12:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="To PKI or not to PKI? logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="To PKI or not to PKI? logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">To PKI or not to PKI? - go to homepage</span>
+                    <span class="sr-only">To PKI or not to PKI? - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only"></span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -209,9 +209,24 @@ content="2009-06-02T11:12:00-0700">
                   
 
                   
-                  <li class="dropdown ">
-                    <a href="/faq/">FAQ</a>
-                  </li>
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/about/case-studies">Case Studies</a></li>
+                            
+                            <li><a href="/about/founder">Founder</a></li>
+                            
+                            <li><a href="/about/books">Books</a></li>
+                            
+                            <li><a href="/faq/">FAQ</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                   
                   
                 </ul>
@@ -287,55 +302,18 @@ content="2009-06-02T11:12:00-0700">
                               
                                   
                               
-                              June 2, 2009
+                               2, 2009
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p>When should one implement a Public Key Infrastructure and when should one not? Obviously we implement a PKI to solve a problem, usually around security, enabling secure communications with a web server, multi-factor authentication, encryption. A PKI solution can be very versatile, but it comes at a price in setup and maintenance. But what alternatives do we have? Let&rsquo;s examine each problem in turn</p>
-<p>Problem</p>
-<p>PKI difficulties</p>
-<p>Alternatives</p>
-<p>Benefits for Alternatives</p>
-<p>Enable Secure web transactions (SSL)</p>
-<p>certs expire without warning anyone</p>
-<p>none</p>
-<p> </p>
-<p>Secure network communications (IPSEC)</p>
-<p>Need to issue certificates to all client computers (can use AutoEnroll GPO)</p>
-<p>none</p>
-<p> </p>
-<p>Multi-factor authentication for Wireless networks using 802.1X</p>
-<p>Need to issue certificates to all client computers or smart cards to all users</p>
-<p>Radius &ndash; One Time Password Tokens</p>
-<p>With Quest Defender issuing and maintaining of OTP is very easy. Defender is much easier than standing up a PKI and issuing smart cards to everyone</p>
-<p>Multi-factor authentication (certificates, smart cards)</p>
-<p>Need to issue smart cards to all users (can be time consuming) Need special hardware</p>
-<p>One Time Password Tokens</p>
-<p>With Quest Defender issuing and maintaining of OTP is very easy. Defender is much easier than standing up a PKI and issuing smart cards to everyone. Can work even on computers without the smart card reader.</p>
-<p>Encryption of files (EFS)</p>
-<p>Need to issue smart cards to all users (can be time consuming)</p>
-<p>AD Rights Management Services</p>
-<p>Enrollment of users is transparent &ndash; new users can be given permissions by adding them to groups without having to re-encrypt the files. No need to renew certificates. Restrictions are enforced after file is opened. It allows you to assign rights and permissions to other people to documents (open, saving, edit, print, cut and paste) and emails (forward, cut and paste)</p>
-<p>Enabling users (internal and/or external) to use your code without getting scary warning (Signing Code Modules, Macros, ActiveX controls etc)</p>
-<p>Need to issue/buy certificates for developers</p>
-<p>none</p>
-<p> </p>
-<p>Signing emails</p>
-<p>Need to issue certificates (whether on smart cards or not) to all users</p>
-<p>PGP (web of trust)</p>
-<p> </p>
-<p>Encrypting emails</p>
-<p>Need to issue certificates (whether on smart cards or not) to all users</p>
-<p>AD Rights Management Services</p>
-<p>or<br>
-PGP (web of trust)</p>
-<p>AD RMS Enrollment of users is transparent. Restrictions are enforced after file is opened. It allows you to assign rights and permissions to other people to documents (open, saving, edit, print, cut and paste) and emails (forward, cut and paste)</p>
-<p>In short you need certificates for SSL, IPSEC, code signing and signing emails. Whether you build your own PKI or get certificates for them is another question. For SSL and code signing you can get away with buying your certs and should if your web site and/or code is for the public (although if you have enough you may want to look at setting up a subordinate CA with a Public CA that way you control the certs but they are issued through a trusted root CA and your customer don&rsquo;t get those confidence inspiring messages asking them whether to trust you or not) . For IPSEC and signing emails you should implement your own PKI in order to save the cost of buying so many certs.</p>
-<p>If you need to implement signing of emails along with multi-factor authentication then it makes sense to take advantage of the versatility of certificates on smart cards. Then it makes sense to implement the Certificate Management component (CLM) of ILM 2007 to ease many of the challenges with issuing and managing smart cards.</p>
-<p>However, if multi-factor authentication and encryption are your main goals you may want to take a look at one time password tokens with Defender and Microsoft&rsquo;s AD Rights Management Services (AD RMS) respectively. Both present easier and perhaps cheaper alternatives, that also add capabilities. Defender adds the capability to use multi-factor authentication on machines without smart card readers, and AD RMS adds the capability to restrict what users can do with content even after they decrypt it.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="hey-dave-i-didnt-notice-your-blog-before-go">Hey Dave, I didn&rsquo;t notice your blog before. Go&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/03913540078710260918" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->Jun 0, 2009<!-- raw HTML omitted --></p>
+<p>Hey Dave, I didn&rsquo;t notice your blog before. Good work. Gimme a call&hellip; Lets have lunch sometime soon. It would be nice to see you.</p>
+<p>justin harris<br>
+<a href="mailto:justin@jwheel.com">justin@jwheel.com</a></p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -378,7 +356,7 @@ PGP (web of trust)</p>
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title"></h3>
     </div>
 
     <div class="panel-body">
@@ -849,14 +827,14 @@ PGP (web of trust)</p>
 
       
       <div class="col-md-6 col-sm-6">
-          <h4>About us</h4>
+          <h4></h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4>Recent posts</h4>
+          <h4></h4>
 
           <div class="blog-entries">
               
