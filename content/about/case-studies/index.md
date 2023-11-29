@@ -1,14 +1,14 @@
 ---
 title: "Case Studies"
 ---
-{{< imgproc "retail.webp" "resize x500">}}
+![](retail.webp)
 
 ## User + Group Lifecycle Management
 #### Retail (50k + Identities)
 
 We saved this retail company $10’s of millions in Office365 license fees, and effort to manage the users, by implementing MIM for Largest Region over 1M identities and 4 additional instances of MIM to manage 6 other regions, which enabled the client to assign different license levels based on job roles and reclaim licenses promptly.
 
-{{< imgproc "research.webp" "resize x500">}}
+![](research.webp)
 
 ## Custom Azure AD GalSync
 
@@ -16,7 +16,7 @@ We saved this retail company $10’s of millions in Office365 license fees, and 
 
 Empowered better and more secure collaboration between two divisions of this research company by implementing a Custom Global Address list Synchronization (GalSync) between two Azure Active Directory Tenants (one in GCC High) coming from the same forest using the AADConnect instances for each tenant. This enabled both divisions to see the other division’s users and mailing lists in their own address book, and thus send email more securely and easily.
 
-{{< imgproc "medical.webp" "resize x500">}}
+![](medical.webp)
 
 ## User + Group Lifecycle Management
 
@@ -24,7 +24,7 @@ Empowered better and more secure collaboration between two divisions of this res
 
 We helped this medical company to an annual savings of $1.1 M through various projects:  Cutover FIM from on-premises HR system to Workday, upgraded to MIM, extended to manage EHR, Exchange Resource Forest, External Forest for Claims, and other divisions as acquired.
 
-{{< imgproc "technology.webp" "resize x500">}}
+![](technology.webp)
 
 ## Group Management
 
@@ -32,16 +32,14 @@ We helped this medical company to an annual savings of $1.1 M through various pr
 
 We saved this technology company an annual estimated $2.8M by implementing a Group Management Portal built on MIM managing over 70,000 groups. Most groups built automatically based on org structure.
 
-{{< imgproc "pro-sports.webp" "resize x500">}}
-
+![](pro-sports.webp)
 
 ## GALSync
 #### Pro Sports Team
 
 While we can’t take credit for this unnamed team’s resurgence as a playoff contender or improved offense, we can be certain that repairing their Global Address list Synchronization (GalSync) process with the rest of their league enabled them to wheel and deal more securely and more efficiently.
 
-{{< imgproc "energy.webp" "resize x500">}}
-
+![](energy.webp)
 
 ## User Lifecycle Management
 #### Energy (50k+ Identities)
