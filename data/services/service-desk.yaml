@@ -1,7 +1,8 @@
 weight: 3
 name: For Identity Centered on Service Desk
 image: /img/hyperSync.webp
-description: Clear Skye -- A most intriguing option, an Identity Management
-  system built into Service Now. Used in conjunction with AAD and MIM or apart,
-  Clear Skye provides incredible GRC capabilities right where everyone already
+description: HyperSync -- A most intriguing option, HyperSync Panel is a high
+  performance identity synchronization engine built on top of the Identity Panel
+  application framework. Used in conjunction with AAD and MIM or apart,
+  HyperSync provides incredible GRC capabilities right where everyone already
   goes — the Service Desk.
