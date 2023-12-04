@@ -169,7 +169,7 @@ collections:
 
   - name: "cases"
     label: "Case Studies"
-    folder: "data/case"
+    folder: "data/cases"
     description: ""
     create: true
     extension: yaml
