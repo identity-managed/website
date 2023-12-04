@@ -1,0 +1,15 @@
+{{ range sort .Site.Data.cases "weight" }}
+<div class="container-fluid" style="padding-bottom: 20px">
+  <img
+    class="img-responsive col-sm-5"
+    src="{{ .image }}"
+    alt="{{ .headline }}"
+  />
+  <div class="col-sm-6">
+    <h2>{{ .headline | safeHTML }}</h2>
+    <h4>{{ .subhead | safeHTML }}</h4>
+    <p>{{ .paragraph | safeHTML }}</p>
+  </div>
+</div>
+
+{{ end }}
