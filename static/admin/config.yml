@@ -63,7 +63,7 @@ collections:
           - { label: SEO Description, name: description, widget: text }
           - { label: "Body", name: body, widget: markdown }
         #end of case studies
-      
+
       - file: "content/about/founder.md"
         label: "Founder"
         name: "founder"
@@ -166,6 +166,28 @@ collections:
       - { label: Website, name: url, widget: string, required: false }
       - { label: Image, name: image, widget: image }
       - { label: Description, name: description, widget: text }
+
+  - name: "cases"
+    label: "Case Studies"
+    folder: "data/case"
+    description: ""
+    create: true
+    extension: yaml
+    slug: "{{title}}"
+    fields:
+      - {
+          label: Position,
+          name: weight,
+          widget: number,
+          value_type: "int",
+          min: 1,
+          max: 100,
+          step: 10,
+        }
+      - { label: Headline, name: headline, widget: string }
+      - { label: Subheading, name: subhead, widget: string }
+      - { label: Image, name: image, widget: image }
+      - { label: Paragraph, name: paragraph, widget: text }
 
   - name: "site_settings"
     label: "Site Settings"
