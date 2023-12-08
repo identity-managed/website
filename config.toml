@@ -141,7 +141,7 @@ weight = 32
 [[menu.main]]
 name = "Books"
 parent = "menu.about"
-url = "https://www.davidplundell.com/books#fim-best-practices-volume-1"
+url = "https://www.davidplundell.com/books"
 weight = 33
 
 [[menu.main]]
