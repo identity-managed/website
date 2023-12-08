@@ -1,4 +1,6 @@
 ---
 title: "Books"
+url: https://www.davidplundell.com/books
 ---
-stuff about books
+
+[Books](https://www.davidplundell.com/books)
