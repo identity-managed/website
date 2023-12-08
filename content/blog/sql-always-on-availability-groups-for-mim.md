@@ -1,18 +1,23 @@
 ---
-title: 'SQL Always On Availability Groups for MIM'
-date: 2022-04-26T14:31:00.004-07:00
 draft: false
+title: SQL Always On Availability Groups for MIM
+description: SQL Always On Availability Groups for MIM
+tags:
+  - SQL
+  - Clustering
+  - AOA
+  - Microsoft Identity Manager
+  - LogShipping
+  - High Availability
+  - MIM
+  - SQL Clustering
+  - Mirroring
+categories:
+  - MIM
+date: 2022-04-26T14:31:00.004-07:00
+authors:
+  - David
 url: /2022/04/sql-always-on-availability-groups-for.html
-tags: 
-- SQL
-- Clustering
-- AOA
-- Microsoft Identity Manager
-- LogShipping
-- High Availability
-- MIM
-- SQL Clustering
-- Mirroring
 ---
 
 Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft's product team.
