@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702660790" rel="stylesheet">
+<link href="/css/custom.css?1702661303" rel="stylesheet">
 
 
 
@@ -320,49 +320,12 @@ content="2009-06-02T11:12:00-0700">
                         
 
                         <div id="post-content">
-                          <p>When should one implement a Public Key Infrastructure and when should one not? Obviously we implement a PKI to solve a problem, usually around security, enabling secure communications with a web server, multi-factor authentication, encryption. A PKI solution can be very versatile, but it comes at a price in setup and maintenance. But what alternatives do we have? Let&rsquo;s examine each problem in turn</p>
-<p>Problem</p>
-<p>PKI difficulties</p>
-<p>Alternatives</p>
-<p>Benefits for Alternatives</p>
-<p>Enable Secure web transactions (SSL)</p>
-<p>certs expire without warning anyone</p>
-<p>none</p>
-<p> </p>
-<p>Secure network communications (IPSEC)</p>
-<p>Need to issue certificates to all client computers (can use AutoEnroll GPO)</p>
-<p>none</p>
-<p> </p>
-<p>Multi-factor authentication for Wireless networks using 802.1X</p>
-<p>Need to issue certificates to all client computers or smart cards to all users</p>
-<p>Radius &ndash; One Time Password Tokens</p>
-<p>With Quest Defender issuing and maintaining of OTP is very easy. Defender is much easier than standing up a PKI and issuing smart cards to everyone</p>
-<p>Multi-factor authentication (certificates, smart cards)</p>
-<p>Need to issue smart cards to all users (can be time consuming) Need special hardware</p>
-<p>One Time Password Tokens</p>
-<p>With Quest Defender issuing and maintaining of OTP is very easy. Defender is much easier than standing up a PKI and issuing smart cards to everyone. Can work even on computers without the smart card reader.</p>
-<p>Encryption of files (EFS)</p>
-<p>Need to issue smart cards to all users (can be time consuming)</p>
-<p>AD Rights Management Services</p>
-<p>Enrollment of users is transparent &ndash; new users can be given permissions by adding them to groups without having to re-encrypt the files. No need to renew certificates. Restrictions are enforced after file is opened. It allows you to assign rights and permissions to other people to documents (open, saving, edit, print, cut and paste) and emails (forward, cut and paste)</p>
-<p>Enabling users (internal and/or external) to use your code without getting scary warning (Signing Code Modules, Macros, ActiveX controls etc)</p>
-<p>Need to issue/buy certificates for developers</p>
-<p>none</p>
-<p> </p>
-<p>Signing emails</p>
-<p>Need to issue certificates (whether on smart cards or not) to all users</p>
-<p>PGP (web of trust)</p>
-<p> </p>
-<p>Encrypting emails</p>
-<p>Need to issue certificates (whether on smart cards or not) to all users</p>
-<p>AD Rights Management Services</p>
-<p>or<br>
-PGP (web of trust)</p>
-<p>AD RMS Enrollment of users is transparent. Restrictions are enforced after file is opened. It allows you to assign rights and permissions to other people to documents (open, saving, edit, print, cut and paste) and emails (forward, cut and paste)</p>
-<p>In short you need certificates for SSL, IPSEC, code signing and signing emails. Whether you build your own PKI or get certificates for them is another question. For SSL and code signing you can get away with buying your certs and should if your web site and/or code is for the public (although if you have enough you may want to look at setting up a subordinate CA with a Public CA that way you control the certs but they are issued through a trusted root CA and your customer don&rsquo;t get those confidence inspiring messages asking them whether to trust you or not) . For IPSEC and signing emails you should implement your own PKI in order to save the cost of buying so many certs.</p>
-<p>If you need to implement signing of emails along with multi-factor authentication then it makes sense to take advantage of the versatility of certificates on smart cards. Then it makes sense to implement the Certificate Management component (CLM) of ILM 2007 to ease many of the challenges with issuing and managing smart cards.</p>
-<p>However, if multi-factor authentication and encryption are your main goals you may want to take a look at one time password tokens with Defender and Microsoft&rsquo;s AD Rights Management Services (AD RMS) respectively. Both present easier and perhaps cheaper alternatives, that also add capabilities. Defender adds the capability to use multi-factor authentication on machines without smart card readers, and AD RMS adds the capability to restrict what users can do with content even after they decrypt it.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="hey-dave-i-didnt-notice-your-blog-before-go">Hey Dave, I didn&rsquo;t notice your blog before. Go&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/03913540078710260918" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->Jun 0, 2009<!-- raw HTML omitted --></p>
+<p>Hey Dave, I didn&rsquo;t notice your blog before. Good work. Gimme a call&hellip; Lets have lunch sometime soon. It would be nice to see you.</p>
+<p>justin harris<br>
+<a href="mailto:justin@jwheel.com">justin@jwheel.com</a></p>
+<!-- raw HTML omitted -->
 
                         </div>
                         

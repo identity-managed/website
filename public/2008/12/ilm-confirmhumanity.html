@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702660789" rel="stylesheet">
+<link href="/css/custom.css?1702661303" rel="stylesheet">
 
 
 
@@ -308,14 +308,19 @@ content="2008-12-23T12:52:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="with-joes-permissions-i-am-posting-the-comment-he">With Joe&rsquo;s permissions I am posting the comment he&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/17202883653808140101" title="noreply@blogger.com">David Lundell</a> - <!-- raw HTML omitted -->Dec 3, 2008<!-- raw HTML omitted --></p>
-<p>With Joe&rsquo;s permissions I am posting the comment he attempted to post earlier:<br>
-Apologies for spoiling the fun, but the confirm humanity config setting has no effect in ILM “2”.</p>
-<p>This config setting is leftover from the early days of the product when we included Captcha support for AuthN. Setting this to true meant that users would go through a Captcha gate during AuthN, much like I had to do when submitting a comment. We removed that feature early on in ILM and omitted cleaning up the default config file. Today if you want a Captcha gate you would have to add a custom AuthN workflow.</p>
-<p>Hope that helps,</p>
-<p>Joe Schulman</p>
-<!-- raw HTML omitted -->
+                          <p>I was getting ready to try out some of the various installation topologies that may be possible with ILM &ldquo;2&rdquo; including: separating the Portal and the Service (definitely possible), having two portals point back to the same service (I think it&rsquo;s possible), when I came across the most interesting item in the <a href="http://technet.microsoft.com/en-us/library/cc561135.aspx">ILM &ldquo;2&rdquo; installation guide</a> in the section on Installing the ILM Service and ILM Portal on separate servers. Let&rsquo;s see if you can spot it too:</p>
+<p>On ILM Service server, edit the file</p>
+<ul>
+<li>c:\Program Files\Microsoft Identity Management\Common Services\Microsoft.ResourceManagement.Service.exe.config as follows:
+<ul>
+<li>&lt;resourceManagementService certificateName=&ldquo;IdentityLifecycleManager2&rdquo; <strong>confirmHumanity=&ldquo;false&rdquo;</strong> servicePrincipalName=&ldquo;IdentityManagementService/<em>computername</em>&rdquo;/&gt;</li>
+</ul>
+</li>
+</ul>
+<p>What in the world can that be about? confirmHumanity=&ldquo;false&rdquo;? Well at least the coder followed camelCasing so we may have a hint as to the perpetrator&rsquo;s identity &ndash; Jerry Camel have you been doing some work for Microsoft?</p>
+<p>Will someone please explain what this means? Is ILM &ldquo;2&rdquo; the Terminator? I mean it will deactivate and deprovision your accounts when you leave &ndash; and afterwards it can show that you have been terminated!</p>
+<p>We may never know! But comments are welcome.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
