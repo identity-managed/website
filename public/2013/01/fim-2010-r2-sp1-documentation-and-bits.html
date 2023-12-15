@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661304" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -129,6 +129,10 @@ content="2013-01-15T20:25:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -308,11 +312,59 @@ content="2013-01-15T20:25:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="hello-is-fim-r2-sp1-support-sql-server-2012-sp1">Hello, Is Fim r2 sp1 support sql server 2012 sp1</h4>
-<p><a href="https://www.blogger.com/profile/10907643659245129628" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->Mar 2, 2015<!-- raw HTML omitted --></p>
-<p>Hello,<br>
-Is Fim r2 sp1 support sql server 2012 sp1</p>
-<!-- raw HTML omitted -->
+                          <p>My comments on What&rsquo;s new and the release notes for FIM 2010 R2 SP1:</p>
+<p>Rank</p>
+<p>Feature</p>
+<p>Impact</p>
+<p>1</p>
+<p><a href="http://technet.microsoft.com/en-us/library/jj863243(v=ws.10).aspx">Deferred evaluation of criteria based groups</a><br>
+This setting can be enabled one group at a time. You can also change the default so that as new criteria based groups are created they will be set for Deferred. The default is to calculate group membership twice a day at 2:30 AM and 2:30 PM.</p>
+<p>HUGE! Thank you product group for answering my wishes. You see whenever a request is received by the FIM Service it evaluates permissions, it evaluates whether the request will cause any criteria based set memberships to change, and it also evaluates whether criteria based group memberships to change. For large systems with lots of users and lots of criteria based groups this can take a long time.Now we have the option to defer those calculations, and then the system can perform those calculations using SQL based set logic. I suspect that this is done using SQL Agent jobs and if a more frequent schedule is needed you could tweak the schedule of the job.</p>
+<p>2</p>
+<p>Upgrading the FIM database from FIM 2010 to R2 used to be quite time consuming &ndash; this has been improved by at least an order of magnitude from &ldquo;days [down] to hours.&rdquo;</p>
+<p>Phew! It is now safe to get up and upgrade!</p>
+<p>3</p>
+<p>&ldquo;imports of groups with 30,000 members are 2.5 times faster&rdquo; for AD MA, FIM MA and ECMA 2.0</p>
+<p>This is on the import side rather than the sync side but every bit of additional speed we get on dealing with references without sacrificing integrity is appreciated.</p>
+<p>4</p>
+<p>ECMA has been updated to 2.1</p>
+<p>You can now do updates on multi-valued attributes instead of having to do a replace.</p>
+<p>You can also skip doing confirmations on add.<br>
+Good impact on performance</p>
+<p>5</p>
+<p>FIM Server components are now supported for:<br>
+Windows Server 2012<br>
+SQL 2012<br>
+SharePoint Foundation 2013 (read <a href="http://technet.microsoft.com/en-us/library/jj863242(v=ws.10).aspx">Installing FIM 2010 R2 on SharePoint Foundation 2013</a>.)<br>
+SCSM 2012</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>6</p>
+<p>FIM Client components are now supported for:<br>
+Windows 8<br>
+Outlook 2013</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>7</p>
+<p>Support for Windows Server 2012 based AD and Exchange 2013 has been added to the AD MA</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>8</p>
+<p>Support for SQL Server 2012 has been added to the SQL MA</p>
+<p>Note support for earlier versions hasn&rsquo;t been dropped yet.</p>
+<p>9</p>
+<p>Support for the FIM Portal in IE 10 (be sure to install the hotfixes mentioned)</p>
+<ul>
+<li>Windows Server 2008: <a href="http://support.microsoft.com/kb/2600100">http://support.microsoft.com/kb/2600100</a></li>
+<li>Windows Server 2008 R2: <a href="http://support.microsoft.com/kb/2608565">http://support.microsoft.com/kb/2608565</a></li>
+</ul>
+<p>10</p>
+<p>The Sun and Netscape MA is now called Oracle Directory Servers and includes support for Sun 7.x and Oracle 11</p>
+<p>Support for Oracle Internet Directory 11g!!!</p>
+<p>11</p>
+<p>&ldquo;Import-MIISServerConfig PowerShell cmdlet supports now overwriting an existing configuration&rdquo;</p>
+<p>This will help with automated testing scenarios!</p>
+<p>Source Articles:</p>
+<p><a href="http://technet.microsoft.com/en-us/library/jj863246(v=ws.10).aspx">What&rsquo;s New in Forefront Identity Manager 2010 R2 SP1</a></p>
+<p><a href="http://technet.microsoft.com/en-us/library/jj863245(v=ws.10).aspx">Release Notes for Forefront Identity Manager 2010 R2 SP1</a></p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         

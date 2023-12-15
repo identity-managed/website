@@ -8,16 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Nov 2015 10:16:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/sync-rules/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FIM Custom Expressions inside Custom Expressions?</title>
-      <link>https://identitymanaged.com/2015/11/fim-custom-expressions-inside-custom.html</link>
-      <pubDate>Mon, 09 Nov 2015 10:16:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2015/11/fim-custom-expressions-inside-custom.html</guid>
-      <description>Recently, I needed to take Longitude and Latitude data that was given to me in the following format and break it into its individual components and then flow it out to AD.
-Let&amp;rsquo;s suppose the data looks like this:
-&amp;ldquo;Point -10.1223 45.945&amp;rdquo;
-I could just use the Left and Right functions to get out the Longitude and Latitude.
-The problem was it could also look like this depending on the level of precision:</description>
-    </item>
   </channel>
 </rss>

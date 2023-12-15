@@ -8,22 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Sep 2014 12:19:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/windows-server-2012-r2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Phoenix MVP Roadshow Transform the DataCenter Wed Sept 24 4 PM-8PM</title>
-      <link>https://identitymanaged.com/2014/09/phoenix-mvp-roadshow-transform.html</link>
-      <pubDate>Tue, 16 Sep 2014 12:19:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2014/09/phoenix-mvp-roadshow-transform.html</guid>
-      <description>Register Now! to attend MVP Roadshow Sept 24th 4 PM - 8PM
-I will be presenting on why we want to get to Active Directory based on Windows Server 2012 R2 and how to get there. My fellow MVP&amp;rsquo;s will be covering the rest of the agenda. I also created an IT clue game to play in small groups where the objective is to figure out who stole the data and how it could have been prevented.</description>
-    </item>
-    <item>
-      <title>Windows 2012 R2 and Windows 8.1 RTM now on MSDN and Technet</title>
-      <link>https://identitymanaged.com/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</link>
-      <pubDate>Wed, 11 Sep 2013 13:11:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</guid>
-      <description>One of my fellow MVPs and Insight teammates Alessandro Cardoso (he runs one of our practices down under) announced on his blog that Windows 2012 R2 and Windows 8.1 RTM now on MSDN and Technet.
-He goes on to mention the salient points around 2012 R2 for virtualization so I thought I would discuss some of the benefits for Active Directory and ADFS
-One key thing is that ADFS on Windows Server 2012 R2 doesn&amp;rsquo;t require IIS so now it can and should be installed on domain controllers.</description>
-    </item>
   </channel>
 </rss>

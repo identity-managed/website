@@ -8,41 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Sep 2011 06:34:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/federation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Calling a stored procedure in an ADFS claims rule</title>
-      <link>https://identitymanaged.com/2011/09/calling-stored-procedure-in-adfs-claims.html</link>
-      <pubDate>Thu, 01 Sep 2011 06:34:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2011/09/calling-stored-procedure-in-adfs-claims.html</guid>
-      <description>After you have setup your SQL Attribute Claims Store in ADFS. If you want to use it and in fact test it you must set up a claims rule that makes use of it. To do this you must create a claim using a custom rule, which allows you to employ the claims rule language.
-The following technet entry is a good start as it illustrates how to enter a SQL Query and even a stored procedure.</description>
-    </item>
-    <item>
-      <title>Recruiting</title>
-      <link>https://identitymanaged.com/2011/04/recruiting.html</link>
-      <pubDate>Tue, 19 Apr 2011 14:30:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2011/04/recruiting.html</guid>
-      <description>Hey readers, our Identity Practice at Ensynch is keeping us very busy. We would like to have more Identity consultants as part of our team. Come work with me and the rest of our fantastically talented Identity Team.
-We are looking for people with experience in Forefront Identity Manager 2010 and people with experience in ADFS 2.0. We are looking for both Full Time Employees as well as people interested in being contractors for us.</description>
-    </item>
-    <item>
-      <title>ADFS v2 Test Report -- Found</title>
-      <link>https://identitymanaged.com/2010/08/adfs-v2-test-report-found.html</link>
-      <pubDate>Fri, 20 Aug 2010 07:58:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2010/08/adfs-v2-test-report-found.html</guid>
-      <description>Something has happened with the project liberty website and most links to it are now broken, including the link to the test results from last year which includes which profiles ADFS v2 passed. So here it is:
-http://projectliberty.org/liberty/content/download/4732/32917/file/SAML_3Q09_%20IOP_Test_Event_Final_Report.pdf
-ADFS v2 passed: IDP Lite, SP Lite, eGov 1.5
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
-    </item>
-    <item>
-      <title>ADFS v.2 shipped</title>
-      <link>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</link>
-      <pubDate>Tue, 18 May 2010 15:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</guid>
-      <description>Active Directory Federation Services v2 Ships!
-This is awesome stuff – with ADFS v2 we can help you setup SSO with your SaaS vendors.
-Here is an example that has been rendered generic.
-ADFS 2.0 supports SAML 2.0 (the idp lite profile and rdp lite profile) which opens up many federation doors and WIF allows us to write custom security token services (sts) just in case the idp lite and rdp lite profile support isn’t up to handling the interaction.</description>
-    </item>
   </channel>
 </rss>

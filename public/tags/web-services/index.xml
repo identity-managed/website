@@ -8,28 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Dec 2008 03:49:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/web-services/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ILM 2 Web Services Part 1 and 1/2</title>
-      <link>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</link>
-      <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</guid>
-      <description>A few days after my post about setting up the ILM 2 Web Service reference Joe Schulman and others from the ILM product group began a new blog designed to fill in the gaps in the knowledge in the community about how to use the web services. So far the blog looks great and is a welcome addition to my knowledge and the communities knowledge base! Great job Joe and Company and thanks for the link to my blog.</description>
-    </item>
-    <item>
-      <title>ILM 2 Web Services Part 1 The Service Reference</title>
-      <link>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</link>
-      <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</guid>
-      <description>Does ILM open SOAP interfaces native? So that dev&amp;hellip; RobertW - Mar 4, 2009
-Does ILM open SOAP interfaces native? So that developers who are simply looking for a .wsdl file to build their client can get up and running quickly.
-not exactly you need to use the WCF approach.</description>
-    </item>
-    <item>
-      <title>ILM 2 Web Services Part 1 The Service Reference</title>
-      <link>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</link>
-      <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</guid>
-      <description>Together, Mark Struck of Ipseity Inc and I, have figured out (after much beating of our heads against brick walls) how to use the ILM 2 Enumeration Endpoint to perform some basic reporting. (I figured out how to send the enumeration and get a response and then Mark figured out how to correctly form the pull messages so as to be able to retrieve the actual objects &amp;ndash; teamwork at its finest).</description>
-    </item>
   </channel>
 </rss>

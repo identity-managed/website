@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661303" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -129,6 +129,10 @@ content="2008-09-02T19:47:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -308,47 +312,19 @@ content="2008-09-02T19:47:00-0700">
                         
 
                         <div id="post-content">
-                          <p>While building out some virtual machines for our ILM 2 Beta 3 environment&hellip;</p>
-<p>We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition). All of these programs install a lot of stuff on the system partition no matter what I select. While moving the paging file freed up some space it wasn&rsquo;t enough.</p>
-<p>Then of course someone went and reread the <a href="http://msdn.microsoft.com/en-us/windowsserver/cc196364.aspx">Windows Server 2008 requirements</a> and they said minimum 10 GB recommended 40 GB. So we decided to go for 64 GB. But expanding your system partition is not all that straightforward.</p>
-<p>Here is how:</p>
-<p>4:21 PM</p>
-<p>If the virtual disk needs to be expanded you need to ensure that there are no snapshots and that it is shutdown. If there are snapshots you will need to delete them. This deletion will require a disk merge to take place and will take a while</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image001.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image001_thumb.png" alt="clip_image001"></a></p>
-<p>Highlight the VM and click settings</p>
-<p>Navigate to the Hard drive you wish to expand</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image0014.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image0014_thumb.png" alt="clip_image001[4]"></a></p>
-<p>Then click Edit. On the choose action screen select expand. (if this is a fixed disk then you will need to do a convert)</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image0016.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image0016_thumb.png" alt="clip_image001[6]"></a></p>
-<p>Enter the new size and click finish Then wait a while</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image0018.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image0018_thumb.png" alt="clip_image001[8]"></a></p>
-<p>Next configure the VM to boot from CD/DVD</p>
-<p>Configure the DVD to use a windows server 2008 WinPE iso image</p>
-<p>Which can be obtained from here by downloading</p>
-<p><a href="http://www.microsoft.com/downloads/details.aspx?familyid=94BB6E34-D890-4932-81A5-5B50C657DE08&amp;displaylang=en">http://www.microsoft.com/downloads/details.aspx?familyid=94BB6E34-D890-4932-81A5-5B50C657DE08&amp;displaylang=en</a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00110.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00110_thumb.png" alt="clip_image001[10]"></a></p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/image_thumb.png" alt="image"></a></p>
-<p>Before starting the VM realize that you only have a short window to tell it to boot from CD/DVD</p>
-<p>So Connect to the VM before you turn it on</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00112.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00112_thumb.png" alt="clip_image001[12]"></a></p>
-<p>Within a few seconds it will prompt you to click any key to boot from cd or dvd</p>
-<p>Then windows files will load if you are prompted to press ctrl alt delete then it didn&rsquo;t work shut down and try again</p>
-<p>If you see this then you are successful. Wait another few seconds for the prompt to appear</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00114.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00114_thumb.png" alt="clip_image001[14]"></a></p>
-<p>Enter DiskPart by typing DiskPart at the command prompt</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00116.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00116_thumb.png" alt="clip_image001[16]"></a></p>
-<p>Select the disk you want (select disk 0) and confirm by typing detail disk</p>
-<p>If you need help type list disk</p>
-<p>Next select the right volume (select volume 1)</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00118.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00118_thumb.png" alt="clip_image001[18]"></a></p>
-<p>Then expand the volume by entering in how much larger to make it &ndash; not the new size, but the difference between the current size and the new size</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00120.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image00120_thumb.png" alt="clip_image001[20]"></a></p>
-<p>Then reboot by typing exit then hitting enter, twice (once to leave bootpart and then once to leave the WPE)</p>
-<p>(If you want you can also change your boot order as this will eliminate a small delay in the boot process)</p>
-<p>Then log on and confirm it is done</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image002.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ExpandingaWindowsServer2008Systempartiti_104BD/clip_image002_thumb.png" alt="clip_image002"></a></p>
-<p>While I had fun uncovering the secrets of HyperV (thanks to Ian Henry for teaching me about <a href="http://en.wikipedia.org/wiki/Windows_Preinstallation_Environment">WPE</a>), the most valuable thing I did today was to play tee-ball and soccer with my eight year old daughter and my three sons.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="yeah-wow-not-a-quick-and-easy-process-by-any-means">Yeah, WOW, not a quick and easy process by any means!</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Yeah, WOW, not a quick and easy process by any means!</p>
+<!-- raw HTML omitted -->
+<p>Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:<br>
+diskpart<br>
+DISKPART&gt; list<br>
+DISKPART&gt; list volume<br>
+DISKPART&gt; select volume #<br>
+DISKPART&gt; extend<br>
+DISKPART&gt; extend filesystem<br>
+You&rsquo;ll need to run extend filesystem on ant 2008+ server regardless if it is in a Cluster or not&hellip;</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -815,6 +791,205 @@ content="2008-09-02T19:47:00-0700">
             
             <li >
                 <a href="/tags/web-services"><i class="fas fa-tags"></i> web-services</a>
+            </li>
+            
+            <li >
+                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows-server-2003</a>
+            </li>
+            
+            <li >
+                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows-server-2008</a>
+            </li>
+            
+            <li >
+                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows-server-2012-r2</a>
+            </li>
+            
+            <li >
+                <a href="/tags/workflow"><i class="fas fa-tags"></i> workflow</a>
+            </li>
+            
+            <li >
+                <a href="/tags/wwf"><i class="fas fa-tags"></i> wwf</a>
+            </li>
+            
+            <li >
+                <a href="/tags/xml"><i class="fas fa-tags"></i> xml</a>
+            </li>
+            
+            <li >
+                <a href="/tags/xpath"><i class="fas fa-tags"></i> xpath</a>
+            </li>
+            
+            <li >
+                <a href="/tags/zermat"><i class="fas fa-tags"></i> zermat</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+      
+
+      
+      <div class="col-md-6 col-sm-6">
+          <h4>About us</h4>
+          <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
+          <hr class="hidden-md hidden-lg hidden-sm">
+      </div>
+      
+      <div class="col-md-6 col-sm-6">
+          
+          <h4>Recent posts</h4>
+
+          <div class="blog-entries">
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                  </div>
+              </div>
+              
+              <div class="item same-height-row clearfix">
+                  <div class="image same-height-always">
+                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
+                        
+                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                        
+                      </a>
+                  </div>
+                  <div class="name same-height-always">
+                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                  </div>
+              </div>
+              
+          </div>
+          <hr class="hidden-md hidden-lg">
+          
+      </div>
+      
+        
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container text-center">
+      
+    
+        <div class="row ">
+      
+          <div class="col-sm-4">
+            
+            <p>Copyright (c) 2023 Identity Managed</p>
+            
+          </div>
+
+           <div class="col-sm-4">
+              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+           </div>
+
+            <div class="col-sm-4">
+              <p>
+                Powered by
+              <a href="https://colbal.com" target="_blank">Colbal</a>
+            </p>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<link
+  href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  </body>
+</html>
+ices"><i class="fas fa-tags"></i> web-services</a>
             </li>
             
             <li >

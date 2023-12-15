@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661303" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -129,6 +129,10 @@ content="2013-05-01T12:03:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -308,20 +312,11 @@ content="2013-05-01T12:03:00-0700">
                         
 
                         <div id="post-content">
-                          <p>If you are looking at the XML export of the FIM synchronization config and you are trying to track down which sync rule is supplying a particular flow you just need to know which numbers lead you where.</p>
-<p>For example:</p>
+                          <h4 id="thanks-david-you-had-the-knowledge-answered-my-">Thanks, David. You had the knowledge, answered my &hellip;</h4>
+<p><a href="https://www.blogger.com/profile/15296851519869737050" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->May 3, 2013<!-- raw HTML omitted --></p>
+<p>Thanks, David. You had the knowledge, answered my forum question and blogged about it as well. Nice work.</p>
+<p>PeteA</p>
 <!-- raw HTML omitted -->
-<p>The key to finding the Sync rule is of course the Sync rule ID. However, this is not the resource ID that I can search for in the FIM Portal. Rather this is the metaverse ID.</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/baa99ca3a8e7_9921/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/baa99ca3a8e7_9921/image_thumb.png" alt="image" title="image"></a></p>
-<p>From there I can open the list of connectors and for sync rules there should be one &ndash; the FIM MA.</p>
-<p>Then I can see the Distinguished Name of the Sync rule which is the Resource ID (aka ObjectID)</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/baa99ca3a8e7_9921/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/baa99ca3a8e7_9921/image_thumb_3.png" alt="image" title="image"></a></p>
-<p>Then I can search in the FIM Portal by ResourceId and find the corresponding Synchronization rule:</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/baa99ca3a8e7_9921/image_4.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/baa99ca3a8e7_9921/image_thumb_4.png" alt="image" title="image"></a></p>
-<p>Even better is to use the Join-ImportToExportAttributeFlow PowerShell commandlet originally created by Craig Martin <a href="http://fimpowershellmodule.codeplex.com/" title="http://fimpowershellmodule.codeplex.com/">http://fimpowershellmodule.codeplex.com/</a></p>
-<p>Joe Zamora found and tweaked a minor bug in it: <a href="http://c--shark.blogspot.com/2013/03/one-small-addition-to-powershell-module.html" title="http://c--shark.blogspot.com/2013/03/one-small-addition-to-powershell-module.html">http://c&ndash;shark.blogspot.com/2013/03/one-small-addition-to-powershell-module.html</a> be sure to use this fix.</p>
-<p>Using the commandlet you can have a spreadsheet showing you the end to end attribute flow.</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         

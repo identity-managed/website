@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661303" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -133,6 +133,10 @@ content="2014-05-01T12:37:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -312,12 +316,76 @@ content="2014-05-01T12:37:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="in-some-environments-like-government-having-that">In some environments, like government, having that&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/02468754628550304845" title="noreply@blogger.com">REALHIPHOPINYOURLIFE</a> - <!-- raw HTML omitted -->May 5, 2014<!-- raw HTML omitted --></p>
-<p>In some environments, like government, having that local SQL means a whole different security profile&hellip;a lot of security groups aren&rsquo;t going to make a distinction between that local SQL and Full Blown SQL when they scan the system since they use some of the same binaries.</p>
-<!-- raw HTML omitted -->
-<p>Good comment. So in those environments that could be an extra reason to farm to avoid local SQL and the extra security</p>
-<!-- raw HTML omitted -->
+                          <ul>
+<li>Whether &rsquo;tis nobler in the mind to suffer</li>
+<li>the slings and arrows of outrageous fortune</li>
+<li>Or to take <strong>Farms</strong> against a sea of <strong>patches</strong></li>
+<li>and by opposing end them? To, die, to sleep &ndash;</li>
+</ul>
+<p>Today I will be &ldquo;moderating&rdquo; the debate about using SharePoint Farms vs. Stand-Alone as the foundation for the FIM Portal. In this corner we have <a href="http://blog.msresource.net/">Paul Williams of Microsoft</a> sharing knowledge from <a href="http://blog.msresource.net/2013/05/15/fim-portal-in-a-sharepoint-farmwhy-you-should-not-do-this/">his hard fought victories with FIM</a> and <a href="http://blog.msresource.net/2013/05/16/editing-the-fim-portal-web-config-in-a-farm-topology/">painful experiences with Farms</a>. In the other corner we have <a href="http://www.harbar.net/">Spencer Harbar</a>, SharePoint MVP, applying his years of <a href="http://www.harbar.net/articles/fimportal.aspx">SharePoint expertise to the FIM world</a> providing a <a href="http://www.harbar.net/articles/fimportal.aspx">definitive guide to installing FIM 2012 R2 SP1 portal on SharePoint 2013</a>.</p>
+<p>Spencer points out that &ldquo;farm deployment aspects are generally not well understood by FIM practitioners which leads to a number of common deployment and operational challenges.&rdquo; <strong>Point conceded.</strong> I saw much of the same thing with regards to MIIS and ILM when it came to deploying SQL Server.</p>
+<p>Spencer argues that &ldquo;the general idea is to build a small dedicated SharePoint instance purely for the purposes of hosting the FIM Portal [and FIM Service] and <strong>nothing else</strong> (although it could also host the Password Registration and Reset web sites)&rdquo; and that by deploying a farm instead of Stand-Alone, the &ldquo;craptastic demoware default configuration,&rdquo;  you can avoid &ldquo;a bunch of unnecessary goop.&rdquo;   <em>Note: Assuming Spencer knows, but just to clarify for everyone, the Password Portals use IIS and do not need or use SharePoint.</em></p>
+<p>An example of the &ldquo;unnecessary goop&rdquo; is the SharePoint Search Service Application, which when installed then requires us to turn off the SharePoint Indexing job. A benefit of avoiding &ldquo;a bunch of stuff we don’t want&rdquo; is that it &ldquo;minimizes the attack surface available.&rdquo; <strong>Minimizing attack surface is a good thing.</strong></p>
+<p>Spencer opines that &ldquo;the Standalone Server Type&hellip; is evil, pure and simple.&rdquo; He also decries the use of &ldquo;Embedded SQL.&rdquo;</p>
+<p>Paul shares some compelling experience based evidence to think about using Stand-Alone instead of a farm, stating that a farm gives you a &ldquo;<strong>serious headache when patching</strong> &hellip; more operational maintenance&rdquo; (more SQL Server Databases to manage instead of the &ldquo;optimised WID[embedded SQL] files that are totally expendable&rdquo;)  &ldquo;and more complexity around backup and restore (or rebuild) and patching SharePoint itself&rdquo; not to mention when you need to &ldquo;[modify] web.config.&rdquo;</p>
+<p>Patching needs to be explored further. According to Paul, you must &ldquo;patch &hellip; nodes sequentially&rdquo; which &ldquo;takes quite a bit longer than a standalone node&rdquo; because &ldquo;the FIM installer isn’t optimised for a farm&rdquo; which would normally &ldquo;deploy the solution pack once&rdquo; instead we have an installer for the FIM Service and Portal, meaning the patch is the same. Since you need to patch the FIM Service on each node you must run the patch on each node which will also see the FIM Portal, &ldquo;retract the solution pack and deploy the new one,&rdquo; which in turns causes &ldquo;all application pools related to SharePoint to be recycled.&rdquo; Since &ldquo;the retraction and redeployment is global (to SharePoint)&rdquo; that means &ldquo;that downtime affects all nodes in the farm – you can’t drop one out of the NLB array, patch, add back, drop the next, etc.&rdquo; Whereas if you do Stand Alone you can &ldquo;drop one out of the NLB array, patch, add back, drop the next, etc.&rdquo;</p>
+<p>I know that with some of the pre-R2 updates I have been able to run the patch on the first node of the farm, installing FIM Service and Portal, and then on the second node just installing the patch for the FIM Service, since the Portal bits had already been updated. I need to double check whether this is still the case (since then most of our installs have been stand-alone).</p>
+<p>Paul continues with the woes of the Language packs that  they &ldquo;comprise some file system files for the FIM Service and SharePoint solution packs,&rdquo; which for a Farm means repeated downtime for the whole farm as each node is Language Packed. If you need language packs then a farm is still bad news for downtime even if the method I have used still applies for the Service Pack and hotfixes.</p>
+<p><strong>Pros for SharePoint Stand-alone for FIM</strong></p>
+<p><strong>Pros for SharePoint Farm for FIM</strong></p>
+<p><strong>Setup is simple</strong> (it creates the first site collection, plus database and site for you)</p>
+<p>Can get much <strong>smaller attack surface</strong> by not installing &ldquo;unnecessary goop&rdquo;</p>
+<p>Don&rsquo;t have to have a separate SQL Instance (which you must make highly available to avoid single point of failure) to manage, backup, etc.</p>
+<p>Avoid the overhead of running the Windows Internal Database/SQL Express Edition (aka Embedded SQL) on each node (overhead that we haven&rsquo;t seen cause FIM performance issues).</p>
+<p><strong>Can patch one server at a time without taking down whole NLB Array</strong> of FIM Servers (also each node is faster to patch)</p>
+<p>Can deploy pure SharePoint items and CSS files once instead of to each node</p>
+<p>Perhaps there are ways to get the most of the best of both worlds.</p>
+<ol>
+<li>
+<p>Install one Single Server SharePoint Farm for each FIM Portal node</p>
+</li>
+<li>
+<p>Upside: You avoid the painful patching process and Language Pack process</p>
+</li>
+<li>
+<p>Upside: Done right have the smaller attack surface (you would get complete control)</p>
+</li>
+<li>
+<p>Downside: More complex installation, but you could use the very complete scripts from Spencer to do this</p>
+</li>
+<li>
+<p>Downside: Shoot where do I want to put all those databases? I could put them on the SQL Server that will host the other FIM databases</p>
+</li>
+<li>
+<p>Separate the FIM Service from the FIM Portal</p>
+</li>
+<li>
+<p>Upside: This way when you do the patching and language packs that impact the portal they should only need to be done once, but still have downtime for whole farm.</p>
+</li>
+<li>
+<p>Upside: Smaller attack surface</p>
+</li>
+<li>
+<p>Upside: Pure SharePoint items and CSS files get deployed and configured only once</p>
+</li>
+<li>
+<p>Downside: more vm&rsquo;s/machines to manage and more FIM Server licenses to buy</p>
+</li>
+<li>
+<p>Install Stand-Alone and find a way to reduce the &ldquo;attack surface&rdquo; by eliminating some of the &ldquo;unnecessary goop&rdquo;</p>
+</li>
+<li>
+<p>This has most of the upsides and few of the downsides if we can find a way to do it</p>
+</li>
+<li>
+<p>Spencer: This is where I would love to have your expert opinion: How to reduce the attack surface on SharePoint Stand-Alone.</p>
+</li>
+</ol>
+<p>Conclusion: Initially, working with Brad Turner, I went with Farms, but then when I saw the Language Pack issues I thought Stand-Alone. Also when trying to keep it simple for non-SharePoint Admins, I thought Stand-Alone. As always there are trade offs, and want to see more discussion before we settle on single answer or even a definitive decision tree for which one to choose. For now I lean towards each FIM Portal and Service node having its own SharePoint Stand-Alone instance, but would love to advance the state of the art with better security and possibly performance.</p>
+<p><strong>All: Give me your thoughts on one vs. the other or on the additional options.</strong></p>
+<p>Note: Ross Currie also provides a <a href="http://www.fimspecialist.com/fim-portal/installing-fim-2010-r2-sp1-portal-on-sharepoint-foundation-2013/">guide resulting from his hard fought battle to get FIM on SharePoint 2013</a></p>
+<p>Note: Paul and Spencer AFAIK have never actually carried out a debate on this topic.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         

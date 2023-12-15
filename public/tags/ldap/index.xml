@@ -8,36 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Dec 2012 20:59:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/ldap/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Revisiting GUIDs, Octets and Base64</title>
-      <link>https://identitymanaged.com/2012/12/revisiting-guids-octets-and-base64.html</link>
-      <pubDate>Sun, 02 Dec 2012 20:59:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2012/12/revisiting-guids-octets-and-base64.html</guid>
-      <description>After re-reading my earlier post on this subject I decided I could be clearer.
-GUIDs are often used in three different formats:
-Representation
-Example
-Canonical form
-8c4ac332-975f-4717-ad7b-ba4a4e968fff
-Octet String
-32c34a8c5f971747ad7bba4a4e968fff
-Base64 Encoded
-MsNKjF+XF0ete7pKTpaP/w==
-Representation
-Comment
-Used in
-Canonical form
-This format stems from the way GUIDs (UUIDs) are generated. Each dash separating the various components. In version one of the UUID specification, the first the last component was the MAC address of the computer that generated the GUID.</description>
-    </item>
-    <item>
-      <title>MSIT&#39;s implementation of ILM 2</title>
-      <link>https://identitymanaged.com/2009/03/msit-implementation-of-ilm-2.html</link>
-      <pubDate>Wed, 25 Mar 2009 11:30:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/03/msit-implementation-of-ilm-2.html</guid>
-      <description>TEC 2009 continues onto the last day.
-Joel Silver spoke on his efforts and plans to implement ILM 2 for Microsoft. He presented a very interesting workflow to show how he addressed the challenge of creating unique email aliases.
-Then I listened to Felix as he discussed some of the interesting aspects of LDAP enhancements from around the vendorscape (I think I just made that word up).
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
-    </item>
   </channel>
 </rss>

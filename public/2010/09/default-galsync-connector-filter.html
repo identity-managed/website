@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661303" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -129,6 +129,10 @@ content="2010-09-07T11:35:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -308,11 +312,12 @@ content="2010-09-07T11:35:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="hi--if-i-want-to-exclude-a-handful-of-users-fr">Hi , If I want to exclude a handful of users fr&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/08959288275341385389" title="noreply@blogger.com">Unknown</a> - <!-- raw HTML omitted -->Aug 3, 2013<!-- raw HTML omitted --></p>
-<p>Hi ,</p>
-<p>If I want to exclude a handful of users from an OU moving across with the GALSync , am I correct to click on the user datasource object type and do a declared import filter then add their display names equals , will this work ?</p>
-<!-- raw HTML omitted -->
+                          <p>Using FIM 2010 RTM Update 1:</p>
+<p>The default GalSync Connector Filter is to filter out user objects that are hidden from the addressbook, OR missing the legacyExchangeDN, OR missing both the msExchangeHomeServerName and targetAddress are missing, OR proxyAddresses are missing, OR if it is a Mailbox Plan, Arbitration Mailbox, or Discovery Mailbox.</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DefaultGalSyncConnectorFilter_A2DC/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DefaultGalSyncConnectorFilter_A2DC/image_thumb.png" alt="image" title="image"></a></p>
+<p>Consequently, this answers the question are mail-enabled users filtered out by default?</p>
+<p>No they are not, as a mail-enabled user will have the target address populated, and none of the other rules will filter it out.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         

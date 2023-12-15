@@ -8,24 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Sep 2010 11:35:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/galsync/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Default GalSync Connector Filter</title>
-      <link>https://identitymanaged.com/2010/09/default-galsync-connector-filter.html</link>
-      <pubDate>Tue, 07 Sep 2010 11:35:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2010/09/default-galsync-connector-filter.html</guid>
-      <description>Hi , If I want to exclude a handful of users fr&amp;hellip; Unknown - Aug 3, 2013
-Hi ,
-If I want to exclude a handful of users from an OU moving across with the GALSync , am I correct to click on the user datasource object type and do a declared import filter then add their display names equals , will this work ?</description>
-    </item>
-    <item>
-      <title>Default GalSync Connector Filter</title>
-      <link>https://identitymanaged.com/2010/09/default-galsync-connector-filter.html</link>
-      <pubDate>Tue, 07 Sep 2010 11:35:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2010/09/default-galsync-connector-filter.html</guid>
-      <description>Using FIM 2010 RTM Update 1:
-The default GalSync Connector Filter is to filter out user objects that are hidden from the addressbook, OR missing the legacyExchangeDN, OR missing both the msExchangeHomeServerName and targetAddress are missing, OR proxyAddresses are missing, OR if it is a Mailbox Plan, Arbitration Mailbox, or Discovery Mailbox.
-Consequently, this answers the question are mail-enabled users filtered out by default?
-No they are not, as a mail-enabled user will have the target address populated, and none of the other rules will filter it out.</description>
-    </item>
   </channel>
 </rss>

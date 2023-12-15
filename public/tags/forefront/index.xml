@@ -8,34 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Sep 2012 20:52:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/forefront/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FIM Lives! UAG Lives! TMG will not</title>
-      <link>https://identitymanaged.com/2012/09/fim-lives-uag-lives-tmg-will-not.html</link>
-      <pubDate>Wed, 12 Sep 2012 20:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2012/09/fim-lives-uag-lives-tmg-will-not.html</guid>
-      <description>Today Microsoft announced the discontinuing or subsuming of many products in the Forefront line To be crystal clear Forefront Identity Manager (FIM) and Forefront Unified Access Gateway (UAG) live on as separate products with ongoing investment!
-Insert the obligatory Mark Twain quote here. “The rumors of my death have been greatly exaggerated”
-Product
-Fate
-Forefront Identity Manager (FIM)
-Lives on. R2 was just released in June
-Forefront Unified Access Gateway (UAG)</description>
-    </item>
-    <item>
-      <title>ILM FIM Webinar Custom Workflow -- Joe Zamora</title>
-      <link>https://identitymanaged.com/2009/04/ilm-fim-webinar-custom-workflow-joe.html</link>
-      <pubDate>Mon, 20 Apr 2009 11:54:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/04/ilm-fim-webinar-custom-workflow-joe.html</guid>
-      <description>Joe Zamora the maintainer of the Ensynch ILM 2 Custom Workflow Walkthrough is our main presenter at our next Webinar this Thursday at 9 AM Pacific. To register click on the image below. The code from our Pre-con workshop is posted on CodePlex Ensynch Custom WF Activities
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
-    </item>
-    <item>
-      <title>What&#39;s in name? Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.com/2009/04/what-in-name-forefront-identity-manager.html</link>
-      <pubDate>Thu, 16 Apr 2009 17:26:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/04/what-in-name-forefront-identity-manager.html</guid>
-      <description>In case you haven&amp;rsquo;t heard Zoomit VIA or rather Microsoft MetaDirectory Services has been renamed yet again, from Microsoft Identity Integration Server 2003 to Identity Lifecycle Manager 2007 to Forefront Identity Manager 2010 or FIM for short. For obvious reasons the L was dropped when the F was added (Forefront + ILM = FILM).
-So ILM 2 =&amp;gt; FIM 2010 (stole this graphic from Brad Turner&amp;rsquo;s blog &amp;ndash; his Smart Art creations are beautiful &amp;ndash; recently I have been studying smart art under his tutelage I hope to soon approach his level of skill)</description>
-    </item>
   </channel>
 </rss>

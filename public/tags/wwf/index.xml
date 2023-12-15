@@ -8,28 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Sep 2008 17:48:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/wwf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>a sprinkling of understanding Workflow in ILM 2</title>
-      <link>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</link>
-      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</guid>
-      <description>Very nice David, I would also urge readers to chec&amp;hellip; Brad Turner - Sep 3, 2008
-Very nice David, I would also urge readers to check out Mark Gabarra&amp;rsquo;s blog for information relating WF and ILM 2. I also hope that we&amp;rsquo;ll be able to goad our own Paul Divan into bringing his experiences to the blogosphere!</description>
-    </item>
-    <item>
-      <title>a sprinkling of understanding Workflow in ILM 2</title>
-      <link>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</link>
-      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</guid>
-      <description>So by now all of you know that understanding Windows Workflow Foundation is going to be quite helpful in implementing ILM 2.
-Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more about sprinkling
-So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.
-Category
-Activity
-Composite
-Notes
-Invoke Web Service
-Conditional</description>
-    </item>
   </channel>
 </rss>

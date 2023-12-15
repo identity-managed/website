@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661303" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -133,6 +133,10 @@ content="2010-06-10T00:29:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -312,10 +316,30 @@ content="2010-06-10T00:29:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="watch-out-for-the-latest-fim-hotfix-it-appears-i">Watch out for the latest FIM hotfix. It appears i&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/03350112765650890956" title="noreply@blogger.com">Chris Clayton</a> - <!-- raw HTML omitted -->Nov 4, 2011<!-- raw HTML omitted --></p>
-<p>Watch out for the latest FIM hotfix. It appears it will treat the % as a literal rather than a SQL wildcard.</p>
-<!-- raw HTML omitted -->
+                          <p>A little while ago I encountered some rather strange behavior of a Set vs. the XPATH query in FIM 2010.</p>
+<p>Using the Export-FIMConfig with the -onlyBaseResources -CustomConfig switches I run the following query to see if there are any users without a DisplayName</p>
+<p>/Person[not(starts-with(DisplayName,&rsquo;&rsquo;))]</p>
+<p>It showed 20</p>
+<p>So then I created a set, called “~ People with no displayname”, with that as the custom filter. I checked it doesn&rsquo;t violate any of the limitations listed in the <a href="http://technet.microsoft.com/en-us/library/ff356871(WS.10).aspx">Business Policy Modeling doc</a> (which I must say is a pretty good doc)</p>
+<p>Then when I look at the Set and click view members on the criteria tab it shows 20 users. So far so good</p>
+<p>But when I go to Search for users and it Resource ID in “~ People with no displayname” it shows me over 10,000</p>
+<p>Indeed using the commandlet to run this query /Person[ObjectID=/Set[DisplayName=&rsquo;~ People with no displayname&rsquo;]/ComputedMember]&quot;) I get over 10,000</p>
+<p><a href="http://social.technet.microsoft.com/Forums/en-US/ilm2/thread/64f3f2d8-17bf-4578-8b53-c95011a31edf">Jeremy</a> made a suggestion:</p>
+<p>/Person[not(starts-with(DisplayName,&rsquo;%&rsquo;))]  </p>
+<p>Sure enough it works both as the SET filter and as the XPATH query and showed 20 records.</p>
+<p>So to test a string for null, use:</p>
+<p>not(starts-wth(Attribute,&rsquo;%&rsquo;))</p>
+<p>in the XPATH predicate.</p>
+<p><strong>Why does this work?</strong></p>
+<p>The starts-with function works just like using the <a href="http://msdn.microsoft.com/en-us/library/ms179859(v=SQL.105).aspx">LIKE operator in T-SQL</a> with an implied % at the end. not(starts-wth() does a NOT LIKE &lsquo;%&rsquo; with the implied %. Since % will match anything as long as it is not null this effectively tests for null.</p>
+<p>All of the wildcards available in the LIKE operator work</p>
+<p>I have tested it using the single wildcard character _ as well as ranges like [a-c] and other more complex patterns.</p>
+<p>This also means that you can effectively do a contains in a set or group filter by doing:</p>
+<p>starts-wth(attribute,&rsquo;%searchvalue&rsquo;)</p>
+<p>That’s right just prefix your searchvalue with % and what happens behind the scenes is a LIKE &lsquo;%searchvalue%&rsquo; which will find searchvalue anywhere in the string.</p>
+<p><strong>Warning about View Members on a set (possibly groups too)</strong></p>
+<p>Apparently when I click on view members on the Set’s Criteria tab it runs the XPATH query right then. But when you save the set with its new filter it runs the query in a slightly different fashion by first persisting the SET criteria to the database and then reloading the criteria and running the query and then persisting the membership results in the database to speed up look ups. (Naturally, the penalty is every create, delete, modify, add and remove request requires each set to be examined for impact and possible recalculation). So when you use the filter do do /Person[not(starts-with(DisplayName, &lsquo;%&rsquo;))] it stores that piece of the criteria as the literal string %% and the operator as LIKE. But when you use /Person[not(starts-with(DisplayName, &lsquo;&rsquo;))] it seems to delete that piece of the criteria effectively making it a set of all Persons. If you are implementing a ROPU (pronounced Rope You – Run on Policy Update) enabled workflow and this kind of thing happens to you it can me that a workflow is being applied to 10,000 objects instead of 20.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         

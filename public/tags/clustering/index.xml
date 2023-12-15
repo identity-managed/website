@@ -8,35 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2022 14:31:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/clustering/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SQL Always On Availability Groups for MIM</title>
-      <link>https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html</link>
-      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html</guid>
-      <description>Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft&amp;rsquo;s product team.
-MIM 2016 SP2 (and 4.4.1459.0 or later supports SQL Server Always On Availability Groups (AG))! Yeah!
-Ok let&amp;rsquo;s implement it!
-But wait! It won&amp;rsquo;t give us all we hope for!
-Up to the moment distributed backup of the data &amp;ndash; yes! Automatic instant failover &amp;ndash; not without a huge caveat! What do you mean it won&amp;rsquo;t give us Automatic Instant Failover?</description>
-    </item>
-    <item>
-      <title>ILM/MIIS Sync Engine Clustering Windows 2008</title>
-      <link>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
-      <pubDate>Mon, 16 Mar 2009 10:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
-      <description>David, I can&amp;rsquo;t figure this one out easily s&amp;hellip; Anu - Mar 1, 2009
-David,
-I can&amp;rsquo;t figure this one out easily since I don&amp;rsquo;t have a deep knowledge of SQL. I&amp;rsquo;d appreciate your feedback. I am beginning to understand the different options and implementaions for scaling out SQL HA/DR/automatic failover.
-In ILM &amp;ldquo;2&amp;rdquo; architecture, with scaling out MIIS and its SQL, can performace improvements and concurrent MA runs be achieved?</description>
-    </item>
-    <item>
-      <title>ILM/MIIS Sync Engine Clustering Windows 2008</title>
-      <link>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
-      <pubDate>Mon, 16 Mar 2009 10:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
-      <description>First, let me say thank you to Alex Tcherniakhovski for pioneering the way in clustering the MIIS Service or as it is now known the ILM Sync Engine. That blog, presentation and script was an excellent set of work. http://blogs.msdn.com/alextch/archive/2005/12/17/clusteredmiis.aspx
-On Windows Server 2008, a few things have changed that break the script that Alex T. provides.
-In Windows Server 2003 the cluster services runs as a domain account and as long as the user has access to all nodes, to stop and start services, and as an MIIS Administrator then it should be able to do the trick.</description>
-    </item>
   </channel>
 </rss>

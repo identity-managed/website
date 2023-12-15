@@ -8,49 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Feb 2013 10:26:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/ad-lds/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Massive FIM and AD LDS project at DPDHL</title>
-      <link>https://identitymanaged.com/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</link>
-      <pubDate>Thu, 14 Feb 2013 10:26:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</guid>
-      <description>Watch the presentation that James Booth (who worked with us on the project) and Joe Gasowski (DPDHL) gave at the Redmond Identity Summit 2013 about our project at DHL to replace the DPDHL Sun One Directory and deploy FIM to replace both CriticalPath and a home-grown admin portal.
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
-    </item>
-    <item>
-      <title>Revisiting GUIDs, Octets and Base64</title>
-      <link>https://identitymanaged.com/2012/12/revisiting-guids-octets-and-base64.html</link>
-      <pubDate>Sun, 02 Dec 2012 20:59:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2012/12/revisiting-guids-octets-and-base64.html</guid>
-      <description>After re-reading my earlier post on this subject I decided I could be clearer.
-GUIDs are often used in three different formats:
-Representation
-Example
-Canonical form
-8c4ac332-975f-4717-ad7b-ba4a4e968fff
-Octet String
-32c34a8c5f971747ad7bba4a4e968fff
-Base64 Encoded
-MsNKjF+XF0ete7pKTpaP/w==
-Representation
-Comment
-Used in
-Canonical form
-This format stems from the way GUIDs (UUIDs) are generated. Each dash separating the various components. In version one of the UUID specification, the first the last component was the MAC address of the computer that generated the GUID.</description>
-    </item>
-    <item>
-      <title>Property Sets for Permissions in AD and AD LDS</title>
-      <link>https://identitymanaged.com/2011/12/property-sets-for-permissions-in-ad-and.html</link>
-      <pubDate>Mon, 26 Dec 2011 12:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2011/12/property-sets-for-permissions-in-ad-and.html</guid>
-      <description>It’s very good post! Congratulations! I really enj&amp;hellip; Unknown - Jul 4, 2013
-It’s very good post! Congratulations! I really enjoyed to reading your blog. Thanks for share all this information. I’m looking forward your next post</description>
-    </item>
-    <item>
-      <title>Property Sets for Permissions in AD and AD LDS</title>
-      <link>https://identitymanaged.com/2011/12/property-sets-for-permissions-in-ad-and.html</link>
-      <pubDate>Mon, 26 Dec 2011 12:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2011/12/property-sets-for-permissions-in-ad-and.html</guid>
-      <description>A while back I needed to set up Property Sets in AD LDS for granting of permissions to many of the attributes on the person object all at once, as I reviewed the Technet documentation on AD Property Sets I realized that it doesn’t tell you what object type property sets are, nor does it tell you how to create a property set, nor does it tell you how to assign an attribute to a property set.</description>
-    </item>
   </channel>
 </rss>

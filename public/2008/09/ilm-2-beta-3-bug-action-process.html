@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702661303" rel="stylesheet">
+<link href="/css/custom.css?1702678769" rel="stylesheet">
 
 
 
@@ -121,6 +121,10 @@ content="2008-09-12T02:52:00-0700">
             &nbsp;&nbsp;&nbsp; 
             <a href="https://www.youtube.com/@identitymanaged6788" target="_blank" style="opacity: 1"
               ><i class='fab fa-2x fa-brands fa-youtube'></i></a
+            >
+            &nbsp;&nbsp;&nbsp; 
+            <a href="https://identitymanaged.com/index.xml" target="_blank" style="opacity: 1"
+              ><i class='fas fa-2x fa-rss-square'></i></a
             >
             &nbsp;&nbsp;&nbsp; 
           </div>
@@ -300,10 +304,31 @@ content="2008-09-12T02:52:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="yeah-so-this-one-frustrated-me-for-awhile-and-if-">Yeah, so this one frustrated me for awhile and if &hellip;</h4>
-<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
-<p>Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered this I would have lost even more time!</p>
-<!-- raw HTML omitted -->
+                          <p><a href="https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=367381&amp;SiteID=433">ID: 367381</a></p>
+<hr>
+<p>Description</p>
+<p>Action Process Function Evaluator Activity doesn&rsquo;t work when using only one field, but when I concatenate with 2 it works.</p>
+<p><strong>Repro Steps</strong></p>
+<p>Create an action Process<br>
+Add one activity &ndash; Function Evaluator<br>
+Set a destination to an attribute (like DisplayName) and select only one field in the value &ndash; LastName<br>
+Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), Operations: Create and Modify<br>
+Requestors: All People<br>
+All Attributes<br>
+Condition Before All People<br>
+Condition After All People<br>
+Policy Workflows: Add your Action Process<br>
+Then create or modify a user<br>
+open the user again and note that it did not work<br>
+Then look at search requests, view the request and note the following error: Data at the root level is invalid. Line 1, position 1.</p>
+<p>This fails</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/image_thumb.png" alt="image"></a></p>
+<p>and when used gives this error:</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image001.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image001_thumb.png" alt="clip_image001"></a></p>
+<p>But this works (as does concatenating with a &quot;&quot; string)</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image0017.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2Beta3BugActionProcessFunctionEvaluat_27E5/clip_image0017_thumb.png" alt="clip_image001[7]"></a></p>
+<p>Please repro and validate as a bug</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         

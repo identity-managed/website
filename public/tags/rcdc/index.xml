@@ -8,13 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Apr 2012 06:57:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/rcdc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Opening Edit instead of view from a uocListView</title>
-      <link>https://identitymanaged.com/2012/04/opening-edit-instead-of-view-from.html</link>
-      <pubDate>Fri, 27 Apr 2012 06:57:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2012/04/opening-edit-instead-of-view-from.html</guid>
-      <description>When using the uocListView control in the FIM RCDC you can have it return a list of objects. However when you open them, they also open for viewing, not editing.
-The key to this is to add a button control inside the uocListView control. You then specify the redirectURL property for the button. Additionally ShowActionBar must be true, ItemClickBehavior must be ModelessDialog (which is the default). Enable Selection must also be true.</description>
-    </item>
   </channel>
 </rss>

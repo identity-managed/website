@@ -8,45 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Dec 2016 13:39:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Christmastime FIM/MIM Open Source WF Reviews</title>
-      <link>https://identitymanaged.com/2016/12/christmastime-fimmim-open-source-wf.html</link>
-      <pubDate>Sat, 24 Dec 2016 13:39:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2016/12/christmastime-fimmim-open-source-wf.html</guid>
-      <description>Over the years since FIM was first beta&amp;rsquo;d as ILM2 we have seen some cool workflows be released to open source. This is my review of the workflows I can find that are open source. First let me salute everyone who has contributed to the FIM and MIM community with these big undertakings. That said I am trying to give guidance to my readers as to what is the most useful in various situations and so I will make specific recommendations.</description>
-    </item>
-    <item>
-      <title>Another talented Ensynchian joins the blogosphere</title>
-      <link>https://identitymanaged.com/2009/02/another-talented-ensynchian-joins.html</link>
-      <pubDate>Thu, 12 Feb 2009 13:21:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/02/another-talented-ensynchian-joins.html</guid>
-      <description>My colleague Joe Zamora, a talented developer, who has been instrumental in helping us advance our knowledge of custom workflows, has just launched his own blog: CShark.
-His first post is on how to &amp;ldquo;Generate AccountName in ILM2 custom workflow activity&amp;rdquo; and it came in response to a question in the ILM 2 connect forum entitled: Custom Workflow Activity to Generate samAccountName.
-Go Joe Go!
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
-    </item>
-    <item>
-      <title>a sprinkling of understanding Workflow in ILM 2</title>
-      <link>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</link>
-      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</guid>
-      <description>Very nice David, I would also urge readers to chec&amp;hellip; Brad Turner - Sep 3, 2008
-Very nice David, I would also urge readers to check out Mark Gabarra&amp;rsquo;s blog for information relating WF and ILM 2. I also hope that we&amp;rsquo;ll be able to goad our own Paul Divan into bringing his experiences to the blogosphere!</description>
-    </item>
-    <item>
-      <title>a sprinkling of understanding Workflow in ILM 2</title>
-      <link>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</link>
-      <pubDate>Tue, 16 Sep 2008 17:48:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</guid>
-      <description>So by now all of you know that understanding Windows Workflow Foundation is going to be quite helpful in implementing ILM 2.
-Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more about sprinkling
-So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.
-Category
-Activity
-Composite
-Notes
-Invoke Web Service
-Conditional</description>
-    </item>
   </channel>
 </rss>

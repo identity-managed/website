@@ -8,49 +8,5 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Mar 2015 09:07:00 -0700</lastBuildDate>
     <atom:link href="https://identitymanaged.com/tags/windows-server-2008/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Escaping an AD Replication Island</title>
-      <link>https://identitymanaged.com/2015/03/escaping-ad-replication-island.html</link>
-      <pubDate>Sat, 07 Mar 2015 09:07:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2015/03/escaping-ad-replication-island.html</guid>
-      <description>On a dark and stormy night an Active Directory upgrade was underway, Windows Server 2003 domain controllers decommissioned, consolidated and replaced with Window Server 2008 R2 servers. Suddenly I got a call from those doing the upgrade, &amp;ldquo;I can&amp;rsquo;t see some of the new domain controllers on the existing domain controllers, what&amp;rsquo;s wrong?&amp;rdquo;
-A replication island had been created and several domain controllers were trapped on it. Could we rescue them in time?</description>
-    </item>
-    <item>
-      <title>ILM/MIIS Sync Engine Clustering Windows 2008</title>
-      <link>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
-      <pubDate>Mon, 16 Mar 2009 10:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
-      <description>David, I can&amp;rsquo;t figure this one out easily s&amp;hellip; Anu - Mar 1, 2009
-David,
-I can&amp;rsquo;t figure this one out easily since I don&amp;rsquo;t have a deep knowledge of SQL. I&amp;rsquo;d appreciate your feedback. I am beginning to understand the different options and implementaions for scaling out SQL HA/DR/automatic failover.
-In ILM &amp;ldquo;2&amp;rdquo; architecture, with scaling out MIIS and its SQL, can performace improvements and concurrent MA runs be achieved?</description>
-    </item>
-    <item>
-      <title>ILM/MIIS Sync Engine Clustering Windows 2008</title>
-      <link>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
-      <pubDate>Mon, 16 Mar 2009 10:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
-      <description>First, let me say thank you to Alex Tcherniakhovski for pioneering the way in clustering the MIIS Service or as it is now known the ILM Sync Engine. That blog, presentation and script was an excellent set of work. http://blogs.msdn.com/alextch/archive/2005/12/17/clusteredmiis.aspx
-On Windows Server 2008, a few things have changed that break the script that Alex T. provides.
-In Windows Server 2003 the cluster services runs as a domain account and as long as the user has access to all nodes, to stop and start services, and as an MIIS Administrator then it should be able to do the trick.</description>
-    </item>
-    <item>
-      <title>Expanding a Windows Server 2008 System partition on a HyperV Guest</title>
-      <link>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</link>
-      <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</guid>
-      <description>Yeah, WOW, not a quick and easy process by any means! Brad Turner - Sep 3, 2008
-Yeah, WOW, not a quick and easy process by any means!
-Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&amp;rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:</description>
-    </item>
-    <item>
-      <title>Expanding a Windows Server 2008 System partition on a HyperV Guest</title>
-      <link>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</link>
-      <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</guid>
-      <description>While building out some virtual machines for our ILM 2 Beta 3 environment&amp;hellip;
-We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&amp;rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition).</description>
-    </item>
   </channel>
 </rss>
