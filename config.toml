@@ -168,8 +168,3 @@ name = "YouTube"
 url = "https://www.youtube.com/@identitymanaged6788"
 pre = "<i class='fab fa-2x fa-brands fa-youtube'></i>"
 
-[[menu.topbar]]
-weight = 40
-name = "RSS"
-url = "https://identitymanaged.com/index.xml"
-pre = "<i class='fas fa-2x fa-rss-square'></i>" 
