@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MIM on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/mim/</link>
+    <link>https://identitymanaged.com/tags/mim/</link>
     <description>Recent content in MIM on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2022 14:31:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/mim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/mim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Always On Availability Groups for MIM</title>
-      <link>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</link>
+      <link>https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html</link>
       <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</guid>
+      <guid>https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html</guid>
       <description>Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft&amp;rsquo;s product team.
 MIM 2016 SP2 (and 4.4.1459.0 or later supports SQL Server Always On Availability Groups (AG))! Yeah!
 Ok let&amp;rsquo;s implement it!
@@ -21,17 +21,17 @@ Up to the moment distributed backup of the data &amp;ndash; yes! Automatic insta
     </item>
     <item>
       <title>SharePoint Foundation 2013 IIS Configuration Error</title>
-      <link>https://identitymanaged.netlify.app/2018/03/sharepoint-foundation-2013-iis.html</link>
+      <link>https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html</link>
       <pubDate>Thu, 29 Mar 2018 15:54:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2018/03/sharepoint-foundation-2013-iis.html</guid>
+      <guid>https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html</guid>
       <description>SharePoint is a great product but I wish that FIM and MIM did not use it. In my opinion, it adds unnecessary infrastructure and really complicates the setup, because SharePoint must be installed and configured (and maintained). Leaving that aside, allow me to point out some gotchas that might impede your ability to install this MIM/FIM prerequisite.
 First up: if your server has limited access to the Internet you should probably download all of these prerequisites and copy them to the server &amp;ndash; because that&amp;rsquo;s what the SharePoint Installer has to do &amp;ndash; it doesn&amp;rsquo;t include these items.</description>
     </item>
     <item>
       <title>Open Source: Review of MIMTools</title>
-      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-mimtools.html</link>
+      <link>https://identitymanaged.com/2017/03/open-source-review-of-mimtools.html</link>
       <pubDate>Fri, 31 Mar 2017 20:09:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-mimtools.html</guid>
+      <guid>https://identitymanaged.com/2017/03/open-source-review-of-mimtools.html</guid>
       <description>JefTek created a niche hybrid tool that tackles a few pieces of the sync and service puzzle in a way that none of the others do.
 One noteable one for sync:
 Get and Export MIM Deltas to CSV (based on a drop file either stop and drop or the audit log dropped during the export
@@ -40,25 +40,25 @@ While it doesn&amp;rsquo;t do all that IS4U-FIM-PowerShell (see my review), d
     </item>
     <item>
       <title>Open Source: Review of FIM 2010 PowerShell Cmdlets</title>
-      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-2010.html</link>
+      <link>https://identitymanaged.com/2017/03/open-source-review-of-fim-2010.html</link>
       <pubDate>Fri, 31 Mar 2017 20:00:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-2010.html</guid>
+      <guid>https://identitymanaged.com/2017/03/open-source-review-of-fim-2010.html</guid>
       <description>Gil Kirkpatrick (a great guy, fellow MVP, who has taught me a lot over the years) created one of the very first, if not the first, PowerShell commandlets libraries to manage FIM/MIM service. It hasn&amp;rsquo;t had any activity in years, but it served as a great example to get others going.
 If you like this simple approach you could check out Adam Weigert&amp;rsquo;s PowerShell for FIM 2010 (see my review).</description>
     </item>
     <item>
       <title>Open Source: Review of IS4U-FIM-PowerShell</title>
-      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-is4u-fim.html</link>
+      <link>https://identitymanaged.com/2017/03/open-source-review-of-is4u-fim.html</link>
       <pubDate>Fri, 31 Mar 2017 19:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-is4u-fim.html</guid>
+      <guid>https://identitymanaged.com/2017/03/open-source-review-of-is4u-fim.html</guid>
       <description>Wim Beck&amp;rsquo;s IS4U-FIM-PowerShell is a great example of open source, in that he has built on top of the FIM PowerShell Module (see my review). This is what Open Source is about, building upon each other&amp;rsquo;s contributions to make great stuff!
 When I looked at it in Dec 2016 I almost dismissed it since it lacked a wiki, but since then Wim has added a lot of pages. They still lack examples, I plan on pitching in to help out with that by adding some examples to my fork and then asking Wim to pull it in.</description>
     </item>
     <item>
       <title>Open Source: Review of Lithnet</title>
-      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-lithnet.html</link>
+      <link>https://identitymanaged.com/2017/03/open-source-review-of-lithnet.html</link>
       <pubDate>Fri, 31 Mar 2017 19:35:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-lithnet.html</guid>
+      <guid>https://identitymanaged.com/2017/03/open-source-review-of-lithnet.html</guid>
       <description>Ryan Newington&amp;rsquo;s Lithnet consists of several items:
 miis-powershell
 resourcemanagement-powershell
@@ -75,9 +75,9 @@ It wraps WMI calls, existing PowerShell modules, executables and sync client UI 
     </item>
     <item>
       <title>Open Source: Review of PowerShell for FIM 2010</title>
-      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-powershell-for.html</link>
+      <link>https://identitymanaged.com/2017/03/open-source-review-of-powershell-for.html</link>
       <pubDate>Fri, 31 Mar 2017 19:15:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-powershell-for.html</guid>
+      <guid>https://identitymanaged.com/2017/03/open-source-review-of-powershell-for.html</guid>
       <description>PowerShell for FIM 2010 by Adam Weigert consists of three parts but I further break the last into two:
 Management Agent(MA) and MetaVerse (MV) Extensions that let you run PowerShell scripts as your extensions
 A Workflow Activity
@@ -89,9 +89,9 @@ The work done to enable you to write PowerShell scripts to be MA and MV extensio
     </item>
     <item>
       <title>Open Source: Review of FIM PowerShell Module</title>
-      <link>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-powershell.html</link>
+      <link>https://identitymanaged.com/2017/03/open-source-review-of-fim-powershell.html</link>
       <pubDate>Fri, 31 Mar 2017 18:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-powershell.html</guid>
+      <guid>https://identitymanaged.com/2017/03/open-source-review-of-fim-powershell.html</guid>
       <description>The FIM PowerShell Module (started by Craig Martin and now updated most frequently by Brian Desmond) is a great set of commandlets that help you to automate Interactions with FIM Service and FIM Sync Service.
 Managing Sync
 This library is great for automating tests. This library and Ryan Newington&amp;rsquo;s Lithnet-Miis-PowerShell (see my review on LithNet) are very complimentary. You can retrieve CS Objects, Run History, start an MA.
@@ -99,9 +99,9 @@ I found that the most interesting Sync related Cmdlets are the</description>
     </item>
     <item>
       <title>Is MIM dead? Not yet!</title>
-      <link>https://identitymanaged.netlify.app/2017/03/is-mim-dead-not-yet.html</link>
+      <link>https://identitymanaged.com/2017/03/is-mim-dead-not-yet.html</link>
       <pubDate>Wed, 29 Mar 2017 08:17:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/is-mim-dead-not-yet.html</guid>
+      <guid>https://identitymanaged.com/2017/03/is-mim-dead-not-yet.html</guid>
       <description>From time to time I hear people wonder if MIM is dead.
 Why do people ask?
 They don&amp;rsquo;t feel like they have heard a good road map recently They aren&amp;rsquo;t seeing the improvements they hoped for They aren&amp;rsquo;t paying attention to the actions of the product group Why do I say it isn&amp;rsquo;t dead yet?
@@ -109,16 +109,16 @@ While the Cloud Identity is the future, we are and will be in hybrid identity fo
     </item>
     <item>
       <title>Christmastime FIM/MIM Open Source WF Reviews</title>
-      <link>https://identitymanaged.netlify.app/2016/12/christmastime-fimmim-open-source-wf.html</link>
+      <link>https://identitymanaged.com/2016/12/christmastime-fimmim-open-source-wf.html</link>
       <pubDate>Sat, 24 Dec 2016 13:39:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2016/12/christmastime-fimmim-open-source-wf.html</guid>
+      <guid>https://identitymanaged.com/2016/12/christmastime-fimmim-open-source-wf.html</guid>
       <description>Over the years since FIM was first beta&amp;rsquo;d as ILM2 we have seen some cool workflows be released to open source. This is my review of the workflows I can find that are open source. First let me salute everyone who has contributed to the FIM and MIM community with these big undertakings. That said I am trying to give guidance to my readers as to what is the most useful in various situations and so I will make specific recommendations.</description>
     </item>
     <item>
       <title>MIM 2016 SP1 -- Implications</title>
-      <link>https://identitymanaged.netlify.app/2016/10/mim-2016-sp1-implications.html</link>
+      <link>https://identitymanaged.com/2016/10/mim-2016-sp1-implications.html</link>
       <pubDate>Wed, 19 Oct 2016 04:18:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2016/10/mim-2016-sp1-implications.html</guid>
+      <guid>https://identitymanaged.com/2016/10/mim-2016-sp1-implications.html</guid>
       <description>Earlier this month Microsoft released MIM 2016 SP1
 But what does this mean for you?
 Biggest Implications
@@ -129,17 +129,17 @@ SSPR already supported other browsers but now MIM Portal will support Chrome, Fi
     </item>
     <item>
       <title>Post Migration Your MIM/FIM Attribute Flow Precedence is Incorrect</title>
-      <link>https://identitymanaged.netlify.app/2016/10/post-migration-your-mimfim-attribute.html</link>
+      <link>https://identitymanaged.com/2016/10/post-migration-your-mimfim-attribute.html</link>
       <pubDate>Mon, 17 Oct 2016 23:53:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2016/10/post-migration-your-mimfim-attribute.html</guid>
+      <guid>https://identitymanaged.com/2016/10/post-migration-your-mimfim-attribute.html</guid>
       <description>Have you ever found out that attribute flow precedence is messed up, wrong or otherwise in error just after you followed the steps to migrate your MIM/FIM configuration from Dev to Prod or vice-versa? Well I am finally blogging about a discovery I made. The list of steps (reproduced below from the above link) are incomplete:
 Back up the pilot and production environments by using the Backup and Restore procedures.</description>
     </item>
     <item>
       <title>SharePoint MA -- avoid the noise</title>
-      <link>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</link>
+      <link>https://identitymanaged.com/2016/06/sharepoint-ma-avoid-noise.html</link>
       <pubDate>Tue, 28 Jun 2016 19:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</guid>
+      <guid>https://identitymanaged.com/2016/06/sharepoint-ma-avoid-noise.html</guid>
       <description>In using the SharePoint MA from Steve Kean I noticed that some of the fields I imported were coming in with some extra noise or crap at the beginning:
 String;#164
 All I really wanted was the 164. While I can use the Word function in a sync rule to get past it
@@ -148,17 +148,17 @@ Well thanks to Jermaine Snipe I found why this happens and how to bypass it:</de
     </item>
     <item>
       <title>Check your inputs -- Save your job!</title>
-      <link>https://identitymanaged.netlify.app/2016/02/check-your-inputs-save-your-job.html</link>
+      <link>https://identitymanaged.com/2016/02/check-your-inputs-save-your-job.html</link>
       <pubDate>Sat, 06 Feb 2016 15:06:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2016/02/check-your-inputs-save-your-job.html</guid>
+      <guid>https://identitymanaged.com/2016/02/check-your-inputs-save-your-job.html</guid>
       <description>At various times in my 10 years of Identity Management Consulting and 25 years working in the IT industry I have been asked to clean up various messes generated by those before me. Some of those messes involved disk failure or other issues that couldn&amp;rsquo;t be completely prevented. But some involved automated process that didn&amp;rsquo;t check their inputs.
 If garbage into a computer gives you garbage out, then garbage into an automated process that doesn&amp;rsquo;t check its inputs gives you a meltdown!</description>
     </item>
     <item>
       <title>FIM Custom Expressions inside Custom Expressions?</title>
-      <link>https://identitymanaged.netlify.app/2015/11/fim-custom-expressions-inside-custom.html</link>
+      <link>https://identitymanaged.com/2015/11/fim-custom-expressions-inside-custom.html</link>
       <pubDate>Mon, 09 Nov 2015 10:16:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/11/fim-custom-expressions-inside-custom.html</guid>
+      <guid>https://identitymanaged.com/2015/11/fim-custom-expressions-inside-custom.html</guid>
       <description>Recently, I needed to take Longitude and Latitude data that was given to me in the following format and break it into its individual components and then flow it out to AD.
 Let&amp;rsquo;s suppose the data looks like this:
 &amp;ldquo;Point -10.1223 45.945&amp;rdquo;
@@ -167,18 +167,18 @@ The problem was it could also look like this depending on the level of precision
     </item>
     <item>
       <title>How many attributes can you have in the Metaverse?</title>
-      <link>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</link>
+      <link>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</link>
       <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</guid>
+      <guid>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</guid>
       <description>Back in 2013 I published 5 posts about the Secrets of the Metaverse:
 Parts 1-5:
 What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? The third post was about how many attributes you can have in the Metaverse in which I said that the mms_metaverse_lineageguid table limits us to 502 single valued non-reference attributes in the Metaverse.</description>
     </item>
     <item>
       <title>MIM 2016 is now available</title>
-      <link>https://identitymanaged.netlify.app/2015/08/mim-2016-is-now-available.html</link>
+      <link>https://identitymanaged.com/2015/08/mim-2016-is-now-available.html</link>
       <pubDate>Tue, 04 Aug 2015 08:12:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/08/mim-2016-is-now-available.html</guid>
+      <guid>https://identitymanaged.com/2015/08/mim-2016-is-now-available.html</guid>
       <description>MIM 2016 is now available
 MIM &amp;ndash; Microsoft Identity Manager 2016 builds on and replaces Microsoft&amp;rsquo;s Forefront Identity Manager 2010 R2.
 On Microsoft&amp;rsquo;s site they include an introductory (2 min) video about Hybrid Identity but don&amp;rsquo;t mistake that for the MIM UI.
@@ -188,9 +188,9 @@ So what&amp;rsquo;s new?</description>
     </item>
     <item>
       <title>&#39;Twas the night before Christmas </title>
-      <link>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</link>
+      <link>https://identitymanaged.com/2014/12/twas-night-before-christmas.html</link>
       <pubDate>Wed, 24 Dec 2014 18:34:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</guid>
+      <guid>https://identitymanaged.com/2014/12/twas-night-before-christmas.html</guid>
       <description>&amp;lsquo;Twas the night before Christmas, when all through the internet
 Not an identity was stirring, not even a Passport .NET
 The user accounts requests were submitted with care
@@ -202,9 +202,9 @@ Awaiting someone to move a mouse and send the wake up code</description>
     </item>
     <item>
       <title>MIM&#39;s the word -- New name for FIM</title>
-      <link>https://identitymanaged.netlify.app/2014/04/mim-word-new-name-for-fim.html</link>
+      <link>https://identitymanaged.com/2014/04/mim-word-new-name-for-fim.html</link>
       <pubDate>Wed, 30 Apr 2014 14:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2014/04/mim-word-new-name-for-fim.html</guid>
+      <guid>https://identitymanaged.com/2014/04/mim-word-new-name-for-fim.html</guid>
       <description>Last week the Product group announced the new name for FIM and MIM&amp;rsquo;s the word Microsoft Identity Manager.
 Of course as a good futurist I had made enough guesses that I got this one right, even though as an honest man I must admit I also had it wrong &amp;ndash; Azure is not part of the name.
 Fortunately, they didn&amp;rsquo;t go with APE nor AILMENT, nor MIME, nor MIAMI, nor MICE, nor MAIM, nor WIMP.</description>

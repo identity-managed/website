@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Training on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/training/</link>
+    <link>https://identitymanaged.com/tags/training/</link>
     <description>Recent content in Training on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Feb 2011 11:36:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FIM Training back—on May 23-26 in Phoenix</title>
-      <link>https://identitymanaged.netlify.app/2011/02/fim-training-backon-may-23-26-in.html</link>
+      <link>https://identitymanaged.com/2011/02/fim-training-backon-may-23-26-in.html</link>
       <pubDate>Mon, 14 Feb 2011 11:36:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/02/fim-training-backon-may-23-26-in.html</guid>
+      <guid>https://identitymanaged.com/2011/02/fim-training-backon-may-23-26-in.html</guid>
       <description>Last week I taught a group of students 50382A Implementing Forefront Identity Manager 2010, and referenced FIM Best Practices Volume 1 to supplement. It was a great bunch, full of humor. We even had one gentleman fly all the way from Australia to attend my class. I felt quite honored.
 Well due to popular demand we are going to run it again May 23-May 26 (M-Th) once more in downtown Phoenix.</description>
     </item>

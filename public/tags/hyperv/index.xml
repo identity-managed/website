@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HyperV on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/hyperv/</link>
+    <link>https://identitymanaged.com/tags/hyperv/</link>
     <description>Recent content in HyperV on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Sep 2008 19:47:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/hyperv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/hyperv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expanding a Windows Server 2008 System partition on a HyperV Guest</title>
-      <link>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</link>
+      <link>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</link>
       <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</guid>
+      <guid>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</guid>
       <description>Yeah, WOW, not a quick and easy process by any means! Brad Turner - Sep 3, 2008
 Yeah, WOW, not a quick and easy process by any means!
 Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&amp;rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:</description>
     </item>
     <item>
       <title>Expanding a Windows Server 2008 System partition on a HyperV Guest</title>
-      <link>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</link>
+      <link>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</link>
       <pubDate>Tue, 02 Sep 2008 19:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</guid>
+      <guid>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</guid>
       <description>While building out some virtual machines for our ILM 2 Beta 3 environment&amp;hellip;
 We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&amp;rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition).</description>
     </item>

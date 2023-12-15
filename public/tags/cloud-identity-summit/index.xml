@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Identity Summit on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/cloud-identity-summit/</link>
+    <link>https://identitymanaged.com/tags/cloud-identity-summit/</link>
     <description>Recent content in Cloud Identity Summit on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Mar 2018 17:45:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/cloud-identity-summit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/cloud-identity-summit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identiverse, Cloud Identity Summit</title>
-      <link>https://identitymanaged.netlify.app/2018/03/identiverse-cloud-identity-summit.html</link>
+      <link>https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html</link>
       <pubDate>Thu, 29 Mar 2018 17:45:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2018/03/identiverse-cloud-identity-summit.html</guid>
+      <guid>https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html</guid>
       <description>Last summer I attended and spoke at the Cloud Identity Summit in Chicago. First big news: it was renamed to Identiverse and 2018 will be in Boston. As a consultant I have limited time to attend conferences and speak. So conferences have to be great. I do love this one, but in the interest of time, I will be skipping it this year in favor of speaking at the European Identity Conference in May 2018 in Munich, Germany.</description>
     </item>
     <item>
       <title>Speaking at Cloud Identity Summit 2017</title>
-      <link>https://identitymanaged.netlify.app/2017/03/speaking-at-cloud-identity-summit-2017.html</link>
+      <link>https://identitymanaged.com/2017/03/speaking-at-cloud-identity-summit-2017.html</link>
       <pubDate>Wed, 29 Mar 2017 10:20:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2017/03/speaking-at-cloud-identity-summit-2017.html</guid>
+      <guid>https://identitymanaged.com/2017/03/speaking-at-cloud-identity-summit-2017.html</guid>
       <description>I am excited to announce that I will be speaking at the Cloud Identity Summit 2017 in Chicago in June.
 I will discuss How Identity Management (Employee and Consumer) affects the bottom line.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>Is the Password dead? Gotta eat what you kill!</title>
-      <link>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</link>
+      <link>https://identitymanaged.com/2013/07/is-password-dead-gotta-eat-what-you-kill.html</link>
       <pubDate>Mon, 08 Jul 2013 08:45:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</guid>
+      <guid>https://identitymanaged.com/2013/07/is-password-dead-gotta-eat-what-you-kill.html</guid>
       <description>At last year&amp;rsquo;s Cloud Identity Summit in Vail I heard a lot about how the password is dead. I expect to hear a lot more this year.
 Most of it fit into one of several categories:
 Complaints about why passwords should be dead

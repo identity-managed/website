@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WCF on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/wcf/</link>
+    <link>https://identitymanaged.com/tags/wcf/</link>
     <description>Recent content in WCF on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Dec 2008 03:49:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/wcf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/wcf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ILM 2 Web Services Part 1 and 1/2</title>
-      <link>https://identitymanaged.netlify.app/2008/12/ilm-2-web-services-part-1-and-12.html</link>
+      <link>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</link>
       <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/ilm-2-web-services-part-1-and-12.html</guid>
+      <guid>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</guid>
       <description>A few days after my post about setting up the ILM 2 Web Service reference Joe Schulman and others from the ILM product group began a new blog designed to fill in the gaps in the knowledge in the community about how to use the web services. So far the blog looks great and is a welcome addition to my knowledge and the communities knowledge base! Great job Joe and Company and thanks for the link to my blog.</description>
     </item>
     <item>
       <title>ILM 2 Web Services Part 1 The Service Reference</title>
-      <link>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</link>
+      <link>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</link>
       <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</guid>
+      <guid>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</guid>
       <description>Does ILM open SOAP interfaces native? So that dev&amp;hellip; RobertW - Mar 4, 2009
 Does ILM open SOAP interfaces native? So that developers who are simply looking for a .wsdl file to build their client can get up and running quickly.
 not exactly you need to use the WCF approach.</description>
     </item>
     <item>
       <title>ILM 2 Web Services Part 1 The Service Reference</title>
-      <link>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</link>
+      <link>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</link>
       <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</guid>
+      <guid>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</guid>
       <description>Together, Mark Struck of Ipseity Inc and I, have figured out (after much beating of our heads against brick walls) how to use the ILM 2 Enumeration Endpoint to perform some basic reporting. (I figured out how to send the enumeration and get a response and then Mark figured out how to correctly form the pull messages so as to be able to retrieve the actual objects &amp;ndash; teamwork at its finest).</description>
     </item>
     <item>
       <title>Under the hood of ILM 2 -- Part 2 Read the WCF Trace!</title>
-      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</link>
+      <link>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</link>
       <pubDate>Sat, 01 Nov 2008 10:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</guid>
+      <guid>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</guid>
       <description>Take a look at Part 1 to enable tracing
 To view the log you need to have installed the Windows SDK and then you use the Service Trace Viewer
 C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\SvcTraceViewer.exe
@@ -43,18 +43,18 @@ If the file is over 50 MB you will get the partial loading screen like this one.
     </item>
     <item>
       <title>Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!</title>
-      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
+      <link>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
       <pubDate>Sat, 01 Nov 2008 09:23:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
+      <guid>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
       <description>Thanks David, for those of you looking for the rig&amp;hellip; Brad Turner - Nov 5, 2008
 Thanks David, for those of you looking for the right SDK, you&amp;rsquo;re likely going to want the most recent version for Server 2008 and .NET 3.5 which can be found here:
 http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&amp;amp;displaylang=en</description>
     </item>
     <item>
       <title>Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!</title>
-      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
+      <link>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
       <pubDate>Sat, 01 Nov 2008 09:23:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
+      <guid>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
       <description>Want to understand what is happening with your custom ILM 2 workflow? or your calls to the web service?
 Try enabling WCF Tracing. By enabling WCF tracing for the Identity Lifecycle Manager Resource Management Service you get to track requests to the webservice. This can help you figure out if your requests are even getting to the webservice.
 To enable tracing open the config file:

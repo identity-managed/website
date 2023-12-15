@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IT Manager on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/it-manager/</link>
+    <link>https://identitymanaged.com/tags/it-manager/</link>
     <description>Recent content in IT Manager on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Jan 2009 12:19:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/it-manager/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/it-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What’s new in Identity Lifecycle Manager 2, Ask the experts</title>
-      <link>https://identitymanaged.netlify.app/2009/01/whats-new-in-identity-lifecycle-manager.html</link>
+      <link>https://identitymanaged.com/2009/01/whats-new-in-identity-lifecycle-manager.html</link>
       <pubDate>Mon, 19 Jan 2009 12:19:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/01/whats-new-in-identity-lifecycle-manager.html</guid>
+      <guid>https://identitymanaged.com/2009/01/whats-new-in-identity-lifecycle-manager.html</guid>
       <description>Brad Turner and I are putting on a webinar on ILM 2.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>Business Problems and their Technical Roots</title>
-      <link>https://identitymanaged.netlify.app/2008/12/business-problems-and-their-technical.html</link>
+      <link>https://identitymanaged.com/2008/12/business-problems-and-their-technical.html</link>
       <pubDate>Mon, 22 Dec 2008 17:26:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/business-problems-and-their-technical.html</guid>
+      <guid>https://identitymanaged.com/2008/12/business-problems-and-their-technical.html</guid>
       <description>Business Problem
 Possible Underlying Business Problem
 Cause
@@ -37,18 +37,18 @@ Aren&amp;rsquo;t member of the groups or roles they need</description>
     </item>
     <item>
       <title>Business Problems VS Technical Problems</title>
-      <link>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</link>
+      <link>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</link>
       <pubDate>Mon, 22 Dec 2008 17:17:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</guid>
+      <guid>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</guid>
       <description>I like how you linked business problems to technic&amp;hellip; William Wagner - Sep 4, 2011
 I like how you linked business problems to technical problems. I think they affect each other in a lot of ways. You always need to balance them so you can succeed.
 form an llc</description>
     </item>
     <item>
       <title>Business Problems VS Technical Problems</title>
-      <link>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</link>
+      <link>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</link>
       <pubDate>Mon, 22 Dec 2008 17:17:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</guid>
+      <guid>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</guid>
       <description>A business problem is when employees can&amp;rsquo;t execute their job duties in an efficient fashion. In fact sometimes they are unable to complete the tasks at all. Business problems are especially costly when they directly affect customers. These problems can cause cash flowing into the company to be delayed as a customer waits to place an order, or to receive goods (and hence to pay), they can cause revenue to be lost as a customer temporarily takes their business to a competitor or a finds a substitute, sometimes this leads to customers forming new business relationships and loss of all future revenue from that customer.</description>
     </item>
   </channel>

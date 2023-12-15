@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Certificates on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/certificates/</link>
+    <link>https://identitymanaged.com/tags/certificates/</link>
     <description>Recent content in Certificates on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jan 2012 10:43:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/certificates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/certificates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FIM R2 Showdown -- Classic vs. Declarative</title>
-      <link>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
+      <link>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
       <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
+      <guid>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
       <description>Come join me at The Experts Conference 2012 in San Diego April 29 - May2 where I will be presenting:
 FIM R2 Showdown — Classic vs. Declarative
 Speaker: David Lundell
@@ -20,9 +20,9 @@ Is there room enough for both in this town? FIM 2010 R2 has two ways of accompli
     </item>
     <item>
       <title>To PKI or not to PKI?</title>
-      <link>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</link>
+      <link>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</link>
       <pubDate>Tue, 02 Jun 2009 11:12:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</guid>
+      <guid>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</guid>
       <description>Hey Dave, I didn&amp;rsquo;t notice your blog before. Go&amp;hellip; Unknown - Jun 0, 2009
 Hey Dave, I didn&amp;rsquo;t notice your blog before. Good work. Gimme a call&amp;hellip; Lets have lunch sometime soon. It would be nice to see you.
 justin harris
@@ -30,9 +30,9 @@ justin@jwheel.com</description>
     </item>
     <item>
       <title>To PKI or not to PKI?</title>
-      <link>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</link>
+      <link>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</link>
       <pubDate>Tue, 02 Jun 2009 11:12:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</guid>
+      <guid>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</guid>
       <description>When should one implement a Public Key Infrastructure and when should one not? Obviously we implement a PKI to solve a problem, usually around security, enabling secure communications with a web server, multi-factor authentication, encryption. A PKI solution can be very versatile, but it comes at a price in setup and maintenance. But what alternatives do we have? Let&amp;rsquo;s examine each problem in turn
 Problem
 PKI difficulties
@@ -41,18 +41,18 @@ Benefits for Alternatives</description>
     </item>
     <item>
       <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <link>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</link>
       <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <guid>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</guid>
       <description>It&amp;rsquo;s nice to know its impact to the business. &amp;hellip; Karl - Sep 4, 2011
 It&amp;rsquo;s nice to know its impact to the business. Thanks a lot for sharing that valuable information.
 business consultant</description>
     </item>
     <item>
       <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <link>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</link>
       <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <guid>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</guid>
       <description>Brad and I are going to cover the value of the whole Identity Management Stack from Microsoft and a few additional pieces from partners.
 **When:
 Thursday, May 28th
@@ -69,18 +69,18 @@ Brad Turner – Microsoft MVP for ILM, Ensynch Sr. Technical Architect
     </item>
     <item>
       <title>New Certificate and Identity Blogger on the Loose</title>
-      <link>https://identitymanaged.netlify.app/2009/03/new-certificate-and-identity-blogger-on.html</link>
+      <link>https://identitymanaged.com/2009/03/new-certificate-and-identity-blogger-on.html</link>
       <pubDate>Wed, 25 Mar 2009 11:34:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/new-certificate-and-identity-blogger-on.html</guid>
+      <guid>https://identitymanaged.com/2009/03/new-certificate-and-identity-blogger-on.html</guid>
       <description>Marc Mac Donnell has just launched his blog on http://assurancesinidentity.blogspot.com/ and called it Assurances in Identity, and has posted the links to the CLM API documentation and case study about some work he did with MCS UK and CapGemini.
 I look forward to many more posts from Mark about some of the wizardry and trick in managing certificates and identities.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>IDM in pop culture</title>
-      <link>https://identitymanaged.netlify.app/2008/08/idm-in-pop-culture.html</link>
+      <link>https://identitymanaged.com/2008/08/idm-in-pop-culture.html</link>
       <pubDate>Sat, 16 Aug 2008 11:30:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/08/idm-in-pop-culture.html</guid>
+      <guid>https://identitymanaged.com/2008/08/idm-in-pop-culture.html</guid>
       <description>Some days I am amazed at how deeply the identity management concepts have penetrated into popular culture:
 &amp;ldquo;Mr Big Stuff, who do you think you are?&amp;rdquo; clearly relates to an authentication issue or authorization issue.
 &amp;ldquo;Won&amp;rsquo;t get fooled again&amp;rdquo; by the WHO is clearly making a reference to a Certificate Revocation List, now that I have revoked your certificate you won&amp;rsquo;t be authenticated again.
@@ -88,9 +88,9 @@ One area where pop culture is still shockingly uninformed still need help is in 
     </item>
     <item>
       <title>Tech Ed -- Lotsa Buzz ILM 2 and CLM</title>
-      <link>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</link>
+      <link>https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</link>
       <pubDate>Mon, 16 Jun 2008 16:33:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</guid>
+      <guid>https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</guid>
       <description>On Tuesday Bob Muglia made a big announcement &amp;ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.
 Thanks to Nima for inviting me to participate at the booth.
 Best session I went was by Candy Stark from MS IT.</description>

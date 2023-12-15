@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backups on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/backups/</link>
+    <link>https://identitymanaged.com/tags/backups/</link>
     <description>Recent content in Backups on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 May 2010 10:04:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/backups/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/backups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Restoring your FIM databases to the moment before oops</title>
-      <link>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</link>
+      <link>https://identitymanaged.com/2010/05/restoring-your-fim-databases-to-moment.html</link>
       <pubDate>Thu, 20 May 2010 10:04:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</guid>
+      <guid>https://identitymanaged.com/2010/05/restoring-your-fim-databases-to-moment.html</guid>
       <description>At the FIM Birds of a Feather (BOF) after a discussion about FIM database backups I was asked to make a blog post to more fully elucidate the benefits of using the full recovery model.
 Since Recovery models affect the transaction log you may find it useful to have the following background about transaction logs:
 •The Data in tables and indexes are stored in data files not the transaction log</description>

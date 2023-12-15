@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AD FS on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/ad-fs/</link>
+    <link>https://identitymanaged.com/tags/ad-fs/</link>
     <description>Recent content in AD FS on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Sep 2013 13:11:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/ad-fs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/ad-fs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows 2012 R2 and Windows 8.1 RTM now on MSDN and Technet</title>
-      <link>https://identitymanaged.netlify.app/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</link>
+      <link>https://identitymanaged.com/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</link>
       <pubDate>Wed, 11 Sep 2013 13:11:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</guid>
+      <guid>https://identitymanaged.com/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</guid>
       <description>One of my fellow MVPs and Insight teammates Alessandro Cardoso (he runs one of our practices down under) announced on his blog that Windows 2012 R2 and Windows 8.1 RTM now on MSDN and Technet.
 He goes on to mention the salient points around 2012 R2 for virtualization so I thought I would discuss some of the benefits for Active Directory and ADFS
 One key thing is that ADFS on Windows Server 2012 R2 doesn&amp;rsquo;t require IIS so now it can and should be installed on domain controllers.</description>
     </item>
     <item>
       <title>FIM R2 Showdown -- Classic vs. Declarative</title>
-      <link>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
+      <link>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
       <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
+      <guid>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
       <description>Come join me at The Experts Conference 2012 in San Diego April 29 - May2 where I will be presenting:
 FIM R2 Showdown — Classic vs. Declarative
 Speaker: David Lundell
@@ -29,25 +29,25 @@ Is there room enough for both in this town? FIM 2010 R2 has two ways of accompli
     </item>
     <item>
       <title>Cloud computing single sign-on. Making ADFS work with Google and Salesforce (Nikita Ryumin)</title>
-      <link>https://identitymanaged.netlify.app/2011/04/cloud-computing-single-sign-on-making.html</link>
+      <link>https://identitymanaged.com/2011/04/cloud-computing-single-sign-on-making.html</link>
       <pubDate>Wed, 20 Apr 2011 10:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/04/cloud-computing-single-sign-on-making.html</guid>
+      <guid>https://identitymanaged.com/2011/04/cloud-computing-single-sign-on-making.html</guid>
       <description>This TEC session on the Directory Services track was short but sweet illustrating how to connect ADFS to Google and SalesForce.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>Recruiting</title>
-      <link>https://identitymanaged.netlify.app/2011/04/recruiting.html</link>
+      <link>https://identitymanaged.com/2011/04/recruiting.html</link>
       <pubDate>Tue, 19 Apr 2011 14:30:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/04/recruiting.html</guid>
+      <guid>https://identitymanaged.com/2011/04/recruiting.html</guid>
       <description>Hey readers, our Identity Practice at Ensynch is keeping us very busy. We would like to have more Identity consultants as part of our team. Come work with me and the rest of our fantastically talented Identity Team.
 We are looking for people with experience in Forefront Identity Manager 2010 and people with experience in ADFS 2.0. We are looking for both Full Time Employees as well as people interested in being contractors for us.</description>
     </item>
     <item>
       <title>Making Sense of the Cloud</title>
-      <link>https://identitymanaged.netlify.app/2011/04/making-sense-of-cloud.html</link>
+      <link>https://identitymanaged.com/2011/04/making-sense-of-cloud.html</link>
       <pubDate>Wed, 13 Apr 2011 21:15:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/04/making-sense-of-cloud.html</guid>
+      <guid>https://identitymanaged.com/2011/04/making-sense-of-cloud.html</guid>
       <description>National Roadshow Series: 2 High Value Sessions in 1 Business Focused Technology Briefing from Leading Industry Experts at Ensynch and Microsoft
 It’s time to make sense of the plethora of rhetoric around the term &amp;ldquo;Cloud.&amp;rdquo; It&amp;rsquo;s time to cut through the hype and figure out how to leverage the latest Dynamic Private Cloud and Public Cloud technologies and provide real value to your business.
 Why Attend?
@@ -55,26 +55,26 @@ Learn how organizations worldwide are realizing tremendous business value as the
     </item>
     <item>
       <title>TEC 2010 Europe – Sweet German Chocolate!</title>
-      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <link>https://identitymanaged.com/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
       <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <guid>https://identitymanaged.com/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
       <description>Sounds like a great conference. The Berliners will&amp;hellip; johnkaiser - Nov 2, 2010
 Sounds like a great conference. The Berliners will want you back soon with Volume2!</description>
     </item>
     <item>
       <title>TEC 2010 Europe – Sweet German Chocolate!</title>
-      <link>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
+      <link>https://identitymanaged.com/2010/10/tec-2010-europe-sweet-german-chocolate.html</link>
       <pubDate>Mon, 18 Oct 2010 14:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
+      <guid>https://identitymanaged.com/2010/10/tec-2010-europe-sweet-german-chocolate.html</guid>
       <description>Overall TEC 2010 Europe in Dusseldorf Germany was pretty cool. I enjoyed the speakers reception on Sunday night and got to meet some folks from the SharePoint side some of whom are even interested in FIM and one of them bought my book!
 For the first time I was able to bring my wife along to TEC! We enjoyed some good time in Dusseldorf including seeing Schloss (Palace) Benrather.
 Monday we started off with a keynote from Uday Hegde and Mark Wahl on the future of Directory and Identity Technologies.</description>
     </item>
     <item>
       <title>ADFS v2 Test Report -- Found</title>
-      <link>https://identitymanaged.netlify.app/2010/08/adfs-v2-test-report-found.html</link>
+      <link>https://identitymanaged.com/2010/08/adfs-v2-test-report-found.html</link>
       <pubDate>Fri, 20 Aug 2010 07:58:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/08/adfs-v2-test-report-found.html</guid>
+      <guid>https://identitymanaged.com/2010/08/adfs-v2-test-report-found.html</guid>
       <description>Something has happened with the project liberty website and most links to it are now broken, including the link to the test results from last year which includes which profiles ADFS v2 passed. So here it is:
 http://projectliberty.org/liberty/content/download/4732/32917/file/SAML_3Q09_%20IOP_Test_Event_Final_Report.pdf
 ADFS v2 passed: IDP Lite, SP Lite, eGov 1.5
@@ -82,18 +82,18 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</descriptio
     </item>
     <item>
       <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
-      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <link>https://identitymanaged.com/2010/06/accelerate-your-business-now-with.html</link>
       <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <guid>https://identitymanaged.com/2010/06/accelerate-your-business-now-with.html</guid>
       <description>I think they can really help in a lot of ways. Acc&amp;hellip; Karl - Sep 4, 2011
 I think they can really help in a lot of ways. Accelerate your business with the help of these factors. Thanks a lot for sharing.
 business consultant</description>
     </item>
     <item>
       <title>Accelerate Your Business Now with Identity Management &amp; Single-Sign-On (SSO)</title>
-      <link>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</link>
+      <link>https://identitymanaged.com/2010/06/accelerate-your-business-now-with.html</link>
       <pubDate>Wed, 09 Jun 2010 21:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</guid>
+      <guid>https://identitymanaged.com/2010/06/accelerate-your-business-now-with.html</guid>
       <description>Jun 10, 2010
 1:00 p.m. Eastern / 10:00 a.m. Pacific (60 minutes)
 To Register follow this link
@@ -105,9 +105,9 @@ Have you lost business because your customers and/or employees didn’t have acc
     </item>
     <item>
       <title>ADFS v.2 shipped</title>
-      <link>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</link>
+      <link>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</link>
       <pubDate>Tue, 18 May 2010 15:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</guid>
+      <guid>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</guid>
       <description>Active Directory Federation Services v2 Ships!
 This is awesome stuff – with ADFS v2 we can help you setup SSO with your SaaS vendors.
 Here is an example that has been rendered generic.
@@ -115,26 +115,26 @@ ADFS 2.0 supports SAML 2.0 (the idp lite profile and rdp lite profile) which ope
     </item>
     <item>
       <title>AD RMS on R2 -- new Federation Features</title>
-      <link>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</link>
+      <link>https://identitymanaged.com/2009/08/ad-rms-on-r2-new-federation-features.html</link>
       <pubDate>Fri, 14 Aug 2009 21:06:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</guid>
+      <guid>https://identitymanaged.com/2009/08/ad-rms-on-r2-new-federation-features.html</guid>
       <description>AD RMS on Windows Server 2008 R2 adds a really slick feature blogged about here: Group Expansion for Federated Users
 Prior to R2 to issue a use license to a federated user they need to specifically be granted permissions. With Windows Server 2008 R2 you can create a contact matching the external federated user and then place the contact in the group and then they have the same RMS permissions as that group.</description>
     </item>
     <item>
       <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <link>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</link>
       <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <guid>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</guid>
       <description>It&amp;rsquo;s nice to know its impact to the business. &amp;hellip; Karl - Sep 4, 2011
 It&amp;rsquo;s nice to know its impact to the business. Thanks a lot for sharing that valuable information.
 business consultant</description>
     </item>
     <item>
       <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <link>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</link>
       <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <guid>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</guid>
       <description>Brad and I are going to cover the value of the whole Identity Management Stack from Microsoft and a few additional pieces from partners.
 **When:
 Thursday, May 28th
@@ -151,35 +151,35 @@ Brad Turner – Microsoft MVP for ILM, Ensynch Sr. Technical Architect
     </item>
     <item>
       <title>Ensynch The Place to Be</title>
-      <link>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</link>
+      <link>https://identitymanaged.com/2009/04/ensynch-place-to-be.html</link>
       <pubDate>Wed, 15 Apr 2009 07:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</guid>
+      <guid>https://identitymanaged.com/2009/04/ensynch-place-to-be.html</guid>
       <description>In the last four months two very talented people have joined Ensynch, Chris Calderon, ILM MVP, and Mark Struck.
 Chris Calderon of IdentityJunkie.com fame is extremely talented with ILM, AD Federated Services (AD FS) and many other tools.
 Mark Struck, is a very talented developer, and experienced implementer of ILM. Even before Mark joined the team he and I collaborated to figure out how to use the ILM 2 web services.</description>
     </item>
     <item>
       <title>Netpro DEC -&gt; Quest TEC -- Ensynch&#39;s Sessions</title>
-      <link>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</link>
+      <link>https://identitymanaged.com/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</link>
       <pubDate>Wed, 11 Mar 2009 12:09:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</guid>
+      <guid>https://identitymanaged.com/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</guid>
       <description>Back in business school we always studied name changes and rebranding, and this one has been interesting
 Last summer NetPro deciding to expand the Directory Experts Conference (DEC) to include an exchange conference and so they re-branded the conference NetPro&amp;rsquo;s The Experts Conference. Then Quest acquired NetPro, so it became a completely re-branded conference as Quest&amp;rsquo;s The Expert Conference. So NetPro DEC became Quest TEC.
 Sunday Mar 22nd - Wed Mar 25th in Vegas www.</description>
     </item>
     <item>
       <title>Live ID&#39;s are now Open ID&#39;s, Geneva supports SAML 2.0</title>
-      <link>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</link>
+      <link>https://identitymanaged.com/2008/10/live-id-are-now-open-id-geneva-supports.html</link>
       <pubDate>Thu, 30 Oct 2008 16:37:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</guid>
+      <guid>https://identitymanaged.com/2008/10/live-id-are-now-open-id-geneva-supports.html</guid>
       <description>At the PDC Microsoft&amp;rsquo;s Kim Cameron and colleague Bertocci Vittorio announced that Microsoft Live is now an Open Id provider. Additionally, when signing into Live you can use Information Cards (Info Card, Card Space, Geneva Card Space).
 They also demonstrated the new Geneva Framework (formerly known as Zermat) &amp;ndash; essentially a successor to Windows Server 2008 Active Directory Federation Services, and showed it supporting SAML 2.0 the &amp;ldquo;protocol&amp;rdquo; not just SAML 2.</description>
     </item>
     <item>
       <title>The Grand Unified Demo of Identity Management</title>
-      <link>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</link>
+      <link>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</link>
       <pubDate>Wed, 07 May 2008 13:57:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</guid>
+      <guid>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</guid>
       <description>As I was architecting and assembling the Identity All Up workshop (part of the 2008 Directory Experts Conference see the review by Felix Gaehtgens, an analyst for Kuppinger Cole) designed to expose the attendees (or delegates) to all facets of the Microsoft Identity Access Platform, Lori Craw, from Microsoft referred to this as the &amp;ldquo;Grand Unified Demo&amp;rdquo;. I chuckled, instantly catching the reference to the still undiscovered Grand Unified Field theory that eluded Einstein and even today&amp;rsquo;s theoretical physicists.</description>
     </item>
   </channel>

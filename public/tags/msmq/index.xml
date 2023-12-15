@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MSMQ on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/msmq/</link>
+    <link>https://identitymanaged.com/tags/msmq/</link>
     <description>Recent content in MSMQ on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 May 2008 06:25:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/msmq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/msmq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Processing Actions Asynchronously outside of ILM MA&#39;s</title>
-      <link>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</link>
+      <link>https://identitymanaged.com/2008/05/processing-actions-asynchronously.html</link>
       <pubDate>Thu, 15 May 2008 06:25:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</guid>
+      <guid>https://identitymanaged.com/2008/05/processing-actions-asynchronously.html</guid>
       <description>For years developers have had access to the Microsoft Message Queue (MSMQ) as a way to be able to queue up actions for processing later or on a remote machine. With the release of SQL 2005 back in well 2005, developers with access to SQL 2005 could replace these MSMQ apps with SQL Service Broker Queues (SSB). With ILM 2007 /MIIS 2003 SP 2 supporting SQL 2005 the use of SQL Service Broker Queues became much more accessible to ILM Developers.</description>
     </item>
   </channel>

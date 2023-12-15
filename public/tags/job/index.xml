@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Job on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/job/</link>
+    <link>https://identitymanaged.com/tags/job/</link>
     <description>Recent content in Job on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Nov 2012 15:48:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/job/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/job/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5 reasons to be thankful for Identity Management</title>
-      <link>https://identitymanaged.netlify.app/2012/11/5-reasons-to-be-thankful-for-identity.html</link>
+      <link>https://identitymanaged.com/2012/11/5-reasons-to-be-thankful-for-identity.html</link>
       <pubDate>Wed, 21 Nov 2012 15:48:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/11/5-reasons-to-be-thankful-for-identity.html</guid>
+      <guid>https://identitymanaged.com/2012/11/5-reasons-to-be-thankful-for-identity.html</guid>
       <description>On the eve of Thanksgiving I offer 5 reasons to be thankful for Identity Management (user provisioning, deprovisioning, group and role management, etc.):
 What other compliance project can actually have a positive ROI? You get improved compliance (and the ability to show it) You also get better security as accounts are disabled quickly Then you save money through the automation Identity Management can help support your corporate goals You can empower users to serve themselves with password resets, group/role requests It can help keep your organization out of the shame columns in the trade rags We have all read about the disgruntled former employee accessing data.</description>
     </item>
     <item>
       <title>Identity Chaos? Get your Identities Ensynch!</title>
-      <link>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</link>
+      <link>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</link>
       <pubDate>Wed, 14 May 2008 10:55:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</guid>
+      <guid>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</guid>
       <description>If I post a comment on my own blog does that mean &amp;hellip; David Lundell - May 3, 2008
 If I post a comment on my own blog does that mean I am having an Identity Crisis?</description>
     </item>
     <item>
       <title>Identity Chaos? Get your Identities Ensynch!</title>
-      <link>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</link>
+      <link>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</link>
       <pubDate>Wed, 14 May 2008 10:55:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</guid>
+      <guid>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</guid>
       <description>I recently joined the Identity Management Practice, as a Solution Architect, at Ensynch Inc, an award winning Microsoft Gold Partner based in Tempe, AZ, with a strong award winning presence in Southern California. In 2006 Ensynch won Microsoft Worldwide Partner Award for Excellence in Active Directory and Identity Management and in 2007 was the only finalist from North America. In fact the only finalist from the Western Hemisphere.
 I am especially happy to be working with Brad Turner, fellow ILM MVP and a good friend.</description>
     </item>

@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1701145380" rel="stylesheet">
+<link href="/css/custom.css?1702660790" rel="stylesheet">
 
 
 
@@ -48,8 +48,14 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.netlify.app/index.xml"
+<link rel="alternate" href="https://identitymanaged.com/index.xml"
 type="application/rss+xml" title="Identity Managed">
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://identitymanaged.com//feed.xml"
+  title="Identity Managed"
+/>
 
 
      <meta property="og:updated_time"
@@ -84,7 +90,13 @@ content="2008-11-01T09:23:00-0700">
 />
 
 
-    
+    <link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://identitymanaged.com//index.xml"
+  title="Identity Managed"
+/>
+
   </head>
 
   <body>
@@ -137,11 +149,11 @@ content="2008-11-01T09:23:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="Under the hood of ILM 2 -- Part 1 Enable WCF Tracing! logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="Under the hood of ILM 2 -- Part 1 Enable WCF Tracing! logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Under the hood of ILM 2 -- Part 1 Enable WCF Tracing! - </span>
+                    <span class="sr-only">Under the hood of ILM 2 -- Part 1 Enable WCF Tracing! - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only"></span>
+                      <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -208,7 +220,7 @@ content="2008-11-01T09:23:00-0700">
                             
                             <li><a href="/about/founder">Founder</a></li>
                             
-                            <li><a href="/about/books">Books</a></li>
+                            <li><a href="https://www.davidplundell.com/books">Books</a></li>
                             
                             <li><a href="/faq/">FAQ</a></li>
                             
@@ -290,38 +302,17 @@ content="2008-11-01T09:23:00-0700">
                               
                                   
                               
-                               1, 2008
+                              November 1, 2008
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p>Want to understand what is happening with your custom ILM 2 workflow? or your calls to the web service?</p>
-<p>Try enabling WCF Tracing. By enabling WCF tracing for the Identity Lifecycle Manager Resource Management Service you get to track requests to the webservice. This can help you figure out if your requests are even getting to the webservice.</p>
-<p>To enable tracing open the config file:</p>
-<p>C:\Program Files\Microsoft Identity Management\Common Services\</p>
-<p>Microsoft.ResourceManagement.Service.exe.config</p>
-<p>In the <!-- raw HTML omitted --> after <!-- raw HTML omitted --> and before <!-- raw HTML omitted --> add the following:</p>
-<pre tabindex="0"><code>&lt;!-- Enable Tracing --&gt;  
-  &lt;system.diagnostics\&gt;  
-    &lt;trace autoflush\=&#34;true&#34; /&gt;  
-    &lt;sources\&gt;  
-      &lt;source name\=&#34;Microsoft.ResourceManagement&#34; switchValue\=&#34;All&#34;\&gt;  
-        &lt;listeners\&gt;  
-          &lt;add name\=&#34;text&#34; type\=&#34;System.Diagnostics.TextWriterTraceListener&#34; initializeData\=&#34;c:\\logs\\service.txt&#34; traceOutputOptions\=&#34;Timestamp,ThreadId,DateTime&#34;/&gt;  
-          &lt;add name\=&#34;xml&#34; type\=&#34;System.Diagnostics.XmlWriterTraceListener&#34; initializeData\=&#34;c:\\logs\\service.svclog&#34; traceOutputOptions\=&#34;Timestamp,ThreadId,DateTime&#34;/&gt;  
-        &lt;/listeners\&gt;  
-      &lt;/source\&gt;  
-    &lt;/sources\&gt;  
-  &lt;/system.diagnostics\&gt;  
-  &lt;!-- End Enable Tracing --&gt;
-</code></pre><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->.csharpcode, .csharpcode pre<!-- raw HTML omitted -->{<!-- raw HTML omitted --> font-size: small;<!-- raw HTML omitted --> color: black;<!-- raw HTML omitted --> font-family: consolas, &ldquo;Courier New&rdquo;, courier, monospace;<!-- raw HTML omitted --> background-color: #ffffff;<!-- raw HTML omitted --> /*white-space: pre;*/<!-- raw HTML omitted -->}<!-- raw HTML omitted -->.csharpcode pre { margin: 0em; }<!-- raw HTML omitted -->.csharpcode .rem { color: #008000; }<!-- raw HTML omitted -->.csharpcode .kwrd { color: #0000ff; }<!-- raw HTML omitted -->.csharpcode .str { color: #006080; }<!-- raw HTML omitted -->.csharpcode .op { color: #0000c0; }<!-- raw HTML omitted -->.csharpcode .preproc { color: #cc6633; }<!-- raw HTML omitted -->.csharpcode .asp { background-color: #ffff00; }<!-- raw HTML omitted -->.csharpcode .html { color: #800000; }<!-- raw HTML omitted -->.csharpcode .attr { color: #ff0000; }<!-- raw HTML omitted -->.csharpcode .alt <!-- raw HTML omitted -->{<!-- raw HTML omitted --> background-color: #f4f4f4;<!-- raw HTML omitted --> width: 100%;<!-- raw HTML omitted --> margin: 0em;<!-- raw HTML omitted -->}<!-- raw HTML omitted -->.csharpcode .lnum { color: #606060; }</p>
-<p>Then you need to create a directory called c:\ILMLogs and restart the ILM Common Services. If you don&rsquo;t create the directory then the logging still won&rsquo;t work, and you&rsquo;ll have to restart the service.</p>
-<p>To view the log you need to have installed the Windows SDK and then you use the Service Trace Viewer</p>
-<p>C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\SvcTraceViewer.exe</p>
-<p><a href="/blog/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html">For more info on how to read and interpret the trace see Part 2.</a></p>
-<p>For more info on writing your own traces from your own code see <a href="http://miisexperts.org/craigm/2008/06/over-communicate.html">Craig Martin&rsquo;s post on WCF tracing.</a></p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="thanks-david-for-those-of-you-looking-for-the-rig">Thanks David, for those of you looking for the rig&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Nov 5, 2008<!-- raw HTML omitted --></p>
+<p>Thanks David, for those of you looking for the right SDK, you&rsquo;re likely going to want the most recent version for Server 2008 and .NET 3.5 which can be found here:</p>
+<p><a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&amp;displaylang=en">http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&amp;displaylang=en</a></p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -354,6 +345,25 @@ content="2008-11-01T09:23:00-0700">
 
 
 
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/mim">MIM (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
 
 
 
@@ -364,7 +374,7 @@ content="2008-11-01T09:23:00-0700">
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title"></h3>
+        <h3 class="panel-title">Tags</h3>
     </div>
 
     <div class="panel-body">
@@ -835,53 +845,53 @@ content="2008-11-01T09:23:00-0700">
 
       
       <div class="col-md-6 col-sm-6">
-          <h4></h4>
+          <h4>About us</h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4></h4>
+          <h4>Recent posts</h4>
 
           <div class="blog-entries">
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
                   </div>
               </div>
               

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>T-SQL on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/t-sql/</link>
+    <link>https://identitymanaged.com/tags/t-sql/</link>
     <description>Recent content in T-SQL on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Jun 2010 08:47:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/t-sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/t-sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Searching an entire database for a Guid or Unique Identifier</title>
-      <link>https://identitymanaged.netlify.app/2010/06/searching-entire-database-for-guid-or.html</link>
+      <link>https://identitymanaged.com/2010/06/searching-entire-database-for-guid-or.html</link>
       <pubDate>Tue, 01 Jun 2010 08:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/06/searching-entire-database-for-guid-or.html</guid>
+      <guid>https://identitymanaged.com/2010/06/searching-entire-database-for-guid-or.html</guid>
       <description>Searching an entire database for a Guid or Unique Identifier can be a bit of a tricky proposition. However a little bit of using T-SQL to generate T-SQL and viola
 DECLARE @GUIDHunted nvarchar(60)
 SET @GUIDHunted = &amp;lsquo;0A24EC0C-65EE-4519-89DF-ABD3DD24F7EF&amp;rsquo;

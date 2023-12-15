@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSPR on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/sspr/</link>
+    <link>https://identitymanaged.com/tags/sspr/</link>
     <description>Recent content in SSPR on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Apr 2015 08:42:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/sspr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/sspr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Movie Review of Home -- or how IDM could have saved the day.</title>
-      <link>https://identitymanaged.netlify.app/2015/04/movie-review-of-home-or-how-idm-could.html</link>
+      <link>https://identitymanaged.com/2015/04/movie-review-of-home-or-how-idm-could.html</link>
       <pubDate>Wed, 08 Apr 2015 08:42:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/04/movie-review-of-home-or-how-idm-could.html</guid>
+      <guid>https://identitymanaged.com/2015/04/movie-review-of-home-or-how-idm-could.html</guid>
       <description>Over the weekend I took one of my children to see the new animated film Home starring Jim Parsons, Rihanna, Steve Martin and Jennifer Lopez. A group of technically superior but very cowardly aliens, called the Boov flee from their implacable enemy, the Gorgs, and decide to take over Earth, relocating all of the primitive natives (us) to Australia. Aside from the political commentary of the entire human race being placed in a reservation, the thing that most struck me was how one of the near disasters could have been averted through solid Identity Management Systems.</description>
     </item>
   </channel>

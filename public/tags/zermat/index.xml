@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zermat on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/zermat/</link>
+    <link>https://identitymanaged.com/tags/zermat/</link>
     <description>Recent content in Zermat on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2008 16:37:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/zermat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/zermat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Live ID&#39;s are now Open ID&#39;s, Geneva supports SAML 2.0</title>
-      <link>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</link>
+      <link>https://identitymanaged.com/2008/10/live-id-are-now-open-id-geneva-supports.html</link>
       <pubDate>Thu, 30 Oct 2008 16:37:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</guid>
+      <guid>https://identitymanaged.com/2008/10/live-id-are-now-open-id-geneva-supports.html</guid>
       <description>At the PDC Microsoft&amp;rsquo;s Kim Cameron and colleague Bertocci Vittorio announced that Microsoft Live is now an Open Id provider. Additionally, when signing into Live you can use Information Cards (Info Card, Card Space, Geneva Card Space).
 They also demonstrated the new Geneva Framework (formerly known as Zermat) &amp;ndash; essentially a successor to Windows Server 2008 Active Directory Federation Services, and showed it supporting SAML 2.0 the &amp;ldquo;protocol&amp;rdquo; not just SAML 2.</description>
     </item>

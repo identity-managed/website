@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ILM on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/ilm/</link>
+    <link>https://identitymanaged.com/tags/ilm/</link>
     <description>Recent content in ILM on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Aug 2015 19:58:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/ilm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/ilm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How many attributes can you have in the Metaverse?</title>
-      <link>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</link>
+      <link>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</link>
       <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</guid>
+      <guid>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</guid>
       <description>Back in 2013 I published 5 posts about the Secrets of the Metaverse:
 Parts 1-5:
 What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? The third post was about how many attributes you can have in the Metaverse in which I said that the mms_metaverse_lineageguid table limits us to 502 single valued non-reference attributes in the Metaverse.</description>
     </item>
     <item>
       <title>The MVP 7 year itch</title>
-      <link>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</link>
+      <link>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</link>
       <pubDate>Mon, 01 Jul 2013 09:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</guid>
+      <guid>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</guid>
       <description>Congratz, David&amp;hellip; Søren Granfeldt - Jul 1, 2013
 Congratz, David&amp;hellip;</description>
     </item>
     <item>
       <title>The MVP 7 year itch</title>
-      <link>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</link>
+      <link>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</link>
       <pubDate>Mon, 01 Jul 2013 09:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</guid>
+      <guid>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</guid>
       <description>This morning I received an email letting me know that for the 7th time (every year since 2007) I have been honored by Microsoft with the Microsoft Most Valuable Professional (MVP) Award. All 7 times I have received the award for my &amp;ldquo;outstanding contributions in Forefront Identity Manager technical communities&amp;rdquo; and its predecessors.
 In 2007 despite the product rename Identity Lifecycle Manager (ILM) 2007 the MVP award was for Microsoft Identity Integration Server (MIIS) 2003.</description>
     </item>
     <item>
       <title>FIM Pitfall for old ILM hands</title>
-      <link>https://identitymanaged.netlify.app/2010/03/fim-pitfall-for-old-ilm-hands.html</link>
+      <link>https://identitymanaged.com/2010/03/fim-pitfall-for-old-ilm-hands.html</link>
       <pubDate>Thu, 25 Mar 2010 21:40:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/03/fim-pitfall-for-old-ilm-hands.html</guid>
+      <guid>https://identitymanaged.com/2010/03/fim-pitfall-for-old-ilm-hands.html</guid>
       <description>In the days of MIIS 2003 and ILM 2007 we usually wrote our provisioning code to provision a new AD account only when the particular metaverse object didn’t already have any connectors in the AD connector space. With FIM your outbound synchronization rule is quite happy to provision another AD account if the existing one it is joined to doesn’t meet the relationship criteria. So I have usually been in the habit of not worrying about extraneous provisioning if I already had an account connected to that metaverse object.</description>
     </item>
     <item>
       <title>FIM 2010 RTM Today!</title>
-      <link>https://identitymanaged.netlify.app/2010/03/fim-2010-rtm-today.html</link>
+      <link>https://identitymanaged.com/2010/03/fim-2010-rtm-today.html</link>
       <pubDate>Tue, 02 Mar 2010 13:03:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/03/fim-2010-rtm-today.html</guid>
+      <guid>https://identitymanaged.com/2010/03/fim-2010-rtm-today.html</guid>
       <description>Today, March 2, at the RSA conference Microsoft announced the release to manufacturing of Forefront Identity Manager 2010 (FIM, formerly codenamed ILM “2”) with General Availability starting next month.
 Download the eval here:
 Microsoft® Forefront™ Identity Manager 2010 Evaluation Version
@@ -53,9 +53,9 @@ FIM gives us capabilities for User provisioning (and deprovisioning), Group mana
     </item>
     <item>
       <title>Final Update for FIM RC1 released</title>
-      <link>https://identitymanaged.netlify.app/2010/02/final-update-for-fim-rc1-released.html</link>
+      <link>https://identitymanaged.com/2010/02/final-update-for-fim-rc1-released.html</link>
       <pubDate>Mon, 01 Feb 2010 10:40:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/02/final-update-for-fim-rc1-released.html</guid>
+      <guid>https://identitymanaged.com/2010/02/final-update-for-fim-rc1-released.html</guid>
       <description>On Friday the product group released Update 3 for Forefront Identity Manager 2010 RC1 available through connect
 https://connect.microsoft.com/site433/Downloads
 Major changes as part of Update 3 (my regurgitation and comments from the release notes):
@@ -63,33 +63,33 @@ Fewer trips to the FIM Service event log – since the FIM MA export errors will
     </item>
     <item>
       <title>FIM Hand on Labs</title>
-      <link>https://identitymanaged.netlify.app/2010/02/fim-hand-on-labs.html</link>
+      <link>https://identitymanaged.com/2010/02/fim-hand-on-labs.html</link>
       <pubDate>Mon, 01 Feb 2010 01:20:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/02/fim-hand-on-labs.html</guid>
+      <guid>https://identitymanaged.com/2010/02/fim-hand-on-labs.html</guid>
       <description>More Hands on Labs for Forefront Identity Manager will be coming up (similar to the one I did in Irvine, CA) – Phoenix April 7th and 8th and then Dallas sometime in May.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>FIM RCDC explained in brief</title>
-      <link>https://identitymanaged.netlify.app/2009/11/fim-rcdc-explained-in-brief.html</link>
+      <link>https://identitymanaged.com/2009/11/fim-rcdc-explained-in-brief.html</link>
       <pubDate>Sun, 29 Nov 2009 09:50:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/11/fim-rcdc-explained-in-brief.html</guid>
+      <guid>https://identitymanaged.com/2009/11/fim-rcdc-explained-in-brief.html</guid>
       <description>In this post I attempt to give you the reader a quick overview of how the FIM RCDC works conceptually. As for the mechanics of modifying the RCDC the nearly complete but growing collection of documents downloadable from MSFT will suffice.
 As you will recall FIM is the new abbreviation for ILM, since it has been renamed Forefront Identity Manager, and RCDC is the Resource Control Display Configuration formerly known as the Object Visualization Configuration (OVC).</description>
     </item>
     <item>
       <title>Answering my FIM RC 1 question</title>
-      <link>https://identitymanaged.netlify.app/2009/11/answering-my-fim-rc-1-question.html</link>
+      <link>https://identitymanaged.com/2009/11/answering-my-fim-rc-1-question.html</link>
       <pubDate>Tue, 24 Nov 2009 09:58:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/11/answering-my-fim-rc-1-question.html</guid>
+      <guid>https://identitymanaged.com/2009/11/answering-my-fim-rc-1-question.html</guid>
       <description>Thanks to Darryl Russi for answering my questions in my earlier post An Update to FIM RC1 where I was asked about something I had read in the release notes:
 Some of those items raise a few questions, like how to setup a FIM service that only takes requests from the sync service? Do we setup multiple FIM Service instances and then configure the FIM MA to talk to one of them, and not make that one available to web clients?</description>
     </item>
     <item>
       <title>Identity Synchronization FIM 2010 HOL Irvine California</title>
-      <link>https://identitymanaged.netlify.app/2009/11/identity-synchronization-fim-2010-hol.html</link>
+      <link>https://identitymanaged.com/2009/11/identity-synchronization-fim-2010-hol.html</link>
       <pubDate>Mon, 23 Nov 2009 17:44:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/11/identity-synchronization-fim-2010-hol.html</guid>
+      <guid>https://identitymanaged.com/2009/11/identity-synchronization-fim-2010-hol.html</guid>
       <description>I will be at the Microsoft Technical Center in Irvine on Dec 1 and 2 presenting this HOL with Marvin Tansley of Gemalto.
 Identity Synchronization – Hands on Training
 ****
@@ -100,9 +100,9 @@ Come and learn how FIM 2010 can help you by delivering simplicity, agility and e
     </item>
     <item>
       <title>MVP for the 3rd time</title>
-      <link>https://identitymanaged.netlify.app/2009/07/mvp-for-3rd-time.html</link>
+      <link>https://identitymanaged.com/2009/07/mvp-for-3rd-time.html</link>
       <pubDate>Mon, 20 Jul 2009 17:42:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/07/mvp-for-3rd-time.html</guid>
+      <guid>https://identitymanaged.com/2009/07/mvp-for-3rd-time.html</guid>
       <description>Both my colleague Brad Turner and I were renewed for ILM MVP.
 I am glad to receive this honor another year.
 Congrats to new ILM MVP Marc Mac Donnell
@@ -112,25 +112,25 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</descriptio
     </item>
     <item>
       <title>The attributes behind Message Delivery Restrictions</title>
-      <link>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</link>
+      <link>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</link>
       <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</guid>
+      <guid>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</guid>
       <description>Very helpfull!! I was about to block sending email&amp;hellip; Paweł Jarosz - Sep 1, 2010
 Very helpfull!! I was about to block sending emails to disabled accounts - not mailbox but accounts - so I can easily and quick retrieve some data from inactive inboxes. The solution is to create an empty group in AD and set the &amp;ldquo;dLMemSubmitPerms&amp;rdquo; parameter to accept messages only from that empty group! Amazing and great many thanks!</description>
     </item>
     <item>
       <title>The attributes behind Message Delivery Restrictions</title>
-      <link>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</link>
+      <link>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</link>
       <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</guid>
+      <guid>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</guid>
       <description>Do you know what attributes are used to control who can and can&amp;rsquo;t send to a Distribution List in Exchange 2003 and Exchange 2007? or Does it use a DACL?
 Knowing such things is key if you are going to automate distribution list management through .NET programs, or MIIS/ILM/FIM, Quest ARS or any other tool that is talking to LDAP attributes. For Powershell you need a separate list since the names are different.</description>
     </item>
     <item>
       <title>Best Practices ILM 2007 Coding Conventions and Habits</title>
-      <link>https://identitymanaged.netlify.app/2009/06/best-practices-ilm-2007-coding.html</link>
+      <link>https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html</link>
       <pubDate>Mon, 22 Jun 2009 15:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/best-practices-ilm-2007-coding.html</guid>
+      <guid>https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html</guid>
       <description>Thanks for writing this up, David. That&amp;rsquo;s goo&amp;hellip; matthew gibson - Jun 2, 2009
 Thanks for writing this up, David. That&amp;rsquo;s good information.
 Can you explain this point&amp;hellip;
@@ -141,9 +141,9 @@ One developer wrote a module that could interpret stuff like this</description>
     </item>
     <item>
       <title>Best Practices ILM 2007 Coding Conventions and Habits</title>
-      <link>https://identitymanaged.netlify.app/2009/06/best-practices-ilm-2007-coding.html</link>
+      <link>https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html</link>
       <pubDate>Mon, 22 Jun 2009 15:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/best-practices-ilm-2007-coding.html</guid>
+      <guid>https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html</guid>
       <description>In response to question in the MMSUG yahoo group I thought I would post the following:
 Naming conventions for MV objects and attributes.
 Most CS objects and attributes come to us with names &amp;ndash; the exception being when we are writing our own views in SQL or Oracle
@@ -151,9 +151,9 @@ There are many object types and attributes pre-defined in the metaverse if you u
     </item>
     <item>
       <title>To PKI or not to PKI?</title>
-      <link>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</link>
+      <link>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</link>
       <pubDate>Tue, 02 Jun 2009 11:12:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</guid>
+      <guid>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</guid>
       <description>Hey Dave, I didn&amp;rsquo;t notice your blog before. Go&amp;hellip; Unknown - Jun 0, 2009
 Hey Dave, I didn&amp;rsquo;t notice your blog before. Good work. Gimme a call&amp;hellip; Lets have lunch sometime soon. It would be nice to see you.
 justin harris
@@ -161,9 +161,9 @@ justin@jwheel.com</description>
     </item>
     <item>
       <title>To PKI or not to PKI?</title>
-      <link>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</link>
+      <link>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</link>
       <pubDate>Tue, 02 Jun 2009 11:12:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</guid>
+      <guid>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</guid>
       <description>When should one implement a Public Key Infrastructure and when should one not? Obviously we implement a PKI to solve a problem, usually around security, enabling secure communications with a web server, multi-factor authentication, encryption. A PKI solution can be very versatile, but it comes at a price in setup and maintenance. But what alternatives do we have? Let&amp;rsquo;s examine each problem in turn
 Problem
 PKI difficulties
@@ -172,18 +172,18 @@ Benefits for Alternatives</description>
     </item>
     <item>
       <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <link>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</link>
       <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <guid>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</guid>
       <description>It&amp;rsquo;s nice to know its impact to the business. &amp;hellip; Karl - Sep 4, 2011
 It&amp;rsquo;s nice to know its impact to the business. Thanks a lot for sharing that valuable information.
 business consultant</description>
     </item>
     <item>
       <title>The Business Impact of Identity and Access Management with Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</link>
+      <link>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</link>
       <pubDate>Fri, 15 May 2009 11:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</guid>
+      <guid>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</guid>
       <description>Brad and I are going to cover the value of the whole Identity Management Stack from Microsoft and a few additional pieces from partners.
 **When:
 Thursday, May 28th
@@ -200,51 +200,51 @@ Brad Turner – Microsoft MVP for ILM, Ensynch Sr. Technical Architect
     </item>
     <item>
       <title>ILM FIM Webinar Custom Workflow -- Joe Zamora</title>
-      <link>https://identitymanaged.netlify.app/2009/04/ilm-fim-webinar-custom-workflow-joe.html</link>
+      <link>https://identitymanaged.com/2009/04/ilm-fim-webinar-custom-workflow-joe.html</link>
       <pubDate>Mon, 20 Apr 2009 11:54:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/04/ilm-fim-webinar-custom-workflow-joe.html</guid>
+      <guid>https://identitymanaged.com/2009/04/ilm-fim-webinar-custom-workflow-joe.html</guid>
       <description>Joe Zamora the maintainer of the Ensynch ILM 2 Custom Workflow Walkthrough is our main presenter at our next Webinar this Thursday at 9 AM Pacific. To register click on the image below. The code from our Pre-con workshop is posted on CodePlex Ensynch Custom WF Activities
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>What&#39;s in name? Forefront Identity Manager 2010</title>
-      <link>https://identitymanaged.netlify.app/2009/04/what-in-name-forefront-identity-manager.html</link>
+      <link>https://identitymanaged.com/2009/04/what-in-name-forefront-identity-manager.html</link>
       <pubDate>Thu, 16 Apr 2009 17:26:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/04/what-in-name-forefront-identity-manager.html</guid>
+      <guid>https://identitymanaged.com/2009/04/what-in-name-forefront-identity-manager.html</guid>
       <description>In case you haven&amp;rsquo;t heard Zoomit VIA or rather Microsoft MetaDirectory Services has been renamed yet again, from Microsoft Identity Integration Server 2003 to Identity Lifecycle Manager 2007 to Forefront Identity Manager 2010 or FIM for short. For obvious reasons the L was dropped when the F was added (Forefront + ILM = FILM).
 So ILM 2 =&amp;gt; FIM 2010 (stole this graphic from Brad Turner&amp;rsquo;s blog &amp;ndash; his Smart Art creations are beautiful &amp;ndash; recently I have been studying smart art under his tutelage I hope to soon approach his level of skill)</description>
     </item>
     <item>
       <title>Ensynch The Place to Be</title>
-      <link>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</link>
+      <link>https://identitymanaged.com/2009/04/ensynch-place-to-be.html</link>
       <pubDate>Wed, 15 Apr 2009 07:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</guid>
+      <guid>https://identitymanaged.com/2009/04/ensynch-place-to-be.html</guid>
       <description>In the last four months two very talented people have joined Ensynch, Chris Calderon, ILM MVP, and Mark Struck.
 Chris Calderon of IdentityJunkie.com fame is extremely talented with ILM, AD Federated Services (AD FS) and many other tools.
 Mark Struck, is a very talented developer, and experienced implementer of ILM. Even before Mark joined the team he and I collaborated to figure out how to use the ILM 2 web services.</description>
     </item>
     <item>
       <title>A few excellent Live@edu (Outlook Live) Blogs</title>
-      <link>https://identitymanaged.netlify.app/2009/04/few-excellent-liveedu-outlook-live.html</link>
+      <link>https://identitymanaged.com/2009/04/few-excellent-liveedu-outlook-live.html</link>
       <pubDate>Tue, 14 Apr 2009 12:35:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/04/few-excellent-liveedu-outlook-live.html</guid>
+      <guid>https://identitymanaged.com/2009/04/few-excellent-liveedu-outlook-live.html</guid>
       <description>I have been involved with the Microsoft Live@edu (formerly Windows Live@edu) and the Outlook Live (formerly Exchange Labs) programs for quite sometime.
 What a wonderful opportunity for schools to alleviate the cost of hosting email for students and then to be able to offer it to alumni helping provide them with lifelong connection to the university and way to keep their email address from their student days. Maintaining stronger ties leads to more evangelism on the school&amp;rsquo;s behalf and will lead to more Alumni donations.</description>
     </item>
     <item>
       <title>New Certificate and Identity Blogger on the Loose</title>
-      <link>https://identitymanaged.netlify.app/2009/03/new-certificate-and-identity-blogger-on.html</link>
+      <link>https://identitymanaged.com/2009/03/new-certificate-and-identity-blogger-on.html</link>
       <pubDate>Wed, 25 Mar 2009 11:34:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/new-certificate-and-identity-blogger-on.html</guid>
+      <guid>https://identitymanaged.com/2009/03/new-certificate-and-identity-blogger-on.html</guid>
       <description>Marc Mac Donnell has just launched his blog on http://assurancesinidentity.blogspot.com/ and called it Assurances in Identity, and has posted the links to the CLM API documentation and case study about some work he did with MCS UK and CapGemini.
 I look forward to many more posts from Mark about some of the wizardry and trick in managing certificates and identities.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>MSIT&#39;s implementation of ILM 2</title>
-      <link>https://identitymanaged.netlify.app/2009/03/msit-implementation-of-ilm-2.html</link>
+      <link>https://identitymanaged.com/2009/03/msit-implementation-of-ilm-2.html</link>
       <pubDate>Wed, 25 Mar 2009 11:30:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/msit-implementation-of-ilm-2.html</guid>
+      <guid>https://identitymanaged.com/2009/03/msit-implementation-of-ilm-2.html</guid>
       <description>TEC 2009 continues onto the last day.
 Joel Silver spoke on his efforts and plans to implement ILM 2 for Microsoft. He presented a very interesting workflow to show how he addressed the challenge of creating unique email aliases.
 Then I listened to Felix as he discussed some of the interesting aspects of LDAP enhancements from around the vendorscape (I think I just made that word up).
@@ -252,32 +252,32 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</descriptio
     </item>
     <item>
       <title>TEC 2009</title>
-      <link>https://identitymanaged.netlify.app/2009/03/tec-2009.html</link>
+      <link>https://identitymanaged.com/2009/03/tec-2009.html</link>
       <pubDate>Tue, 24 Mar 2009 15:50:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/tec-2009.html</guid>
+      <guid>https://identitymanaged.com/2009/03/tec-2009.html</guid>
       <description>Now that our pre-conference workshop on Taming the Chaos – Building a Practical Lifecycle Mgt. Application in the ILM “2” Portal is done
 and our (Brad, Chris and me) sessions done: Proper Care &amp;amp; Feeding of ILM, CLM and RMS , Designing an Object Expiration &amp;amp; Reconciliation process in ILM 2 , Rescue Your Identity Metasystem from Chaos (reporting against ILM 2), and ADFS Extensibility, we are all able to relax a little and enjoy everyone else&amp;rsquo;s sessions.</description>
     </item>
     <item>
       <title>TEC 2009 -- Ensynch Identity Bus</title>
-      <link>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</link>
+      <link>https://identitymanaged.com/2009/03/tec-2009-ensynch-identity-bus.html</link>
       <pubDate>Tue, 24 Mar 2009 15:32:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</guid>
+      <guid>https://identitymanaged.com/2009/03/tec-2009-ensynch-identity-bus.html</guid>
       <description>great dinner. ;) identity bus was also an excell&amp;hellip; Unknown - Mar 3, 2009
 great dinner. ;) identity bus was also an excellent idea - kudos!</description>
     </item>
     <item>
       <title>TEC 2009 -- Ensynch Identity Bus</title>
-      <link>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</link>
+      <link>https://identitymanaged.com/2009/03/tec-2009-ensynch-identity-bus.html</link>
       <pubDate>Tue, 24 Mar 2009 15:32:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</guid>
+      <guid>https://identitymanaged.com/2009/03/tec-2009-ensynch-identity-bus.html</guid>
       <description>Last night Fellow ILM MVP&amp;rsquo;s Brad Turner, Chris Calderon, Carol Wapshere (pronounced Wap shear and well known as Miss MIIS) and I along with a number of other TEC 2009 attendees rode on the Ensynch Identity Bus to take us from the Green Valley Ranch Resort to the Las Vegas Strip. After a great steak dinner at Smith and Wollansky&amp;rsquo;s (across from New York New York) a few us of walked the strip hoping to see the fountains at the Bellagio, but alas they shut off at midnight.</description>
     </item>
     <item>
       <title>ILM/MIIS Sync Engine Clustering Windows 2008</title>
-      <link>https://identitymanaged.netlify.app/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
+      <link>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
       <pubDate>Mon, 16 Mar 2009 10:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
+      <guid>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
       <description>David, I can&amp;rsquo;t figure this one out easily s&amp;hellip; Anu - Mar 1, 2009
 David,
 I can&amp;rsquo;t figure this one out easily since I don&amp;rsquo;t have a deep knowledge of SQL. I&amp;rsquo;d appreciate your feedback. I am beginning to understand the different options and implementaions for scaling out SQL HA/DR/automatic failover.
@@ -285,27 +285,27 @@ In ILM &amp;ldquo;2&amp;rdquo; architecture, with scaling out MIIS and its SQL, 
     </item>
     <item>
       <title>ILM/MIIS Sync Engine Clustering Windows 2008</title>
-      <link>https://identitymanaged.netlify.app/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
+      <link>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</link>
       <pubDate>Mon, 16 Mar 2009 10:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
+      <guid>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</guid>
       <description>First, let me say thank you to Alex Tcherniakhovski for pioneering the way in clustering the MIIS Service or as it is now known the ILM Sync Engine. That blog, presentation and script was an excellent set of work. http://blogs.msdn.com/alextch/archive/2005/12/17/clusteredmiis.aspx
 On Windows Server 2008, a few things have changed that break the script that Alex T. provides.
 In Windows Server 2003 the cluster services runs as a domain account and as long as the user has access to all nodes, to stop and start services, and as an MIIS Administrator then it should be able to do the trick.</description>
     </item>
     <item>
       <title>Netpro DEC -&gt; Quest TEC -- Ensynch&#39;s Sessions</title>
-      <link>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</link>
+      <link>https://identitymanaged.com/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</link>
       <pubDate>Wed, 11 Mar 2009 12:09:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</guid>
+      <guid>https://identitymanaged.com/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</guid>
       <description>Back in business school we always studied name changes and rebranding, and this one has been interesting
 Last summer NetPro deciding to expand the Directory Experts Conference (DEC) to include an exchange conference and so they re-branded the conference NetPro&amp;rsquo;s The Experts Conference. Then Quest acquired NetPro, so it became a completely re-branded conference as Quest&amp;rsquo;s The Expert Conference. So NetPro DEC became Quest TEC.
 Sunday Mar 22nd - Wed Mar 25th in Vegas www.</description>
     </item>
     <item>
       <title>Another talented Ensynchian joins the blogosphere</title>
-      <link>https://identitymanaged.netlify.app/2009/02/another-talented-ensynchian-joins.html</link>
+      <link>https://identitymanaged.com/2009/02/another-talented-ensynchian-joins.html</link>
       <pubDate>Thu, 12 Feb 2009 13:21:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/02/another-talented-ensynchian-joins.html</guid>
+      <guid>https://identitymanaged.com/2009/02/another-talented-ensynchian-joins.html</guid>
       <description>My colleague Joe Zamora, a talented developer, who has been instrumental in helping us advance our knowledge of custom workflows, has just launched his own blog: CShark.
 His first post is on how to &amp;ldquo;Generate AccountName in ILM2 custom workflow activity&amp;rdquo; and it came in response to a question in the ILM 2 connect forum entitled: Custom Workflow Activity to Generate samAccountName.
 Go Joe Go!
@@ -313,17 +313,17 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</descriptio
     </item>
     <item>
       <title>What’s new in Identity Lifecycle Manager 2, Ask the experts</title>
-      <link>https://identitymanaged.netlify.app/2009/01/whats-new-in-identity-lifecycle-manager.html</link>
+      <link>https://identitymanaged.com/2009/01/whats-new-in-identity-lifecycle-manager.html</link>
       <pubDate>Mon, 19 Jan 2009 12:19:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/01/whats-new-in-identity-lifecycle-manager.html</guid>
+      <guid>https://identitymanaged.com/2009/01/whats-new-in-identity-lifecycle-manager.html</guid>
       <description>Brad Turner and I are putting on a webinar on ILM 2.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>ILM 2 Functions Explained</title>
-      <link>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-explained.html</link>
+      <link>https://identitymanaged.com/2009/01/ilm-2-functions-explained.html</link>
       <pubDate>Tue, 06 Jan 2009 13:08:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-explained.html</guid>
+      <guid>https://identitymanaged.com/2009/01/ilm-2-functions-explained.html</guid>
       <description>Excellent post David, thanks for putting this toge&amp;hellip; Brad Turner - Jan 3, 2009
 Excellent post David, thanks for putting this together!
 To remove bit #2 shouldn&amp;rsquo;t you use BitAnd(-3,userAccountControl) ?
@@ -331,9 +331,9 @@ Paolo is correct in pointing out that the numbers I calculated for masks are wro
     </item>
     <item>
       <title>ILM 2 Functions Explained</title>
-      <link>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-explained.html</link>
+      <link>https://identitymanaged.com/2009/01/ilm-2-functions-explained.html</link>
       <pubDate>Tue, 06 Jan 2009 13:08:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-explained.html</guid>
+      <guid>https://identitymanaged.com/2009/01/ilm-2-functions-explained.html</guid>
       <description>Function Name
 Parameters
 David&amp;rsquo;s Description
@@ -349,18 +349,18 @@ BitAnd can be combined with Eq to detect if a bit is set</description>
     </item>
     <item>
       <title>ILM 2 Functions all in one place</title>
-      <link>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-all-in-one-place.html</link>
+      <link>https://identitymanaged.com/2009/01/ilm-2-functions-all-in-one-place.html</link>
       <pubDate>Mon, 05 Jan 2009 15:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-all-in-one-place.html</guid>
+      <guid>https://identitymanaged.com/2009/01/ilm-2-functions-all-in-one-place.html</guid>
       <description>I couldn&amp;rsquo;t find in the ILM 2 RC 0 documentation anyplace that listed all of the functions available to you in sync rules and action workflows so here they are:
 Don&amp;rsquo;t forget about the boolean functions available for use in the IIF function Now you can at a glance see the list of functions, their list of parameters and their official explanations
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>ILM &#34;2&#34; confirmHumanity=&#34;false&#34;</title>
-      <link>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</link>
+      <link>https://identitymanaged.com/2008/12/ilm-confirmhumanity.html</link>
       <pubDate>Tue, 23 Dec 2008 12:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</guid>
+      <guid>https://identitymanaged.com/2008/12/ilm-confirmhumanity.html</guid>
       <description>With Joe&amp;rsquo;s permissions I am posting the comment he&amp;hellip; David Lundell - Dec 3, 2008
 With Joe&amp;rsquo;s permissions I am posting the comment he attempted to post earlier:
 Apologies for spoiling the fun, but the confirm humanity config setting has no effect in ILM “2”.
@@ -368,63 +368,63 @@ This config setting is leftover from the early days of the product when we inclu
     </item>
     <item>
       <title>ILM &#34;2&#34; confirmHumanity=&#34;false&#34;</title>
-      <link>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</link>
+      <link>https://identitymanaged.com/2008/12/ilm-confirmhumanity.html</link>
       <pubDate>Tue, 23 Dec 2008 12:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</guid>
+      <guid>https://identitymanaged.com/2008/12/ilm-confirmhumanity.html</guid>
       <description>I was getting ready to try out some of the various installation topologies that may be possible with ILM &amp;ldquo;2&amp;rdquo; including: separating the Portal and the Service (definitely possible), having two portals point back to the same service (I think it&amp;rsquo;s possible), when I came across the most interesting item in the ILM &amp;ldquo;2&amp;rdquo; installation guide in the section on Installing the ILM Service and ILM Portal on separate servers. Let&amp;rsquo;s see if you can spot it too:</description>
     </item>
     <item>
       <title>Business Problems VS Technical Problems</title>
-      <link>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</link>
+      <link>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</link>
       <pubDate>Mon, 22 Dec 2008 17:17:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</guid>
+      <guid>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</guid>
       <description>I like how you linked business problems to technic&amp;hellip; William Wagner - Sep 4, 2011
 I like how you linked business problems to technical problems. I think they affect each other in a lot of ways. You always need to balance them so you can succeed.
 form an llc</description>
     </item>
     <item>
       <title>Business Problems VS Technical Problems</title>
-      <link>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</link>
+      <link>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</link>
       <pubDate>Mon, 22 Dec 2008 17:17:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</guid>
+      <guid>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</guid>
       <description>A business problem is when employees can&amp;rsquo;t execute their job duties in an efficient fashion. In fact sometimes they are unable to complete the tasks at all. Business problems are especially costly when they directly affect customers. These problems can cause cash flowing into the company to be delayed as a customer waits to place an order, or to receive goods (and hence to pay), they can cause revenue to be lost as a customer temporarily takes their business to a competitor or a finds a substitute, sometimes this leads to customers forming new business relationships and loss of all future revenue from that customer.</description>
     </item>
     <item>
       <title>ILM 2 Web Services Part 1 and 1/2</title>
-      <link>https://identitymanaged.netlify.app/2008/12/ilm-2-web-services-part-1-and-12.html</link>
+      <link>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</link>
       <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/ilm-2-web-services-part-1-and-12.html</guid>
+      <guid>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</guid>
       <description>A few days after my post about setting up the ILM 2 Web Service reference Joe Schulman and others from the ILM product group began a new blog designed to fill in the gaps in the knowledge in the community about how to use the web services. So far the blog looks great and is a welcome addition to my knowledge and the communities knowledge base! Great job Joe and Company and thanks for the link to my blog.</description>
     </item>
     <item>
       <title>Live@edu Partner Airlift and SQL PASS, Flat Tires, and Thanksgiving</title>
-      <link>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</link>
+      <link>https://identitymanaged.com/2008/12/liveedu-partner-airlift-and-sql-pass.html</link>
       <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</guid>
+      <guid>https://identitymanaged.com/2008/12/liveedu-partner-airlift-and-sql-pass.html</guid>
       <description>As for me why no posts since Nov 11th &amp;ndash; well, I have attended the Live@edu Partner Airlift in Redmond, SQL PASS, had a flat tire, and enjoyed Thanksgiving. In this post
 I attended the Live@edu Partner Airlift in Redmond to see what&amp;rsquo;s new under the sun for schools and universities. Exchange Labs is now available on a widespread basis (see fellow MVP Almero Steyn&amp;rsquo;s blog posts on Live@edu and on Exchange Labs) !</description>
     </item>
     <item>
       <title>ILM 2 Web Services Part 1 The Service Reference</title>
-      <link>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</link>
+      <link>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</link>
       <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</guid>
+      <guid>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</guid>
       <description>Does ILM open SOAP interfaces native? So that dev&amp;hellip; RobertW - Mar 4, 2009
 Does ILM open SOAP interfaces native? So that developers who are simply looking for a .wsdl file to build their client can get up and running quickly.
 not exactly you need to use the WCF approach.</description>
     </item>
     <item>
       <title>ILM 2 Web Services Part 1 The Service Reference</title>
-      <link>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</link>
+      <link>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</link>
       <pubDate>Sat, 01 Nov 2008 10:22:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</guid>
+      <guid>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</guid>
       <description>Together, Mark Struck of Ipseity Inc and I, have figured out (after much beating of our heads against brick walls) how to use the ILM 2 Enumeration Endpoint to perform some basic reporting. (I figured out how to send the enumeration and get a response and then Mark figured out how to correctly form the pull messages so as to be able to retrieve the actual objects &amp;ndash; teamwork at its finest).</description>
     </item>
     <item>
       <title>Under the hood of ILM 2 -- Part 2 Read the WCF Trace!</title>
-      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</link>
+      <link>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</link>
       <pubDate>Sat, 01 Nov 2008 10:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</guid>
+      <guid>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</guid>
       <description>Take a look at Part 1 to enable tracing
 To view the log you need to have installed the Windows SDK and then you use the Service Trace Viewer
 C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\SvcTraceViewer.exe
@@ -432,18 +432,18 @@ If the file is over 50 MB you will get the partial loading screen like this one.
     </item>
     <item>
       <title>Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!</title>
-      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
+      <link>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
       <pubDate>Sat, 01 Nov 2008 09:23:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
+      <guid>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
       <description>Thanks David, for those of you looking for the rig&amp;hellip; Brad Turner - Nov 5, 2008
 Thanks David, for those of you looking for the right SDK, you&amp;rsquo;re likely going to want the most recent version for Server 2008 and .NET 3.5 which can be found here:
 http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&amp;amp;displaylang=en</description>
     </item>
     <item>
       <title>Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!</title>
-      <link>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
+      <link>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</link>
       <pubDate>Sat, 01 Nov 2008 09:23:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
+      <guid>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</guid>
       <description>Want to understand what is happening with your custom ILM 2 workflow? or your calls to the web service?
 Try enabling WCF Tracing. By enabling WCF tracing for the Identity Lifecycle Manager Resource Management Service you get to track requests to the webservice. This can help you figure out if your requests are even getting to the webservice.
 To enable tracing open the config file:
@@ -451,26 +451,26 @@ C:\Program Files\Microsoft Identity Management\Common Services\</description>
     </item>
     <item>
       <title>The Semi-Automated Install of ILM 2 Beta 3</title>
-      <link>https://identitymanaged.netlify.app/2008/10/semi-automated-install-of-ilm-2-beta-3.html</link>
+      <link>https://identitymanaged.com/2008/10/semi-automated-install-of-ilm-2-beta-3.html</link>
       <pubDate>Wed, 22 Oct 2008 21:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/10/semi-automated-install-of-ilm-2-beta-3.html</guid>
+      <guid>https://identitymanaged.com/2008/10/semi-automated-install-of-ilm-2-beta-3.html</guid>
       <description>ILM 2 Beta 3 won&amp;rsquo;t perform a completely automatic quiet install but we can come close. Colleague Brad Turner and I have developed the following approach to the install and the post install tasks.
 Brad worked out most of the issues with the ILM 2 Services install itself and then I worked on most of the issues with the post install tasks. I will cover the install of the Metadirectory services first, then the ILM 2 Beta 3 Identity Management Platform Services including its batch files and then discuss the post install tasks and present its related files.</description>
     </item>
     <item>
       <title>SQL Server Agent should be running or install of ILM 2 Services fails</title>
-      <link>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</link>
+      <link>https://identitymanaged.com/2008/10/sql-server-agent-should-be-running-or.html</link>
       <pubDate>Wed, 22 Oct 2008 20:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</guid>
+      <guid>https://identitymanaged.com/2008/10/sql-server-agent-should-be-running-or.html</guid>
       <description>I posted the following to the Community Content Section of the ILM 2 Beta 3 Installation Guide
 The SQL Agent Service account must be a sql sysadmin and the SQL Agent Service must be running or during install you may get &amp;ldquo;error -2147217900
 Failed to execute sql string addtemporaleventsjobtoSQLServer&amp;rdquo; while trying to install ILM 2 Beta 3 Identity Management Platform Services. Apparently, the install routine needs to create a SQL Agent Job and with SQL 2005 the Agent must be running to create a job.</description>
     </item>
     <item>
       <title>Projections showing up as Joins?</title>
-      <link>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</link>
+      <link>https://identitymanaged.com/2008/10/projections-showing-up-as-joins.html</link>
       <pubDate>Wed, 08 Oct 2008 14:27:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</guid>
+      <guid>https://identitymanaged.com/2008/10/projections-showing-up-as-joins.html</guid>
       <description>Hi David, I this fast paced growing technology s&amp;hellip; Unknown - Jun 5, 2021
 Hi David,
 I this fast paced growing technology space, dominating cloud technologies how do you feel about MIM&amp;rsquo;s future. Give i don&amp;rsquo;t see Microsoft doing any innovations/upgrade in this arena. Please help me understand.
@@ -479,9 +479,9 @@ Durgesh</description>
     </item>
     <item>
       <title>Projections showing up as Joins?</title>
-      <link>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</link>
+      <link>https://identitymanaged.com/2008/10/projections-showing-up-as-joins.html</link>
       <pubDate>Wed, 08 Oct 2008 14:27:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</guid>
+      <guid>https://identitymanaged.com/2008/10/projections-showing-up-as-joins.html</guid>
       <description>https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=373881&amp;amp;SiteID=433
 So I found a slight inconsistency when following some of the ILM 2 walk-throughs. When you setup an inbound synch rule that creates objects in ILM the lineage says that the connector space object became a connector through join rules instead of projection rules. Minor bug &amp;ndash; but it sure can be confusing.
 HR Inbound Sync Rule
@@ -494,66 +494,66 @@ Connected Object Type</description>
     </item>
     <item>
       <title>MIIS/ILM Error: System.BadImageFormatException</title>
-      <link>https://identitymanaged.netlify.app/2008/08/miisilm-error-systembadimageformatexcep.html</link>
+      <link>https://identitymanaged.com/2008/08/miisilm-error-systembadimageformatexcep.html</link>
       <pubDate>Wed, 20 Aug 2008 17:08:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/08/miisilm-error-systembadimageformatexcep.html</guid>
+      <guid>https://identitymanaged.com/2008/08/miisilm-error-systembadimageformatexcep.html</guid>
       <description>So I had MIIS 2003 SP 1 reporting to me that the format of my GalSync-Extension.dll is invalid. So I tried recompiling it &amp;ndash; no luck. Same error. The only MSDN article on this indicated that unmanaged code is being passed to the load method.
 Through trial and error we found the solution: stop and start the MicrosoftIdentityIntegrationService. If that doesn&amp;rsquo;t work try a reboot.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>SQL 2008: Processor or Server/CAL</title>
-      <link>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</link>
+      <link>https://identitymanaged.com/2008/08/sql-2008-processor-or-servercal.html</link>
       <pubDate>Sat, 16 Aug 2008 12:57:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</guid>
+      <guid>https://identitymanaged.com/2008/08/sql-2008-processor-or-servercal.html</guid>
       <description>Congrats to the SQL Server team for shipping 2008. It looks like a great product. Congrats as well for keeping the licensing costs the same and adding a new option with the web edition.
 One question that many still have in mind is how to license SQL server. Processor licensing allows unlimited users and devices, whereas a server license allows unlimited users or devices as long as they have a CAL.</description>
     </item>
     <item>
       <title>Pending Exports Report in ILM</title>
-      <link>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</link>
+      <link>https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html</link>
       <pubDate>Wed, 30 Jul 2008 14:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</guid>
+      <guid>https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html</guid>
       <description>Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.
 As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</description>
     </item>
     <item>
       <title>Tech Ed -- Lotsa Buzz ILM 2 and CLM</title>
-      <link>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</link>
+      <link>https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</link>
       <pubDate>Mon, 16 Jun 2008 16:33:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</guid>
+      <guid>https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</guid>
       <description>On Tuesday Bob Muglia made a big announcement &amp;ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.
 Thanks to Nima for inviting me to participate at the booth.
 Best session I went was by Candy Stark from MS IT.</description>
     </item>
     <item>
       <title>Processing Actions Asynchronously outside of ILM MA&#39;s</title>
-      <link>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</link>
+      <link>https://identitymanaged.com/2008/05/processing-actions-asynchronously.html</link>
       <pubDate>Thu, 15 May 2008 06:25:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</guid>
+      <guid>https://identitymanaged.com/2008/05/processing-actions-asynchronously.html</guid>
       <description>For years developers have had access to the Microsoft Message Queue (MSMQ) as a way to be able to queue up actions for processing later or on a remote machine. With the release of SQL 2005 back in well 2005, developers with access to SQL 2005 could replace these MSMQ apps with SQL Service Broker Queues (SSB). With ILM 2007 /MIIS 2003 SP 2 supporting SQL 2005 the use of SQL Service Broker Queues became much more accessible to ILM Developers.</description>
     </item>
     <item>
       <title>Identity Chaos? Get your Identities Ensynch!</title>
-      <link>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</link>
+      <link>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</link>
       <pubDate>Wed, 14 May 2008 10:55:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</guid>
+      <guid>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</guid>
       <description>If I post a comment on my own blog does that mean &amp;hellip; David Lundell - May 3, 2008
 If I post a comment on my own blog does that mean I am having an Identity Crisis?</description>
     </item>
     <item>
       <title>Identity Chaos? Get your Identities Ensynch!</title>
-      <link>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</link>
+      <link>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</link>
       <pubDate>Wed, 14 May 2008 10:55:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</guid>
+      <guid>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</guid>
       <description>I recently joined the Identity Management Practice, as a Solution Architect, at Ensynch Inc, an award winning Microsoft Gold Partner based in Tempe, AZ, with a strong award winning presence in Southern California. In 2006 Ensynch won Microsoft Worldwide Partner Award for Excellence in Active Directory and Identity Management and in 2007 was the only finalist from North America. In fact the only finalist from the Western Hemisphere.
 I am especially happy to be working with Brad Turner, fellow ILM MVP and a good friend.</description>
     </item>
     <item>
       <title>The Grand Unified Demo of Identity Management</title>
-      <link>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</link>
+      <link>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</link>
       <pubDate>Wed, 07 May 2008 13:57:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</guid>
+      <guid>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</guid>
       <description>As I was architecting and assembling the Identity All Up workshop (part of the 2008 Directory Experts Conference see the review by Felix Gaehtgens, an analyst for Kuppinger Cole) designed to expose the attendees (or delegates) to all facets of the Microsoft Identity Access Platform, Lori Craw, from Microsoft referred to this as the &amp;ldquo;Grand Unified Demo&amp;rdquo;. I chuckled, instantly catching the reference to the still undiscovered Grand Unified Field theory that eluded Einstein and even today&amp;rsquo;s theoretical physicists.</description>
     </item>
   </channel>

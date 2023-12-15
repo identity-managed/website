@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SharePoint on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/sharepoint/</link>
+    <link>https://identitymanaged.com/tags/sharepoint/</link>
     <description>Recent content in SharePoint on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jun 2016 19:47:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SharePoint MA -- avoid the noise</title>
-      <link>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</link>
+      <link>https://identitymanaged.com/2016/06/sharepoint-ma-avoid-noise.html</link>
       <pubDate>Tue, 28 Jun 2016 19:47:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</guid>
+      <guid>https://identitymanaged.com/2016/06/sharepoint-ma-avoid-noise.html</guid>
       <description>In using the SharePoint MA from Steve Kean I noticed that some of the fields I imported were coming in with some extra noise or crap at the beginning:
 String;#164
 All I really wanted was the 164. While I can use the Word function in a sync rule to get past it
@@ -21,50 +21,50 @@ Well thanks to Jermaine Snipe I found why this happens and how to bypass it:</de
     </item>
     <item>
       <title>To Farm, or not to Farm, that is the question --</title>
-      <link>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</link>
+      <link>https://identitymanaged.com/2014/05/to-farm-or-not-to-farm-that-is-question.html</link>
       <pubDate>Thu, 01 May 2014 12:37:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</guid>
+      <guid>https://identitymanaged.com/2014/05/to-farm-or-not-to-farm-that-is-question.html</guid>
       <description>In some environments, like government, having that&amp;hellip; REALHIPHOPINYOURLIFE - May 5, 2014
 In some environments, like government, having that local SQL means a whole different security profile&amp;hellip;a lot of security groups aren&amp;rsquo;t going to make a distinction between that local SQL and Full Blown SQL when they scan the system since they use some of the same binaries.
 Good comment. So in those environments that could be an extra reason to farm to avoid local SQL and the extra security</description>
     </item>
     <item>
       <title>To Farm, or not to Farm, that is the question --</title>
-      <link>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</link>
+      <link>https://identitymanaged.com/2014/05/to-farm-or-not-to-farm-that-is-question.html</link>
       <pubDate>Thu, 01 May 2014 12:37:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</guid>
+      <guid>https://identitymanaged.com/2014/05/to-farm-or-not-to-farm-that-is-question.html</guid>
       <description>Whether &amp;rsquo;tis nobler in the mind to suffer the slings and arrows of outrageous fortune Or to take Farms against a sea of patches and by opposing end them? To, die, to sleep &amp;ndash; Today I will be &amp;ldquo;moderating&amp;rdquo; the debate about using SharePoint Farms vs. Stand-Alone as the foundation for the FIM Portal. In this corner we have Paul Williams of Microsoft sharing knowledge from his hard fought victories with FIM and painful experiences with Farms.</description>
     </item>
     <item>
       <title>SharePoint 2010 User Profile Synchronization Service</title>
-      <link>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</link>
+      <link>https://identitymanaged.com/2012/05/sharepoint-2010-user-profile.html</link>
       <pubDate>Tue, 01 May 2012 01:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</guid>
+      <guid>https://identitymanaged.com/2012/05/sharepoint-2010-user-profile.html</guid>
       <description>Neat indeed. They are at the forefront of FIM aut&amp;hellip; Craig Martin - May 1, 2012
 Neat indeed. They are at the forefront of FIM automation, since they use the FIM Service component to automate the FIM Sync service. AFAIK they are the reason this automation functionality exists in the FIM Service at all.</description>
     </item>
     <item>
       <title>SharePoint 2010 User Profile Synchronization Service</title>
-      <link>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</link>
+      <link>https://identitymanaged.com/2012/05/sharepoint-2010-user-profile.html</link>
       <pubDate>Tue, 01 May 2012 01:52:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</guid>
+      <guid>https://identitymanaged.com/2012/05/sharepoint-2010-user-profile.html</guid>
       <description>The SharePoint 2010 User Profile Synchronization Service is really FIM 2010 pre-packaged in a very special way. Need evidence? Look at the tables in User Profile Service Application_SyncDB
 See how it has mms_connectorspace, mms_cs_link etc. Those are table commonly found in the FIM sync database. See the attributeInternal, the BindingInternal, all of the Membership* tables those are all part of the FIM Service database. So interestingly enough they have both FIM Service and FIM sync merged into a single DB.</description>
     </item>
     <item>
       <title>TEC 2012 call for papers open for 2 more days</title>
-      <link>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</link>
+      <link>https://identitymanaged.com/2011/11/experts-conference-call-for-papers.html</link>
       <pubDate>Wed, 16 Nov 2011 10:05:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</guid>
+      <guid>https://identitymanaged.com/2011/11/experts-conference-call-for-papers.html</guid>
       <description>The Experts Conference Call for Papers still open until Nov 18th
 http://www.theexpertsconference.com/us/2012/submit-a-paper/ For general info: http://www.theexpertsconference.com/us/2012/
 I have attended at spoke at this conference since 2007. I love it. It is a great experience and loads of great in-depth technical training by top experts on Directory &amp;amp; Identity, as well as SharePoint, Exchange, Virtualization &amp;amp; Cloud and PowerShell Deep Dive. Also come and learn about the inside joke dealing with the rubber chicken.</description>
     </item>
     <item>
       <title>TEC Decks Posted!</title>
-      <link>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</link>
+      <link>https://identitymanaged.com/2010/05/tec-decks-posted.html</link>
       <pubDate>Tue, 18 May 2010 11:34:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</guid>
+      <guid>https://identitymanaged.com/2010/05/tec-decks-posted.html</guid>
       <description>If you attended TEC you can now get the Slide Decks by registering on TheExpertsCommunity.com
 and accessing the following item: TEC 2010 Conference Materials Have Been Posted!
 You can find my sessions here:

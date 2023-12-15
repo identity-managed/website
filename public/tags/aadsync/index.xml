@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AADSync on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/aadsync/</link>
+    <link>https://identitymanaged.com/tags/aadsync/</link>
     <description>Recent content in AADSync on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jan 2015 14:21:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/aadsync/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/aadsync/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redmond Summit 2015</title>
-      <link>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</link>
+      <link>https://identitymanaged.com/2015/01/redmond-summit-2015.html</link>
       <pubDate>Wed, 28 Jan 2015 14:21:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</guid>
+      <guid>https://identitymanaged.com/2015/01/redmond-summit-2015.html</guid>
       <description>I am looking forward to presenting in an hour or so on &amp;ldquo;How Identity Management Impacts the bottom line.&amp;rdquo;
 Yesterday I had fun delivering a session on &amp;ldquo;ADFS vs Password Sync? It depends&amp;rdquo; This morning Alex Simons of Microsoft revealed a few new things that change some of my advice.
 Soon Azure AD can do the location restriction by application for SSO. This potentially eliminates a deal breaker for some people You can now run Password Sync and ADFS at the same time.</description>

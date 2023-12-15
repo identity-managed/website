@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MIIs on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/miis/</link>
+    <link>https://identitymanaged.com/tags/miis/</link>
     <description>Recent content in MIIs on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Aug 2015 19:58:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/miis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/miis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How many attributes can you have in the Metaverse?</title>
-      <link>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</link>
+      <link>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</link>
       <pubDate>Wed, 05 Aug 2015 19:58:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</guid>
+      <guid>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</guid>
       <description>Back in 2013 I published 5 posts about the Secrets of the Metaverse:
 Parts 1-5:
 What is the Metaverse? How is the Metaverse data stored? Is there a limit to how many Metaverse attributes I can have? Has access to the metaverse gotten faster with recent releases? How do I safely query the metaverse? Added (Aug 5 2015): How Many Metaverse Attributes can I have? The third post was about how many attributes you can have in the Metaverse in which I said that the mms_metaverse_lineageguid table limits us to 502 single valued non-reference attributes in the Metaverse.</description>
     </item>
     <item>
       <title>Mistaken Identity</title>
-      <link>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</link>
+      <link>https://identitymanaged.com/2014/10/mistaken-identity.html</link>
       <pubDate>Fri, 03 Oct 2014 12:03:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</guid>
+      <guid>https://identitymanaged.com/2014/10/mistaken-identity.html</guid>
       <description>Years ago, I walked into the client site a few months into an Identity Management project, and the PM told me his account had been deactivated by mistake as an employee with the same last name and same first initial was terminated, and they termed his account by mistake.
 Ironic.
 A few years before that I visited a client whose VP of HR had his account disabled when they let the janitor go.</description>
     </item>
     <item>
       <title>The MVP 7 year itch</title>
-      <link>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</link>
+      <link>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</link>
       <pubDate>Mon, 01 Jul 2013 09:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</guid>
+      <guid>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</guid>
       <description>Congratz, David&amp;hellip; Søren Granfeldt - Jul 1, 2013
 Congratz, David&amp;hellip;</description>
     </item>
     <item>
       <title>The MVP 7 year itch</title>
-      <link>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</link>
+      <link>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</link>
       <pubDate>Mon, 01 Jul 2013 09:31:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</guid>
+      <guid>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</guid>
       <description>This morning I received an email letting me know that for the 7th time (every year since 2007) I have been honored by Microsoft with the Microsoft Most Valuable Professional (MVP) Award. All 7 times I have received the award for my &amp;ldquo;outstanding contributions in Forefront Identity Manager technical communities&amp;rdquo; and its predecessors.
 In 2007 despite the product rename Identity Lifecycle Manager (ILM) 2007 the MVP award was for Microsoft Identity Integration Server (MIIS) 2003.</description>
     </item>
     <item>
       <title>The attributes behind Message Delivery Restrictions</title>
-      <link>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</link>
+      <link>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</link>
       <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</guid>
+      <guid>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</guid>
       <description>Very helpfull!! I was about to block sending email&amp;hellip; Paweł Jarosz - Sep 1, 2010
 Very helpfull!! I was about to block sending emails to disabled accounts - not mailbox but accounts - so I can easily and quick retrieve some data from inactive inboxes. The solution is to create an empty group in AD and set the &amp;ldquo;dLMemSubmitPerms&amp;rdquo; parameter to accept messages only from that empty group! Amazing and great many thanks!</description>
     </item>
     <item>
       <title>The attributes behind Message Delivery Restrictions</title>
-      <link>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</link>
+      <link>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</link>
       <pubDate>Mon, 29 Jun 2009 00:40:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</guid>
+      <guid>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</guid>
       <description>Do you know what attributes are used to control who can and can&amp;rsquo;t send to a Distribution List in Exchange 2003 and Exchange 2007? or Does it use a DACL?
 Knowing such things is key if you are going to automate distribution list management through .NET programs, or MIIS/ILM/FIM, Quest ARS or any other tool that is talking to LDAP attributes. For Powershell you need a separate list since the names are different.</description>
     </item>
     <item>
       <title>MIIS/ILM Error: System.BadImageFormatException</title>
-      <link>https://identitymanaged.netlify.app/2008/08/miisilm-error-systembadimageformatexcep.html</link>
+      <link>https://identitymanaged.com/2008/08/miisilm-error-systembadimageformatexcep.html</link>
       <pubDate>Wed, 20 Aug 2008 17:08:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/08/miisilm-error-systembadimageformatexcep.html</guid>
+      <guid>https://identitymanaged.com/2008/08/miisilm-error-systembadimageformatexcep.html</guid>
       <description>So I had MIIS 2003 SP 1 reporting to me that the format of my GalSync-Extension.dll is invalid. So I tried recompiling it &amp;ndash; no luck. Same error. The only MSDN article on this indicated that unmanaged code is being passed to the load method.
 Through trial and error we found the solution: stop and start the MicrosoftIdentityIntegrationService. If that doesn&amp;rsquo;t work try a reboot.
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</description>
     </item>
     <item>
       <title>The Grand Unified Demo of Identity Management</title>
-      <link>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</link>
+      <link>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</link>
       <pubDate>Wed, 07 May 2008 13:57:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</guid>
+      <guid>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</guid>
       <description>As I was architecting and assembling the Identity All Up workshop (part of the 2008 Directory Experts Conference see the review by Felix Gaehtgens, an analyst for Kuppinger Cole) designed to expose the attendees (or delegates) to all facets of the Microsoft Identity Access Platform, Lori Craw, from Microsoft referred to this as the &amp;ldquo;Grand Unified Demo&amp;rdquo;. I chuckled, instantly catching the reference to the still undiscovered Grand Unified Field theory that eluded Einstein and even today&amp;rsquo;s theoretical physicists.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/cloud/</link>
+    <link>https://identitymanaged.com/tags/cloud/</link>
     <description>Recent content in Cloud on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jul 2013 08:45:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is the Password dead? Gotta eat what you kill!</title>
-      <link>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</link>
+      <link>https://identitymanaged.com/2013/07/is-password-dead-gotta-eat-what-you-kill.html</link>
       <pubDate>Mon, 08 Jul 2013 08:45:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</guid>
+      <guid>https://identitymanaged.com/2013/07/is-password-dead-gotta-eat-what-you-kill.html</guid>
       <description>At last year&amp;rsquo;s Cloud Identity Summit in Vail I heard a lot about how the password is dead. I expect to hear a lot more this year.
 Most of it fit into one of several categories:
 Complaints about why passwords should be dead
@@ -22,9 +22,9 @@ While this is helpful it doesn&amp;rsquo;t kill the password</description>
     </item>
     <item>
       <title>FIM R2 Showdown -- Classic vs. Declarative</title>
-      <link>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
+      <link>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</link>
       <pubDate>Wed, 25 Jan 2012 10:43:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
+      <guid>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</guid>
       <description>Come join me at The Experts Conference 2012 in San Diego April 29 - May2 where I will be presenting:
 FIM R2 Showdown — Classic vs. Declarative
 Speaker: David Lundell
@@ -32,18 +32,18 @@ Is there room enough for both in this town? FIM 2010 R2 has two ways of accompli
     </item>
     <item>
       <title>TEC 2012 call for papers open for 2 more days</title>
-      <link>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</link>
+      <link>https://identitymanaged.com/2011/11/experts-conference-call-for-papers.html</link>
       <pubDate>Wed, 16 Nov 2011 10:05:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</guid>
+      <guid>https://identitymanaged.com/2011/11/experts-conference-call-for-papers.html</guid>
       <description>The Experts Conference Call for Papers still open until Nov 18th
 http://www.theexpertsconference.com/us/2012/submit-a-paper/ For general info: http://www.theexpertsconference.com/us/2012/
 I have attended at spoke at this conference since 2007. I love it. It is a great experience and loads of great in-depth technical training by top experts on Directory &amp;amp; Identity, as well as SharePoint, Exchange, Virtualization &amp;amp; Cloud and PowerShell Deep Dive. Also come and learn about the inside joke dealing with the rubber chicken.</description>
     </item>
     <item>
       <title>Making Sense of the Cloud</title>
-      <link>https://identitymanaged.netlify.app/2011/04/making-sense-of-cloud.html</link>
+      <link>https://identitymanaged.com/2011/04/making-sense-of-cloud.html</link>
       <pubDate>Wed, 13 Apr 2011 21:15:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2011/04/making-sense-of-cloud.html</guid>
+      <guid>https://identitymanaged.com/2011/04/making-sense-of-cloud.html</guid>
       <description>National Roadshow Series: 2 High Value Sessions in 1 Business Focused Technology Briefing from Leading Industry Experts at Ensynch and Microsoft
 It’s time to make sense of the plethora of rhetoric around the term &amp;ldquo;Cloud.&amp;rdquo; It&amp;rsquo;s time to cut through the hype and figure out how to leverage the latest Dynamic Private Cloud and Public Cloud technologies and provide real value to your business.
 Why Attend?
@@ -51,9 +51,9 @@ Learn how organizations worldwide are realizing tremendous business value as the
     </item>
     <item>
       <title>ADFS v.2 shipped</title>
-      <link>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</link>
+      <link>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</link>
       <pubDate>Tue, 18 May 2010 15:46:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</guid>
+      <guid>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</guid>
       <description>Active Directory Federation Services v2 Ships!
 This is awesome stuff – with ADFS v2 we can help you setup SSO with your SaaS vendors.
 Here is an example that has been rendered generic.
@@ -61,9 +61,9 @@ ADFS 2.0 supports SAML 2.0 (the idp lite profile and rdp lite profile) which ope
     </item>
     <item>
       <title>H30, Geneva Cola, Sitrus and Orange Fizz</title>
-      <link>https://identitymanaged.netlify.app/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</link>
+      <link>https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</link>
       <pubDate>Wed, 24 Jun 2009 22:23:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</guid>
+      <guid>https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</guid>
       <description>Back in business school I was a connoisseur of fine commercials. Recently I watched a commercial for Lipton Ice Tea (note I am a teetotaler who doesn&amp;rsquo;t drink tea) and I have to admire their cleverness in coming up with names for competitor products (see the title) in their &amp;ldquo;Lipton Tea, I think I love you&amp;rdquo; commercial. (Lyrics here)
 Really the names are clever although the best is the H30 &amp;ndash; I just love it, a chemical compound that as far as I can tell can&amp;rsquo;t exist, but we all know they are making fun of flavored water.</description>
     </item>

@@ -2,30 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/about/</link>
+    <link>https://identitymanaged.com/about/</link>
     <description>Recent content in About on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://identitymanaged.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
-      <link>https://identitymanaged.netlify.app/about/books/</link>
+      <link>https://identitymanaged.com/www.davidplundell.com/books</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://identitymanaged.netlify.app/about/books/</guid>
-      <description>stuff about books</description>
+      <guid>https://identitymanaged.com/www.davidplundell.com/books</guid>
+      <description>Books</description>
     </item>
     <item>
       <title>Case Studies</title>
-      <link>https://identitymanaged.netlify.app/about/case-studies/</link>
+      <link>https://identitymanaged.com/about/case-studies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://identitymanaged.netlify.app/about/case-studies/</guid>
-      <description> </description>
+      <guid>https://identitymanaged.com/about/case-studies/</guid>
+      <description>User + Group Lifecycle Management Retail (50k + Identities) We saved this retail company $10’s of millions in Office365 license fees, and effort to manage the users, by implementing MIM for Largest Region over 1M identities and 4 additional instances of MIM to manage 6 other regions, which enabled the client to assign different license levels based on job roles and reclaim licenses promptly.
+Custom Azure AD GalSync Research (1k-5k Identities) Empowered better and more secure collaboration between two divisions of this research company by implementing a Custom Global Address list Synchronization (GalSync) between two Azure Active Directory Tenants (one in GCC High) coming from the same forest using the AADConnect instances for each tenant.</description>
     </item>
     <item>
       <title>Our Founder</title>
-      <link>https://identitymanaged.netlify.app/about/founder/</link>
+      <link>https://identitymanaged.com/about/founder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://identitymanaged.netlify.app/about/founder/</guid>
+      <guid>https://identitymanaged.com/about/founder/</guid>
       <description>David Lundell David got started in technology when his dad brought home first an Atari PC (not the video game console) and later an IBM PC. David picked up a book on programming in BASIC when he was 8. Every week when he was a teenager his dad dragged him into the office of his startup software company to vacuum, clean the bathrooms and haul out the trash. One day his dad handed him the manual for their network management software, sat him down at the computer and commanded, “Test the software!</description>
     </item>
   </channel>

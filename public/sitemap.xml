@@ -2,1379 +2,1387 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://identitymanaged.netlify.app/tags/aoa/</loc>
+    <loc>https://identitymanaged.com/tags/aoa/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/blog/</loc>
+    <loc>https://identitymanaged.com/authors/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/clustering/</loc>
+    <loc>https://identitymanaged.com/blog/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/high-availability/</loc>
+    <loc>https://identitymanaged.com/categories/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/</loc>
+    <loc>https://identitymanaged.com/tags/clustering/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/logshipping/</loc>
+    <loc>https://identitymanaged.com/authors/david/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/microsoft-identity-manager/</loc>
+    <loc>https://identitymanaged.com/tags/high-availability/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/mim/</loc>
+    <loc>https://identitymanaged.com/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/mirroring/</loc>
+    <loc>https://identitymanaged.com/tags/logshipping/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sql/</loc>
+    <loc>https://identitymanaged.com/tags/microsoft-identity-manager/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html</loc>
+    <loc>https://identitymanaged.com/tags/mim/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sql-clustering/</loc>
+    <loc>https://identitymanaged.com/categories/mim/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/</loc>
+    <loc>https://identitymanaged.com/tags/mirroring/</loc>
     <lastmod>2022-04-26T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/identity-management/</loc>
+    <loc>https://identitymanaged.com/tags/sql/</loc>
+    <lastmod>2022-04-26T14:31:00-07:00</lastmod>
+  </url><url>
+    <loc>https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html</loc>
+    <lastmod>2022-04-26T14:31:00-07:00</lastmod>
+  </url><url>
+    <loc>https://identitymanaged.com/tags/sql-clustering/</loc>
+    <lastmod>2022-04-26T14:31:00-07:00</lastmod>
+  </url><url>
+    <loc>https://identitymanaged.com/tags/</loc>
+    <lastmod>2022-04-26T14:31:00-07:00</lastmod>
+  </url><url>
+    <loc>https://identitymanaged.com/tags/identity-management/</loc>
     <lastmod>2020-06-18T16:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html</loc>
+    <loc>https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html</loc>
     <lastmod>2020-06-18T16:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/forefront-identity-manager/</loc>
+    <loc>https://identitymanaged.com/tags/forefront-identity-manager/</loc>
     <lastmod>2019-10-30T14:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html</loc>
+    <loc>https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html</loc>
     <lastmod>2019-10-30T14:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2019/01/latency-vs-cloud.html</loc>
+    <loc>https://identitymanaged.com/2019/01/latency-vs-cloud.html</loc>
     <lastmod>2019-01-23T21:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/12/mim-open-source-schedulers.html</loc>
+    <loc>https://identitymanaged.com/2018/12/mim-open-source-schedulers.html</loc>
     <lastmod>2018-12-17T22:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/12/mim-open-source-schedulers.html</loc>
+    <loc>https://identitymanaged.com/2018/12/mim-open-source-schedulers.html</loc>
     <lastmod>2018-12-17T22:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/11/how-to-be-mvp-in-life-launching-nov-27th.html</loc>
+    <loc>https://identitymanaged.com/2018/11/how-to-be-mvp-in-life-launching-nov-27th.html</loc>
     <lastmod>2018-11-21T21:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/dec/</loc>
+    <loc>https://identitymanaged.com/tags/dec/</loc>
     <lastmod>2018-10-08T16:13:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/10/missing-old-directory-experts.html</loc>
+    <loc>https://identitymanaged.com/2018/10/missing-old-directory-experts.html</loc>
     <lastmod>2018-10-08T16:13:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/07/12-time-mvp-writes-book-on-mvps.html</loc>
+    <loc>https://identitymanaged.com/2018/07/12-time-mvp-writes-book-on-mvps.html</loc>
     <lastmod>2018-07-04T16:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/mvp/</loc>
+    <loc>https://identitymanaged.com/tags/mvp/</loc>
     <lastmod>2018-07-04T16:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/05/european-identity-conference-2018_17.html</loc>
+    <loc>https://identitymanaged.com/2018/05/european-identity-conference-2018_17.html</loc>
     <lastmod>2018-05-17T03:41:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/05/european-identity-conference-2018.html</loc>
+    <loc>https://identitymanaged.com/2018/05/european-identity-conference-2018.html</loc>
     <lastmod>2018-05-17T03:24:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/idm/</loc>
+    <loc>https://identitymanaged.com/tags/idm/</loc>
     <lastmod>2018-05-17T03:24:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/05/mim-join-and-spaces.html</loc>
+    <loc>https://identitymanaged.com/2018/05/mim-join-and-spaces.html</loc>
     <lastmod>2018-05-05T09:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/kuppingercole/</loc>
+    <loc>https://identitymanaged.com/tags/kuppingercole/</loc>
     <lastmod>2018-03-29T19:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/top-10-lessons-from-disasters-in.html</loc>
+    <loc>https://identitymanaged.com/2018/03/top-10-lessons-from-disasters-in.html</loc>
     <lastmod>2018-03-29T19:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/cloud-identity-summit/</loc>
+    <loc>https://identitymanaged.com/tags/cloud-identity-summit/</loc>
     <lastmod>2018-03-29T17:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/identiverse-cloud-identity-summit.html</loc>
+    <loc>https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html</loc>
     <lastmod>2018-03-29T17:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/to-farm-or-not-to-farm-part-2.html</loc>
+    <loc>https://identitymanaged.com/2018/03/to-farm-or-not-to-farm-part-2.html</loc>
     <lastmod>2018-03-29T17:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/sql-server-management-studio-sql-2016.html</loc>
+    <loc>https://identitymanaged.com/2018/03/sql-server-management-studio-sql-2016.html</loc>
     <lastmod>2018-03-29T16:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/sharepoint-foundations-2013-identity.html</loc>
+    <loc>https://identitymanaged.com/2018/03/sharepoint-foundations-2013-identity.html</loc>
     <lastmod>2018-03-29T16:09:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/finding-my-groove-again.html</loc>
+    <loc>https://identitymanaged.com/2018/03/finding-my-groove-again.html</loc>
     <lastmod>2018-03-29T16:05:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/fim/</loc>
+    <loc>https://identitymanaged.com/tags/fim/</loc>
     <lastmod>2018-03-29T15:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/sharepoint-foundation-2013-iis.html</loc>
+    <loc>https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html</loc>
     <lastmod>2018-03-29T15:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/speaking-at-sql-saturday-tomorrow.html</loc>
+    <loc>https://identitymanaged.com/2018/03/speaking-at-sql-saturday-tomorrow.html</loc>
     <lastmod>2018-03-16T15:14:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2018/03/kerberos-fido-whats-next.html</loc>
+    <loc>https://identitymanaged.com/2018/03/kerberos-fido-whats-next.html</loc>
     <lastmod>2018-03-06T16:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/open-source-review-of-mimtools.html</loc>
+    <loc>https://identitymanaged.com/2017/03/open-source-review-of-mimtools.html</loc>
     <lastmod>2017-03-31T20:09:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/opensource/</loc>
+    <loc>https://identitymanaged.com/tags/opensource/</loc>
     <lastmod>2017-03-31T20:09:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/powershell/</loc>
+    <loc>https://identitymanaged.com/tags/powershell/</loc>
     <lastmod>2017-03-31T20:09:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/review/</loc>
+    <loc>https://identitymanaged.com/tags/review/</loc>
     <lastmod>2017-03-31T20:09:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-2010.html</loc>
+    <loc>https://identitymanaged.com/2017/03/open-source-review-of-fim-2010.html</loc>
     <lastmod>2017-03-31T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/open-source-review-of-is4u-fim.html</loc>
+    <loc>https://identitymanaged.com/2017/03/open-source-review-of-is4u-fim.html</loc>
     <lastmod>2017-03-31T19:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/open-source-review-of-lithnet.html</loc>
+    <loc>https://identitymanaged.com/2017/03/open-source-review-of-lithnet.html</loc>
     <lastmod>2017-03-31T19:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/open-source-review-of-powershell-for.html</loc>
+    <loc>https://identitymanaged.com/2017/03/open-source-review-of-powershell-for.html</loc>
     <lastmod>2017-03-31T19:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/open-source-review-of-fim-powershell.html</loc>
+    <loc>https://identitymanaged.com/2017/03/open-source-review-of-fim-powershell.html</loc>
     <lastmod>2017-03-31T18:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/speaking/</loc>
+    <loc>https://identitymanaged.com/tags/speaking/</loc>
     <lastmod>2017-03-29T10:20:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/speaking-at-cloud-identity-summit-2017.html</loc>
+    <loc>https://identitymanaged.com/2017/03/speaking-at-cloud-identity-summit-2017.html</loc>
     <lastmod>2017-03-29T10:20:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/bhold/</loc>
+    <loc>https://identitymanaged.com/tags/bhold/</loc>
     <lastmod>2017-03-29T08:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2017/03/is-mim-dead-not-yet.html</loc>
+    <loc>https://identitymanaged.com/2017/03/is-mim-dead-not-yet.html</loc>
     <lastmod>2017-03-29T08:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sailpoint/</loc>
+    <loc>https://identitymanaged.com/tags/sailpoint/</loc>
     <lastmod>2017-03-29T08:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2016/12/christmastime-fimmim-open-source-wf.html</loc>
+    <loc>https://identitymanaged.com/2016/12/christmastime-fimmim-open-source-wf.html</loc>
     <lastmod>2016-12-24T13:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/fim-2010-r2/</loc>
+    <loc>https://identitymanaged.com/tags/fim-2010-r2/</loc>
     <lastmod>2016-12-24T13:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/workflow/</loc>
+    <loc>https://identitymanaged.com/tags/workflow/</loc>
     <lastmod>2016-12-24T13:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2016/10/mim-2016-sp1-implications.html</loc>
+    <loc>https://identitymanaged.com/2016/10/mim-2016-sp1-implications.html</loc>
     <lastmod>2016-10-19T04:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2016/10/post-migration-your-mimfim-attribute.html</loc>
+    <loc>https://identitymanaged.com/2016/10/post-migration-your-mimfim-attribute.html</loc>
     <lastmod>2016-10-17T23:53:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sharepoint/</loc>
+    <loc>https://identitymanaged.com/tags/sharepoint/</loc>
     <lastmod>2016-06-28T19:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2016/06/sharepoint-ma-avoid-noise.html</loc>
+    <loc>https://identitymanaged.com/2016/06/sharepoint-ma-avoid-noise.html</loc>
     <lastmod>2016-06-28T19:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/automation/</loc>
+    <loc>https://identitymanaged.com/tags/automation/</loc>
     <lastmod>2016-02-06T15:06:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2016/02/check-your-inputs-save-your-job.html</loc>
+    <loc>https://identitymanaged.com/2016/02/check-your-inputs-save-your-job.html</loc>
     <lastmod>2016-02-06T15:06:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/11/fim-custom-expressions-inside-custom.html</loc>
+    <loc>https://identitymanaged.com/2015/11/fim-custom-expressions-inside-custom.html</loc>
     <lastmod>2015-11-09T10:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sync-rules/</loc>
+    <loc>https://identitymanaged.com/tags/sync-rules/</loc>
     <lastmod>2015-11-09T10:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/08/how-many-attributes-can-you-have-in.html</loc>
+    <loc>https://identitymanaged.com/2015/08/how-many-attributes-can-you-have-in.html</loc>
     <lastmod>2015-08-05T19:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ilm/</loc>
+    <loc>https://identitymanaged.com/tags/ilm/</loc>
     <lastmod>2015-08-05T19:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/miis/</loc>
+    <loc>https://identitymanaged.com/tags/miis/</loc>
     <lastmod>2015-08-05T19:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/08/mim-2016-is-now-available.html</loc>
+    <loc>https://identitymanaged.com/2015/08/mim-2016-is-now-available.html</loc>
     <lastmod>2015-08-04T08:12:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ad/</loc>
+    <loc>https://identitymanaged.com/tags/ad/</loc>
     <lastmod>2015-07-02T14:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/directory-services/</loc>
+    <loc>https://identitymanaged.com/tags/directory-services/</loc>
     <lastmod>2015-07-02T14:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</loc>
+    <loc>https://identitymanaged.com/2015/07/still-mvp-but-now-ds-mvp.html</loc>
     <lastmod>2015-07-02T14:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/07/still-mvp-but-now-ds-mvp.html</loc>
+    <loc>https://identitymanaged.com/2015/07/still-mvp-but-now-ds-mvp.html</loc>
     <lastmod>2015-07-02T14:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/05/big-data-needs-identity-in-order-to-act.html</loc>
+    <loc>https://identitymanaged.com/2015/05/big-data-needs-identity-in-order-to-act.html</loc>
     <lastmod>2015-05-28T16:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/bigdata/</loc>
+    <loc>https://identitymanaged.com/tags/bigdata/</loc>
     <lastmod>2015-05-28T16:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/04/fim-sync-flow-with-screenshots-and-code.html</loc>
+    <loc>https://identitymanaged.com/2015/04/fim-sync-flow-with-screenshots-and-code.html</loc>
     <lastmod>2015-04-30T22:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/04/fim-sync-flow-with-screenshots-and-code.html</loc>
+    <loc>https://identitymanaged.com/2015/04/fim-sync-flow-with-screenshots-and-code.html</loc>
     <lastmod>2015-04-30T22:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/04/fim-hotfix-for-pcns-to-support-2012-r2.html</loc>
+    <loc>https://identitymanaged.com/2015/04/fim-hotfix-for-pcns-to-support-2012-r2.html</loc>
     <lastmod>2015-04-30T13:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/04/movie-review-of-home-or-how-idm-could.html</loc>
+    <loc>https://identitymanaged.com/2015/04/movie-review-of-home-or-how-idm-could.html</loc>
     <lastmod>2015-04-08T08:42:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sspr/</loc>
+    <loc>https://identitymanaged.com/tags/sspr/</loc>
     <lastmod>2015-04-08T08:42:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/03/portable-2nd-monitor-for-surface-pro-3.html</loc>
+    <loc>https://identitymanaged.com/2015/03/portable-2nd-monitor-for-surface-pro-3.html</loc>
     <lastmod>2015-03-11T09:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/03/portable-2nd-monitor-for-surface-pro-3.html</loc>
+    <loc>https://identitymanaged.com/2015/03/portable-2nd-monitor-for-surface-pro-3.html</loc>
     <lastmod>2015-03-11T09:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/surface-pro-3/</loc>
+    <loc>https://identitymanaged.com/tags/surface-pro-3/</loc>
     <lastmod>2015-03-11T09:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/03/escaping-ad-replication-island.html</loc>
+    <loc>https://identitymanaged.com/2015/03/escaping-ad-replication-island.html</loc>
     <lastmod>2015-03-07T09:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/windows-server-2003/</loc>
+    <loc>https://identitymanaged.com/tags/windows-server-2003/</loc>
     <lastmod>2015-03-07T09:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/windows-server-2008/</loc>
+    <loc>https://identitymanaged.com/tags/windows-server-2008/</loc>
     <lastmod>2015-03-07T09:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/finances/</loc>
+    <loc>https://identitymanaged.com/tags/finances/</loc>
     <lastmod>2015-02-02T09:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/02/follow-up-1-on-how-does-identity.html</loc>
+    <loc>https://identitymanaged.com/2015/02/follow-up-1-on-how-does-identity.html</loc>
     <lastmod>2015-02-02T09:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/mba/</loc>
+    <loc>https://identitymanaged.com/tags/mba/</loc>
     <lastmod>2015-02-02T09:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/aadsync/</loc>
+    <loc>https://identitymanaged.com/tags/aadsync/</loc>
     <lastmod>2015-01-28T14:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/adfs/</loc>
+    <loc>https://identitymanaged.com/tags/adfs/</loc>
     <lastmod>2015-01-28T14:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/dirsync/</loc>
+    <loc>https://identitymanaged.com/tags/dirsync/</loc>
     <lastmod>2015-01-28T14:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</loc>
+    <loc>https://identitymanaged.com/2015/01/redmond-summit-2015.html</loc>
     <lastmod>2015-01-28T14:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</loc>
+    <loc>https://identitymanaged.com/2014/12/twas-night-before-christmas.html</loc>
     <lastmod>2014-12-24T18:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/holidays/</loc>
+    <loc>https://identitymanaged.com/tags/holidays/</loc>
     <lastmod>2014-12-24T18:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/humor/</loc>
+    <loc>https://identitymanaged.com/tags/humor/</loc>
     <lastmod>2014-12-24T18:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/12/speaking-at-2015-redmond-summit-jan-27.html</loc>
+    <loc>https://identitymanaged.com/2014/12/speaking-at-2015-redmond-summit-jan-27.html</loc>
     <lastmod>2014-12-12T13:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/12/what-ad-attributes-are-indexed-anr.html</loc>
+    <loc>https://identitymanaged.com/2014/12/what-ad-attributes-are-indexed-anr.html</loc>
     <lastmod>2014-12-04T11:50:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/10/sql-maintenance-for-fim-and-anything.html</loc>
+    <loc>https://identitymanaged.com/2014/10/sql-maintenance-for-fim-and-anything.html</loc>
     <lastmod>2014-10-24T17:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/10/mistaken-identity.html</loc>
+    <loc>https://identitymanaged.com/2014/10/mistaken-identity.html</loc>
     <lastmod>2014-10-03T12:03:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/09/phoenix-mvp-roadshow-transform.html</loc>
+    <loc>https://identitymanaged.com/2014/09/phoenix-mvp-roadshow-transform.html</loc>
     <lastmod>2014-09-16T12:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/windows-server-2012-r2/</loc>
+    <loc>https://identitymanaged.com/tags/windows-server-2012-r2/</loc>
     <lastmod>2014-09-16T12:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/09/aduc-common-queries-days-since-last.html</loc>
+    <loc>https://identitymanaged.com/2014/09/aduc-common-queries-days-since-last.html</loc>
     <lastmod>2014-09-16T12:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/07/happy-independence-day-using-powershell.html</loc>
+    <loc>https://identitymanaged.com/2014/07/happy-independence-day-using-powershell.html</loc>
     <lastmod>2014-07-04T15:06:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/reporting/</loc>
+    <loc>https://identitymanaged.com/tags/reporting/</loc>
     <lastmod>2014-07-04T15:06:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/07/8-time-mvp.html</loc>
+    <loc>https://identitymanaged.com/2014/07/8-time-mvp.html</loc>
     <lastmod>2014-07-01T08:44:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/06/projects-and-heisenbergs-uncertainty.html</loc>
+    <loc>https://identitymanaged.com/2014/06/projects-and-heisenbergs-uncertainty.html</loc>
     <lastmod>2014-06-24T11:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/06/projects-and-heisenbergs-uncertainty.html</loc>
+    <loc>https://identitymanaged.com/2014/06/projects-and-heisenbergs-uncertainty.html</loc>
     <lastmod>2014-06-24T11:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</loc>
+    <loc>https://identitymanaged.com/2014/05/to-farm-or-not-to-farm-that-is-question.html</loc>
     <lastmod>2014-05-01T12:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/05/to-farm-or-not-to-farm-that-is-question.html</loc>
+    <loc>https://identitymanaged.com/2014/05/to-farm-or-not-to-farm-that-is-question.html</loc>
     <lastmod>2014-05-01T12:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/04/mim-word-new-name-for-fim.html</loc>
+    <loc>https://identitymanaged.com/2014/04/mim-word-new-name-for-fim.html</loc>
     <lastmod>2014-04-30T14:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/iis/</loc>
+    <loc>https://identitymanaged.com/tags/iis/</loc>
     <lastmod>2014-04-18T17:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/04/mailbag-learning-fim-sql-and-iis.html</loc>
+    <loc>https://identitymanaged.com/2014/04/mailbag-learning-fim-sql-and-iis.html</loc>
     <lastmod>2014-04-18T17:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/aad/</loc>
+    <loc>https://identitymanaged.com/tags/aad/</loc>
     <lastmod>2014-04-17T08:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/azure/</loc>
+    <loc>https://identitymanaged.com/tags/azure/</loc>
     <lastmod>2014-04-17T08:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</loc>
+    <loc>https://identitymanaged.com/2014/04/new-name-for-fim.html</loc>
     <lastmod>2014-04-17T08:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/04/new-name-for-fim.html</loc>
+    <loc>https://identitymanaged.com/2014/04/new-name-for-fim.html</loc>
     <lastmod>2014-04-17T08:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/04/hints-of-fims-future-azure-active.html</loc>
+    <loc>https://identitymanaged.com/2014/04/hints-of-fims-future-azure-active.html</loc>
     <lastmod>2014-04-17T08:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/office365/</loc>
+    <loc>https://identitymanaged.com/tags/office365/</loc>
     <lastmod>2014-04-17T08:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2014/04/good-ridance-i-mean-issuance.html</loc>
+    <loc>https://identitymanaged.com/2014/04/good-ridance-i-mean-issuance.html</loc>
     <lastmod>2014-04-16T08:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/11/fim-deprecated-features-fim-team-user.html</loc>
+    <loc>https://identitymanaged.com/2013/11/fim-deprecated-features-fim-team-user.html</loc>
     <lastmod>2013-11-13T12:41:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/10/dirsync-w-domain-if-netbios-and-fqdn.html</loc>
+    <loc>https://identitymanaged.com/2013/10/dirsync-w-domain-if-netbios-and-fqdn.html</loc>
     <lastmod>2013-10-04T16:14:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/10/declarative-or-bust.html</loc>
+    <loc>https://identitymanaged.com/2013/10/declarative-or-bust.html</loc>
     <lastmod>2013-10-04T15:55:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/10/declarative-or-bust.html</loc>
+    <loc>https://identitymanaged.com/2013/10/declarative-or-bust.html</loc>
     <lastmod>2013-10-04T15:55:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ad-fs/</loc>
+    <loc>https://identitymanaged.com/tags/ad-fs/</loc>
     <lastmod>2013-09-11T13:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</loc>
+    <loc>https://identitymanaged.com/2013/09/windows-2012-r2-and-windows-81-rtm-now.html</loc>
     <lastmod>2013-09-11T13:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/08/ms13-066-causes-adfs-20-problems.html</loc>
+    <loc>https://identitymanaged.com/2013/08/ms13-066-causes-adfs-20-problems.html</loc>
     <lastmod>2013-08-15T08:55:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/cloud/</loc>
+    <loc>https://identitymanaged.com/tags/cloud/</loc>
     <lastmod>2013-07-08T08:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/07/is-password-dead-gotta-eat-what-you-kill.html</loc>
+    <loc>https://identitymanaged.com/2013/07/is-password-dead-gotta-eat-what-you-kill.html</loc>
     <lastmod>2013-07-08T08:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sso/</loc>
+    <loc>https://identitymanaged.com/tags/sso/</loc>
     <lastmod>2013-07-08T08:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</loc>
+    <loc>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</loc>
     <lastmod>2013-07-01T09:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/07/the-mvp-7-year-itch.html</loc>
+    <loc>https://identitymanaged.com/2013/07/the-mvp-7-year-itch.html</loc>
     <lastmod>2013-07-01T09:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</loc>
+    <loc>https://identitymanaged.com/2013/06/implications-of-office-365-password.html</loc>
     <lastmod>2013-06-26T07:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/06/implications-of-office-365-password.html</loc>
+    <loc>https://identitymanaged.com/2013/06/implications-of-office-365-password.html</loc>
     <lastmod>2013-06-26T07:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/05/how-to-get-from-sync-rule-id-to-sync.html</loc>
+    <loc>https://identitymanaged.com/2013/05/how-to-get-from-sync-rule-id-to-sync.html</loc>
     <lastmod>2013-05-01T12:03:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/05/how-to-get-from-sync-rule-id-to-sync.html</loc>
+    <loc>https://identitymanaged.com/2013/05/how-to-get-from-sync-rule-id-to-sync.html</loc>
     <lastmod>2013-05-01T12:03:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/04/fim-functions-updated-bitwise-functions.html</loc>
+    <loc>https://identitymanaged.com/2013/04/fim-functions-updated-bitwise-functions.html</loc>
     <lastmod>2013-04-12T10:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/03/insight-cloud-sso-solution-and-fim.html</loc>
+    <loc>https://identitymanaged.com/2013/03/insight-cloud-sso-solution-and-fim.html</loc>
     <lastmod>2013-03-22T15:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/03/secrets-of-metaverse-part-5.html</loc>
+    <loc>https://identitymanaged.com/2013/03/secrets-of-metaverse-part-5.html</loc>
     <lastmod>2013-03-22T15:42:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/03/secrets-of-metaverse-part-4.html</loc>
+    <loc>https://identitymanaged.com/2013/03/secrets-of-metaverse-part-4.html</loc>
     <lastmod>2013-03-11T14:44:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-3.html</loc>
+    <loc>https://identitymanaged.com/2013/02/secrets-of-metaverse-part-3.html</loc>
     <lastmod>2013-02-18T05:10:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-2.html</loc>
+    <loc>https://identitymanaged.com/2013/02/secrets-of-metaverse-part-2.html</loc>
     <lastmod>2013-02-15T06:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-1.html</loc>
+    <loc>https://identitymanaged.com/2013/02/secrets-of-metaverse-part-1.html</loc>
     <lastmod>2013-02-14T21:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/02/secrets-of-metaverse-part-1.html</loc>
+    <loc>https://identitymanaged.com/2013/02/secrets-of-metaverse-part-1.html</loc>
     <lastmod>2013-02-14T21:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/02/updated-vote-top-5-deprecated-features.html</loc>
+    <loc>https://identitymanaged.com/2013/02/updated-vote-top-5-deprecated-features.html</loc>
     <lastmod>2013-02-14T10:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ad-lds/</loc>
+    <loc>https://identitymanaged.com/tags/ad-lds/</loc>
     <lastmod>2013-02-14T10:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</loc>
+    <loc>https://identitymanaged.com/2013/02/massive-fim-and-ad-lds-project-at-dpdhl.html</loc>
     <lastmod>2013-02-14T10:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/voted-top-5-deprecated-features-of-fim.html</loc>
+    <loc>https://identitymanaged.com/2013/01/voted-top-5-deprecated-features-of-fim.html</loc>
     <lastmod>2013-01-29T11:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/voted-top-5-deprecated-features-of-fim.html</loc>
+    <loc>https://identitymanaged.com/2013/01/voted-top-5-deprecated-features-of-fim.html</loc>
     <lastmod>2013-01-29T11:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/the-rest-of-fim-2010-r2-sp1-deprecations.html</loc>
+    <loc>https://identitymanaged.com/2013/01/the-rest-of-fim-2010-r2-sp1-deprecations.html</loc>
     <lastmod>2013-01-17T11:22:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/top-5-deprecated-features-as-of-fim.html</loc>
+    <loc>https://identitymanaged.com/2013/01/top-5-deprecated-features-as-of-fim.html</loc>
     <lastmod>2013-01-16T11:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/top-5-deprecated-features-as-of-fim.html</loc>
+    <loc>https://identitymanaged.com/2013/01/top-5-deprecated-features-as-of-fim.html</loc>
     <lastmod>2013-01-16T11:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</loc>
+    <loc>https://identitymanaged.com/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</loc>
     <lastmod>2013-01-15T20:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</loc>
+    <loc>https://identitymanaged.com/2013/01/fim-2010-r2-sp1-documentation-and-bits.html</loc>
     <lastmod>2013-01-15T20:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ldap/</loc>
+    <loc>https://identitymanaged.com/tags/ldap/</loc>
     <lastmod>2012-12-02T20:59:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/12/revisiting-guids-octets-and-base64.html</loc>
+    <loc>https://identitymanaged.com/2012/12/revisiting-guids-octets-and-base64.html</loc>
     <lastmod>2012-12-02T20:59:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/11/5-reasons-to-be-thankful-for-identity.html</loc>
+    <loc>https://identitymanaged.com/2012/11/5-reasons-to-be-thankful-for-identity.html</loc>
     <lastmod>2012-11-21T15:48:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/job/</loc>
+    <loc>https://identitymanaged.com/tags/job/</loc>
     <lastmod>2012-11-21T15:48:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/09/fim-lives-uag-lives-tmg-will-not.html</loc>
+    <loc>https://identitymanaged.com/2012/09/fim-lives-uag-lives-tmg-will-not.html</loc>
     <lastmod>2012-09-12T20:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/forefront/</loc>
+    <loc>https://identitymanaged.com/tags/forefront/</loc>
     <lastmod>2012-09-12T20:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/09/fim-best-practices-volume-1-has-been.html</loc>
+    <loc>https://identitymanaged.com/2012/09/fim-best-practices-volume-1-has-been.html</loc>
     <lastmod>2012-09-04T09:13:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/09/fim-best-practices-volume-1-has-been.html</loc>
+    <loc>https://identitymanaged.com/2012/09/fim-best-practices-volume-1-has-been.html</loc>
     <lastmod>2012-09-04T09:13:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</loc>
+    <loc>https://identitymanaged.com/2012/08/new-version-pcns-new-fim-hotfix.html</loc>
     <lastmod>2012-08-30T09:59:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</loc>
+    <loc>https://identitymanaged.com/2012/08/new-version-pcns-new-fim-hotfix.html</loc>
     <lastmod>2012-08-30T09:59:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/passwords/</loc>
+    <loc>https://identitymanaged.com/tags/passwords/</loc>
     <lastmod>2012-08-30T09:59:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/08/how-to-import-domain-attribute-into-fim_16.html</loc>
+    <loc>https://identitymanaged.com/2012/08/how-to-import-domain-attribute-into-fim_16.html</loc>
     <lastmod>2012-08-16T13:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/08/how-to-import-domain-attribute-into-fim.html</loc>
+    <loc>https://identitymanaged.com/2012/08/how-to-import-domain-attribute-into-fim.html</loc>
     <lastmod>2012-08-16T12:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/07/award-for-me-award-for-insight.html</loc>
+    <loc>https://identitymanaged.com/2012/07/award-for-me-award-for-insight.html</loc>
     <lastmod>2012-07-02T06:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/07/award-for-me-award-for-insight.html</loc>
+    <loc>https://identitymanaged.com/2012/07/award-for-me-award-for-insight.html</loc>
     <lastmod>2012-07-02T06:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/06/fim-2010-r2-released-today-to-msdn.html</loc>
+    <loc>https://identitymanaged.com/2012/06/fim-2010-r2-released-today-to-msdn.html</loc>
     <lastmod>2012-06-01T19:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/tec-2012-summary.html</loc>
+    <loc>https://identitymanaged.com/2012/05/tec-2012-summary.html</loc>
     <lastmod>2012-05-02T21:10:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/tec-2012-summary.html</loc>
+    <loc>https://identitymanaged.com/2012/05/tec-2012-summary.html</loc>
     <lastmod>2012-05-02T21:10:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/rcdc-replacement.html</loc>
+    <loc>https://identitymanaged.com/2012/05/rcdc-replacement.html</loc>
     <lastmod>2012-05-02T12:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/rcdc-replacement.html</loc>
+    <loc>https://identitymanaged.com/2012/05/rcdc-replacement.html</loc>
     <lastmod>2012-05-02T12:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</loc>
+    <loc>https://identitymanaged.com/2012/05/fim-reporting-craig-martin-style.html</loc>
     <lastmod>2012-05-01T12:10:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/fim-reporting-craig-martin-style.html</loc>
+    <loc>https://identitymanaged.com/2012/05/fim-reporting-craig-martin-style.html</loc>
     <lastmod>2012-05-01T12:10:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/migrating-from-ilm-to-fim.html</loc>
+    <loc>https://identitymanaged.com/2012/05/migrating-from-ilm-to-fim.html</loc>
     <lastmod>2012-05-01T11:04:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/look-what-i-found-in-news.html</loc>
+    <loc>https://identitymanaged.com/2012/05/look-what-i-found-in-news.html</loc>
     <lastmod>2012-05-01T07:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</loc>
+    <loc>https://identitymanaged.com/2012/05/sharepoint-2010-user-profile.html</loc>
     <lastmod>2012-05-01T01:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/05/sharepoint-2010-user-profile.html</loc>
+    <loc>https://identitymanaged.com/2012/05/sharepoint-2010-user-profile.html</loc>
     <lastmod>2012-05-01T01:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</loc>
+    <loc>https://identitymanaged.com/2012/04/fim-2010-r2-showdown-classic-vs.html</loc>
     <lastmod>2012-04-30T15:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/fim-2010-r2-showdown-classic-vs.html</loc>
+    <loc>https://identitymanaged.com/2012/04/fim-2010-r2-showdown-classic-vs.html</loc>
     <lastmod>2012-04-30T15:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/tec/</loc>
+    <loc>https://identitymanaged.com/tags/tec/</loc>
     <lastmod>2012-04-30T15:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/mobile-phone/</loc>
+    <loc>https://identitymanaged.com/tags/mobile-phone/</loc>
     <lastmod>2012-04-27T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/picking-mobile-phone-plan-at.html</loc>
+    <loc>https://identitymanaged.com/2012/04/picking-mobile-phone-plan-at.html</loc>
     <lastmod>2012-04-27T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/education/</loc>
+    <loc>https://identitymanaged.com/tags/education/</loc>
     <lastmod>2012-04-27T16:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/phoenix-area-part-time-mba-program.html</loc>
+    <loc>https://identitymanaged.com/2012/04/phoenix-area-part-time-mba-program.html</loc>
     <lastmod>2012-04-27T16:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/phoenix-area-part-time-mba-program.html</loc>
+    <loc>https://identitymanaged.com/2012/04/phoenix-area-part-time-mba-program.html</loc>
     <lastmod>2012-04-27T16:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/opening-edit-instead-of-view-from.html</loc>
+    <loc>https://identitymanaged.com/2012/04/opening-edit-instead-of-view-from.html</loc>
     <lastmod>2012-04-27T06:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/rcdc/</loc>
+    <loc>https://identitymanaged.com/tags/rcdc/</loc>
     <lastmod>2012-04-27T06:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</loc>
+    <loc>https://identitymanaged.com/2012/04/fim-db-sizing-calculator.html</loc>
     <lastmod>2012-04-25T23:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/fim-db-sizing-calculator.html</loc>
+    <loc>https://identitymanaged.com/2012/04/fim-db-sizing-calculator.html</loc>
     <lastmod>2012-04-25T23:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/darth-vader-project-manager-part-2.html</loc>
+    <loc>https://identitymanaged.com/2012/04/darth-vader-project-manager-part-2.html</loc>
     <lastmod>2012-04-24T11:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/project-management/</loc>
+    <loc>https://identitymanaged.com/tags/project-management/</loc>
     <lastmod>2012-04-24T11:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/nothing-new-under-sun.html</loc>
+    <loc>https://identitymanaged.com/2012/04/nothing-new-under-sun.html</loc>
     <lastmod>2012-04-24T09:48:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/04/what-does-no-commitment-really-mean.html</loc>
+    <loc>https://identitymanaged.com/2012/04/what-does-no-commitment-really-mean.html</loc>
     <lastmod>2012-04-23T21:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/02/vol-1-1000-copies-29-off.html</loc>
+    <loc>https://identitymanaged.com/2012/02/vol-1-1000-copies-29-off.html</loc>
     <lastmod>2012-02-29T12:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/02/vol-1-1000-copies-29-off.html</loc>
+    <loc>https://identitymanaged.com/2012/02/vol-1-1000-copies-29-off.html</loc>
     <lastmod>2012-02-29T12:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/02/fim-2010-update-rollup-2-4036062.html</loc>
+    <loc>https://identitymanaged.com/2012/02/fim-2010-update-rollup-2-4036062.html</loc>
     <lastmod>2012-02-28T09:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/crucial-conversations/</loc>
+    <loc>https://identitymanaged.com/tags/crucial-conversations/</loc>
     <lastmod>2012-02-14T20:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/02/darth-vader-project-manager-part-1.html</loc>
+    <loc>https://identitymanaged.com/2012/02/darth-vader-project-manager-part-1.html</loc>
     <lastmod>2012-02-14T20:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/02/darth-vader-project-manager-part-1.html</loc>
+    <loc>https://identitymanaged.com/2012/02/darth-vader-project-manager-part-1.html</loc>
     <lastmod>2012-02-14T20:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/star-wars/</loc>
+    <loc>https://identitymanaged.com/tags/star-wars/</loc>
     <lastmod>2012-02-14T20:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/certificates/</loc>
+    <loc>https://identitymanaged.com/tags/certificates/</loc>
     <lastmod>2012-01-25T10:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2012/01/fim-r2-showdown-classic-vs-declarative.html</loc>
+    <loc>https://identitymanaged.com/2012/01/fim-r2-showdown-classic-vs-declarative.html</loc>
     <lastmod>2012-01-25T10:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/rms/</loc>
+    <loc>https://identitymanaged.com/tags/rms/</loc>
     <lastmod>2012-01-25T10:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/12/property-sets-for-permissions-in-ad-and.html</loc>
+    <loc>https://identitymanaged.com/2011/12/property-sets-for-permissions-in-ad-and.html</loc>
     <lastmod>2011-12-26T12:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/12/property-sets-for-permissions-in-ad-and.html</loc>
+    <loc>https://identitymanaged.com/2011/12/property-sets-for-permissions-in-ad-and.html</loc>
     <lastmod>2011-12-26T12:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/12/guids-to-octets-guids-to-base64-strings.html</loc>
+    <loc>https://identitymanaged.com/2011/12/guids-to-octets-guids-to-base64-strings.html</loc>
     <lastmod>2011-12-26T12:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/12/guids-to-octets-guids-to-base64-strings.html</loc>
+    <loc>https://identitymanaged.com/2011/12/guids-to-octets-guids-to-base64-strings.html</loc>
     <lastmod>2011-12-26T12:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/referenced-by-other-works-and-sale-at.html</loc>
+    <loc>https://identitymanaged.com/2011/11/referenced-by-other-works-and-sale-at.html</loc>
     <lastmod>2011-11-28T07:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/exam-70-158-ts-forefront-identity.html</loc>
+    <loc>https://identitymanaged.com/2011/11/exam-70-158-ts-forefront-identity.html</loc>
     <lastmod>2011-11-22T07:03:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/exam-70-158-ts-forefront-identity.html</loc>
+    <loc>https://identitymanaged.com/2011/11/exam-70-158-ts-forefront-identity.html</loc>
     <lastmod>2011-11-22T07:03:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</loc>
+    <loc>https://identitymanaged.com/2011/11/ok-i-am-not-actually-swearing-nor-are.html</loc>
     <lastmod>2011-11-16T10:38:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/ok-i-am-not-actually-swearing-nor-are.html</loc>
+    <loc>https://identitymanaged.com/2011/11/ok-i-am-not-actually-swearing-nor-are.html</loc>
     <lastmod>2011-11-16T10:38:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/xpath/</loc>
+    <loc>https://identitymanaged.com/tags/xpath/</loc>
     <lastmod>2011-11-16T10:38:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/microsoft-has-released-new-hotfix-kb.html</loc>
+    <loc>https://identitymanaged.com/2011/11/microsoft-has-released-new-hotfix-kb.html</loc>
     <lastmod>2011-11-16T10:22:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/exchange-2010/</loc>
+    <loc>https://identitymanaged.com/tags/exchange-2010/</loc>
     <lastmod>2011-11-16T10:05:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/experts-conference-call-for-papers.html</loc>
+    <loc>https://identitymanaged.com/2011/11/experts-conference-call-for-papers.html</loc>
     <lastmod>2011-11-16T10:05:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/microsoft-recently-published-case-study.html</loc>
+    <loc>https://identitymanaged.com/2011/11/microsoft-recently-published-case-study.html</loc>
     <lastmod>2011-11-16T09:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/microsoft-recently-published-case-study.html</loc>
+    <loc>https://identitymanaged.com/2011/11/microsoft-recently-published-case-study.html</loc>
     <lastmod>2011-11-16T09:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/ok-so-i-have-neglected-my-blog-bit.html</loc>
+    <loc>https://identitymanaged.com/2011/11/ok-so-i-have-neglected-my-blog-bit.html</loc>
     <lastmod>2011-11-16T09:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/11/ok-so-i-have-neglected-my-blog-bit.html</loc>
+    <loc>https://identitymanaged.com/2011/11/ok-so-i-have-neglected-my-blog-bit.html</loc>
     <lastmod>2011-11-16T09:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/09/big-newsinsight-ensynch.html</loc>
+    <loc>https://identitymanaged.com/2011/09/big-newsinsight-ensynch.html</loc>
     <lastmod>2011-09-23T12:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/09/get-15-off-of-fim-best-practices-volume.html</loc>
+    <loc>https://identitymanaged.com/2011/09/get-15-off-of-fim-best-practices-volume.html</loc>
     <lastmod>2011-09-23T12:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/09/get-20-of-fim-best-practices-volume-1.html</loc>
+    <loc>https://identitymanaged.com/2011/09/get-20-of-fim-best-practices-volume-1.html</loc>
     <lastmod>2011-09-06T05:33:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/09/calling-stored-procedure-in-adfs-claims.html</loc>
+    <loc>https://identitymanaged.com/2011/09/calling-stored-procedure-in-adfs-claims.html</loc>
     <lastmod>2011-09-01T06:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/federation/</loc>
+    <loc>https://identitymanaged.com/tags/federation/</loc>
     <lastmod>2011-09-01T06:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/09/troubleshooting-sql-attribute-stores.html</loc>
+    <loc>https://identitymanaged.com/2011/09/troubleshooting-sql-attribute-stores.html</loc>
     <lastmod>2011-09-01T06:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/07/using-fim-best-practices-volume-1-to.html</loc>
+    <loc>https://identitymanaged.com/2011/07/using-fim-best-practices-volume-1-to.html</loc>
     <lastmod>2011-07-28T21:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/07/using-fim-best-practices-volume-1-to.html</loc>
+    <loc>https://identitymanaged.com/2011/07/using-fim-best-practices-volume-1-to.html</loc>
     <lastmod>2011-07-28T21:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/07/beta-exam-for-fim-available-until-aug.html</loc>
+    <loc>https://identitymanaged.com/2011/07/beta-exam-for-fim-available-until-aug.html</loc>
     <lastmod>2011-07-28T21:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/06/fim-bug-for-multi-valued-strings-that.html</loc>
+    <loc>https://identitymanaged.com/2011/06/fim-bug-for-multi-valued-strings-that.html</loc>
     <lastmod>2011-06-28T09:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/06/sql-extensible-management-agents-that.html</loc>
+    <loc>https://identitymanaged.com/2011/06/sql-extensible-management-agents-that.html</loc>
     <lastmod>2011-06-23T15:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/06/rcdc-editor.html</loc>
+    <loc>https://identitymanaged.com/2011/06/rcdc-editor.html</loc>
     <lastmod>2011-06-17T06:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/06/rcdc-requiring-another-field.html</loc>
+    <loc>https://identitymanaged.com/2011/06/rcdc-requiring-another-field.html</loc>
     <lastmod>2011-06-14T20:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/05/fim-2010-r2-news.html</loc>
+    <loc>https://identitymanaged.com/2011/05/fim-2010-r2-news.html</loc>
     <lastmod>2011-05-23T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/05/behind-scenes-of-roomresourcescustom.html</loc>
+    <loc>https://identitymanaged.com/2011/05/behind-scenes-of-roomresourcescustom.html</loc>
     <lastmod>2011-05-16T22:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/05/rss-feed-for-fim-hotfixes.html</loc>
+    <loc>https://identitymanaged.com/2011/05/rss-feed-for-fim-hotfixes.html</loc>
     <lastmod>2011-05-11T12:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/bpos/</loc>
+    <loc>https://identitymanaged.com/tags/bpos/</loc>
     <lastmod>2011-04-20T10:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/using-fim-to-managing-bposoffice-365.html</loc>
+    <loc>https://identitymanaged.com/2011/04/using-fim-to-managing-bposoffice-365.html</loc>
     <lastmod>2011-04-20T10:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</loc>
+    <loc>https://identitymanaged.com/2011/04/fim-2010-reporting-using-sql-server.html</loc>
     <lastmod>2011-04-20T10:53:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/fim-2010-reporting-using-sql-server.html</loc>
+    <loc>https://identitymanaged.com/2011/04/fim-2010-reporting-using-sql-server.html</loc>
     <lastmod>2011-04-20T10:53:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/cloud-computing-single-sign-on-making.html</loc>
+    <loc>https://identitymanaged.com/2011/04/cloud-computing-single-sign-on-making.html</loc>
     <lastmod>2011-04-20T10:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</loc>
+    <loc>https://identitymanaged.com/2011/04/desktop-virtualization-and-identity.html</loc>
     <lastmod>2011-04-19T14:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/desktop-virtualization-and-identity.html</loc>
+    <loc>https://identitymanaged.com/2011/04/desktop-virtualization-and-identity.html</loc>
     <lastmod>2011-04-19T14:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/quest/</loc>
+    <loc>https://identitymanaged.com/tags/quest/</loc>
     <lastmod>2011-04-19T14:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/creating-authentication-activities-in.html</loc>
+    <loc>https://identitymanaged.com/2011/04/creating-authentication-activities-in.html</loc>
     <lastmod>2011-04-19T14:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/recruiting.html</loc>
+    <loc>https://identitymanaged.com/2011/04/recruiting.html</loc>
     <lastmod>2011-04-19T14:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/designing-and-implementing-rbac.html</loc>
+    <loc>https://identitymanaged.com/2011/04/designing-and-implementing-rbac.html</loc>
     <lastmod>2011-04-18T16:33:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/rbac/</loc>
+    <loc>https://identitymanaged.com/tags/rbac/</loc>
     <lastmod>2011-04-18T16:33:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/fim-best-practices-sizing-your-fim.html</loc>
+    <loc>https://identitymanaged.com/2011/04/fim-best-practices-sizing-your-fim.html</loc>
     <lastmod>2011-04-18T16:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/can-pxes-fly-fim-and-sccm-integration.html</loc>
+    <loc>https://identitymanaged.com/2011/04/can-pxes-fly-fim-and-sccm-integration.html</loc>
     <lastmod>2011-04-18T16:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/creating-management-agents-with-new.html</loc>
+    <loc>https://identitymanaged.com/2011/04/creating-management-agents-with-new.html</loc>
     <lastmod>2011-04-18T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/files-fim-and-powershell-james-booth.html</loc>
+    <loc>https://identitymanaged.com/2011/04/files-fim-and-powershell-james-booth.html</loc>
     <lastmod>2011-04-18T11:38:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/tec-2011fim-workflows-deep-dive.html</loc>
+    <loc>https://identitymanaged.com/2011/04/tec-2011fim-workflows-deep-dive.html</loc>
     <lastmod>2011-04-16T16:13:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/04/making-sense-of-cloud.html</loc>
+    <loc>https://identitymanaged.com/2011/04/making-sense-of-cloud.html</loc>
     <lastmod>2011-04-13T21:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/03/ebook-of-vol-1-is-now-available.html</loc>
+    <loc>https://identitymanaged.com/2011/03/ebook-of-vol-1-is-now-available.html</loc>
     <lastmod>2011-03-15T17:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/03/webinar-clouds-silver-lining-identity.html</loc>
+    <loc>https://identitymanaged.com/2011/03/webinar-clouds-silver-lining-identity.html</loc>
     <lastmod>2011-03-02T11:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/02/fim-training-backon-may-23-26-in.html</loc>
+    <loc>https://identitymanaged.com/2011/02/fim-training-backon-may-23-26-in.html</loc>
     <lastmod>2011-02-14T11:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/training/</loc>
+    <loc>https://identitymanaged.com/tags/training/</loc>
     <lastmod>2011-02-14T11:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2011/01/get-fim-training-from-author-of-fim.html</loc>
+    <loc>https://identitymanaged.com/2011/01/get-fim-training-from-author-of-fim.html</loc>
     <lastmod>2011-01-04T09:13:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/12/amazonfim-best-practices-volume-1.html</loc>
+    <loc>https://identitymanaged.com/2010/12/amazonfim-best-practices-volume-1.html</loc>
     <lastmod>2010-12-16T10:02:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/12/buy-fim-vol-1-and-get-free-ground.html</loc>
+    <loc>https://identitymanaged.com/2010/12/buy-fim-vol-1-and-get-free-ground.html</loc>
     <lastmod>2010-12-07T17:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/12/law-of-unintended-consequences.html</loc>
+    <loc>https://identitymanaged.com/2010/12/law-of-unintended-consequences.html</loc>
     <lastmod>2010-12-03T16:41:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/12/law-of-unintended-consequences.html</loc>
+    <loc>https://identitymanaged.com/2010/12/law-of-unintended-consequences.html</loc>
     <lastmod>2010-12-03T16:41:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/11/get-25-off-of-fim-best-practices-volume.html</loc>
+    <loc>https://identitymanaged.com/2010/11/get-25-off-of-fim-best-practices-volume.html</loc>
     <lastmod>2010-11-30T13:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/11/webinar-is-available-for-viewing.html</loc>
+    <loc>https://identitymanaged.com/2010/11/webinar-is-available-for-viewing.html</loc>
     <lastmod>2010-11-14T18:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/11/case-study-real-world-organizations.html</loc>
+    <loc>https://identitymanaged.com/2010/11/case-study-real-world-organizations.html</loc>
     <lastmod>2010-11-11T16:53:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</loc>
+    <loc>https://identitymanaged.com/2010/10/tec-2010-europe-sweet-german-chocolate.html</loc>
     <lastmod>2010-10-18T14:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/10/tec-2010-europe-sweet-german-chocolate.html</loc>
+    <loc>https://identitymanaged.com/2010/10/tec-2010-europe-sweet-german-chocolate.html</loc>
     <lastmod>2010-10-18T14:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/details-of-errata.html</loc>
+    <loc>https://identitymanaged.com/2010/09/details-of-errata.html</loc>
     <lastmod>2010-09-29T15:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/errata-and-updates-to-fim-best.html</loc>
+    <loc>https://identitymanaged.com/2010/09/errata-and-updates-to-fim-best.html</loc>
     <lastmod>2010-09-29T07:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/errata-and-updates-to-fim-best.html</loc>
+    <loc>https://identitymanaged.com/2010/09/errata-and-updates-to-fim-best.html</loc>
     <lastmod>2010-09-29T07:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/cystic-fibrosis/</loc>
+    <loc>https://identitymanaged.com/tags/cystic-fibrosis/</loc>
     <lastmod>2010-09-15T09:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ensynch/</loc>
+    <loc>https://identitymanaged.com/tags/ensynch/</loc>
     <lastmod>2010-09-15T09:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/extinguishing-cystic-fibrosis.html</loc>
+    <loc>https://identitymanaged.com/2010/09/extinguishing-cystic-fibrosis.html</loc>
     <lastmod>2010-09-15T09:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/fund-raising/</loc>
+    <loc>https://identitymanaged.com/tags/fund-raising/</loc>
     <lastmod>2010-09-15T09:43:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/fighting-cystic-fibrosis.html</loc>
+    <loc>https://identitymanaged.com/2010/09/fighting-cystic-fibrosis.html</loc>
     <lastmod>2010-09-13T11:24:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/default-galsync-connector-filter.html</loc>
+    <loc>https://identitymanaged.com/2010/09/default-galsync-connector-filter.html</loc>
     <lastmod>2010-09-07T11:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/default-galsync-connector-filter.html</loc>
+    <loc>https://identitymanaged.com/2010/09/default-galsync-connector-filter.html</loc>
     <lastmod>2010-09-07T11:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/galsync/</loc>
+    <loc>https://identitymanaged.com/tags/galsync/</loc>
     <lastmod>2010-09-07T11:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/when-moving-fim-db-ensure-ft-indexing.html</loc>
+    <loc>https://identitymanaged.com/2010/09/when-moving-fim-db-ensure-ft-indexing.html</loc>
     <lastmod>2010-09-04T06:39:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/09/tec-europe-come-hear-me-speak.html</loc>
+    <loc>https://identitymanaged.com/2010/09/tec-europe-come-hear-me-speak.html</loc>
     <lastmod>2010-09-01T20:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/08/book-is-here-fim-best-practices-volume.html</loc>
+    <loc>https://identitymanaged.com/2010/08/book-is-here-fim-best-practices-volume.html</loc>
     <lastmod>2010-08-29T23:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/08/book-is-here-fim-best-practices-volume.html</loc>
+    <loc>https://identitymanaged.com/2010/08/book-is-here-fim-best-practices-volume.html</loc>
     <lastmod>2010-08-29T23:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/08/book-update.html</loc>
+    <loc>https://identitymanaged.com/2010/08/book-update.html</loc>
     <lastmod>2010-08-20T18:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/08/adfs-v2-test-report-found.html</loc>
+    <loc>https://identitymanaged.com/2010/08/adfs-v2-test-report-found.html</loc>
     <lastmod>2010-08-20T07:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/07/book-fim-best-practices-volume-1.html</loc>
+    <loc>https://identitymanaged.com/2010/07/book-fim-best-practices-volume-1.html</loc>
     <lastmod>2010-07-29T17:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/07/book-fim-best-practices-volume-1.html</loc>
+    <loc>https://identitymanaged.com/2010/07/book-fim-best-practices-volume-1.html</loc>
     <lastmod>2010-07-29T17:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/07/embedding-comments-in-your-xpath.html</loc>
+    <loc>https://identitymanaged.com/2010/07/embedding-comments-in-your-xpath.html</loc>
     <lastmod>2010-07-20T13:22:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/07/mvpd-again.html</loc>
+    <loc>https://identitymanaged.com/2010/07/mvpd-again.html</loc>
     <lastmod>2010-07-09T14:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/07/mvpd-again.html</loc>
+    <loc>https://identitymanaged.com/2010/07/mvpd-again.html</loc>
     <lastmod>2010-07-09T14:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/07/finding-binary-value-in-haystack.html</loc>
+    <loc>https://identitymanaged.com/2010/07/finding-binary-value-in-haystack.html</loc>
     <lastmod>2010-07-09T14:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/technical-overview-whitepaper-on-fim.html</loc>
+    <loc>https://identitymanaged.com/2010/06/technical-overview-whitepaper-on-fim.html</loc>
     <lastmod>2010-06-30T19:28:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/ensynchs-identity-practice-finalist-for.html</loc>
+    <loc>https://identitymanaged.com/2010/06/ensynchs-identity-practice-finalist-for.html</loc>
     <lastmod>2010-06-30T19:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/dependent-sync-rules-disconnection-on.html</loc>
+    <loc>https://identitymanaged.com/2010/06/dependent-sync-rules-disconnection-on.html</loc>
     <lastmod>2010-06-29T14:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/dependent-sync-rules-disconnection-on.html</loc>
+    <loc>https://identitymanaged.com/2010/06/dependent-sync-rules-disconnection-on.html</loc>
     <lastmod>2010-06-29T14:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/object-reference-not-set-to-instance-of.html</loc>
+    <loc>https://identitymanaged.com/2010/06/object-reference-not-set-to-instance-of.html</loc>
     <lastmod>2010-06-13T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/object-reference-not-set-to-instance-of.html</loc>
+    <loc>https://identitymanaged.com/2010/06/object-reference-not-set-to-instance-of.html</loc>
     <lastmod>2010-06-13T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</loc>
+    <loc>https://identitymanaged.com/2010/06/fim-sets-xpath-finding-nulls-with.html</loc>
     <lastmod>2010-06-10T00:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/fim-sets-xpath-finding-nulls-with.html</loc>
+    <loc>https://identitymanaged.com/2010/06/fim-sets-xpath-finding-nulls-with.html</loc>
     <lastmod>2010-06-10T00:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/xml/</loc>
+    <loc>https://identitymanaged.com/tags/xml/</loc>
     <lastmod>2010-06-10T00:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</loc>
+    <loc>https://identitymanaged.com/2010/06/accelerate-your-business-now-with.html</loc>
     <lastmod>2010-06-09T21:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/accelerate-your-business-now-with.html</loc>
+    <loc>https://identitymanaged.com/2010/06/accelerate-your-business-now-with.html</loc>
     <lastmod>2010-06-09T21:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/06/searching-entire-database-for-guid-or.html</loc>
+    <loc>https://identitymanaged.com/2010/06/searching-entire-database-for-guid-or.html</loc>
     <lastmod>2010-06-01T08:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/t-sql/</loc>
+    <loc>https://identitymanaged.com/tags/t-sql/</loc>
     <lastmod>2010-06-01T08:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/backups/</loc>
+    <loc>https://identitymanaged.com/tags/backups/</loc>
     <lastmod>2010-05-20T10:04:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/05/restoring-your-fim-databases-to-moment.html</loc>
+    <loc>https://identitymanaged.com/2010/05/restoring-your-fim-databases-to-moment.html</loc>
     <lastmod>2010-05-20T10:04:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sql-server/</loc>
+    <loc>https://identitymanaged.com/tags/sql-server/</loc>
     <lastmod>2010-05-20T10:04:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/05/adfs-v2-shipped.html</loc>
+    <loc>https://identitymanaged.com/2010/05/adfs-v2-shipped.html</loc>
     <lastmod>2010-05-18T15:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/saas/</loc>
+    <loc>https://identitymanaged.com/tags/saas/</loc>
     <lastmod>2010-05-18T15:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/05/tec-decks-posted.html</loc>
+    <loc>https://identitymanaged.com/2010/05/tec-decks-posted.html</loc>
     <lastmod>2010-05-18T11:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/05/tec-2010-results.html</loc>
+    <loc>https://identitymanaged.com/2010/05/tec-2010-results.html</loc>
     <lastmod>2010-05-17T15:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/04/escape-from-prague-good-to-go-for-tec.html</loc>
+    <loc>https://identitymanaged.com/2010/04/escape-from-prague-good-to-go-for-tec.html</loc>
     <lastmod>2010-04-23T15:20:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/04/fim-2010-technical-overview-published.html</loc>
+    <loc>https://identitymanaged.com/2010/04/fim-2010-technical-overview-published.html</loc>
     <lastmod>2010-04-08T22:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/04/fim-2010-technical-overview-published.html</loc>
+    <loc>https://identitymanaged.com/2010/04/fim-2010-technical-overview-published.html</loc>
     <lastmod>2010-04-08T22:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/03/fim-pitfall-for-old-ilm-hands.html</loc>
+    <loc>https://identitymanaged.com/2010/03/fim-pitfall-for-old-ilm-hands.html</loc>
     <lastmod>2010-03-25T21:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/03/register-for-tec-2010-hope-to-see-you.html</loc>
+    <loc>https://identitymanaged.com/2010/03/register-for-tec-2010-hope-to-see-you.html</loc>
     <lastmod>2010-03-17T17:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/03/tec-2010-speaking-and-sponsoring.html</loc>
+    <loc>https://identitymanaged.com/2010/03/tec-2010-speaking-and-sponsoring.html</loc>
     <lastmod>2010-03-17T15:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/03/fim-technet-webcasts.html</loc>
+    <loc>https://identitymanaged.com/2010/03/fim-technet-webcasts.html</loc>
     <lastmod>2010-03-09T15:36:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/03/fim-2010-rtm-today.html</loc>
+    <loc>https://identitymanaged.com/2010/03/fim-2010-rtm-today.html</loc>
     <lastmod>2010-03-02T13:03:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/02/final-update-for-fim-rc1-released.html</loc>
+    <loc>https://identitymanaged.com/2010/02/final-update-for-fim-rc1-released.html</loc>
     <lastmod>2010-02-01T10:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2010/02/fim-hand-on-labs.html</loc>
+    <loc>https://identitymanaged.com/2010/02/fim-hand-on-labs.html</loc>
     <lastmod>2010-02-01T01:20:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/11/fim-rcdc-explained-in-brief.html</loc>
+    <loc>https://identitymanaged.com/2009/11/fim-rcdc-explained-in-brief.html</loc>
     <lastmod>2009-11-29T09:50:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/11/answering-my-fim-rc-1-question.html</loc>
+    <loc>https://identitymanaged.com/2009/11/answering-my-fim-rc-1-question.html</loc>
     <lastmod>2009-11-24T09:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/11/identity-synchronization-fim-2010-hol.html</loc>
+    <loc>https://identitymanaged.com/2009/11/identity-synchronization-fim-2010-hol.html</loc>
     <lastmod>2009-11-23T17:44:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/11/update-to-fim-rc1.html</loc>
+    <loc>https://identitymanaged.com/2009/11/update-to-fim-rc1.html</loc>
     <lastmod>2009-11-08T23:14:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/10/identity-management-luncheon-nyc.html</loc>
+    <loc>https://identitymanaged.com/2009/10/identity-management-luncheon-nyc.html</loc>
     <lastmod>2009-10-29T14:44:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/10/password-reset.html</loc>
+    <loc>https://identitymanaged.com/2009/10/password-reset.html</loc>
     <lastmod>2009-10-06T20:59:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/10/webinar-accelerate-your-businesses-for.html</loc>
+    <loc>https://identitymanaged.com/2009/10/webinar-accelerate-your-businesses-for.html</loc>
     <lastmod>2009-10-05T11:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/10/fim-rc-1-is-here-whats-new.html</loc>
+    <loc>https://identitymanaged.com/2009/10/fim-rc-1-is-here-whats-new.html</loc>
     <lastmod>2009-10-04T22:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/08/ilm-2-rc-0-luke-check-transaction-log.html</loc>
+    <loc>https://identitymanaged.com/2009/08/ilm-2-rc-0-luke-check-transaction-log.html</loc>
     <lastmod>2009-08-14T21:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ad-rms/</loc>
+    <loc>https://identitymanaged.com/tags/ad-rms/</loc>
     <lastmod>2009-08-14T21:06:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/08/ad-rms-on-r2-new-federation-features.html</loc>
+    <loc>https://identitymanaged.com/2009/08/ad-rms-on-r2-new-federation-features.html</loc>
     <lastmod>2009-08-14T21:06:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/08/at-it-again-geneva-part-ii.html</loc>
+    <loc>https://identitymanaged.com/2009/08/at-it-again-geneva-part-ii.html</loc>
     <lastmod>2009-08-14T16:11:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/07/mvp-for-3rd-time.html</loc>
+    <loc>https://identitymanaged.com/2009/07/mvp-for-3rd-time.html</loc>
     <lastmod>2009-07-20T17:42:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/geneva/</loc>
+    <loc>https://identitymanaged.com/tags/geneva/</loc>
     <lastmod>2009-07-20T17:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/07/webinar-how-microsoft-geneva.html</loc>
+    <loc>https://identitymanaged.com/2009/07/webinar-how-microsoft-geneva.html</loc>
     <lastmod>2009-07-20T17:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/07/4th-of-july-independence-day.html</loc>
+    <loc>https://identitymanaged.com/2009/07/4th-of-july-independence-day.html</loc>
     <lastmod>2009-07-05T22:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/exchange-2007/</loc>
+    <loc>https://identitymanaged.com/tags/exchange-2007/</loc>
     <lastmod>2009-06-29T00:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</loc>
+    <loc>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</loc>
     <lastmod>2009-06-29T00:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/attributes-behind-message-delivery.html</loc>
+    <loc>https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html</loc>
     <lastmod>2009-06-29T00:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</loc>
+    <loc>https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html</loc>
     <lastmod>2009-06-24T22:23:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/best-practices-ilm-2007-coding.html</loc>
+    <loc>https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html</loc>
     <lastmod>2009-06-22T15:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/best-practices-ilm-2007-coding.html</loc>
+    <loc>https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html</loc>
     <lastmod>2009-06-22T15:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/desert-code-camp-sql-xpath-and-fim.html</loc>
+    <loc>https://identitymanaged.com/2009/06/desert-code-camp-sql-xpath-and-fim.html</loc>
     <lastmod>2009-06-19T14:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/clm/</loc>
+    <loc>https://identitymanaged.com/tags/clm/</loc>
     <lastmod>2009-06-02T11:12:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</loc>
+    <loc>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</loc>
     <lastmod>2009-06-02T11:12:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/06/to-pki-or-not-to-pki.html</loc>
+    <loc>https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html</loc>
     <lastmod>2009-06-02T11:12:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</loc>
+    <loc>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</loc>
     <lastmod>2009-05-15T11:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/05/business-impact-of-identity-and-access.html</loc>
+    <loc>https://identitymanaged.com/2009/05/business-impact-of-identity-and-access.html</loc>
     <lastmod>2009-05-15T11:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/dealing-with-ilm-2-rc-0-cert-in-windows.html</loc>
+    <loc>https://identitymanaged.com/2009/04/dealing-with-ilm-2-rc-0-cert-in-windows.html</loc>
     <lastmod>2009-04-29T14:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ilm-2-rc0/</loc>
+    <loc>https://identitymanaged.com/tags/ilm-2-rc0/</loc>
     <lastmod>2009-04-29T14:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</loc>
+    <loc>https://identitymanaged.com/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</loc>
     <lastmod>2009-04-20T18:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</loc>
+    <loc>https://identitymanaged.com/2009/04/problems-with-sync-rules-in-ilm-2-rc0.html</loc>
     <lastmod>2009-04-20T18:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/earth-hour-mandatory.html</loc>
+    <loc>https://identitymanaged.com/2009/04/earth-hour-mandatory.html</loc>
     <lastmod>2009-04-20T16:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/ilm-fim-webinar-custom-workflow-joe.html</loc>
+    <loc>https://identitymanaged.com/2009/04/ilm-fim-webinar-custom-workflow-joe.html</loc>
     <lastmod>2009-04-20T11:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/install-ilm-2-in-sharepoint-farm.html</loc>
+    <loc>https://identitymanaged.com/2009/04/install-ilm-2-in-sharepoint-farm.html</loc>
     <lastmod>2009-04-16T17:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/what-in-name-forefront-identity-manager.html</loc>
+    <loc>https://identitymanaged.com/2009/04/what-in-name-forefront-identity-manager.html</loc>
     <lastmod>2009-04-16T17:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/ensynch-place-to-be.html</loc>
+    <loc>https://identitymanaged.com/2009/04/ensynch-place-to-be.html</loc>
     <lastmod>2009-04-15T07:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ilm-2-beta-3/</loc>
+    <loc>https://identitymanaged.com/tags/ilm-2-beta-3/</loc>
     <lastmod>2009-04-15T07:46:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/04/few-excellent-liveedu-outlook-live.html</loc>
+    <loc>https://identitymanaged.com/2009/04/few-excellent-liveedu-outlook-live.html</loc>
     <lastmod>2009-04-14T12:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/liveatedu/</loc>
+    <loc>https://identitymanaged.com/tags/liveatedu/</loc>
     <lastmod>2009-04-14T12:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/outlooklive/</loc>
+    <loc>https://identitymanaged.com/tags/outlooklive/</loc>
     <lastmod>2009-04-14T12:35:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/ilm-2-addons.html</loc>
+    <loc>https://identitymanaged.com/2009/03/ilm-2-addons.html</loc>
     <lastmod>2009-03-25T14:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/new-certificate-and-identity-blogger-on.html</loc>
+    <loc>https://identitymanaged.com/2009/03/new-certificate-and-identity-blogger-on.html</loc>
     <lastmod>2009-03-25T11:34:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/msit-implementation-of-ilm-2.html</loc>
+    <loc>https://identitymanaged.com/2009/03/msit-implementation-of-ilm-2.html</loc>
     <lastmod>2009-03-25T11:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/tec-2009.html</loc>
+    <loc>https://identitymanaged.com/2009/03/tec-2009.html</loc>
     <lastmod>2009-03-24T15:50:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</loc>
+    <loc>https://identitymanaged.com/2009/03/tec-2009-ensynch-identity-bus.html</loc>
     <lastmod>2009-03-24T15:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/tec-2009-ensynch-identity-bus.html</loc>
+    <loc>https://identitymanaged.com/2009/03/tec-2009-ensynch-identity-bus.html</loc>
     <lastmod>2009-03-24T15:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/posted-ilm-2-business-value-webinar.html</loc>
+    <loc>https://identitymanaged.com/2009/03/posted-ilm-2-business-value-webinar.html</loc>
     <lastmod>2009-03-16T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/ilmmiis-sync-engine-clustering-windows.html</loc>
+    <loc>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</loc>
     <lastmod>2009-03-16T10:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/ilmmiis-sync-engine-clustering-windows.html</loc>
+    <loc>https://identitymanaged.com/2009/03/ilmmiis-sync-engine-clustering-windows.html</loc>
     <lastmod>2009-03-16T10:31:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/at-tec-get-on-ensynch-identity-bus.html</loc>
+    <loc>https://identitymanaged.com/2009/03/at-tec-get-on-ensynch-identity-bus.html</loc>
     <lastmod>2009-03-12T00:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</loc>
+    <loc>https://identitymanaged.com/2009/03/netpro-dec-quest-tec-ensynch-sessions.html</loc>
     <lastmod>2009-03-11T12:09:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/02/another-talented-ensynchian-joins.html</loc>
+    <loc>https://identitymanaged.com/2009/02/another-talented-ensynchian-joins.html</loc>
     <lastmod>2009-02-12T13:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/02/webinar-business-impact-of-ilm-2.html</loc>
+    <loc>https://identitymanaged.com/2009/02/webinar-business-impact-of-ilm-2.html</loc>
     <lastmod>2009-02-02T10:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/it-manager/</loc>
+    <loc>https://identitymanaged.com/tags/it-manager/</loc>
     <lastmod>2009-01-19T12:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/01/whats-new-in-identity-lifecycle-manager.html</loc>
+    <loc>https://identitymanaged.com/2009/01/whats-new-in-identity-lifecycle-manager.html</loc>
     <lastmod>2009-01-19T12:19:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-explained.html</loc>
+    <loc>https://identitymanaged.com/2009/01/ilm-2-functions-explained.html</loc>
     <lastmod>2009-01-06T13:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-explained.html</loc>
+    <loc>https://identitymanaged.com/2009/01/ilm-2-functions-explained.html</loc>
     <lastmod>2009-01-06T13:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2009/01/ilm-2-functions-all-in-one-place.html</loc>
+    <loc>https://identitymanaged.com/2009/01/ilm-2-functions-all-in-one-place.html</loc>
     <lastmod>2009-01-05T15:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</loc>
+    <loc>https://identitymanaged.com/2008/12/ilm-confirmhumanity.html</loc>
     <lastmod>2008-12-23T12:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/ilm-confirmhumanity.html</loc>
+    <loc>https://identitymanaged.com/2008/12/ilm-confirmhumanity.html</loc>
     <lastmod>2008-12-23T12:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/business-problems-and-their-technical.html</loc>
+    <loc>https://identitymanaged.com/2008/12/business-problems-and-their-technical.html</loc>
     <lastmod>2008-12-22T17:26:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</loc>
+    <loc>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</loc>
     <lastmod>2008-12-22T17:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/business-problems-vs-technical-problems.html</loc>
+    <loc>https://identitymanaged.com/2008/12/business-problems-vs-technical-problems.html</loc>
     <lastmod>2008-12-22T17:17:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/millionaire-next-door-and-all-your.html</loc>
+    <loc>https://identitymanaged.com/2008/12/millionaire-next-door-and-all-your.html</loc>
     <lastmod>2008-12-06T04:04:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/ilm-2-web-services-part-1-and-12.html</loc>
+    <loc>https://identitymanaged.com/2008/12/ilm-2-web-services-part-1-and-12.html</loc>
     <lastmod>2008-12-06T03:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</loc>
+    <loc>https://identitymanaged.com/2008/12/liveedu-partner-airlift-and-sql-pass.html</loc>
     <lastmod>2008-12-06T03:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sql-pass/</loc>
+    <loc>https://identitymanaged.com/tags/sql-pass/</loc>
     <lastmod>2008-12-06T03:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/thanksgiving/</loc>
+    <loc>https://identitymanaged.com/tags/thanksgiving/</loc>
     <lastmod>2008-12-06T03:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/wcf/</loc>
+    <loc>https://identitymanaged.com/tags/wcf/</loc>
     <lastmod>2008-12-06T03:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/web-services/</loc>
+    <loc>https://identitymanaged.com/tags/web-services/</loc>
     <lastmod>2008-12-06T03:49:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/csexport-getting-ilm-connector-space.html</loc>
+    <loc>https://identitymanaged.com/2008/11/csexport-getting-ilm-connector-space.html</loc>
     <lastmod>2008-11-11T14:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/other-interesting-changes-in-ilm-rc0.html</loc>
+    <loc>https://identitymanaged.com/2008/11/other-interesting-changes-in-ilm-rc0.html</loc>
     <lastmod>2008-11-03T16:22:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/ilm-2-rc-0-is-here.html</loc>
+    <loc>https://identitymanaged.com/2008/11/ilm-2-rc-0-is-here.html</loc>
     <lastmod>2008-11-03T10:56:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/is-ilm-2-rc0-is-out-well-docs-are.html</loc>
+    <loc>https://identitymanaged.com/2008/11/is-ilm-2-rc0-is-out-well-docs-are.html</loc>
     <lastmod>2008-11-02T20:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</loc>
+    <loc>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</loc>
     <lastmod>2008-11-01T10:22:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/ilm-2-web-services-part-1-service.html</loc>
+    <loc>https://identitymanaged.com/2008/11/ilm-2-web-services-part-1-service.html</loc>
     <lastmod>2008-11-01T10:22:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</loc>
+    <loc>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-2-read-wcf.html</loc>
     <lastmod>2008-11-01T10:01:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</loc>
+    <loc>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</loc>
     <lastmod>2008-11-01T09:23:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</loc>
+    <loc>https://identitymanaged.com/2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html</loc>
     <lastmod>2008-11-01T09:23:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/11/happy-halloween-it-all-about-identity.html</loc>
+    <loc>https://identitymanaged.com/2008/11/happy-halloween-it-all-about-identity.html</loc>
     <lastmod>2008-11-01T09:14:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/cardspace/</loc>
+    <loc>https://identitymanaged.com/tags/cardspace/</loc>
     <lastmod>2008-10-30T16:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/live-id-are-now-open-id-geneva-supports.html</loc>
+    <loc>https://identitymanaged.com/2008/10/live-id-are-now-open-id-geneva-supports.html</loc>
     <lastmod>2008-10-30T16:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/shibboleth/</loc>
+    <loc>https://identitymanaged.com/tags/shibboleth/</loc>
     <lastmod>2008-10-30T16:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/zermat/</loc>
+    <loc>https://identitymanaged.com/tags/zermat/</loc>
     <lastmod>2008-10-30T16:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/semi-automated-install-of-ilm-2-beta-3.html</loc>
+    <loc>https://identitymanaged.com/2008/10/semi-automated-install-of-ilm-2-beta-3.html</loc>
     <lastmod>2008-10-22T21:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/sql-server-agent-should-be-running-or.html</loc>
+    <loc>https://identitymanaged.com/2008/10/sql-server-agent-should-be-running-or.html</loc>
     <lastmod>2008-10-22T20:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/changing-sql-service-account-passwords.html</loc>
+    <loc>https://identitymanaged.com/2008/10/changing-sql-service-account-passwords.html</loc>
     <lastmod>2008-10-22T13:23:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/installing-multi-instance-sql-2005.html</loc>
+    <loc>https://identitymanaged.com/2008/10/installing-multi-instance-sql-2005.html</loc>
     <lastmod>2008-10-15T00:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/installing-multi-instance-sql-2005.html</loc>
+    <loc>https://identitymanaged.com/2008/10/installing-multi-instance-sql-2005.html</loc>
     <lastmod>2008-10-15T00:54:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</loc>
+    <loc>https://identitymanaged.com/2008/10/projections-showing-up-as-joins.html</loc>
     <lastmod>2008-10-08T14:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/10/projections-showing-up-as-joins.html</loc>
+    <loc>https://identitymanaged.com/2008/10/projections-showing-up-as-joins.html</loc>
     <lastmod>2008-10-08T14:27:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/ilm-2-workflow-activity-walkthrough.html</loc>
+    <loc>https://identitymanaged.com/2008/09/ilm-2-workflow-activity-walkthrough.html</loc>
     <lastmod>2008-09-24T17:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/ilm-2-workflow-activity-walkthrough.html</loc>
+    <loc>https://identitymanaged.com/2008/09/ilm-2-workflow-activity-walkthrough.html</loc>
     <lastmod>2008-09-24T17:18:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/sprinkling-of-understanding-workflow-in.html</loc>
+    <loc>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</loc>
     <lastmod>2008-09-16T17:48:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/sprinkling-of-understanding-workflow-in.html</loc>
+    <loc>https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html</loc>
     <lastmod>2008-09-16T17:48:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/wwf/</loc>
+    <loc>https://identitymanaged.com/tags/wwf/</loc>
     <lastmod>2008-09-16T17:48:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/ilm-2-beta-3-bug-action-process.html</loc>
+    <loc>https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html</loc>
     <lastmod>2008-09-12T02:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/ilm-2-beta-3-bug-action-process.html</loc>
+    <loc>https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html</loc>
     <lastmod>2008-09-12T02:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</loc>
+    <loc>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</loc>
     <lastmod>2008-09-02T19:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/expanding-windows-server-2008-system.html</loc>
+    <loc>https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html</loc>
     <lastmod>2008-09-02T19:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/hyperv/</loc>
+    <loc>https://identitymanaged.com/tags/hyperv/</loc>
     <lastmod>2008-09-02T19:47:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/experts-conference-tec-conference.html</loc>
+    <loc>https://identitymanaged.com/2008/09/experts-conference-tec-conference.html</loc>
     <lastmod>2008-09-02T18:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/09/experts-conference-tec-conference.html</loc>
+    <loc>https://identitymanaged.com/2008/09/experts-conference-tec-conference.html</loc>
     <lastmod>2008-09-02T18:16:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/how-to-be-pro-at-google.html</loc>
+    <loc>https://identitymanaged.com/2008/08/how-to-be-pro-at-google.html</loc>
     <lastmod>2008-08-28T15:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/miisilm-error-systembadimageformatexcep.html</loc>
+    <loc>https://identitymanaged.com/2008/08/miisilm-error-systembadimageformatexcep.html</loc>
     <lastmod>2008-08-20T17:08:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/i-just-got-pranked-by-laura-hunter.html</loc>
+    <loc>https://identitymanaged.com/2008/08/i-just-got-pranked-by-laura-hunter.html</loc>
     <lastmod>2008-08-17T19:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/sql-2008-processor-or-servercal.html</loc>
+    <loc>https://identitymanaged.com/2008/08/sql-2008-processor-or-servercal.html</loc>
     <lastmod>2008-08-16T12:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sql-server-service-broker/</loc>
+    <loc>https://identitymanaged.com/tags/sql-server-service-broker/</loc>
     <lastmod>2008-08-16T12:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/ssb/</loc>
+    <loc>https://identitymanaged.com/tags/ssb/</loc>
     <lastmod>2008-08-16T12:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/idm-in-pop-culture.html</loc>
+    <loc>https://identitymanaged.com/2008/08/idm-in-pop-culture.html</loc>
     <lastmod>2008-08-16T11:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/smart-cards/</loc>
+    <loc>https://identitymanaged.com/tags/smart-cards/</loc>
     <lastmod>2008-08-16T11:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/love-one-note-hate-office-diagnostics.html</loc>
+    <loc>https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html</loc>
     <lastmod>2008-08-16T09:44:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/08/love-one-note-hate-office-diagnostics.html</loc>
+    <loc>https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html</loc>
     <lastmod>2008-08-16T09:44:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/07/pending-exports-report-in-ilm.html</loc>
+    <loc>https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html</loc>
     <lastmod>2008-07-30T14:52:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/scripting/</loc>
+    <loc>https://identitymanaged.com/tags/scripting/</loc>
     <lastmod>2008-07-10T10:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/07/scripting-sysadmin-survey.html</loc>
+    <loc>https://identitymanaged.com/2008/07/scripting-sysadmin-survey.html</loc>
     <lastmod>2008-07-10T10:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/sysadmin/</loc>
+    <loc>https://identitymanaged.com/tags/sysadmin/</loc>
     <lastmod>2008-07-10T10:15:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/07/i-like-my-passwords-plain-in-plaintext.html</loc>
+    <loc>https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html</loc>
     <lastmod>2008-07-03T16:32:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</loc>
+    <loc>https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html</loc>
     <lastmod>2008-06-16T16:33:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/06/tech-ed-anyone.html</loc>
+    <loc>https://identitymanaged.com/2008/06/tech-ed-anyone.html</loc>
     <lastmod>2008-06-01T21:58:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/microsoft-message-queue/</loc>
+    <loc>https://identitymanaged.com/tags/microsoft-message-queue/</loc>
     <lastmod>2008-05-15T06:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/tags/msmq/</loc>
+    <loc>https://identitymanaged.com/tags/msmq/</loc>
     <lastmod>2008-05-15T06:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/05/processing-actions-asynchronously.html</loc>
+    <loc>https://identitymanaged.com/2008/05/processing-actions-asynchronously.html</loc>
     <lastmod>2008-05-15T06:25:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/05/sql-business-intelligence.html</loc>
+    <loc>https://identitymanaged.com/2008/05/sql-business-intelligence.html</loc>
     <lastmod>2008-05-14T17:37:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</loc>
+    <loc>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</loc>
     <lastmod>2008-05-14T10:55:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/05/identity-chaos-get-your-identities.html</loc>
+    <loc>https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html</loc>
     <lastmod>2008-05-14T10:55:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/2008/05/grand-unified-demo-of-identity.html</loc>
+    <loc>https://identitymanaged.com/2008/05/grand-unified-demo-of-identity.html</loc>
     <lastmod>2008-05-07T13:57:00-07:00</lastmod>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/about/</loc>
+    <loc>https://identitymanaged.com/about/</loc>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/authors/</loc>
+    <loc>https://identitymanaged.com/www.davidplundell.com/books</loc>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/about/books/</loc>
+    <loc>https://identitymanaged.com/about/case-studies/</loc>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/about/case-studies/</loc>
+    <loc>https://identitymanaged.com/faq/</loc>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/categories/</loc>
+    <loc>https://identitymanaged.com/about/founder/</loc>
   </url><url>
-    <loc>https://identitymanaged.netlify.app/faq/</loc>
-  </url><url>
-    <loc>https://identitymanaged.netlify.app/about/founder/</loc>
-  </url><url>
-    <loc>https://identitymanaged.netlify.app/privacy-policy/</loc>
+    <loc>https://identitymanaged.com/privacy-policy/</loc>
   </url>
 </urlset>

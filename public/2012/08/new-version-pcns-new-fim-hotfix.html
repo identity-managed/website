@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1701145380" rel="stylesheet">
+<link href="/css/custom.css?1702660790" rel="stylesheet">
 
 
 
@@ -48,8 +48,14 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.netlify.app/index.xml"
+<link rel="alternate" href="https://identitymanaged.com/index.xml"
 type="application/rss+xml" title="Identity Managed">
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://identitymanaged.com//feed.xml"
+  title="Identity Managed"
+/>
 
 
      <meta property="og:updated_time"
@@ -88,7 +94,13 @@ content="2012-08-30T09:59:00-0700">
 />
 
 
-    
+    <link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://identitymanaged.com//index.xml"
+  title="Identity Managed"
+/>
+
   </head>
 
   <body>
@@ -141,11 +153,11 @@ content="2012-08-30T09:59:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="New version PCNS, new FIM hotfix logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="New version PCNS, new FIM hotfix logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">New version PCNS, new FIM hotfix - </span>
+                    <span class="sr-only">New version PCNS, new FIM hotfix - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only"></span>
+                      <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -212,7 +224,7 @@ content="2012-08-30T09:59:00-0700">
                             
                             <li><a href="/about/founder">Founder</a></li>
                             
-                            <li><a href="/about/books">Books</a></li>
+                            <li><a href="https://www.davidplundell.com/books">Books</a></li>
                             
                             <li><a href="/faq/">FAQ</a></li>
                             
@@ -294,26 +306,18 @@ content="2012-08-30T09:59:00-0700">
                               
                                   
                               
-                               30, 2012
+                              August 30, 2012
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p>On Aug 24th Microsoft released a new version of PCNS. Version number 4.1.2515.0.</p>
-<p>No release notes are provided with the download. However, this version number matches the version number of the latest FIM R2 hotfix rollup <a href="http://support.microsoft.com/kb/2734159" title="http://support.microsoft.com/kb/2734159">http://support.microsoft.com/kb/2734159</a> and it does tell us what is fixed:</p>
-<blockquote>
-<p>Assume that you run Password Change Notification Service (PCNS) setup together with the <strong>SCHEMAUPDATE=TRUE</strong> option and the schema is updated successfully. In this situation, an error message is displayed at the end of the setup process incorrectly.<br>
-After this update is installed, the Setup program does not display the error message when the schema update is successful.</p>
-</blockquote>
-<p>It should be noted that this FIM hotfix is only for FIM 2010 R2 (version 4.1.2273.0)</p>
-<p>Apparently there were some issues with unicode characters for usernames in the FIM Portal and folders and filenames with unicode characters that the Sync Service used.</p>
-<p>FIM Sync had a problem with deleting AD users that had active sync devices added to their account – solved!</p>
-<p>Full import on a large connector space was sometimes having a problem with obsoletion and getting an error “0 is not a valid DN depth”</p>
-<p>There have also been some issues with the upgrade to R2 failing while trying to upgrade the sync engine. They now have a tool that you can get from support to work around the failure by upgrading the database separately.</p>
-<p>The hotfix solves a problem introduced by R2 (build 2273) incorrect removal of members from sets and groups where the filter looks like: /Person[(FirstName=”John”) or (FirstName=”Bill)]</p>
-<p>There is even a fix for FIM certificate management “to improve error messages handling.”</p>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="so-where-or-when--can-we-download-that-hotfix-">SO, where (or when !?) can we download that hotfix ?</h4>
+<p><a href="https://www.blogger.com/profile/10767317920469206168" title="noreply@blogger.com">redarc coder</a> - <!-- raw HTML omitted -->Nov 2, 2014<!-- raw HTML omitted --></p>
+<p>SO, where (or when !?) can we download that hotfix ?</p>
+<!-- raw HTML omitted -->
+<p>So, where (or when !?) can we download that hotfix !?</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -346,6 +350,25 @@ After this update is installed, the Setup program does not display the error mes
 
 
 
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/mim">MIM (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
 
 
 
@@ -356,7 +379,7 @@ After this update is installed, the Setup program does not display the error mes
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title"></h3>
+        <h3 class="panel-title">Tags</h3>
     </div>
 
     <div class="panel-body">
@@ -827,53 +850,53 @@ After this update is installed, the Setup program does not display the error mes
 
       
       <div class="col-md-6 col-sm-6">
-          <h4></h4>
+          <h4>About us</h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4></h4>
+          <h4>Recent posts</h4>
 
           <div class="blog-entries">
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
                   </div>
               </div>
               

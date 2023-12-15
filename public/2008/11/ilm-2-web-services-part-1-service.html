@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1701145380" rel="stylesheet">
+<link href="/css/custom.css?1702660789" rel="stylesheet">
 
 
 
@@ -48,8 +48,14 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.netlify.app/index.xml"
+<link rel="alternate" href="https://identitymanaged.com/index.xml"
 type="application/rss+xml" title="Identity Managed">
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://identitymanaged.com//feed.xml"
+  title="Identity Managed"
+/>
 
 
      <meta property="og:updated_time"
@@ -92,7 +98,13 @@ content="2008-11-01T10:22:00-0700">
 />
 
 
-    
+    <link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://identitymanaged.com//index.xml"
+  title="Identity Managed"
+/>
+
   </head>
 
   <body>
@@ -145,11 +157,11 @@ content="2008-11-01T10:22:00-0700">
                       <img src="/img/logo.svg" style="width:auto" alt="ILM 2 Web Services Part 1 The Service Reference logo" class="hidden-xs hidden-sm" />
                       <img src="/img/logo-small.svg" style="width:auto" alt="ILM 2 Web Services Part 1 The Service Reference logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">ILM 2 Web Services Part 1 The Service Reference - </span>
+                    <span class="sr-only">ILM 2 Web Services Part 1 The Service Reference - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only"></span>
+                      <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -216,7 +228,7 @@ content="2008-11-01T10:22:00-0700">
                             
                             <li><a href="/about/founder">Founder</a></li>
                             
-                            <li><a href="/about/books">Books</a></li>
+                            <li><a href="https://www.davidplundell.com/books">Books</a></li>
                             
                             <li><a href="/faq/">FAQ</a></li>
                             
@@ -298,75 +310,18 @@ content="2008-11-01T10:22:00-0700">
                               
                                   
                               
-                               1, 2008
+                              November 1, 2008
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <p>Together, Mark Struck of Ipseity Inc and I, have figured out (after much beating of our heads against brick walls) how to use the ILM 2 Enumeration Endpoint to perform some basic reporting. (I figured out how to send the enumeration and get a response and then Mark figured out how to correctly form the pull messages so as to be able to retrieve the actual objects &ndash; teamwork at its finest). We would also like to thank Mark Gabarra and Rob Ward for their input.</p>
-<p>Here are some lessons we learned:</p>
-<p>First lesson: the SDK provided with ILM 2 Beta 3 is incomplete and in some cases misleading. (Just one of those areas that hasn&rsquo;t been well documented yet)</p>
-<p>Second lesson: Reading the WS-Enumeration specification is like drinking from a firehouse.</p>
-<p>Third lesson: Case matters when specifying the endpoint.</p>
-<p>Today&rsquo;s post will show you how to setup the Service Reference.</p>
-<p>Type in <a href="http://localhost:526/ResourceManagementService/MEX/">http://localhost:526/ResourceManagementService/MEX/</a></p>
-<p>The case of the url is important. R M S must be capitals and so must MEX.</p>
-<p>The name you type in for name space is important as it is the name you will use in your code.</p>
-<p>I recommend replacing the ServiceReference1 that you see in the figure with ILM_RMS.</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2WebServicesHowtoactuallyusethem_11C9F/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2WebServicesHowtoactuallyusethem_11C9F/image_thumb.png" alt="image"></a></p>
-<p>After you click Go it shows you the various services available and operations for each service. The Search Service is the one we will want.</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2WebServicesHowtoactuallyusethem_11C9F/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2WebServicesHowtoactuallyusethem_11C9F/image_thumb_3.png" alt="image"></a></p>
-<p>Once you click OK you see the following show up under service reference:</p>
-<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2WebServicesHowtoactuallyusethem_11C9F/image_4.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/ILM2WebServicesHowtoactuallyusethem_11C9F/image_thumb_4.png" alt="image"></a></p>
-<p>An enumeration.wsdl file is generated and your app.config file will also be populated with lots of settings such as this one.</p>
-<pre tabindex="0"><code>   &lt;binding name\=&#34;ServiceMultipleTokenBinding\_Search&#34; closeTimeout\=&#34;00:01:00&#34;  
-                    openTimeout\=&#34;00:01:00&#34; receiveTimeout\=&#34;00:10:00&#34; sendTimeout\=&#34;00:01:00&#34;  
-                    bypassProxyOnLocal\=&#34;false&#34; transactionFlow\=&#34;false&#34; hostNameComparisonMode\=&#34;StrongWildcard&#34;  
-                    maxBufferPoolSize\=&#34;524288&#34; maxReceivedMessageSize\=&#34;65536&#34;  
-                    messageEncoding\=&#34;Text&#34; textEncoding\=&#34;utf-8&#34; useDefaultWebProxy\=&#34;true&#34;  
-                    allowCookies\=&#34;false&#34; contextProtectionLevel\=&#34;Sign&#34;\&gt;  
-                    &lt;readerQuotas maxDepth\=&#34;32&#34; maxStringContentLength\=&#34;8192&#34; maxArrayLength\=&#34;16384&#34;  
-                        maxBytesPerRead\=&#34;4096&#34; maxNameTableCharCount\=&#34;16384&#34; /&gt;  
-                    &lt;reliableSession ordered\=&#34;true&#34; inactivityTimeout\=&#34;00:10:00&#34;  
-                        enabled\=&#34;false&#34; /&gt;  
-                    &lt;security mode\=&#34;Message&#34;\&gt;  
-                        &lt;transport clientCredentialType\=&#34;Windows&#34; proxyCredentialType\=&#34;None&#34;  
-                            realm\=&#34;&#34; /&gt;  
-                        &lt;message clientCredentialType\=&#34;Windows&#34; negotiateServiceCredential\=&#34;true&#34;  
-                            algorithmSuite\=&#34;Default&#34; establishSecurityContext\=&#34;false&#34; /&gt;  
-                    &lt;/security\&gt;
-</code></pre><p><!-- raw HTML omitted -->.csharpcode, .csharpcode pre<!-- raw HTML omitted -->{<!-- raw HTML omitted --> font-size: small;<!-- raw HTML omitted --> color: black;<!-- raw HTML omitted --> font-family: consolas, &ldquo;Courier New&rdquo;, courier, monospace;<!-- raw HTML omitted --> background-color: #ffffff;<!-- raw HTML omitted --> /*white-space: pre;*/<!-- raw HTML omitted -->}<!-- raw HTML omitted -->.csharpcode pre { margin: 0em; }<!-- raw HTML omitted -->.csharpcode .rem { color: #008000; }<!-- raw HTML omitted -->.csharpcode .kwrd { color: #0000ff; }<!-- raw HTML omitted -->.csharpcode .str { color: #006080; }<!-- raw HTML omitted -->.csharpcode .op { color: #0000c0; }<!-- raw HTML omitted -->.csharpcode .preproc { color: #cc6633; }<!-- raw HTML omitted -->.csharpcode .asp { background-color: #ffff00; }<!-- raw HTML omitted -->.csharpcode .html { color: #800000; }<!-- raw HTML omitted -->.csharpcode .attr { color: #ff0000; }<!-- raw HTML omitted -->.csharpcode .alt <!-- raw HTML omitted -->{<!-- raw HTML omitted --> background-color: #f4f4f4;<!-- raw HTML omitted --> width: 100%;<!-- raw HTML omitted --> margin: 0em;<!-- raw HTML omitted -->}<!-- raw HTML omitted -->.csharpcode .lnum { color: #606060; }</p>
-<p>You can also generate this info through a command line approach using the svcutil.exe utility.</p>
-<p>Then in your code you make use of it like this as you see in my code:</p>
-<blockquote>
-<pre tabindex="0"><code>Dim scReporting As ILM\_RMS.SearchClient   
-scReporting = New ILM\_RMS.SearchClient(&#34;ServiceMultipleTokenBinding\_Search&#34;)
-</code></pre><p><!-- raw HTML omitted -->.csharpcode, .csharpcode pre<!-- raw HTML omitted -->{<!-- raw HTML omitted --> font-size: small;<!-- raw HTML omitted --> color: black;<!-- raw HTML omitted --> font-family: consolas, &ldquo;Courier New&rdquo;, courier, monospace;<!-- raw HTML omitted --> background-color: #ffffff;<!-- raw HTML omitted --> /*white-space: pre;*/<!-- raw HTML omitted -->}<!-- raw HTML omitted -->.csharpcode pre { margin: 0em; }<!-- raw HTML omitted -->.csharpcode .rem { color: #008000; }<!-- raw HTML omitted -->.csharpcode .kwrd { color: #0000ff; }<!-- raw HTML omitted -->.csharpcode .str { color: #006080; }<!-- raw HTML omitted -->.csharpcode .op { color: #0000c0; }<!-- raw HTML omitted -->.csharpcode .preproc { color: #cc6633; }<!-- raw HTML omitted -->.csharpcode .asp { background-color: #ffff00; }<!-- raw HTML omitted -->.csharpcode .html { color: #800000; }<!-- raw HTML omitted -->.csharpcode .attr { color: #ff0000; }<!-- raw HTML omitted -->.csharpcode .alt <!-- raw HTML omitted -->{<!-- raw HTML omitted --> background-color: #f4f4f4;<!-- raw HTML omitted --> width: 100%;<!-- raw HTML omitted --> margin: 0em;<!-- raw HTML omitted -->}<!-- raw HTML omitted -->.csharpcode .lnum { color: #606060; }</p>
-</blockquote>
-<p>See how to use the Namespace that you setup when you made the service reference, and how you need  use the binding name setup in the app.config file. Instead of using the settings in the config file you can use a programmatic approach to setting up the bindings. Look at the example from Mark Struck&rsquo;s C# code:</p>
-<blockquote>
-<pre tabindex="0"><code>WSHttpContextBinding wsBinding = new WSHttpContextBinding();   
-// Cannot use WSHttpBinding since it does not allow you to Sign the EnumerationContext element   
-// WsHttpContextBinding provides a property called ContextProtectionLevel which defaults to Sign, which is   
-// what is needed to communicate with the web service when the action is Pull.   
-// WsHttpBinding will work if you are just calling the web service with the Enumerate action.   
-//WSHttpBinding wsBinding = new WSHttpBinding();   
-  
-// Set binding properties   
-wsBinding.ReceiveTimeout = new TimeSpan( 0, 5, 0);   
-wsBinding.SendTimeout = new TimeSpan( 0, 5, 0);   
-wsBinding.Security.Mode = SecurityMode.Message;   
-wsBinding.Security.Message.EstablishSecurityContext = false;   
-wsBinding.Security.Message.NegotiateServiceCredential = true;   
-wsBinding.Security.Message.ClientCredentialType = MessageCredentialType.Windows;   
-wsBinding.Security.Message.AlgorithmSuite = System.ServiceModel.Security.SecurityAlgorithmSuite.Default;   
-  
-// Create EndpointAddress object and create the SearchClient object with the binding and endpointaddress objects   
-EndpointAddress ep = new EndpointAddress(ILMSERVICE\_URI\_ENUMERATION);   
-SearchClient searchClient = new SearchClient(wsBinding, ep);
-</code></pre></blockquote>
-<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
+                          <h4 id="does-ilm-open-soap-interfaces-native-so-that-dev">Does ILM open SOAP interfaces native? So that dev&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/10052579402864563736" title="noreply@blogger.com">RobertW</a> - <!-- raw HTML omitted -->Mar 4, 2009<!-- raw HTML omitted --></p>
+<p>Does ILM open SOAP interfaces native? So that developers who are simply looking for a .wsdl file to build their client can get up and running quickly.</p>
+<!-- raw HTML omitted -->
+<p>not exactly you need to use the WCF approach.</p>
+<!-- raw HTML omitted -->
 
                         </div>
                         
@@ -399,6 +354,25 @@ SearchClient searchClient = new SearchClient(wsBinding, ep);
 
 
 
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/mim">MIM (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
 
 
 
@@ -409,7 +383,7 @@ SearchClient searchClient = new SearchClient(wsBinding, ep);
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title"></h3>
+        <h3 class="panel-title">Tags</h3>
     </div>
 
     <div class="panel-body">
@@ -880,53 +854,53 @@ SearchClient searchClient = new SearchClient(wsBinding, ep);
 
       
       <div class="col-md-6 col-sm-6">
-          <h4></h4>
+          <h4>About us</h4>
           <p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div>
       
       <div class="col-md-6 col-sm-6">
           
-          <h4></h4>
+          <h4>Recent posts</h4>
 
           <div class="blog-entries">
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
                         
                           <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.netlify.app/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
                   </div>
               </div>
               

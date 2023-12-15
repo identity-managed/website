@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IDM on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/idm/</link>
+    <link>https://identitymanaged.com/tags/idm/</link>
     <description>Recent content in IDM on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 May 2018 03:24:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/idm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/idm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>European Identity Conference 2018 -- Overview and Mon Night</title>
-      <link>https://identitymanaged.netlify.app/2018/05/european-identity-conference-2018.html</link>
+      <link>https://identitymanaged.com/2018/05/european-identity-conference-2018.html</link>
       <pubDate>Thu, 17 May 2018 03:24:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2018/05/european-identity-conference-2018.html</guid>
+      <guid>https://identitymanaged.com/2018/05/european-identity-conference-2018.html</guid>
       <description>I have spent this week in Munich Germany, where it has been mostly cloudy, lots of rain, and a little thunder.
 I have seen a number of familiar faces to those who attended Directory Experts conference: Pamela Dingle, Alex Simons, Alex Weinert, Jackson Shaw, Jonathan Sander, Kim Cameron, and others. Also a lot of faces familiar to those who have attended Cloud Identity Summits: Andrew Hindle, Colin Wallis, Steve Hutchinson, Eve Maler, and Ian Glazer and fellow Microsoft MVP: Naohiro Fujie.</description>
     </item>
     <item>
       <title>Movie Review of Home -- or how IDM could have saved the day.</title>
-      <link>https://identitymanaged.netlify.app/2015/04/movie-review-of-home-or-how-idm-could.html</link>
+      <link>https://identitymanaged.com/2015/04/movie-review-of-home-or-how-idm-could.html</link>
       <pubDate>Wed, 08 Apr 2015 08:42:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/04/movie-review-of-home-or-how-idm-could.html</guid>
+      <guid>https://identitymanaged.com/2015/04/movie-review-of-home-or-how-idm-could.html</guid>
       <description>Over the weekend I took one of my children to see the new animated film Home starring Jim Parsons, Rihanna, Steve Martin and Jennifer Lopez. A group of technically superior but very cowardly aliens, called the Boov flee from their implacable enemy, the Gorgs, and decide to take over Earth, relocating all of the primitive natives (us) to Australia. Aside from the political commentary of the entire human race being placed in a reservation, the thing that most struck me was how one of the near disasters could have been averted through solid Identity Management Systems.</description>
     </item>
     <item>
       <title>Follow up #1 on How does Identity Management Impact the Bottom Line? Selling IDM</title>
-      <link>https://identitymanaged.netlify.app/2015/02/follow-up-1-on-how-does-identity.html</link>
+      <link>https://identitymanaged.com/2015/02/follow-up-1-on-how-does-identity.html</link>
       <pubDate>Mon, 02 Feb 2015 09:01:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/02/follow-up-1-on-how-does-identity.html</guid>
+      <guid>https://identitymanaged.com/2015/02/follow-up-1-on-how-does-identity.html</guid>
       <description>In my presentation last week at #OCGUS15 The Redmond Summit put on by my friends at OCG, on &amp;ldquo;How does Identity Management Impact the Bottom Line? Selling IDM&amp;rdquo; I illustrated how understanding more about Financial statements such as Profit/Loss statements as well as Balance Sheets can be helpful. So here is a link to learn more:
 •http://www.investopedia.com/articles/basics/06/financialreporting.asp
 Among other things this is helpful to be able to articulate how your projects and programs can impact the bottom line such as how User provisioning/Deprovisioning impacts the Profit and Loss Statement:</description>
     </item>
     <item>
       <title>Redmond Summit 2015</title>
-      <link>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</link>
+      <link>https://identitymanaged.com/2015/01/redmond-summit-2015.html</link>
       <pubDate>Wed, 28 Jan 2015 14:21:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2015/01/redmond-summit-2015.html</guid>
+      <guid>https://identitymanaged.com/2015/01/redmond-summit-2015.html</guid>
       <description>I am looking forward to presenting in an hour or so on &amp;ldquo;How Identity Management Impacts the bottom line.&amp;rdquo;
 Yesterday I had fun delivering a session on &amp;ldquo;ADFS vs Password Sync? It depends&amp;rdquo; This morning Alex Simons of Microsoft revealed a few new things that change some of my advice.
 Soon Azure AD can do the location restriction by application for SSO. This potentially eliminates a deal breaker for some people You can now run Password Sync and ADFS at the same time.</description>

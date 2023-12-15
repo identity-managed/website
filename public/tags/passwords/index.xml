@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Passwords on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/passwords/</link>
+    <link>https://identitymanaged.com/tags/passwords/</link>
     <description>Recent content in Passwords on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Aug 2012 09:59:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New version PCNS, new FIM hotfix</title>
-      <link>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</link>
+      <link>https://identitymanaged.com/2012/08/new-version-pcns-new-fim-hotfix.html</link>
       <pubDate>Thu, 30 Aug 2012 09:59:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</guid>
+      <guid>https://identitymanaged.com/2012/08/new-version-pcns-new-fim-hotfix.html</guid>
       <description>SO, where (or when !?) can we download that hotfix ? redarc coder - Nov 2, 2014
 SO, where (or when !?) can we download that hotfix ?
 So, where (or when !?) can we download that hotfix !?</description>
     </item>
     <item>
       <title>New version PCNS, new FIM hotfix</title>
-      <link>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</link>
+      <link>https://identitymanaged.com/2012/08/new-version-pcns-new-fim-hotfix.html</link>
       <pubDate>Thu, 30 Aug 2012 09:59:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2012/08/new-version-pcns-new-fim-hotfix.html</guid>
+      <guid>https://identitymanaged.com/2012/08/new-version-pcns-new-fim-hotfix.html</guid>
       <description>On Aug 24th Microsoft released a new version of PCNS. Version number 4.1.2515.0.
 No release notes are provided with the download. However, this version number matches the version number of the latest FIM R2 hotfix rollup http://support.microsoft.com/kb/2734159 and it does tell us what is fixed:
 Assume that you run Password Change Notification Service (PCNS) setup together with the SCHEMAUPDATE=TRUE option and the schema is updated successfully. In this situation, an error message is displayed at the end of the setup process incorrectly.</description>

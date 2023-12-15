@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/authors/</link>
+    <link>https://identitymanaged.com/authors/</link>
     <description>Recent content in Authors on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://identitymanaged.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 14:31:00 -0700</lastBuildDate>
+    <atom:link href="https://identitymanaged.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>David</title>
+      <link>https://identitymanaged.com/authors/david/</link>
+      <pubDate>Tue, 26 Apr 2022 14:31:00 -0700</pubDate>
+      <guid>https://identitymanaged.com/authors/david/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

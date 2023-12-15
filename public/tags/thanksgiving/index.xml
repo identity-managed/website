@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thanksgiving on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/thanksgiving/</link>
+    <link>https://identitymanaged.com/tags/thanksgiving/</link>
     <description>Recent content in Thanksgiving on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Dec 2008 03:49:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/thanksgiving/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/thanksgiving/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Live@edu Partner Airlift and SQL PASS, Flat Tires, and Thanksgiving</title>
-      <link>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</link>
+      <link>https://identitymanaged.com/2008/12/liveedu-partner-airlift-and-sql-pass.html</link>
       <pubDate>Sat, 06 Dec 2008 03:49:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2008/12/liveedu-partner-airlift-and-sql-pass.html</guid>
+      <guid>https://identitymanaged.com/2008/12/liveedu-partner-airlift-and-sql-pass.html</guid>
       <description>As for me why no posts since Nov 11th &amp;ndash; well, I have attended the Live@edu Partner Airlift in Redmond, SQL PASS, had a flat tire, and enjoyed Thanksgiving. In this post
 I attended the Live@edu Partner Airlift in Redmond to see what&amp;rsquo;s new under the sun for schools and universities. Exchange Labs is now available on a widespread basis (see fellow MVP Almero Steyn&amp;rsquo;s blog posts on Live@edu and on Exchange Labs) !</description>
     </item>

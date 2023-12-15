@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Holidays on Identity Managed</title>
-    <link>https://identitymanaged.netlify.app/tags/holidays/</link>
+    <link>https://identitymanaged.com/tags/holidays/</link>
     <description>Recent content in Holidays on Identity Managed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Dec 2014 18:34:00 -0700</lastBuildDate>
-    <atom:link href="https://identitymanaged.netlify.app/tags/holidays/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://identitymanaged.com/tags/holidays/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#39;Twas the night before Christmas </title>
-      <link>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</link>
+      <link>https://identitymanaged.com/2014/12/twas-night-before-christmas.html</link>
       <pubDate>Wed, 24 Dec 2014 18:34:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2014/12/twas-night-before-christmas.html</guid>
+      <guid>https://identitymanaged.com/2014/12/twas-night-before-christmas.html</guid>
       <description>&amp;lsquo;Twas the night before Christmas, when all through the internet
 Not an identity was stirring, not even a Passport .NET
 The user accounts requests were submitted with care
@@ -24,9 +24,9 @@ Awaiting someone to move a mouse and send the wake up code</description>
     </item>
     <item>
       <title>4th of July -- Independence Day</title>
-      <link>https://identitymanaged.netlify.app/2009/07/4th-of-july-independence-day.html</link>
+      <link>https://identitymanaged.com/2009/07/4th-of-july-independence-day.html</link>
       <pubDate>Sun, 05 Jul 2009 22:00:00 -0700</pubDate>
-      <guid>https://identitymanaged.netlify.app/2009/07/4th-of-july-independence-day.html</guid>
+      <guid>https://identitymanaged.com/2009/07/4th-of-july-independence-day.html</guid>
       <description>233 years ago, 56 men signed a document and began a labor to give birth to a nation. I am very grateful for their service and for their sacrifices and for each and every soldier, and dutiful civil servant since then. They have afforded me and my family a great many blessings. As well some of my family members have been privileged to serve. One of my grandfathers taught ground school during World War II and the other served in the Army and was stationed in Greenland.</description>
     </item>
   </channel>
