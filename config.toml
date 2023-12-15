@@ -172,4 +172,4 @@ pre = "<i class='fab fa-2x fa-brands fa-youtube'></i>"
 weight = 40
 name = "RSS"
 url = "https://identitymanaged.com/index.xml"
-pre = "<i class='fas fa-2x fa-rss-square'></i>"
+pre = "<i class='fas fa-2x fa-rss-square'></i>" 
