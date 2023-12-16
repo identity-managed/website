@@ -171,5 +171,5 @@ pre = "<i class='fab fa-2x fa-brands fa-youtube'></i>"
 [[menu.topbar]]
 weight = 90
 name = "rss"
-url = "https://identitymanaged.com/index.xml"
+url = "https://identitymanaged.com/index.xml" 
 pre = "<i class='fas fa-2x fa-rss-square'></i>" 
