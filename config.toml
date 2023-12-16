@@ -7,7 +7,7 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 paginate = 10
 title = "Identity Managed"
-baseurl = "https://identitymanaged.netlify.app/"
+baseurl = "https://identitymanaged.com/"
 
 [params]
 logo_text = "Identity Managed"
