@@ -173,3 +173,9 @@ weight = 90
 name = "rss"
 url = "https://identitymanaged.com/index.xml" 
 pre = "<i class='fas fa-2x fa-rss-square'></i>" 
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
