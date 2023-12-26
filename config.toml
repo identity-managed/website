@@ -151,25 +151,25 @@ url = "/faq/"
 weight = 39
 
 [[menu.topbar]]
-weight = 10
+weight = 20
 name = "LinkedIn"
 url = "https://www.linkedin.com/company/identity-managed/"
 pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
-weight = 20
+weight = 30
 name = "Twitter"
 url = "https://twitter.com/DavidLundell"
 pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-weight = 30
+weight = 40
 name = "YouTube"
 url = "https://www.youtube.com/@identitymanaged6788"
 pre = "<i class='fab fa-2x fa-brands fa-youtube'></i>"
 
 [[menu.topbar]]
-weight = 90
+weight = 10
 name = "rss"
 url = "https://identitymanaged.com/index.xml" 
 pre = "<i class='fas fa-2x fa-rss-square'></i>" 
