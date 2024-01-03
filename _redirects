@@ -1,1 +1,4 @@
-
+/atom.xml /index.xml 301!
+/rss.xml /index.xml 301!
+/feeds/posts/* /index.xml 301!
+/feeds/comments/* /index.xml 301!
