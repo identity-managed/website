@@ -1,19 +1,1 @@
-# http and https need separate rules if you don’t force_ssl!
-http://blog.ilmbestpractices.com/ https://identitymanaged.com/blog/
-https://blog.ilmbestpractices.com/ https://identitymanaged.com/blog/
-http://blog.ilmbestpractices.com/* https://identitymanaged.com/:splat
-https://blog.ilmbestpractices.com/* https://identitymanaged.com/:splat
 
-http://blog.fimbestpractices.com/ https://identitymanaged.com/blog/
-https://blog.fimbestpractices.com/ https://identitymanaged.com/blog/
-http://blog.fimbestpractices.com/* https://identitymanaged.com/:splat
-https://blog.fimbestpractices.com/* https://identitymanaged.com/:splat
-
-
-http://blog.mimbestpractices.com/ https://identitymanaged.com/blog/
-https://blog.mimbestpractices.com/ https://identitymanaged.com/blog/
-http://blog.mimbestpractices.com/* https://identitymanaged.com/:splat
-https://blog.mimbestpractices.com/* https://identitymanaged.com/:splat
-
-#http://blog.yoursite.com/* https://www.yoursite.com/blog/:splat 301!
-#https://blog.yoursite.com/* https://www.yoursite.com/blog/:splat 301!
