@@ -2,7 +2,7 @@
 title: 'FIM 2010 Technical Overview Published – short version'
 date: 2010-04-08T22:31:00.001-07:00
 draft: false
-url: /2010/04/fim-2010-technical-overview-published.html
+url: /2010/04/fim-2010-technical-overview-published-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM
