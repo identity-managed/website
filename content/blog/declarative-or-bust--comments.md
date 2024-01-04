@@ -2,7 +2,7 @@
 title: 'Declarative or Bust!'
 date: 2013-10-04T15:55:00.001-07:00
 draft: false
-url: /2013/10/declarative-or-bust.html
+url: /2013/10/declarative-or-bust-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2
