@@ -2,7 +2,7 @@
 title: 'RCDC Replacement'
 date: 2012-05-02T12:08:00.001-07:00
 draft: false
-url: /2012/05/rcdc-replacement.html
+url: /2012/05/rcdc-replacement-comments.html
 tags: 
 - Forefront Identity Manager
 - #TEC2012
