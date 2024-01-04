@@ -2,7 +2,7 @@
 title: 'Expanding a Windows Server 2008 System partition on a HyperV Guest'
 date: 2008-09-02T19:47:00.001-07:00
 draft: false
-url: /2008/09/expanding-windows-server-2008-system.html
+url: /2008/09/expanding-windows-server-2008-system-comments.html
 tags: 
 - HyperV
 - ILM 2 Beta 3
