@@ -2,7 +2,7 @@
 title: 'FIM 2010 reporting using SQL Server Reporting Services (Jeremy and Craig)'
 date: 2011-04-20T10:53:00.001-07:00
 draft: false
-url: /2011/04/fim-2010-reporting-using-sql-server.html
+url: /2011/04/fim-2010-reporting-using-sql-server-comments.html
 tags: 
 - Forefront Identity Manager
 - Identity Management
