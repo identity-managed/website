@@ -63,9 +63,9 @@ subtitle = ""
 hide_summary = false
 
 [params.widgets]
-categories = true
-tags = true
-search = true
+  categories = true
+  tags = true
+  search = true
 
 [params.carouselTestimonials]
 items = 3
