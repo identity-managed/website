@@ -2,7 +2,7 @@
 title: 'FIM Best Practices Volume 1 has been updated for R2'
 date: 2012-09-04T09:13:00.001-07:00
 draft: false
-url: /2012/09/fim-best-practices-volume-1-has-been.html
+url: /2012/09/fim-best-practices-volume-1-has-been-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2
