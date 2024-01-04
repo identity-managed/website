@@ -2,7 +2,7 @@
 title: 'MVP’d again'
 date: 2010-07-09T14:27:00.001-07:00
 draft: false
-url: /2010/07/mvpd-again.html
+url: /2010/07/mvpd-again-comments.html
 tags: 
 - FIM
 ---
