@@ -2,7 +2,7 @@
 title: 'FIM 2010 R2 Showdown: Classic vs. Declarative'
 date: 2012-04-30T15:39:00.001-07:00
 draft: false
-url: /2012/04/fim-2010-r2-showdown-classic-vs.html
+url: /2012/04/fim-2010-r2-showdown-classic-vs-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2
