@@ -2,7 +2,7 @@
 title: 'The MVP 7 year itch'
 date: 2013-07-01T09:31:00.001-07:00
 draft: false
-url: /2013/07/the-mvp-7-year-itch.html
+url: /2013/07/the-mvp-7-year-itch-comments.html
 tags: 
 - Forefront Identity Manager
 - MIIs
