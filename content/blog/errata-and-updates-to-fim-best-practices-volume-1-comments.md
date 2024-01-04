@@ -2,7 +2,7 @@
 title: 'Errata and Updates to FIM Best Practices Volume 1'
 date: 2010-09-29T07:11:00.001-07:00
 draft: false
-url: /2010/09/errata-and-updates-to-fim-best.html
+url: /2010/09/errata-and-updates-to-fim-best-comments.html
 tags: 
 - Forefront Identity Manager
 - Identity Management
