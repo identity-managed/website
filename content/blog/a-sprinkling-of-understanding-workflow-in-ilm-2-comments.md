@@ -2,7 +2,7 @@
 title: a sprinkling of understanding Workflow in ILM 2 -- Comment
 date: 2008-09-16T17:48:00.001-07:00
 draft: false
-url: /2008/09/sprinkling-of-understanding-workflow-in- Comment.html
+url: /2008/09/sprinkling-of-understanding-workflow-in-Comment.html
 description: a sprinkling of understanding Workflow in ILM 2 -- Comment
 tags:
   - Workflow
