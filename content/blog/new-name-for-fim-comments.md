@@ -2,7 +2,7 @@
 title: 'New name for FIM?'
 date: 2014-04-17T08:29:00.003-07:00
 draft: false
-url: /2014/04/new-name-for-fim.html
+url: /2014/04/new-name-for-fim-comments.html
 tags: 
 - FIM 2010 R2
 - Azure
