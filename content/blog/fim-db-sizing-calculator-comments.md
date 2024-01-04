@@ -2,7 +2,7 @@
 title: 'FIM DB Sizing Calculator'
 date: 2012-04-25T23:32:00.001-07:00
 draft: false
-url: /2012/04/fim-db-sizing-calculator.html
+url: /2012/04/fim-db-sizing-calculator-comments.html
 tags: 
 - SQL
 - Forefront Identity Manager
