@@ -2,7 +2,7 @@
 title: 'Desktop Virtualization and Identity Management'
 date: 2011-04-19T14:36:00.001-07:00
 draft: false
-url: /2011/04/desktop-virtualization-and-identity.html
+url: /2011/04/desktop-virtualization-and-identity-comments.html
 tags: 
 - Quest
 - Identity Management
