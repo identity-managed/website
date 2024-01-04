@@ -2,7 +2,7 @@
 title: 'TEC 2012 Summary'
 date: 2012-05-02T21:10:00.001-07:00
 draft: false
-url: /2012/05/tec-2012-summary.html
+url: /2012/05/tec-2012-summary-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2
