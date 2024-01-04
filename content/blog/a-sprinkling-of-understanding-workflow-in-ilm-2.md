@@ -17,7 +17,7 @@ Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more
 
 So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.
 
-| Category     | Activity                   | Composite | Notes                                     |
+| Cateory     | Activity                   | Composite | Notes                                     |
 |-------------|----------------------------|-----------|-------------------------------------------|
 | Conditional | Invoke Web Service         |           |                                           |
 | Conditional | Conditional Activity Group |           |                                           |
@@ -33,10 +33,11 @@ So I thought I would provide a sprinkling of understanding about Windows Workflo
 | Flow        | Listen                     | X         | 2+ event driven                           |
 | Flow        | Parallel                   | x         | 2+ sequence for each                      |
 | Flow        | State                      |           |                                           |
-|             | Sequence                   | X         |                                           |
-|             | SetState                   |           |                                           |
-|             |                            |           |                                           |
-|             |                            |           |                                           |
-|             |                            |           |                                           |
-|             |                            |           |                                           |
+| Flow        | Sequence                   | X         |                                           |
+| Flow        | SetState                   |           |                                           |
+| Flow        | StateInitialization        | X         |                                           |
+| Flow        | Suspend                    |           |                                           |
+| Flow        | Terminate                  |           |                                           |
+| Flow        | Transaction Scope          |           |                                           |
+
 http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices
