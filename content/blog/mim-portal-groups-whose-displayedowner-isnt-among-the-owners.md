@@ -1,13 +1,15 @@
 ---
-title: 'MIM Portal Groups whose displayedOwner isn''t among the Owners'
+title: MIM Portal Groups whose displayedOwner isn't among the Owners
 date: 2019-10-30T14:15:00.000-07:00
 draft: false
 url: /2019/10/mim-portal-groups-whose-displayedowner.html
-tags: 
-- Forefront Identity Manager
-- Microsoft Identity Manager
-- #FIM
-- #MIM
+description: MIM Portal Groups whose displayedOwner isn't among the Owners
+tags:
+  - Forefront Identity Manager
+  - Microsoft Identity Manager
+  - null
+  - null
+banner: /img/mim-portal-group-displayed-owner-not-in-owners.png
 ---
 
 In the MIM Portal it will create issues if you have a group whose displayedOwner isn't among the objects in the multivalued reference attribute Owner. Querying this through XPath is just about impossible so here is the SQL query to do it.  
