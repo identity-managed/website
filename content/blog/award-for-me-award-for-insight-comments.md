@@ -2,7 +2,7 @@
 title: 'Award for Me, Award for Insight'
 date: 2012-07-02T06:18:00.001-07:00
 draft: false
-url: /2012/07/award-for-me-award-for-insight.html
+url: /2012/07/award-for-me-award-for-insight-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2
