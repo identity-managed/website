@@ -9,7 +9,7 @@ tags:
 banner: /img/mvp_12-years_400.jpg
 ---
 
-[!(https://3.bp.blogspot.com/--6mx9QA99G4/Wz1TUmfqkTI/AAAAAAAAALo/8BgObQRDD5IBRkRbp7rF1kZtnHtkhq57ACLcBGAs/s320/MVP%2BAwards_IdentityManaged_3387.jpg)](/img/MVP%2BAwards_IdentityManaged_3387.jpg)
+
 
 Soon I will be adding the 2018-2019 ring onto this trophy. This makes 12 times starting back in 2007.
 
