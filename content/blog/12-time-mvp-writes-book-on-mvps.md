@@ -1,10 +1,12 @@
 ---
-title: "12 time MVP writes book on MVPs"
+title: 12 time MVP writes book on MVPs
 date: 2018-07-04T16:11:00.001-07:00
 draft: false
 url: /2018/07/12-time-mvp-writes-book-on-mvps.html
+description: 12 time MVP writes book on MVPs
 tags:
   - MVP
+banner: /img/mvp_12-years_400.jpg
 ---
 
 [!(https://3.bp.blogspot.com/--6mx9QA99G4/Wz1TUmfqkTI/AAAAAAAAALo/8BgObQRDD5IBRkRbp7rF1kZtnHtkhq57ACLcBGAs/s320/MVP%2BAwards_IdentityManaged_3387.jpg)](/img/MVP%2BAwards_IdentityManaged_3387.jpg)
