@@ -2,7 +2,7 @@
 title: 'SharePoint 2010 User Profile Synchronization Service'
 date: 2012-05-01T01:52:00.001-07:00
 draft: false
-url: /2012/05/sharepoint-2010-user-profile.html
+url: /2012/05/sharepoint-2010-user-profile-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM

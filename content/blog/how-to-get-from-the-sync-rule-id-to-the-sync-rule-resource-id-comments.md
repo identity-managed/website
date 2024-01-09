@@ -2,7 +2,7 @@
 title: 'How to get from the Sync-Rule-ID to the Sync Rule Resource ID'
 date: 2013-05-01T12:03:00.001-07:00
 draft: false
-url: /2013/05/how-to-get-from-sync-rule-id-to-sync.html
+url: /2013/05/how-to-get-from-sync-rule-id-to-sync-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2

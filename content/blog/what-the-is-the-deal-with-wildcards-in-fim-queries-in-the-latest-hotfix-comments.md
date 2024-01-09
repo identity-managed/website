@@ -2,7 +2,7 @@
 title: 'What the %_ is the deal with wildcards in FIM Queries in the latest hotfix?'
 date: 2011-11-16T10:38:00.001-07:00
 draft: false
-url: /2011/11/ok-i-am-not-actually-swearing-nor-are.html
+url: /2011/11/ok-i-am-not-actually-swearing-nor-are-comments.html
 tags: 
 - Forefront Identity Manager
 - XPATH

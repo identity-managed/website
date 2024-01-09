@@ -2,7 +2,7 @@
 title: 'Identity Chaos? Get your Identities Ensynch!'
 date: 2008-05-14T10:55:00.002-07:00
 draft: false
-url: /2008/05/identity-chaos-get-your-identities.html
+url: /2008/05/identity-chaos-get-your-identities-comments.html
 tags: 
 - Job
 - ILM

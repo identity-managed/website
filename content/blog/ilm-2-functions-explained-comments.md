@@ -2,7 +2,7 @@
 title: 'ILM 2 Functions Explained'
 date: 2009-01-06T13:08:00.001-07:00
 draft: false
-url: /2009/01/ilm-2-functions-explained.html
+url: /2009/01/ilm-2-functions-explained-comments.html
 tags: 
 - ILM
 - ILM 2 RC0

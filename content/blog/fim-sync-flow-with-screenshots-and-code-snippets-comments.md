@@ -2,7 +2,7 @@
 title: 'FIM Sync Flow with ScreenShots and Code snippets'
 date: 2015-04-30T22:30:00.000-07:00
 draft: false
-url: /2015/04/fim-sync-flow-with-screenshots-and-code.html
+url: /2015/04/fim-sync-flow-with-screenshots-and-code-comments.html
 ---
 
 #### Hi, good job! Some info was lost during conversion...

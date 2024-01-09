@@ -2,7 +2,7 @@
 title: 'Top 11 new features of FIM 2010 R2 SP1'
 date: 2013-01-15T20:25:00.001-07:00
 draft: false
-url: /2013/01/fim-2010-r2-sp1-documentation-and-bits.html
+url: /2013/01/fim-2010-r2-sp1-documentation-and-bits-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2

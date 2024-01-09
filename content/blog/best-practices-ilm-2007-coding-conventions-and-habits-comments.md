@@ -2,7 +2,7 @@
 title: 'Best Practices ILM 2007 Coding Conventions and Habits'
 date: 2009-06-22T15:31:00.001-07:00
 draft: false
-url: /2009/06/best-practices-ilm-2007-coding.html
+url: /2009/06/best-practices-ilm-2007-coding-comments.html
 tags: 
 - ILM
 ---

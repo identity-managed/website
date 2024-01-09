@@ -2,7 +2,7 @@
 title: 'Property Sets for Permissions in AD and AD LDS'
 date: 2011-12-26T12:46:00.001-07:00
 draft: false
-url: /2011/12/property-sets-for-permissions-in-ad-and.html
+url: /2011/12/property-sets-for-permissions-in-ad-and-comments.html
 tags: 
 - PowerShell
 - AD LDS

@@ -2,7 +2,7 @@
 title: 'Love One Note -- hate KB''s with unintended consequences'
 date: 2008-08-16T09:44:00.001-07:00
 draft: false
-url: /2008/08/love-one-note-hate-office-diagnostics.html
+url: /2008/08/love-one-note-hate-office-diagnostics-comments.html
 ---
 
 #### I posted this on a newsgroup and a Powerpoint MVP ...

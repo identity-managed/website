@@ -2,7 +2,7 @@
 title: 'Default GalSync Connector Filter'
 date: 2010-09-07T11:35:00.001-07:00
 draft: false
-url: /2010/09/default-galsync-connector-filter.html
+url: /2010/09/default-galsync-connector-filter-comments.html
 tags: 
 - Forefront Identity Manager
 - GalSync

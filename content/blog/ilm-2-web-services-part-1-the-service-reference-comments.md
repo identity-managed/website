@@ -2,7 +2,7 @@
 title: 'ILM 2 Web Services Part 1 The Service Reference'
 date: 2008-11-01T10:22:00.001-07:00
 draft: false
-url: /2008/11/ilm-2-web-services-part-1-service.html
+url: /2008/11/ilm-2-web-services-part-1-service-comments.html
 tags: 
 - ILM
 - Identity Management

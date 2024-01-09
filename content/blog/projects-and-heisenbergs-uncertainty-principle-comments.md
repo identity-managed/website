@@ -2,7 +2,7 @@
 title: 'Projects and Heisenberg''s Uncertainty Principle'
 date: 2014-06-24T11:15:00.002-07:00
 draft: false
-url: /2014/06/projects-and-heisenbergs-uncertainty.html
+url: /2014/06/projects-and-heisenbergs-uncertainty-comments.html
 ---
 
 #### Good analogy - I might try that one next time. I&#...

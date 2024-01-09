@@ -2,7 +2,7 @@
 title: 'MIM Open Source Schedulers'
 date: 2018-12-17T22:25:00.000-07:00
 draft: false
-url: /2018/12/mim-open-source-schedulers.html
+url: /2018/12/mim-open-source-schedulers-comments.html
 tags: 
 - #SQL
 - #FIM

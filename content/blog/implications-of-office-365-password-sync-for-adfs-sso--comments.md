@@ -2,7 +2,7 @@
 title: 'Implications of Office 365 Password Sync for ADFS (SSO)'
 date: 2013-06-26T07:18:00.001-07:00
 draft: false
-url: /2013/06/implications-of-office-365-password.html
+url: /2013/06/implications-of-office-365-password-comments.html
 tags: 
 - ADFS
 - Office365

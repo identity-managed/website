@@ -2,7 +2,7 @@
 title: 'The attributes behind Message Delivery Restrictions'
 date: 2009-06-29T00:40:00.000-07:00
 draft: false
-url: /2009/06/attributes-behind-message-delivery.html
+url: /2009/06/attributes-behind-message-delivery-comments.html
 tags: 
 - MIIs
 - ILM

@@ -2,7 +2,7 @@
 title: 'Still an MVP but now DS MVP'
 date: 2015-07-02T14:49:00.000-07:00
 draft: false
-url: /2015/07/still-mvp-but-now-ds-mvp.html
+url: /2015/07/still-mvp-but-now-ds-mvp-comments.html
 tags: 
 - MVP
 - AD

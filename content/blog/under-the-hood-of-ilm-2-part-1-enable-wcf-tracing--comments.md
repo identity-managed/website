@@ -2,7 +2,7 @@
 title: 'Under the hood of ILM 2 -- Part 1 Enable WCF Tracing!'
 date: 2008-11-01T09:23:00.001-07:00
 draft: false
-url: /2008/11/under-hood-of-ilm-2-part-1-enable-wcf.html
+url: /2008/11/under-hood-of-ilm-2-part-1-enable-wcf-comments.html
 tags: 
 - ILM
 - ILM 2 Beta 3

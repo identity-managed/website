@@ -2,7 +2,7 @@
 title: 'FIM Reporting Craig Martin style'
 date: 2012-05-01T12:10:00.001-07:00
 draft: false
-url: /2012/05/fim-reporting-craig-martin-style.html
+url: /2012/05/fim-reporting-craig-martin-style-comments.html
 tags: 
 - SQL
 - Forefront Identity Manager

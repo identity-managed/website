@@ -2,7 +2,7 @@
 title: 'ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn''t work when using only one field'
 date: 2008-09-12T02:52:00.001-07:00
 draft: false
-url: /2008/09/ilm-2-beta-3-bug-action-process.html
+url: /2008/09/ilm-2-beta-3-bug-action-process-comments.html
 tags: 
 - ILM 2 Beta 3
 ---

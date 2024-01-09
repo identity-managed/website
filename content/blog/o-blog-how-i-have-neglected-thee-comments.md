@@ -2,7 +2,7 @@
 title: 'O Blog how I have neglected thee'
 date: 2011-11-16T09:52:00.001-07:00
 draft: false
-url: /2011/11/ok-so-i-have-neglected-my-blog-bit.html
+url: /2011/11/ok-so-i-have-neglected-my-blog-bit-comments.html
 ---
 
 #### Wow, sorry to hear about the past few months, soun...

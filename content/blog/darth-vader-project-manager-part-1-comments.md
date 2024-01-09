@@ -2,7 +2,7 @@
 title: 'Darth Vader – Project Manager Part 1'
 date: 2012-02-14T20:28:00.001-07:00
 draft: false
-url: /2012/02/darth-vader-project-manager-part-1.html
+url: /2012/02/darth-vader-project-manager-part-1-comments.html
 tags: 
 - Star Wars
 - Crucial Conversations

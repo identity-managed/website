@@ -2,7 +2,7 @@
 title: 'Awesome FIM Case Study'
 date: 2011-11-16T09:54:00.001-07:00
 draft: false
-url: /2011/11/microsoft-recently-published-case-study.html
+url: /2011/11/microsoft-recently-published-case-study-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM

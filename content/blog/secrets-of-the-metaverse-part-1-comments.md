@@ -2,7 +2,7 @@
 title: 'Secrets of the Metaverse Part 1'
 date: 2013-02-14T21:18:00.002-07:00
 draft: false
-url: /2013/02/secrets-of-metaverse-part-1.html
+url: /2013/02/secrets-of-metaverse-part-1-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2

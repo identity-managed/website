@@ -2,7 +2,7 @@
 title: 'Voted: Top 5 Deprecated Features of FIM 2010 R2 SP1'
 date: 2013-01-29T11:15:00.001-07:00
 draft: false
-url: /2013/01/voted-top-5-deprecated-features-of-fim.html
+url: /2013/01/voted-top-5-deprecated-features-of-fim-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2

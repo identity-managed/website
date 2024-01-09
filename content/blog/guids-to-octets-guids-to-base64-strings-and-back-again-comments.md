@@ -2,7 +2,7 @@
 title: 'GUIDs to Octets, GUIDs to Base64 strings and back again'
 date: 2011-12-26T12:45:00.001-07:00
 draft: false
-url: /2011/12/guids-to-octets-guids-to-base64-strings.html
+url: /2011/12/guids-to-octets-guids-to-base64-strings-comments.html
 tags: 
 - PowerShell
 ---

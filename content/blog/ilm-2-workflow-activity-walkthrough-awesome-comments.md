@@ -2,7 +2,7 @@
 title: 'ILM 2 Workflow Activity Walkthrough "Awesome"'
 date: 2008-09-24T17:18:00.001-07:00
 draft: false
-url: /2008/09/ilm-2-workflow-activity-walkthrough.html
+url: /2008/09/ilm-2-workflow-activity-walkthrough-comments.html
 ---
 
 #### Thanks David, it was a team effort for sure.

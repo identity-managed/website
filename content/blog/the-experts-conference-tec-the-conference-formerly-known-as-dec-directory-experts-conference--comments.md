@@ -2,7 +2,7 @@
 title: 'The Experts Conference (TEC) -- the conference formerly known as DEC (Directory Experts Conference)'
 date: 2008-09-02T18:16:00.001-07:00
 draft: false
-url: /2008/09/experts-conference-tec-conference.html
+url: /2008/09/experts-conference-tec-conference-comments.html
 ---
 
 #### I am really looking forward to this next year and ...

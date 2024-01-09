@@ -2,7 +2,7 @@
 title: 'Projections showing up as Joins?'
 date: 2008-10-08T14:27:00.001-07:00
 draft: false
-url: /2008/10/projections-showing-up-as-joins.html
+url: /2008/10/projections-showing-up-as-joins-comments.html
 tags: 
 - ILM
 - ILM 2 Beta 3

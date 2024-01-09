@@ -2,7 +2,7 @@
 title: 'Phoenix area part-time MBA program comparisons at public universities'
 date: 2012-04-27T16:45:00.001-07:00
 draft: false
-url: /2012/04/phoenix-area-part-time-mba-program.html
+url: /2012/04/phoenix-area-part-time-mba-program-comments.html
 tags: 
 - Education
 - MBA

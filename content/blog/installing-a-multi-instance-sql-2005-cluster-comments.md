@@ -2,7 +2,7 @@
 title: 'Installing a Multi-Instance SQL 2005 Cluster'
 date: 2008-10-15T00:54:00.001-07:00
 draft: false
-url: /2008/10/installing-multi-instance-sql-2005.html
+url: /2008/10/installing-multi-instance-sql-2005-comments.html
 tags: 
 - SQL Clustering
 - SQL Server

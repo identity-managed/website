@@ -2,7 +2,7 @@
 title: 'ILM "2" confirmHumanity="false"'
 date: 2008-12-23T12:52:00.001-07:00
 draft: false
-url: /2008/12/ilm-confirmhumanity.html
+url: /2008/12/ilm-confirmhumanity-comments.html
 tags: 
 - ILM
 - Humor

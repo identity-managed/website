@@ -2,7 +2,7 @@
 title: 'Law of Unintended Consequences'
 date: 2010-12-03T16:41:00.001-07:00
 draft: false
-url: /2010/12/law-of-unintended-consequences.html
+url: /2010/12/law-of-unintended-consequences-comments.html
 tags: 
 - Forefront Identity Manager
 - Humor

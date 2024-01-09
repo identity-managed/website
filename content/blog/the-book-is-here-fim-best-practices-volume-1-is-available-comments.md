@@ -2,7 +2,7 @@
 title: 'The Book is here! FIM Best Practices Volume 1 is Available'
 date: 2010-08-29T23:17:00.002-07:00
 draft: false
-url: /2010/08/book-is-here-fim-best-practices-volume.html
+url: /2010/08/book-is-here-fim-best-practices-volume-comments.html
 tags: 
 - Forefront Identity Manager
 - Identity Management

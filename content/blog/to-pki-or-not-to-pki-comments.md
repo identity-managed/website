@@ -2,7 +2,7 @@
 title: 'To PKI or not to PKI?'
 date: 2009-06-02T11:12:00.001-07:00
 draft: false
-url: /2009/06/to-pki-or-not-to-pki.html
+url: /2009/06/to-pki-or-not-to-pki-comments.html
 tags: 
 - Forefront Identity Manager
 - AD RMS

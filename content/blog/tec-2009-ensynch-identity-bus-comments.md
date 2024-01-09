@@ -2,7 +2,7 @@
 title: 'TEC 2009 -- Ensynch Identity Bus'
 date: 2009-03-24T15:32:00.001-07:00
 draft: false
-url: /2009/03/tec-2009-ensynch-identity-bus.html
+url: /2009/03/tec-2009-ensynch-identity-bus-comments.html
 tags: 
 - ILM
 - TEC

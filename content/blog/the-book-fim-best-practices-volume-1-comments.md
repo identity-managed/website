@@ -2,7 +2,7 @@
 title: 'The Book: FIM Best Practices Volume 1'
 date: 2010-07-29T17:40:00.001-07:00
 draft: false
-url: /2010/07/book-fim-best-practices-volume-1.html
+url: /2010/07/book-fim-best-practices-volume-1-comments.html
 tags: 
 - Forefront Identity Manager
 - Identity Management

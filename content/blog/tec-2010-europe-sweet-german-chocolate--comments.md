@@ -2,7 +2,7 @@
 title: 'TEC 2010 Europe – Sweet German Chocolate!'
 date: 2010-10-18T14:01:00.001-07:00
 draft: false
-url: /2010/10/tec-2010-europe-sweet-german-chocolate.html
+url: /2010/10/tec-2010-europe-sweet-german-chocolate-comments.html
 tags: 
 - #TEC2010
 - ADFS

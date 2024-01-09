@@ -2,7 +2,7 @@
 title: 'Business Problems VS Technical Problems'
 date: 2008-12-22T17:17:00.001-07:00
 draft: false
-url: /2008/12/business-problems-vs-technical-problems.html
+url: /2008/12/business-problems-vs-technical-problems-comments.html
 tags: 
 - ILM
 - Identity Management

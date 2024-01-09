@@ -2,7 +2,7 @@
 title: 'The Business Impact of Identity and Access Management with Forefront Identity Manager 2010'
 date: 2009-05-15T11:31:00.001-07:00
 draft: false
-url: /2009/05/business-impact-of-identity-and-access.html
+url: /2009/05/business-impact-of-identity-and-access-comments.html
 tags: 
 - Forefront Identity Manager
 - AD RMS

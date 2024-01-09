@@ -2,7 +2,7 @@
 title: 'Vol 1 -- 1000 copies! -- 29% off'
 date: 2012-02-29T12:01:00.001-07:00
 draft: false
-url: /2012/02/vol-1-1000-copies-29-off.html
+url: /2012/02/vol-1-1000-copies-29-off-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM

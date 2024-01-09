@@ -2,7 +2,7 @@
 title: 'Object reference not set to an instance of an object'
 date: 2010-06-13T12:00:00.001-07:00
 draft: false
-url: /2010/06/object-reference-not-set-to-instance-of.html
+url: /2010/06/object-reference-not-set-to-instance-of-comments.html
 tags: 
 - Forefront Identity Manager
 - Identity Management

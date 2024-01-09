@@ -2,7 +2,7 @@
 title: 'Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule'
 date: 2010-06-29T14:32:00.001-07:00
 draft: false
-url: /2010/06/dependent-sync-rules-disconnection-on.html
+url: /2010/06/dependent-sync-rules-disconnection-on-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM

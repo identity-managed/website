@@ -2,7 +2,7 @@
 title: 'Portable 2nd Monitor for the Surface Pro 3 ( and TwoMonUSB issues)'
 date: 2015-03-11T09:52:00.000-07:00
 draft: false
-url: /2015/03/portable-2nd-monitor-for-surface-pro-3.html
+url: /2015/03/portable-2nd-monitor-for-surface-pro-3-comments.html
 tags: 
 - Surface Pro 3
 ---

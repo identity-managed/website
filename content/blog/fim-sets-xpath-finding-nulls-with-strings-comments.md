@@ -2,7 +2,7 @@
 title: 'FIM Sets, XPATH, finding nulls with Strings'
 date: 2010-06-10T00:29:00.001-07:00
 draft: false
-url: /2010/06/fim-sets-xpath-finding-nulls-with.html
+url: /2010/06/fim-sets-xpath-finding-nulls-with-comments.html
 tags: 
 - Forefront Identity Manager
 - XPATH

@@ -2,7 +2,7 @@
 title: 'New version PCNS, new FIM hotfix'
 date: 2012-08-30T09:59:00.001-07:00
 draft: false
-url: /2012/08/new-version-pcns-new-fim-hotfix.html
+url: /2012/08/new-version-pcns-new-fim-hotfix-comments.html
 tags: 
 - Forefront Identity Manager
 - FIM 2010 R2
