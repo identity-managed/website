@@ -10,6 +10,7 @@ tags:
   - Cloud Identity Summit
   - Identity Management
   - null
+banner: /img/cis_2017_identity-and-finances_400.png
 ---
 I am excited to announce that I will be speaking at the  [Cloud Identity Summit 2017](https://www.cloudidentitysummit.com/en/index.html) in Chicago in June.  
 
