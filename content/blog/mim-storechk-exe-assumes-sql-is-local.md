@@ -25,3 +25,5 @@ W﻿e even used Process Monitor from SysInternals to see that it read the regist
 S﻿o we experimented a few times and found that -Server will make it work to talk to a remote SQL Server:
 
 storechk.exe -Server CompanySQLServer
+
+![Home made icon for MIM Sync Storechk.exe](/img/mimsyncstorecheck_custom.png "Icon for MIM Sync Storechk.exe")
