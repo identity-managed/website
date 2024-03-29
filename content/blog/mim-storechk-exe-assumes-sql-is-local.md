@@ -7,7 +7,7 @@ tags:
 date: 2024-03-28T18:55:15.198Z
 banner: /img/mimsyncstorecheck_custom.png
 ---
-On occasion you may need to verify the integrity of the MIM Synchronization Service Database. To do this you can use the Store Check tool, StoreChk.exe located in the bin folder under the root of your MIM Synchronization install.
+On occasion you (usually with the help of PSS -- Product Support Services) may need to verify the integrity of the MIM Synchronization Service Database. To do this you can use the Store Check tool, StoreChk.exe located in the bin folder under the root of your MIM Synchronization install.
 
 W﻿hile the storechk tool does read the registry to find the name of the database (almost always is FIMSynchronizationService) it does not read the Server or Instance name registry values in the parameters key of the registry. Instead it defaults to assume that the SQL Server is co-located on the same machine as MIM Sync. 
 
@@ -25,5 +25,7 @@ W﻿e even used Process Monitor from SysInternals to see that it read the regist
 S﻿o we experimented a few times and found that -Server will make it work to talk to a remote SQL Server:
 
 storechk.exe -Server CompanySQLServer
+
+T﻿his really is a tool that you normally should run only with Product Support as there are a number of undocumented switches and parameters.
 
 ![Home made icon for MIM Sync Storechk.exe](/img/mimsyncstorecheck_custom.png "Icon for MIM Sync Storechk.exe")
