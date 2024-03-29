@@ -19,7 +19,11 @@ SELECT object_id FROM mms_metaverse
                         WHERE  mms_metaverse.object_id=mms_metaverse_lineagedate.object_id))
 ```
 
-I﻿ also noticed that after #19 "Checking Step History table for invalid run history ids" it does not check Step Object Details table for invalid step history ids. I have an instance with over 7.6 M records of Step Object Details that don't have a valid step history id. Clearing run history does not seem like it will get to these since those queries look for Step Object Details records related to Step History records related to Run History records within a certain time frame. So here is my suggested query (I am placing this query is in the public domain): 
+I﻿ also noticed that after #19 "Checking Step History table for invalid run history ids" it does not check Step Object Details table for invalid step history ids. I have an instance with over 7.6 M records of Step Object Details that don't have a valid step history id. Clearing run history does not seem like it will get to these since those queries look for Step Object Details records related to Step History records related to Run History records within a certain time frame. 
+
+P﻿erhaps this is already in the tool but controlled by another undocumented switch.
+
+So here is my suggested query (I am placing this query is in the public domain): 
 
 ```sql
 SELECT count(*) as SODs_whose_SHIDs_dont_Exist
