@@ -1,12 +1,13 @@
 ---
-title: 'MIM Open Source Schedulers'
+title: MIM Open Source Schedulers - Comments
 date: 2018-12-17T22:25:00.000-07:00
 draft: false
 url: /2018/12/mim-open-source-schedulers-comments.html
-tags: 
-- #SQL
-- #FIM
-- #MIM
+description: MIM Open Source Schedulers - Comments
+tags:
+  - null
+  - null
+  - null
 ---
 
 #### A friend have point out that my run script was men...
