@@ -10,7 +10,7 @@ David worked as a Network and Active Directory Administrator, a .NET Developer, 
 
 Then in 2006 David discovered Identity Management and jumped in. While working in other business he built teams of Identity Management Consultants and led and architected projects for organizations big and small, many in the Fortune 500.
 
-S﻿ince founding Identity Managed LLC, David has build Identity Management systems that securely managed more than 2.8 Million Identities for a wide variety of clients.
+Since founding Identity Managed LLC, David has build Identity Management systems that securely managed more than 2.8 Million Identities for a wide variety of clients.
 
 Author\
 • How to Be an MVP in Life\
