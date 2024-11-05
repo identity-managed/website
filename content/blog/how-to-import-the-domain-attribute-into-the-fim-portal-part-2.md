@@ -1,21 +1,24 @@
 ---
-title: 'How to import the Domain attribute into the FIM Portal Part 2'
+title: How to import the Domain attribute into the FIM Portal Part 2
 date: 2012-08-16T13:46:00.001-07:00
 draft: false
 url: /2012/08/how-to-import-domain-attribute-into-fim_16.html
-tags: 
-- Forefront Identity Manager
-- FIM 2010 R2
-- FIM
+description: How to import the Domain attribute into the FIM/MIM Portal using a sync rule
+tags:
+  - Forefront Identity Manager
+  - FIM 2010 R2
+  - FIM
+  - MIM
+authors:
+  - DavidLundell
 ---
-
 In [Part 1 of How to import the Domain attribute into the FIM Portal](http://blog.ilmbestpractices.com/2012/08/how-to-import-domain-attribute-into-fim.html) I provided you the simple technique for the single domain forest, and the technique that works although is a bit unwieldy – that of looking at the first 41 characters of the object’s SID and using a lookup table through nested IIF statements and this doesn’t .
 
 What if there was a simpler way?
 
 What about using the Domain Component option in the attribute flow?
 
-[![image](http://www.ilmbestpractices.com/blog/uploaded_images/fb0eb65f2cf7_B425/image_thumb.png "image")](http://www.ilmbestpractices.com/blog/uploaded_images/fb0eb65f2cf7_B425/image.png)
+![Domain Component Option for Advanced Flow Rule](/img/mim-domain-component-advanced-flow.png "Domain Component Option for Advanced Flow Rule")
 
 Well the problem is that the component starts from left and goes to the right, so if you have objects of varying OU depth, you can’t use this to get what you need reliably. You can use this to get the rDN but that is all. If only you could input negative numbers to tell it to go right to left that would be something. But then that would still have problems with domains of varying depths.
 
