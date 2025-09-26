@@ -23,6 +23,8 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-use-cases/)
 8. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
+D﻿id the html table get added?
+
 
 <table border=0 cellpadding=0 cellspacing=0 width=641 style='border-collapse:
  collapse;table-layout:fixed;width:482pt'>
