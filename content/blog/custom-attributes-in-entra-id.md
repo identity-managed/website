@@ -25,10 +25,10 @@ I﻿n some ways the easiest to use (Extension Attributes) can also be the hardes
 
 W﻿e will start with their: 
 
-1. [Names and aliases](#names-and-aliases)
+1. [Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)
 
    1. so that you can realize when documentation and posts are talking about them
-2. N﻿aming Conventions
+2. [N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)
 
    1. So that you can recognize them when you see them in the wild 
 3. R﻿esource Types
