@@ -26,19 +26,18 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |    
 | Resource Types | [Extension attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) | [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions) | [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) | [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) | [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) |
-| [servicePrincipal](https://learn.microsoft.com/en-us/graph/api/resources/servicePrincipal?view=graph-rest-1.0) | N   | N   | N   | N   | **Y**   |
-| [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) | **Y**   | **Y**   | **Y**   | **Y**   | **Y**   |
-| [device](https://learn.microsoft.com/en-us/graph/api/resources/device?view=graph-rest-1.0) | **Y**   | **Y**   | **Y**   | **Y**   | N   |
-| [group](https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0) | N   | **Y**   | **Y**   | **Y**   | N   |
-| [administrative unit](https://learn.microsoft.com/en-us/graph/api/resources/administrativeunit?view=graph-rest-1.0) | N   | **Y**   | **Y**   | N   | N   |
-| [application](https://learn.microsoft.com/en-us/graph/api/resources/application?view=graph-rest-1.0) | N   | **Y**   | N   | N   | N   |
-| [organization](https://learn.microsoft.com/en-us/graph/api/resources/organization?view=graph-rest-1.0) | N   | **Y**   | **Y**   | **Y**   | N   |
-| [contact](https://learn.microsoft.com/en-us/graph/api/resources/contact?view=graph-rest-1.0) | N   | N   | **Y**   | **Y**   | N   |
-| [event](https://learn.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0) | N   | N   | **Y**   | **Y**   | N   |
-| [message](https://learn.microsoft.com/en-us/graph/api/resources/message?view=graph-rest-1.0) | N   | N   | **Y**   | **Y**   | N   |
-| [post](https://learn.microsoft.com/en-us/graph/api/resources/post?view=graph-rest-1.0) | N   | N   | **Y**   | **Y**   | N   |
-| [todoTask](https://learn.microsoft.com/en-us/graph/api/resources/todoTask?view=graph-rest-1.0) | N   | N   | N   | **Y**   | N   |
-| [todoTaskList](https://learn.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) | N   | N   | N   | **Y**   | N   |
+| [servicePrincipal](https://learn.microsoft.com/en-us/graph/api/resources/servicePrincipal?view=graph-rest-1.0) | N   | N   | N   | N   | <font color="green">YES</font>   |
+| [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   |
+| [device](https://learn.microsoft.com/en-us/graph/api/resources/device?view=graph-rest-1.0) | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [group](https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0) | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [administrative unit](https://learn.microsoft.com/en-us/graph/api/resources/administrativeunit?view=graph-rest-1.0) | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   | N   |
+| [application](https://learn.microsoft.com/en-us/graph/api/resources/application?view=graph-rest-1.0) | N   | <font color="green">YES</font>   | N   | N   | N   |
+| [organization](https://learn.microsoft.com/en-us/graph/api/resources/organization?view=graph-rest-1.0) | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [contact](https://learn.microsoft.com/en-us/graph/api/resources/contact?view=graph-rest-1.0) | N   | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [event](https://learn.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0) | N   | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [message](https://learn.microsoft.com/en-us/graph/api/resources/message?view=graph-rest-1.0) | N   | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [post](https://learn.microsoft.com/en-us/graph/api/resources/post?view=graph-rest-1.0) | N   | N   | <font color="green">YES</font>   | <font color="green">YES</font>   | N   |
+| [todoTask](https://learn.microsoft.com/en-us/graph/api/resources/todoTask?view=graph-rest-1.0) | N   | N   | N   | <font color="green">YES</font>   | N   |
+| [todoTaskList](https://learn.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) | N   | N   | N   | <font color="green">YES</font>   | N   |
 |     |     |     |     |     |     |
-
 
