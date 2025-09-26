@@ -33,8 +33,8 @@ W﻿e will start with their:
 3. [R﻿esource Types](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)
 4. [D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)
 5. [L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
-6. [L﻿imitations](/blog/2025/09/custom-attributes-in-entra-id-l﻿imitations/)
-7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-u﻿se-cases/) 
+6. [L﻿imitations](/blog/2025/09/custom-attributes-in-entra-id-limitations/)
+7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-use-cases/)
 8. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
 T﻿he decision tree to help you decide what works best for you.
