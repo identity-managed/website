@@ -16,7 +16,7 @@ authors:
 
 This article is the second in a series about Custom Attributes in Entra ID and will discuss the N﻿aming Conventions so that you can recognize them when you see them in the wild and understand how uniqueness is enforced and guaranteed.
 
-1. [Names and aliases](/entries/custom-attributes-in-entra-id/#names-and-aliases)
+1. [Names and aliases](../custom-attributes-in-entra-id/#names-and-aliases)
 
    1. so that you can realize when documentation and posts are talking about them
 2. N﻿aming Conventions
