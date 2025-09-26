@@ -6,7 +6,7 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-09-26T06:41:28.455Z
-banner: ""
+banner: /img/all-the-doors-together.png
 authors:
   - DavidLundell
 ---
