@@ -10,7 +10,10 @@ banner: /img/all-the-doors-together2.jpg
 authors:
   - DavidLundell
 ---
-M﻿icrosoft has had a lot of chefs in the kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data. This is the first of a series of posts to help you choose the correct one for you and your needs.
+M﻿icrosoft has had a lot of chefs in the E﻿ntra ID kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data.  This is the first of a series of posts to help you choose the correct one for you and your needs. 
+
+In on-premises Active Directory(AD) we only had two: [Extension Attributes](https://learn.microsoft.com/en-us/exchange/recipients/mailbox-custom-attributes) and [Schema Extensions](https://learn.microsoft.com/en-us/windows/win32/ad/how-to-extend-the-schema). The Extension Attributes were not part of the AD Schema until you applied the Exchange Schema Extensions. The [Extension Attributes in Entra](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) are the cloud version of these. In contrast AD Schema Extensions don't have a perfect parallel in the Entra. Whereas [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions), [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) and [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) all have similarities to the on-premises AD Schema Extensions, [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) are a completely different animal evoking images of the Wild West, where anything goes!
+
 
 ![](/img/all-the-doors-together2.jpg)
 
