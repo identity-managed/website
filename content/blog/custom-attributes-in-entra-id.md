@@ -31,7 +31,7 @@ W﻿e will start with their:
 
    1. So that you can recognize them when you see them in the wild 
 3. [R﻿esource Types](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)
-4. [D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-d﻿ata-types/)
+4. [D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)
 5. [L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
 6. [L﻿imitations](/blog/2025/09/custom-attributes-in-entra-id-l﻿imitations/)
 7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-u﻿se-cases/) 
