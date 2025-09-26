@@ -25,7 +25,7 @@ I﻿n some ways the easiest to use (Extension Attributes) can also be the hardes
 
 W﻿e will start with their: 
 
-1. Names and aliases 
+1. [Names and aliases](#names-and-aliases)
 
    1. so that you can realize when documentation and posts are talking about them
 2. N﻿aming Conventions
