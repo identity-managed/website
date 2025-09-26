@@ -12,6 +12,8 @@ authors:
 ---
 M﻿icrosoft has had a lot of chefs in the kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data. This is the first of a series of posts to help you choose the correct one for you and your needs.
 
+![](/img/all-the-doors-together.png)
+
 I﻿n some ways the easiest to use (Extension Attributes) can also be the hardest since you have to manage the population of the data very differently depending on whether the user is synced from on-premises AD or is cloud only. This limited resource is also the most important to choose what to do with since there are some use cases such as viewing on the profile card that only work for Extension Attributes.
 
 W﻿e will start with their: 
@@ -32,14 +34,12 @@ T﻿hen we will present a decision tree to help you decide.
 
 # Names and aliases
 
-
-|     |     |     |
-| --- | --- | --- | 
-| Names | Alias | Additional Alias |
-| [Extension attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) | [onPremisesExtensionAttributes](https://learn.microsoft.com/en-us/graph/api/resources/onpremisesextensionattributes?view=graph-rest-1.0) | [Custom attributes in Exchange Server](https://learn.microsoft.com/en-us/exchange/recipients/mailbox-custom-attributes) |
-| [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions) | Custom Extension Attributes in Azure AD/Entra ID | Azure AD/Entra ID Connect Sync Directory Extensions |
-| [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) | [Microsoft Graph schema extensions](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension) |     |
-| [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) | [openTypeExtension](https://learn.microsoft.com/en-us/graph/api/resources/opentypeextension?view=graph-rest-1.0) |     |
-| [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) |     |     |
-|     |     |     |
-
+|                                                                                                                                          |                                                                                                                                          |                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Names                                                                                                                                    | Alias                                                                                                                                    | Additional Alias                                                                                                        |
+| [Extension attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)                    | [onPremisesExtensionAttributes](https://learn.microsoft.com/en-us/graph/api/resources/onpremisesextensionattributes?view=graph-rest-1.0) | [Custom attributes in Exchange Server](https://learn.microsoft.com/en-us/exchange/recipients/mailbox-custom-attributes) |
+| [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions) | Custom Extension Attributes in Azure AD/Entra ID                                                                                         | Azure AD/Entra ID Connect Sync Directory Extensions                                                                     |
+| [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions)                          | [Microsoft Graph schema extensions](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension)                               |                                                                                                                         |
+| [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions)                              | [openTypeExtension](https://learn.microsoft.com/en-us/graph/api/resources/opentypeextension?view=graph-rest-1.0)                         |                                                                                                                         |
+| [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview)                   |                                                                                                                                          |                                                                                                                         |
+|                                                                                                                                          |                                                                                                                                          |                                                                                                                         |
