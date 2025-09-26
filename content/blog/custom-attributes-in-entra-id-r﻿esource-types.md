@@ -49,6 +49,8 @@ T﻿he second most startling thing is that Custom Security Attributes can apply 
 
 O﻿pen Extensions can apply to anything but Service Principals, Administrative Units, and Applications, but are the only way to add to a todoTask or a todoTaskList.
 
+![](/img/open-extension-batwing-doors.png)
+
 S﻿chema Extensions can apply to the same list as Open Extensions minus the todoTask and the todoTaskList but adding back the Application.
 
 D﻿irectory Extensions are much more limited but still allow for a variety of resource types.
