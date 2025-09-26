@@ -6,13 +6,13 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-09-26T06:41:28.455Z
-banner: /img/all-the-doors-together.png
+banner: /img/all-the-doors-together2.png
 authors:
   - DavidLundell
 ---
 M﻿icrosoft has had a lot of chefs in the kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data. This is the first of a series of posts to help you choose the correct one for you and your needs.
 
-![](/img/all-the-doors-together.png)
+![](/img/all-the-doors-together2.png)
 
 I﻿n some ways the easiest to use (Extension Attributes) can also be the hardest since you have to manage the population of the data very differently depending on whether the user is synced from on-premises AD or is cloud only. This limited resource is also the most important to choose what to do with since there are some use cases such as viewing on the profile card that only work for Extension Attributes.
 
