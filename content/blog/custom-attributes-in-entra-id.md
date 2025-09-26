@@ -17,7 +17,6 @@ In on-premises Active Directory(AD) we only had two: [Extension Attributes](http
 The Extension Attributes were not part of the AD Schema until you applied the Exchange Schema Extensions a﻿nd were created to give you 15 pre-canned places to put some custom string data without having to go through the scary and irreversible process of EXTENDING THE SACRED ACTIVE DIRECTORY SCHEMA. But you also couldn't clearly label the attributes nor could you constrain by data type or anything else. The [Extension Attributes in Entra](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) are the cloud version of these. 
 
 In contrast AD Schema Extensions don't have a perfect parallel in the Entra. Whereas [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions), [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) and [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) all have similarities to the on-premises AD Schema Extensions, [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) are a completely different animal evoking images of the Wild West, where anything goes! 
- 
 
 ![](/img/all-the-doors-together2.jpg)
 
@@ -35,8 +34,8 @@ W﻿e will start with their:
 4. [D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-d﻿ata-types/)
 5. [L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
 6. [L﻿imitations](/blog/2025/09/custom-attributes-in-entra-id-l﻿imitations/)
-7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-u﻿se-cases/)
-8﻿. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
+7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-u﻿se-cases/) 
+8. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
 T﻿he decision tree to help you decide what works best for you.
 
@@ -51,7 +50,6 @@ T﻿he decision tree to help you decide what works best for you.
 | [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions)                              | [openTypeExtension](https://learn.microsoft.com/en-us/graph/api/resources/opentypeextension?view=graph-rest-1.0)                         |                                                                                                                         |
 | [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview)                   |                                                                                                                                          |                                                                                                                         |
 |                                                                                                                                          |                                                                                                                                          |                                                                                                                         |
-
 
 S﻿chema Extensions is the most confusing because of the "Tenant Schema Extension App" which is registered during the installation of Entra Connect to hold is Directory Extensions. So this will frequently turn up when searching the web for Schema Extensions.
 
