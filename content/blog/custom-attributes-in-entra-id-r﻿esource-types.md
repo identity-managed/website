@@ -43,12 +43,3 @@ t﻿est
 | [todoTaskList](https://learn.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) | N   | N   | N   | Y   | N   |
 |     |     |     |     |     |     |
 
-<style
-  type="text/css">
-h1 {color:red;}
-
-p {color:blue;}
-</style>
-
-
-<﻿p>okay</p>
