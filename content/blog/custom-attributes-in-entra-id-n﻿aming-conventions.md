@@ -18,12 +18,12 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 
 1. [Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)
 2. [N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)
-3. R﻿esource Types
-4. D﻿ata Types
-5. L﻿ifecycle
-6. L﻿imitations
-7. U﻿se Cases
-8﻿. Decision Tree
+3. [R﻿esource Types](/blog/2025/09/custom-attributes-in-entra-id-r﻿esource-types/)
+4. [D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-d﻿ata-types/)
+5. [L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
+6. [L﻿imitations](/blog/2025/09/custom-attributes-in-entra-id-l﻿imitations/)
+7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-u﻿se-cases/)
+8﻿. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
 |     |     |     |     |
 | --- | --- | --- | --- |   
