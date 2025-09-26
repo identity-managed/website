@@ -23,6 +23,8 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-use-cases/)
 8. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
+t﻿est
+
 |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |    
 | Resource Types | [Extension attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) | [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions) | [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) | [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) | [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) |
