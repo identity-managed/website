@@ -41,10 +41,10 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 | [todoTaskList](https://learn.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) | N   | N   | N   | Y   | N   |
 |     |     |     |     |     |     |
 
-<table><tr><td>
-<pre>
-**Hello**,
+<style
+  type="text/css">
+h1 {color:red;}
 
-_world_.
-</pre>
-</td></tr></table>
+p {color:blue;}
+</style>
+okay
