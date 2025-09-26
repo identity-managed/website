@@ -26,17 +26,17 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |    
 | Resource Types | [Extension attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) | [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions) | [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) | [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) | [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) |
-| [servicePrincipal](https://learn.microsoft.com/en-us/graph/api/resources/servicePrincipal?view=graph-rest-1.0) | N   | N   | N   | N   | ==YES==   |
-| [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) | ==YES==   | ==YES==   | ==YES==   | ==YES==   | ==YES==   |
-| [device](https://learn.microsoft.com/en-us/graph/api/resources/device?view=graph-rest-1.0) | ==YES==   | ==YES==   | ==YES==   | ==YES==   | N   |
-| [group](https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0) | N   | ==YES==   | ==YES==   | ==YES==   | N   |
-| [administrative unit](https://learn.microsoft.com/en-us/graph/api/resources/administrativeunit?view=graph-rest-1.0) | N   | ==YES==   | ==YES==   | N   | N   |
-| [application](https://learn.microsoft.com/en-us/graph/api/resources/application?view=graph-rest-1.0) | N   | ==YES==   | N   | N   | N   |
-| [organization](https://learn.microsoft.com/en-us/graph/api/resources/organization?view=graph-rest-1.0) | N   | ==YES==   | ==YES==   | ==YES==   | N   |
-| [contact](https://learn.microsoft.com/en-us/graph/api/resources/contact?view=graph-rest-1.0) | N   | N   | ==YES==   | ==YES==   | N   |
-| [event](https://learn.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0) | N   | N   | ==YES==   | ==YES==   | N   |
-| [message](https://learn.microsoft.com/en-us/graph/api/resources/message?view=graph-rest-1.0) | N   | N   | ==YES==   | ==YES==   | N   |
-| [post](https://learn.microsoft.com/en-us/graph/api/resources/post?view=graph-rest-1.0) | N   | N   | ==YES==   | ==YES==   | N   |
-| [todoTask](https://learn.microsoft.com/en-us/graph/api/resources/todoTask?view=graph-rest-1.0) | N   | N   | N   | ==YES==   | N   |
-| [todoTaskList](https://learn.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) | N   | N   | N   | ==YES==   | N   |
+| [servicePrincipal](https://learn.microsoft.com/en-us/graph/api/resources/servicePrincipal?view=graph-rest-1.0) | N   | N   | N   | N   | Y   |
+| [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) | Y   | Y   | Y   | Y   | Y   |
+| [device](https://learn.microsoft.com/en-us/graph/api/resources/device?view=graph-rest-1.0) | Y   | Y   | Y   | Y   | N   |
+| [group](https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0) | N   | Y   | Y   | Y   | N   |
+| [administrative unit](https://learn.microsoft.com/en-us/graph/api/resources/administrativeunit?view=graph-rest-1.0) | N   | Y   | Y   | N   | N   |
+| [application](https://learn.microsoft.com/en-us/graph/api/resources/application?view=graph-rest-1.0) | N   | Y   | N   | N   | N   |
+| [organization](https://learn.microsoft.com/en-us/graph/api/resources/organization?view=graph-rest-1.0) | N   | Y   | Y   | Y   | N   |
+| [contact](https://learn.microsoft.com/en-us/graph/api/resources/contact?view=graph-rest-1.0) | N   | N   | Y   | Y   | N   |
+| [event](https://learn.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0) | N   | N   | Y   | Y   | N   |
+| [message](https://learn.microsoft.com/en-us/graph/api/resources/message?view=graph-rest-1.0) | N   | N   | Y   | Y   | N   |
+| [post](https://learn.microsoft.com/en-us/graph/api/resources/post?view=graph-rest-1.0) | N   | N   | Y   | Y   | N   |
+| [todoTask](https://learn.microsoft.com/en-us/graph/api/resources/todoTask?view=graph-rest-1.0) | N   | N   | N   | Y   | N   |
+| [todoTaskList](https://learn.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) | N   | N   | N   | Y   | N   |
 |     |     |     |     |     |     |
