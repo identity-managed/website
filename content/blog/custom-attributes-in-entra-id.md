@@ -31,13 +31,14 @@ W﻿e will start with their:
 2. [N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)
 
    1. So that you can recognize them when you see them in the wild 
-3. R﻿esource Types
-4. D﻿ata Types
-5. L﻿ifecycle
-6. L﻿imitations
-7. U﻿se Cases
+3. [R﻿esource Types](/blog/2025/09/custom-attributes-in-entra-id-r﻿esource-types/)
+4. [D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-d﻿ata-types/)
+5. [L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
+6. [L﻿imitations](/blog/2025/09/custom-attributes-in-entra-id-l﻿imitations/)
+7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-u﻿se-cases/)
+8﻿. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
-T﻿hen we will present a decision tree to help you decide.
+T﻿he decision tree to help you decide what works best for you.
 
 # Names and aliases
 
