@@ -9,6 +9,13 @@ paginate = 10
 title = "Identity Managed"
 baseurl = "https://identitymanaged.com/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
 [params]
 logo_text = "Identity Managed"
 mainSections = ["blog"]
