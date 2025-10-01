@@ -57,5 +57,5 @@ Due to an existing service limitation, delegates can't create open extension-app
 
 O﻿ne final important distinction has to do with users that are synced from on-prem AD. For users synced from on-prem AD you must manage the Extension Attributes in the on-prem AD, the same is true for a limited set of Directory Extensions -- the ones from the "Tenant Schema Extension App" used by Entra ID Connect Sync and Cloud Sync.
 
-[<- Previous -- L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
+[<- Previous -- L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)        
 [Next -- U﻿se Cases ->](/blog/2025/10/custom-attributes-in-entra-id-use-cases/)
