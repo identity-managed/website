@@ -53,7 +53,7 @@ W﻿hile the documentation cited above is not really clear if post, todoTask, an
 
 O﻿ne other note about a limitation on Open Extensions [copied from the documentation](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#comparison-of-extension-types:~:text=Due%20to%20an%20existing%20service%20limitation%2C%20delegates%20can%27t%20create%20open%20extension%2Dappended%20events%20in%20shared%20mailbox%20calendars.%20Attempts%20to%20do%20so%20result%20in%20an%20ErrorAccessDenied%20response.):
 
->  Due to an existing service limitation, delegates can't create open extension-appended events in shared mailbox calendars. Attempts to do so result in an ErrorAccessDenied response.
+Due to an existing service limitation, delegates can't create open extension-appended events in shared mailbox calendars. Attempts to do so result in an ErrorAccessDenied response.
 
 O﻿ne final important distinction has to do with users that are synced from on-prem AD. For users synced from on-prem AD you must manage the Extension Attributes in the on-prem AD, the same is true for a limited set of Directory Extensions -- the ones from the "Tenant Schema Extension App" used by Entra ID Connect Sync and Cloud Sync.
 
