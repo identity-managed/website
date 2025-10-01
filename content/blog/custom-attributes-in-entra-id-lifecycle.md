@@ -56,5 +56,5 @@ I﻿n on-prem AD we can create schema extensions but never delete them. We can m
 
 B﻿oth Directory Extensions and Schema Extensions are owned by Applications, do in their case you also need to take the Application lifecycle into account.
 
-[<- Previous -- D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)
+[<- Previous -- D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)        
 [Next -- L﻿imitations ->](/blog/2025/10/custom-attributes-in-entra-id-limitations/)
