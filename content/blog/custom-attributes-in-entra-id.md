@@ -12,6 +12,8 @@ authors:
 ---
 Microsoft has had a lot of chefs in the Entra ID kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data.  
 
+![](/img/all-the-doors-together2.jpg)
+
 This is the first of a series of posts to help you choose the correct one for you and your needs. 
 
 While Microsoft's official documentation provides a [fairly handy comparison table](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#comparison-of-extension-types) it completely leaves out Custom Security Attributes. Overall, I find that there are some gaps, and a couple of contradictions but not a definitive guide to help you know when to use which extension.
@@ -21,8 +23,6 @@ In on-premises Active Directory(AD) we only had two: [Extension Attributes](http
 The Extension Attributes were not part of the AD Schema until you applied the Exchange Schema Extensions a﻿nd were created to give you 15 pre-canned places to put some custom string data without having to go through the scary and irreversible process of EXTENDING THE SACRED ACTIVE DIRECTORY SCHEMA. But you also couldn't clearly label the attributes nor could you constrain by data type or anything else. The [Extension Attributes in Entra](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) are the cloud version of these. 
 
 In contrast AD Schema Extensions don't have a perfect parallel in the Entra. Whereas [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions), [Schema Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions) and [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) all have similarities to the on-premises AD Schema Extensions, [Open Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#open-extensions) are a completely different animal evoking images of the Wild West, where anything goes! 
-
-![](/img/all-the-doors-together2.jpg)
 
 I﻿n some ways the easiest to use (Extension Attributes) can also be the hardest since you have to manage the population of the data very differently depending on whether the user is synced from on-premises AD or is cloud only. This limited resource is also the most important to choose what to do with since there are some use cases such as viewing on the profile card that only work for Extension Attributes.
 
