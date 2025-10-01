@@ -73,3 +73,10 @@ C﻿ustom Security Attributes can be used in conjunction with resource tags insi
 [C﻿onditional Access Filter on Enterprise Applications](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-filter-for-applications) can provide a great help to categorizing Enterprise Applications (Service Principals, which includes Managed Identities) and then being apply to apply Conditional Access Policies in systematized categoric way. For example, one client has many Storage Account Enterprise Apps that they had excluded individually from a number of policies -- creating a management headache.
 
 W﻿hen a user, group or service principal has access to read a resource in Entra ID they generally have permissions to read everything on the resource. When they have write permissions they generally have permissions to write to all attributes on the resource. Custom Security Attributes presents the only way to add custom data to Entra ID and control who can read which Attribute Sets and who can write to which Attribute Sets. In this way it is very similar to on-prem AD.
+
+You will notice that Schema Extensions on has one use case listed: it is filterable in Graph queries, in other words you can include properties from a schema extension in a Microsoft Graph Query to limit the results you will get back. 
+
+O﻿pen Extensions on the other hand cannot be included in a graph query. I also haven't listed a use case for them. From a directory and identity viewpoint there really aren't any use cases. Even worse to an Entra ID admin it looks like the wild, wild west, where any old cowboy, I mean, application developer can just start writing data to any resource (of the resource types applicable) to which
+the app has delegated ReadWrite permissions.
+
+From an application developer viewpoint, there are loads of use cases for Open Extensions. With the delegated permission of User.ReadWrite an application can create up to 2 Open extensions per resource and the number of properties in each resource is only limited by the 2kb limit on directory resources of the Named MAPI Property limits associated with Outlook resources.
