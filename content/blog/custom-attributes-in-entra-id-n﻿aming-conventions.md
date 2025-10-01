@@ -51,5 +51,5 @@ O﻿pen Extensions are the wild wild west and you can name it whatever you want.
 
 C﻿ustom Security Attributes names start with the name of the AttributeSet and then an underscore and then the name of the attribute. In terms of naming conventions I like this the best. Since these are limited to your tenant they only need to be unique inside your tenant.
 
-[<- Previous -- Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)
+[<- Previous -- Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)        
 [Next -- R﻿esource Types ->](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)
