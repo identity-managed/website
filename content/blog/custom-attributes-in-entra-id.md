@@ -16,7 +16,7 @@ This is the first of a series of posts to help you choose the correct one for yo
 
 While Microsoft's official documentation provides a [fairly handy comparison table](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#comparison-of-extension-types) it completely leaves out Custom Security Attributes. Overall, I find that there are some gaps, and a couple of contradictions but not a definitive guide to help you know when to use which extension.
 
-In on-premises Active Directory(AD) we only had two: [Extension Attributes](https://learn.microsoft.com/en-us/exchange/recipients/mailbox-custom-attributes) and [Schema Extensions](https://learn.microsoft.com/en-us/windows/win32/ad/how-to-extend-the-schema). 
+In on-premises Active Directory(AD) we only had two: [Extension Attributes](https://learn.microsoft.com/en-us/exchange/recipients/mailbox-custom-attributes) and [Schema Extensions](https://learn.microsoft.com/en-us/windows/win32/ad/how-to-extend-the-schema). Additionally, we could create new object classes not just attributes.
 
 The Extension Attributes were not part of the AD Schema until you applied the Exchange Schema Extensions a﻿nd were created to give you 15 pre-canned places to put some custom string data without having to go through the scary and irreversible process of EXTENDING THE SACRED ACTIVE DIRECTORY SCHEMA. But you also couldn't clearly label the attributes nor could you constrain by data type or anything else. The [Extension Attributes in Entra](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes) are the cloud version of these. 
 
