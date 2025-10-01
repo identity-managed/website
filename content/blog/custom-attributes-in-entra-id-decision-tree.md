@@ -23,3 +23,4 @@ This article is the eighth in a series about Custom Attributes in Entra ID and w
 7. [U﻿se Cases](/blog/2025/09/custom-attributes-in-entra-id-use-cases/)
 8. [Decision Tree](/blog/2025/09/custom-attributes-in-entra-id-decision-tree/)
 
+![](/img/entra-id-custom-attribute-decision-tree.png "Entra ID Custom Attribute Decision Tree")
