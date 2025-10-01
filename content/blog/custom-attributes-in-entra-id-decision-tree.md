@@ -51,6 +51,17 @@ M﻿ostly the same answer. There are ways to include Custom Security Attributes,
 T﻿hen it you must use the UI provided and this will create Directory Extensions on the application.
 1﻿3. Is this sensitive data you need to store on users? And you need to lock down who can read it and who can write it?
 T﻿hen you must Custom Security Attributes.
-1﻿4. 
+1﻿4. Do you need Lifecycle Control over the attribute definitions? I.e. Someone can't delete the definition and render your data undiscoverable.
+Then Schema Extensions or Custom Security Attributes (only if it is to be on users or servicePrincipals).
+1﻿5. Do you need it to be Graph Filterable?
+T﻿hen you can't use Open Extensions
+16. I﻿f not Graph Filterable and is it to be on todoTask or todoTaskList? 
+Then you must use Open Extensions
+1﻿7. If not todoTask or todoTaskList is it for the other Outlook resources (contact, Event, Message or Post)?
+T﻿hen you must do Schema Extensions
+1﻿8. Do you need to share this with other tenants without creating a multi-tenant application?
+T﻿hen you must do Schema Extensions
+1﻿9. If you don't need to share it with other tenants and it is on a directory resource
+T﻿hen you can choose between Directory Extensions and Schema Extensions. But I recommend Directory Extensions.
 
 [<- Previous -- U﻿se Cases](/blog/2025/10/custom-attributes-in-entra-id-use-cases/)
