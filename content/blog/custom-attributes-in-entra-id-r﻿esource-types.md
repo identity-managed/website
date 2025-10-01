@@ -58,3 +58,6 @@ Finally, Extension Attributes in Entra only apply to users and devices. What abo
 ![](/img/extensionattributes-small.jpg)
 
 This creates an interesting problem: Connect Sync supports syncing these the Extension Attributes on groups to the cloud but Cloud Sync does not.
+
+[<- Previous -- N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)       
+[Next -- D﻿ata Types ->](/blog/2025/09/custom-attributes-in-entra-id-data-types/) 
