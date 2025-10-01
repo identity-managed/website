@@ -51,3 +51,6 @@ D﻿irectory Extensions are the most flexible although strings are limited to ei
 ![](/img/directory-extensions-small.jpg)
 
 W﻿hat type is missing from all of these that is so crucial to a directory? -- Reference (i.e. Manager, Owner, Member). I don't see a way to add Reference attributes.
+
+[<- Previous -- R﻿esource Types](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)
+[Next -- L﻿ifecycle ->](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)
