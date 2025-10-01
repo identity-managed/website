@@ -10,7 +10,11 @@ banner: /img/all-the-doors-together2.jpg
 authors:
   - DavidLundell
 ---
-M﻿icrosoft has had a lot of chefs in the E﻿ntra ID kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data.  This is the first of a series of posts to help you choose the correct one for you and your needs. 
+Microsoft has had a lot of chefs in the Entra ID kitchen baking up solutions to different problems and now we have an array of confusing choices about where to put your data.  
+
+This is the first of a series of posts to help you choose the correct one for you and your needs. 
+
+While Microsoft's official documentation provides a [fairly handy comparison table](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#comparison-of-extension-types) it completely leaves out Custom Security Attributes. Overall, I find that there are some gaps, and a couple of contradictions but not a definitive guide to help you know when to use which extension.
 
 In on-premises Active Directory(AD) we only had two: [Extension Attributes](https://learn.microsoft.com/en-us/exchange/recipients/mailbox-custom-attributes) and [Schema Extensions](https://learn.microsoft.com/en-us/windows/win32/ad/how-to-extend-the-schema). 
 
@@ -58,3 +62,7 @@ D﻿irectory Extensions are also confusing because they were created to solve th
 * e﻿xtension property
 * c﻿ustom attribute
 * c﻿ustom claim
+
+Q﻿uick shoutout to [Merill Fernando](https://merill.net/) for his post in 2023 about the [different ways to extend the Entra ID Schema.](https://merill.net/2023/02/azure-ad-extensions-and-attributes/)
+
+I﻿ am intending to build on and update his good work, which did add Custom Security Attributes to the comparison table and also some use cases.
