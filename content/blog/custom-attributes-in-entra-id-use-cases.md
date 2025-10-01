@@ -55,6 +55,11 @@ of each these approaches.
 
 **M﻿y d﻿efault answer: use a Directory Extension unless you can't!**
 
+* T﻿hey cover most use cases
+* Y﻿ou can create as many definitions as you want
+* E﻿ach resource can have 100 values
+* I﻿f you squint your eyes you can ignore the ugly name 
+
 W﻿hile Extension Attributes cover many of the use cases including all but one of the use cases that Directory Extensions cover you might think that Extension Attributes is the way to go:
 
 * They already exist 
@@ -87,7 +92,7 @@ The only real advantages I can see for Schema Extensions over Directory Extensio
 * more control over the lifecycle of the Extension
 * discoverability of schema extensions 
 
-I am not certain that I view the discoverability of schema extensions everywhere in the world as a plus because it means that if I (or my application) can write to a user then I can start using Schema Extensions defined in other tenants.  This is bad because I have not found a practical way to discover which Schema Extensions are in use in a particular tenant. To find which Schema Extensions are in use in an Entra ID tenant you have to query Graph for each resource type for each Schema Extension property that is discoverable. Yikes! If someone knows a way please tell the world (and me)!
+A﻿lthough, I am not certain that I view the discoverability of schema extensions everywhere in the world as a plus because it means that if I (or my application) can write to a user then I can start using Schema Extensions defined in other tenants.  This is bad because I have not found a practical way to discover which Schema Extensions are in use in a particular tenant. To find which Schema Extensions are in use in an Entra ID tenant you have to query Graph for each resource type for each Schema Extension property that is discoverable. Yikes! If someone knows a way please tell the world (and me)!
 
 A﻿t least with Directory Extensions you only have to go through the Enterprise Applications in your tenant as opposed to the whole world and then query Graph for each resource type. Not easy but it could be worse.
 
