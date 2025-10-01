@@ -102,5 +102,5 @@ From an application developer viewpoint, there are loads of use cases for Open E
 
 F﻿rom a discoverability standpoint you only have to query each resource in your tenant and access the[ extensions collection](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0#properties:~:text=Read%2Donly.%20Nullable.-,extensions,-extension%20collection) on each resource to find all of the Open Extensions in use your tenant.  <Sarcasm>Child's Play</Sarcasm>
 
-[<- Previous -- L﻿imitations](/blog/2025/10/custom-attributes-in-entra-id-limitations/)
-[-> Next -- Decision Tree](/blog/2025/10/custom-attributes-in-entra-id-decision-tree/)
+[<- Previous -- L﻿imitations](/blog/2025/10/custom-attributes-in-entra-id-limitations/)    
+[Next -- Decision Tree ->](/blog/2025/10/custom-attributes-in-entra-id-decision-tree/)
