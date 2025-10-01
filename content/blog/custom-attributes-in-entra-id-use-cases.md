@@ -101,3 +101,6 @@ O﻿pen Extensions on the other hand cannot be included in a graph query. I also
 From an application developer viewpoint, there are loads of use cases for Open Extensions. An application can create up to 2 Open extensions per resource and the number of properties in each resource is only limited by the 2kb limit on directory resources of the Named MAPI Property limits associated with Outlook resources.
 
 F﻿rom a discoverability standpoint you only have to query each resource in your tenant and access the[ extensions collection](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0#properties:~:text=Read%2Donly.%20Nullable.-,extensions,-extension%20collection) on each resource to find all of the Open Extensions in use your tenant.  <Sarcasm>Child's Play</Sarcasm>
+
+[<- Previous -- L﻿imitations](/blog/2025/10/custom-attributes-in-entra-id-limitations/)
+[-> Next -- Decision Tree](/blog/2025/10/custom-attributes-in-entra-id-decision-tree/)
