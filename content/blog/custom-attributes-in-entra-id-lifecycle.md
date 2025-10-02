@@ -54,7 +54,33 @@ This article is the fifth in a series about Custom Attributes in Entra ID and wi
 
 I﻿n on-prem AD we can create schema extensions but never delete them. We can mark them as deprecated or inactive. Custom Security Attributes come the closest in this regard, as you can never delete but you can deactivate them. Critical to know before investing in a particular kind of extension is to know what happens to the data if you delete or deactivate/deprecate the extension. In this case you can find, modify, and delete existing data populated in a deactivated Custom Security Attribute, but you can't apply it to anymore objects (meaning you can't add new values).
 
-B﻿oth Directory Extensions and Schema Extensions are owned by Applications, do in their case you also need to take the Application lifecycle into account.
+![](/img/schema-extensions-small.jpg)
 
-[<- Previous -- D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)        
+B﻿oth Directory Extensions and Schema Extensions are owned by Applications, so in their case you also need to take the Application lifecycle into account. 
+
+## D﻿eletion or Deprecation of a Schema Extension
+
+T﻿his topic is more complex. The first best practice is to not use production data in a Schema Extension that is still "InDevelopment" state because then the definition can't be deleted. If you do use the Schema Extension while it is still "InDevelopment" if that definition gets deleted then the data becomes undiscoverable. This is tricky because the documentation gives different answers. 
+
+> [Deleting a schema extension definition does not affect accessing custom data that has been added to resource instances based on that definition.](https://learn.microsoft.com/en-us/graph/api/schemaextension-delete?view=graph-rest-1.0&tabs=http)
+
+W﻿hich disagrees with: 
+
+> [If you delete a schema extension definition without setting the schema extension to null, you make the property and its associated user data undiscoverable.](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#schema-extensions)
+
+W﻿hile this next document explains more it is still not perfectly clear but it does explain how to recover:
+
+> [ If resource instances have the extension property applied, deleting the schema extension definition doesn't delete the extension data in the resource instances. Instead, the extension data is available but no longer accessible. You can recreate the schema extension definition with the same configuration - if you used the verified domain for the schema extension id - to be able to delete the extension data](https://learn.microsoft.com/en-us/graph/extensibility-schema-groups?tabs=powershell#step-6-delete-extension-data-and-schema-extension-definition)
+
+T﻿his is one of the key reasons why you should use the verified vanity domain when creating Schema Extensions so that you can recover from deleting a Schema Extension that is InDevelopment if you did so without clearing the data.
+
+S﻿ince deleting the definition does not delete the data it counts against the limit on the resource, probably.
+
+## D﻿eletion of a Directory Extension
+
+[M﻿akes the data undiscoverable](https://learn.microsoft.com/en-us/graph/extensibility-overview#considerations-for-using-directory-extensions) -- you can't find it let alone read it let alone write to it or delete it. You can recover from this by restoring the Enterprise Application, although if this is the source tenant for the Enterprise Application then you must restore the Registered Application first. Then you can resume using the data or you can delete the data. This is critical because of the [100 value limit and it still counts against your tenant even if the data is undiscoverable](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#considerations-for-using-directory-extensions).
+
+![](/img/directory-extensions-small.jpg)
+
+[<- Previous -- D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)\
 [Next -- L﻿imitations ->](/blog/2025/10/custom-attributes-in-entra-id-limitations/)
