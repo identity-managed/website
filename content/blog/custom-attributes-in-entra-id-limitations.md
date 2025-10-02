@@ -37,13 +37,23 @@ This article is the sixth in a series about Custom Attributes in Entra ID and wi
 
 \*﻿No, except for Directory extensions from the "Tenant Schema Extension App" used by Entra ID Connect Sync and Cloud Sync.
 
+## E﻿xtension Attributes
+
 T﻿he most distinguishing limit is how many extensions/custom attributes each method can have. The Extension Attributes can only have **15** **string attributes per resource** and only on users and devices. While these Extension Attributes have a lot of use cases in the next post we will see that there are some use cases that only Extension Attributes can do. The use cases that can only use Extension Attributes combined with only 15 attributes makes these handy attributes a very valuable resource and not be littered with inconsistent garbage as we often see in on-prem AD.
+
+## C﻿ustom Security Attributes
 
 C﻿ustom Security Attributes can only have **500** attribute definitions whereas the other three (Open, Directory and Schema) can have infinite definitions. On the plus side deactivated definitions do not count against the limit. Further, Custom Security Attributes can only have **50 attribute values populated per resource** (this means a resource having 50 single-valued attributes populated, one particular multi-valued custom security attribute having 50 values or some combination thereof). This limitation and its unique use case can also make this a method to use wisely.
 
+## D﻿irectory Extensions and Schema Extensions
+
 D﻿irectory Extensions and Schema Extensions are both limited to **100 values populated per resource**. 
 
+## Open Extensions
+
 Open Extensions can only have two extensions per creator app. Open Extensions have a data size limit per resource rather than a limit in the number of attributes but this also differs depending on the resource type. On directory resources (user, group, device and organization) the **limit is 2 Kb of data.** 
+
+MAPI Named Properties 
 
 Open Extensions on Outlook resources are stored in a [MAPI Named Property](https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-named-properties). This imposes different restrictions  on Outlook resources in a user's mailbox (message, event, and contact) than for Open Extensions on directory objects. [The documentation just says that these "are a limited resources in a user's mailbox."](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#comparison-of-extension-types). 
 
@@ -53,9 +63,11 @@ W﻿hile the documentation cited above is not really clear if post, todoTask, an
 
 O﻿ne other note about a limitation on Open Extensions [copied from the documentation](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#comparison-of-extension-types:~:text=Due%20to%20an%20existing%20service%20limitation%2C%20delegates%20can%27t%20create%20open%20extension%2Dappended%20events%20in%20shared%20mailbox%20calendars.%20Attempts%20to%20do%20so%20result%20in%20an%20ErrorAccessDenied%20response.):
 
-Due to an existing service limitation, delegates can't create open extension-appended events in shared mailbox calendars. Attempts to do so result in an ErrorAccessDenied response.
+> Due to an existing service limitation, delegates can't create open extension-appended events in shared mailbox calendars. Attempts to do so result in an ErrorAccessDenied response.
+
+## S﻿ynced from on-prem
 
 O﻿ne final important distinction has to do with users that are synced from on-prem AD. For users synced from on-prem AD you must manage the Extension Attributes in the on-prem AD, the same is true for a limited set of Directory Extensions -- the ones from the "Tenant Schema Extension App" used by Entra ID Connect Sync and Cloud Sync.
 
-[<- Previous -- L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)        
+[<- Previous -- L﻿ifecycle](/blog/2025/09/custom-attributes-in-entra-id-lifecycle/)\
 [Next -- U﻿se Cases ->](/blog/2025/10/custom-attributes-in-entra-id-use-cases/)
