@@ -60,6 +60,8 @@ of each these approaches.
 * E﻿ach resource can have 100 values
 * I﻿f you squint your eyes you can ignore the ugly name 
 
+  ![](/img/directory-extensions-small.jpg)
+
 ## Extension Attributes
 
 W﻿hile Extension Attributes cover many of the use cases including all but one of the use cases that Directory Extensions cover you might think that Extension Attributes is the way to go:
@@ -76,6 +78,8 @@ We have no other way to do these things. T﻿herefore, I urge you to use Directo
 
 Extension Attributes also have an exclusive on using Custom Data for [Conditional Access Filters for Devices](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-condition-filters-for-devices#supported-operators-and-device-properties-for-filters).
 
+![](/img/extensionattributes-small.jpg)
+
 ## C﻿ustom Security Attributes
 
 W﻿hile C﻿ustom Security Attributes have only six uses cases in my list, it is the only way to extend servicePrincipals (Enterprise Applications and Managed Identities) and they do have three exclusive use cases that no other method can satisfy:
@@ -83,6 +87,8 @@ W﻿hile C﻿ustom Security Attributes have only six uses cases in my list, it i
 * Can be used in conjunction with resource tags inside of [A﻿zure ABAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview#status-of-condition-features) to do finer grained access control. [For example](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-auth-abac-examples?tabs=portal-visual-editor#principal-attributes) you could grant read and/or write permissions to certain Azure resources, such as blobs that have an index tag that matches a custom security attribute on a user or Enterprise Application.
 * [C﻿onditional Access Filter on Enterprise Applications](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-filter-for-applications) can provide a great help to categorizing Enterprise Applications (Service Principals, which includes Managed Identities) and then being apply to apply Conditional Access Policies in systematized categoric way. For example, one client has many Storage Account Enterprise Apps that they had excluded individually from a number of policies -- creating a management headache.
 * [S﻿toring custom data in a way that you can allow a user or app to read and write some of the data but not all of it.](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview#how-do-custom-security-attributes-compare-with-extensions) W﻿hen a user, group or service principal has access to read a resource in Entra ID they generally have permissions to read everything on the resource. When they have write permissions they generally have permissions to write to all attributes on the resource. Custom Security Attributes presents the only way to add custom data to Entra ID and control who can read which Attribute Sets and who can write to which Attribute Sets. In this way it is very similar to on-prem AD.
+
+  ![](/img/custom-security-attributes-vault-door-small.png)
 
 ## Schema Extensions
 
@@ -102,6 +108,8 @@ A﻿lthough, I am not certain that I view the discoverability of schema extensio
 
 A﻿t least with Directory Extensions you only have to go through the Enterprise Applications in your tenant as opposed to the whole world and then query Graph for each resource type. Not easy but it could be worse.
 
+![](/img/schema-extensions-small.jpg)
+
 ## O﻿pen Extensions
 
 O﻿pen Extensions on the other hand cannot be included in a graph query. I also haven't listed a use case for them. From a directory and identity viewpoint there really aren't any use cases. Even worse to an Entra ID admin it looks like the wild, wild west, where any old cowboy, I mean, application developer can just start writing data to any resource (of the resource types applicable) to which the app has delegated ReadWrite permissions (of course the signed in user must have the permissions to the resource as well).
@@ -109,6 +117,8 @@ O﻿pen Extensions on the other hand cannot be included in a graph query. I also
 From an application developer viewpoint, there are loads of use cases for Open Extensions. An application can create up to 2 Open extensions per resource and the number of properties in each resource is only limited by the 2kb limit on directory resources of the Named MAPI Property limits associated with Outlook resources.
 
 F﻿rom a discoverability standpoint you only have to query each resource in your tenant and access the[ extensions collection](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0#properties:~:text=Read%2Donly.%20Nullable.-,extensions,-extension%20collection) on each resource to find all of the Open Extensions in use your tenant.  <Sarcasm>Child's Play</Sarcasm>
+
+![](/img/open-extension-batwing-doors-small.png)
 
 [<- Previous -- L﻿imitations](/blog/2025/10/custom-attributes-in-entra-id-limitations/)\
 [Next -- Decision Tree ->](/blog/2025/10/custom-attributes-in-entra-id-decision-tree/)
