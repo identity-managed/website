@@ -49,6 +49,8 @@ T﻿he second most startling thing is that Custom Security Attributes can apply 
 
 O﻿pen Extensions can apply to anything but Service Principals, Administrative Units, and Applications, but are the only way to add to a todoTask or a todoTaskList.
 
+![](/img/open-extension-batwing-doors-small.png)
+
 S﻿chema Extensions can apply to the same list as Open Extensions minus the todoTask and the todoTaskList but adding back the Application.
 
 Directory Extensions are much more limited but still allow for a variety of resource types.
@@ -59,5 +61,5 @@ Finally, Extension Attributes in Entra only apply to users and devices. What abo
 
 This creates an interesting problem: Connect Sync supports syncing these the Extension Attributes on groups to the cloud but Cloud Sync does not.
 
-[<- Previous -- N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)        
-[Next -- D﻿ata Types ->](/blog/2025/09/custom-attributes-in-entra-id-data-types/) 
+[<- Previous -- N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)\
+[Next -- D﻿ata Types ->](/blog/2025/09/custom-attributes-in-entra-id-data-types/)
