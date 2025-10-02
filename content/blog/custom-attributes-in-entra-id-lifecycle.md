@@ -52,11 +52,23 @@ This article is the fifth in a series about Custom Attributes in Entra ID and wi
 
 ![](/img/custom-security-attributes-vault-door-small.png)
 
+## C﻿omparing Custom Security Attributes with on-prem AD
+
 I﻿n on-prem AD we can create schema extensions but never delete them. We can mark them as deprecated or inactive. Custom Security Attributes come the closest in this regard, as you can never delete but you can deactivate them. Critical to know before investing in a particular kind of extension is to know what happens to the data if you delete or deactivate/deprecate the extension. In this case you can find, modify, and delete existing data populated in a deactivated Custom Security Attribute, but you can't apply it to anymore objects (meaning you can't add new values).
 
 ![](/img/schema-extensions-small.jpg)
 
+## How does the application lifecycle affect it?
+
 B﻿oth Directory Extensions and Schema Extensions are owned by Applications, so in their case you also need to take the Application lifecycle into account. 
+
+### D﻿eletion of the app that owns Schema Extension
+
+[A﻿ll properties and values are still discoverable](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#considerations-for-using-schema-extensions) however the [definitions can no longer be updated](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#considerations-for-using-schema-extensions).
+
+### D﻿eletion of the app that owns Directory Extension
+
+[D﻿eletes the defintions](https://learn.microsoft.com/en-us/graph/extensibility-overview#considerations-for-using-directory-extensions), makes the data undiscoverable but in the multi-tenant app situation the data will remain discoverable.
 
 ## D﻿eletion or Deprecation of a Schema Extension
 
