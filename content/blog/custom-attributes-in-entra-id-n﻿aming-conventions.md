@@ -33,13 +33,21 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 | [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview)                   | [<AttributeSetName_AttributeName>](https://learn.microsoft.com/en-us/graph/api/resources/customsecurityattributedefinition?view=graph-rest-1.0#properties)                                             | HRData_PriorityLevel                                          | [Both the AttributeSetName and the AttributeName can be up to 32 Unicode Characters with neither spaces nor specials characters.  <br>AttributeName must be unique within its Attribute set, which in turn must be unique within the tenant.](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview#limits-and-constraints) |
 |                                                                                                                                          |                                                                                                                                                                                                        |                                                               |                                                                                                                                                                                                                                                                                                                                                                |
 
+## Extension Attributes
+
 Y﻿ou do not get to choose the names of the Extension Attributes as they are predetermined and fixed. 
+
+## On-premises Active Directory 
 
 W﻿ith on-premises Active Directory and any LDAP directory you could have collisions with attribute names but at least the [Object Identifier (OID)](https://learn.microsoft.com/en-us/windows/win32/ad/obtaining-an-object-identifier) enforced uniqueness, right? Sort of. You could use the OID registrar and get a unique OID or generate one through Microsoft using your script to generate an OID with a random GUID. But nothing prevented you from making your own AD schema extension and using someone else's OID or prevent them from using yours, except common sense, which always prevails!
 
+## Directory Extension names are yucky!
+
 When you create a Directory Extension you get stuck with using the Application ID (a GUID) as part of the name . Yuck! But this **guarantees uniqueness throughout the known universe**, and when building a multi-tenant app or installing a multi-tenant app that someone else built this is critical! (note this is not the ObjectID of the Registered Application nor the ObjectID of the related Enterprise Application, but the AppID or Client ID of the application -- *this number shows up on both the Registered Application and all of its related Enterprise Applications*).
 
-Schema Extensions are prettier.  T﻿o enforce uniqueness you can use a vanity domain or let Entra generate a prefix of "ext" followed by 8 random characters and then it adds the name you provide. The **vanity domain is highly recommended** for two reasons:
+## Schema Extensions are prettier!  
+
+T﻿o enforce uniqueness you can use a vanity domain or let Entra generate a prefix of "ext" followed by 8 random characters and then it adds the name you provide. The **vanity domain is highly recommended** for two reasons:
 
 ![](/img/schema-extensions-small.jpg)
 
@@ -47,9 +55,11 @@ Schema Extensions are prettier.  T﻿o enforce uniqueness you can use a vanity d
 1﻿. You can pick it and make all of your schema extensions consistent
 2﻿. While the Schema Extension is in the InDevelopment status should you delete the extension before nulling out or deleting the data on the resources you can recreate the Schema Extension and then null out the data. This is not possible if you let Entra generate the random prefix. 
 
-O﻿pen Extensions are the wild wild west and you can name it whatever you want.
+## O﻿pen Extensions are the wild wild west and you can name it whatever you want
 
 ![](/img/open-extension-batwing-doors-small.png)
+
+## C﻿ustom Security Attributes
 
 C﻿ustom Security Attributes names start with the name of the AttributeSet and then an underscore and then the name of the attribute. In terms of naming conventions I like this the best. Since these are limited to your tenant they only need to be unique inside your tenant.
 
