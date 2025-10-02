@@ -1,5 +1,11 @@
 weight: 20
-image: /img/research.webp
-headline: Custom Azure AD GalSync
+headline: Custom Entra ID GalSync
 subhead: Research (1k-5k Identities)
-paragraph: Empowered better and more secure collaboration between two divisions of this research company by implementing a Custom Global Address list Synchronization (GalSync) between two Azure Active Directory Tenants (one in GCC High) coming from the same forest using the AADConnect instances for each tenant. This enabled both divisions to see the other division’s users and mailing lists in their own address book, and thus send email more securely and easily.
+image: /img/research.webp
+paragraph: "Empowered better and more secure collaboration between two divisions
+  of this research company by implementing, Free/Busy Sharing, Cross Tenant Sync
+  and a Custom Global Address list Synchronization, GalSync, to sync the groups,
+  between two Entra ID Tenants (one in GCC High) coming from the same forest
+  using the Entra ID Connect Sync instances for each tenant. This enabled both
+  divisions to see the other division’s users and mailing lists in their own
+  address book, and thus send email more securely and easily. "
