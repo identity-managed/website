@@ -29,6 +29,8 @@ This article is the eighth in a series about Custom Attributes in Entra ID and w
 
 If "Yes," then you must use [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) -- this is the only way to [filter on Applications in Conditional Access Policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-filter-for-applications)
 
+![](/img/custom-security-attributes-vault-door-small.png)
+
 2. **I﻿s this custom data that you need to [make visible on the Profile Card](https://learn.microsoft.com/en-us/graph/add-properties-profilecard)?** 
 
 Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)
@@ -36,6 +38,9 @@ Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/e
 3. **W﻿ill this custom data be used in the rules in an [Exchange Online Dynamic Distribution Group](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/create-manage-dynamic-distribution-groups?source=recommendations&tabs=create-new-eac%2Ccreate-new-eac-2%2Ccreate-new-eac-3)?** 
 
 Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)
+
+
+![](/img/extensionattributes-small.jpg)
 
 4. **W﻿ill this data be used to [Filter on Devices in Conditional Access Policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-condition-filters-for-devices#supported-operators-and-device-properties-for-filters)?** 
 
@@ -52,6 +57,8 @@ S﻿ame answer as above: it could Extension Attributes but should be Directory E
 7. **Do you need to sync this data to another tenant through [Cross Tenant Sync](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview#attributes)?**
 
 S﻿ame answer.
+
+![](/img/directory-extensions-small.jpg)
 
 8﻿. **Do you need to [provision this data into Entra ID](https://learn.microsoft.com/en-us/entra/identity/app-provisioning/inbound-provisioning-api-configure-app#configure-api-driven-inbound-provisioning-to-microsoft-entra-id) from your HR systems?**
 
@@ -73,13 +80,25 @@ M﻿ostly the same answer. But using [Custom Authentication Extensions](https://
 
 T﻿hen it you must use the UI provided and this will create Directory Extensions on the application.
 
+
+![](/img/directory-extensions-small.jpg)
+
+
 1﻿3. **Is this sensitive data you need to store on users? And you need to lock down who can read it and who can write it?**
 
 T﻿hen you must [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview#how-do-custom-security-attributes-compare-with-extensions).
 
+
+![](/img/custom-security-attributes-vault-door-small.png)
+
+
 1﻿4. **Do you need[ Lifecycle Control ](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)over the attribute definitions? I.e. Someone can't delete the definition and render your data undiscoverable.**
 
 Then [Schema Extensions](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)or [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-add?tabs=ms-powershell#frequently-asked-questions) (only if it is to be on users or servicePrincipals).
+
+
+![](/img/schema-extensions-small.jpg)
+
 
 1﻿5. **Do you need it to be [Graph Filterable](https://learn.microsoft.com/en-us/graph/aad-advanced-queries?tabs=http#user-properties:~:text=shows%20support%20for%20%24filter%20by%20other%20extension%20properties%20on%20the%20user%20object)?**
 
@@ -89,9 +108,15 @@ T﻿hen you can't use Open Extensions
 
 Then you must use Open Extensions
 
+
+![](/img/open-extension-batwing-doors-small.png)
+
+
 1﻿7. **If not todoTask or todoTaskList is it for the other [Outlook resources (contact, Event, Message or Post)](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)?**
 
 T﻿hen you must do Schema Extensions
+
+![](/img/schema-extensions-small.jpg)
 
 1﻿8. **Do you need to [share this with other tenants](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle) without creating a multi-tenant application?**
 
@@ -100,5 +125,5 @@ T﻿hen you must do Schema Extensions
 1﻿9. **If you don't need to share it with other tenants and it is on a directory resource**
 
 T﻿hen you can choose between Directory Extensions and Schema Extensions. But I recommend Directory Extensions.
-
+![](/img/all-the-doors-together2.jpg)
 [<- Previous -- U﻿se Cases](/blog/2025/10/custom-attributes-in-entra-id-use-cases/)
