@@ -1,5 +1,9 @@
 weight: 2
 name: For Identity Centered on Premise
-image: "/img/MIMcentered.png"
-
-description: "Microsoft Identity Manager -- Many do and will continue to use MIM, especially for those with large on-premises investments that aren’t going away any time soon. Used in conjunction with AAD and/or Clear Skye and your solution can cover the Cloud and all your GRC needs."
+image: /img/MIMcentered.png
+description: While support for Microsoft Identity Manager goes away in early
+  2029 -- Many orgs continue to use MIM, especially for those with large
+  on-premises investments that aren’t going away any time soon. Used in
+  conjunction with Entra ID and/or HyperSync and your solution can cover the
+  Cloud and all your GRC needs. We continue to support these orgs helping them
+  keep MIM healthy and planning their transition.
