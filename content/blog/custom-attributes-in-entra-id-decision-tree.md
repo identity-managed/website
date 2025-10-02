@@ -79,21 +79,21 @@ T﻿hen you must [Custom Security Attributes](https://learn.microsoft.com/en-us/
 
 1﻿4. **Do you need[ Lifecycle Control ](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)over the attribute definitions? I.e. Someone can't delete the definition and render your data undiscoverable.**
 
-Then [Schema Extensions ](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)or [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-add?tabs=ms-powershell#frequently-asked-questions) (only if it is to be on users or servicePrincipals).
+Then [Schema Extensions](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)or [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-add?tabs=ms-powershell#frequently-asked-questions) (only if it is to be on users or servicePrincipals).
 
 1﻿5. **Do you need it to be [Graph Filterable](https://learn.microsoft.com/en-us/graph/aad-advanced-queries?tabs=http#user-properties:~:text=shows%20support%20for%20%24filter%20by%20other%20extension%20properties%20on%20the%20user%20object)?**
 
 T﻿hen you can't use Open Extensions
 
-16. **I﻿f not Graph Filterable and is it to be on todoTask or todoTaskList?** 
+16. **I﻿f not Graph Filterable and is it to be on [todoTask or todoTaskList](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)?** 
 
 Then you must use Open Extensions
 
-1﻿7. **If not todoTask or todoTaskList is it for the other Outlook resources (contact, Event, Message or Post)?**
+1﻿7. **If not todoTask or todoTaskList is it for the other [Outlook resources (contact, Event, Message or Post)](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)?**
 
 T﻿hen you must do Schema Extensions
 
-1﻿8. **Do you need to share this with other tenants without creating a multi-tenant application?**
+1﻿8. **Do you need to [share this with other tenants](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle) without creating a multi-tenant application?**
 
 T﻿hen you must do Schema Extensions
 
