@@ -41,47 +41,47 @@ Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/e
 
 Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)
 
-5. **D﻿o you need to sync this custom data from On-Premises Active Directory?** 
+5. **D﻿o you need to [sync this custom data from On-Premises Active Directory?](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-sync-feature-directory-extensions)** 
 
-Then it could be Extension Attributes ﻿but because of the limitations of only having 15 Extension Attributes and the three previous use cases that we can only satisfy with Extension Attributes, you should use Directory Extensions through Entra ID Connect Sync or Entra ID Cloud Sync.
+Then it could be Extension Attributes ﻿but because of the limitations of only having 15 Extension Attributes and the three previous use cases that we can only satisfy with Extension Attributes, you should use [Directory Extensions](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#directory-microsoft-entra-id-extensions) through [Entra ID Connect Sync](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-sync-feature-directory-extensions) or [Entra ID Cloud Sync](https://learn.microsoft.com/en-us/entra/identity/hybrid/cloud-sync/concept-attributes#:~:text=Directory%20extensions).
 
-6. **Is this custom data to be used in Dynamic membership rules for Distribution Groups or Administrative Units?**
+6. **Is this custom data to be used in [Dynamic membership rules for Distribution Groups](https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership#extension-attributes-and-custom-extension-properties) or [Administrative Units](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-members-dynamic)?**
 
 S﻿ame answer as above: it could Extension Attributes but should be Directory Extensions.
 
-7. **Do you need to sync this data to another tenant through Cross Tenant Sync?**
+7. **Do you need to sync this data to another tenant through [Cross Tenant Sync](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview#attributes)?**
 
 S﻿ame answer.
 
-8﻿. **Do you need to provision this data into Entra ID from your HR systems?**
+8﻿. **Do you need to [provision this data into Entra ID](https://learn.microsoft.com/en-us/entra/identity/app-provisioning/inbound-provisioning-api-configure-app#configure-api-driven-inbound-provisioning-to-microsoft-entra-id) from your HR systems?**
 
 S﻿ame answer.
 
-9﻿. **Do you need to synchronize this data when provisioning to Cloud Apps?**
+9﻿. **Do you need to synchronize this data when [provisioning to Cloud Apps](https://learn.microsoft.com/en-us/entra/identity/app-provisioning/customize-application-attributes)?**
 
 S﻿ame answer.
 
-1﻿0. **Do you need this data to be available to applications that use Entra ID Domain Services?**
+1﻿0. **Do you need this data to be available to applications that use [Entra ID Domain Services](https://learn.microsoft.com/en-us/entra/identity/domain-services/concepts-custom-attributes)?**
 
 S﻿ame answer.
 
-1﻿1. **Do you need this to be included in SAML and SSO tokens?**
+1﻿1. **Do you need this to be included in [SAML and SSO tokens](https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims?tabs=appui#configure-directory-extension-optional-claims)?**
 
-M﻿ostly the same answer. There are ways to include Custom Security Attributes, or data from entirely different sources, such as HR or CRM into the tokens.
+M﻿ostly the same answer. But using [Custom Authentication Extensions](https://learn.microsoft.com/en-us/entra/identity-platform/custom-extension-overview) we can include into our tokens data from  [Custom Security Attributes](https://goodworkaround.com/2024/10/14/issuing-custom-security-attributes-in-entra-id-tokens/), or data from entirely different sources, such as HR or CRM into the tokens.
 
-1﻿2. **Will this be part of the External ID Custom User Attributes?**
+1﻿2. **Will this be part of the [External ID Custom User Attributes](https://learn.microsoft.com/en-us/entra/external-id/user-flow-add-custom-attributes)?**
 
 T﻿hen it you must use the UI provided and this will create Directory Extensions on the application.
 
 1﻿3. **Is this sensitive data you need to store on users? And you need to lock down who can read it and who can write it?**
 
-T﻿hen you must Custom Security Attributes.
+T﻿hen you must [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview#how-do-custom-security-attributes-compare-with-extensions).
 
-1﻿4. **Do you need Lifecycle Control over the attribute definitions? I.e. Someone can't delete the definition and render your data undiscoverable.**
+1﻿4. **Do you need[ Lifecycle Control ](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)over the attribute definitions? I.e. Someone can't delete the definition and render your data undiscoverable.**
 
-Then Schema Extensions or Custom Security Attributes (only if it is to be on users or servicePrincipals).
+Then [Schema Extensions ](https://learn.microsoft.com/en-us/graph/api/resources/schemaextension?view=graph-rest-1.0#schema-extensions-lifecycle)or [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-add?tabs=ms-powershell#frequently-asked-questions) (only if it is to be on users or servicePrincipals).
 
-1﻿5. **Do you need it to be Graph Filterable?**
+1﻿5. **Do you need it to be [Graph Filterable](https://learn.microsoft.com/en-us/graph/aad-advanced-queries?tabs=http#user-properties:~:text=shows%20support%20for%20%24filter%20by%20other%20extension%20properties%20on%20the%20user%20object)?**
 
 T﻿hen you can't use Open Extensions
 
