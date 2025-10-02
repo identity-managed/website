@@ -25,12 +25,12 @@ This article is the eighth in a series about Custom Attributes in Entra ID and w
 
 ![](/img/entra-id-custom-attribute-decision-tree.png "Entra ID Custom Attribute Decision Tree")
 
-1. I﻿s this custom data intended for Enterprise Applications or Managed Identities (both of which are of the [servicePrincipal resource type](https://learn.microsoft.com/en-us/graph/api/resources/servicePrincipal?view=graph-rest-1.0))? 
+1. **I﻿s this custom data intended for Enterprise Applications or Managed Identities (both of which are of the [servicePrincipal resource type](https://learn.microsoft.com/en-us/graph/api/resources/servicePrincipal?view=graph-rest-1.0))?** 
    *If "Yes," then you must use [Custom Security Attributes](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview) -- this is the only way to [filter on Applications in Conditional Access Policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-filter-for-applications)*
-2. I﻿s this custom data that you need to [make visible on the Profile Card](https://learn.microsoft.com/en-us/graph/add-properties-profilecard)? 
-   **Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)**
-3. W﻿ill this custom data be used in the rules in an [Exchange Online Dynamic Distribution Group](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/create-manage-dynamic-distribution-groups?source=recommendations&tabs=create-new-eac%2Ccreate-new-eac-2%2Ccreate-new-eac-3)? 
-   **Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)**
+2. **I﻿s this custom data that you need to [make visible on the Profile Card](https://learn.microsoft.com/en-us/graph/add-properties-profilecard)?** 
+   *Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)*
+3. **W﻿ill this custom data be used in the rules in an [Exchange Online Dynamic Distribution Group](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/create-manage-dynamic-distribution-groups?source=recommendations&tabs=create-new-eac%2Ccreate-new-eac-2%2Ccreate-new-eac-3)?** 
+   *Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)*
 4. W﻿ill this data be used to [Filter on Devices in Conditional Access Policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-condition-filters-for-devices#supported-operators-and-device-properties-for-filters)? 
    Then it must be [Extension Attributes](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#extension-attributes)
 5. D﻿o you need to sync this custom data from On-Premises Active Directory? 
