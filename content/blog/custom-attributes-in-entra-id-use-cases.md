@@ -58,7 +58,7 @@ This article is the seventh in a series about Custom Attributes in Entra ID and 
 * E﻿ach resource can have 100 values
 * I﻿f you squint your eyes you can ignore the ugly name 
 
-  ![](/img/directory-extensions-small.jpg)
+  ![](/img/directoryextensions_usecases_small.png)
 
 ## Extension Attributes
 
@@ -76,7 +76,7 @@ We have no other way to do these things. T﻿herefore, I urge you to use Directo
 
 Extension Attributes also have an exclusive on using Custom Data for [Conditional Access Filters for Devices](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-condition-filters-for-devices#supported-operators-and-device-properties-for-filters).
 
-![](/img/extensionattributes-small.jpg)
+![](/img/extensionsattributes_usecases_small.png)
 
 ## C﻿ustom Security Attributes
 
@@ -86,7 +86,7 @@ W﻿hile C﻿ustom Security Attributes have only six uses cases in my list, it i
 * [C﻿onditional Access Filter on Enterprise Applications](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-filter-for-applications) can provide a great help to categorizing Enterprise Applications (Service Principals, which includes Managed Identities) and then being apply to apply Conditional Access Policies in systematized categoric way. For example, one client has many Storage Account Enterprise Apps that they had excluded individually from a number of policies -- creating a management headache.
 * [S﻿toring custom data in a way that you can allow a user or app to read and write some of the data but not all of it.](https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview#how-do-custom-security-attributes-compare-with-extensions) W﻿hen a user, group or service principal has access to read a resource in Entra ID they generally have permissions to read everything on the resource. When they have write permissions they generally have permissions to write to all attributes on the resource. Custom Security Attributes presents the only way to add custom data to Entra ID and control who can read which Attribute Sets and who can write to which Attribute Sets. In this way it is very similar to on-prem AD.
 
-  ![](/img/custom-security-attributes-vault-door-small.png)
+  ![](/img/customsecurityattributes_usecases_small.png)
 
 ## Schema Extensions
 
@@ -106,7 +106,7 @@ A﻿lthough, I am not certain that I view the discoverability of schema extensio
 
 A﻿t least with Directory Extensions you only have to go through the Enterprise Applications in your tenant as opposed to the whole world and then query Graph for each resource type. Not easy but it could be worse.
 
-![](/img/schema-extensions-small.jpg)
+![](/img/schemaextensions_usecases_small.png)
 
 ## O﻿pen Extensions
 
@@ -116,7 +116,7 @@ From an application developer viewpoint, there are loads of use cases for Open E
 
 F﻿rom a discoverability standpoint you only have to query each resource in your tenant and access the[ extensions collection](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0#properties:~:text=Read%2Donly.%20Nullable.-,extensions,-extension%20collection) on each resource to find all of the Open Extensions in use your tenant.  <Sarcasm>Child's Play</Sarcasm>
 
-![](/img/open-extension-batwing-doors-small.png)
+![](/img/openextensions_usecases_small.png)
 
 [<- Previous -- L﻿imitations](/blog/2025/10/custom-attributes-in-entra-id-limitations/)\
 [Next -- Decision Tree ->](/blog/2025/10/custom-attributes-in-entra-id-decision-tree/)
