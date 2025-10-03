@@ -6,11 +6,11 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-09-26T20:20:33.887Z
-banner: /img/all-the-doors-together2_namingconventions.jpg
+banner: /img/entra-id-attribute-naming-conventions_small.png
 authors:
   - DavidLundell
 ---
-![](/img/all-the-doors-together2_namingconventions.jpg)
+![](/img/entra-id-attribute-naming-conventions_small.png)
 
 This article is the second in a series about Custom Attributes in Entra ID and will discuss the N﻿aming Conventions so that you can recognize them when you see them in the wild and understand how uniqueness is enforced and guaranteed.
 
