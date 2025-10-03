@@ -10,6 +10,9 @@ banner: /img/entra-id-attribute-naming-conventions_small.png
 authors:
   - DavidLundell
 ---
+![](/img/all-the-doors-together2.jpg)
+
+
 ![](/img/entra-id-attribute-naming-conventions_small.png)
 
 This article is the second in a series about Custom Attributes in Entra ID and will discuss the N﻿aming Conventions so that you can recognize them when you see them in the wild and understand how uniqueness is enforced and guaranteed.
