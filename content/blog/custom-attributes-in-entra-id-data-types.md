@@ -10,6 +10,8 @@ banner: /img/entra-custom-attribute-data-types_small.png
 authors:
   - DavidLundell
 ---
+![](/img/all-the-doors-together2.jpg)
+
 ![](/img/entra-custom-attribute-data-types_small.png)
 
 This article is the fourth in a series about Custom Attributes in Entra ID and will discuss the Data Types that each of these approaches can use.
