@@ -12,7 +12,7 @@ authors:
 ---
 ![](/img/entraidcustomattributes_lifecycles_small.png)
 
-This article is the fifth in a series about Custom Attributes in Entra ID and will discuss the Resource Types that each of these approaches can use. 
+This article is the fifth in a series about Custom Attributes in Entra ID and will discuss the Lifecycle of each of these approaches. 
 
 1. [Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)
 2. [N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)
