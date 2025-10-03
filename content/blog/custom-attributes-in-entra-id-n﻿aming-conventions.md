@@ -6,11 +6,11 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-09-26T20:20:33.887Z
-banner: /img/all-the-doors-together2.jpg
+banner: /img/all-the-doors-together2_namingconventions.jpg
 authors:
   - DavidLundell
 ---
-![](/img/all-the-doors-together2.jpg)
+![](/img/all-the-doors-together2_namingconventions.jpg)
 
 This article is the second in a series about Custom Attributes in Entra ID and will discuss the N﻿aming Conventions so that you can recognize them when you see them in the wild and understand how uniqueness is enforced and guaranteed.
 
@@ -37,6 +37,8 @@ This article is the second in a series about Custom Attributes in Entra ID and w
 
 Y﻿ou do not get to choose the names of the Extension Attributes as they are predetermined and fixed. 
 
+![](/img/extensionattributes_examplename-small.png)
+
 ## On-premises Active Directory
 
 W﻿ith on-premises Active Directory and any LDAP directory you could have collisions with attribute names but at least the [Object Identifier (OID)](https://learn.microsoft.com/en-us/windows/win32/ad/obtaining-an-object-identifier) enforced uniqueness, right? Sort of. You could use the OID registrar and get a unique OID or generate one through Microsoft using your script to generate an OID with a random GUID. But nothing prevented you from making your own AD schema extension and using someone else's OID or prevent them from using yours, except common sense, which always prevails!
@@ -45,11 +47,13 @@ W﻿ith on-premises Active Directory and any LDAP directory you could have colli
 
 When you create a Directory Extension you get stuck with using the Application ID (a GUID) as part of the name . Yuck! But this **guarantees uniqueness throughout the known universe**, and when building a multi-tenant app or installing a multi-tenant app that someone else built this is critical! (note this is not the ObjectID of the Registered Application nor the ObjectID of the related Enterprise Application, but the AppID or Client ID of the application -- *this number shows up on both the Registered Application and all of its related Enterprise Applications*).
 
+![](/img/directoryextension_examplename_small.png)
+
 ## Schema Extensions are prettier!
 
 T﻿o enforce uniqueness you can use a vanity domain or let Entra generate a prefix of "ext" followed by 8 random characters and then it adds the name you provide. The **vanity domain is highly recommended** for two reasons:
 
-![](/img/schema-extensions-small.jpg)
+![](/img/schemaextensions_examplenames-small.png)
 
 \
 1﻿. You can pick it and make all of your schema extensions consistent
@@ -57,13 +61,13 @@ T﻿o enforce uniqueness you can use a vanity domain or let Entra generate a pre
 
 ## O﻿pen Extensions are the wild wild west and you can name it whatever you want
 
-![](/img/open-extension-batwing-doors-small.png)
+![](/img/openextensions_examplename-small.png)
 
 ## C﻿ustom Security Attributes
 
 C﻿ustom Security Attributes names start with the name of the AttributeSet and then an underscore and then the name of the attribute. In terms of naming conventions I like this the best. Since these are limited to your tenant they only need to be unique inside your tenant.
 
-![](/img/custom-security-attributes-vault-door-small.png)
+![](/img/customsecruityattributes_nameexample_small.png)
 
 [<- Previous -- Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)\
 [Next -- R﻿esource Types ->](/blog/2025/09/custom-attributes-in-entra-id-resource-types/)
