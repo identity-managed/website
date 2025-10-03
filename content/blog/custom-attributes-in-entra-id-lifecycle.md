@@ -92,7 +92,7 @@ S﻿ince deleting the definition does not delete the data it counts against the 
 
 [M﻿akes the data undiscoverable](https://learn.microsoft.com/en-us/graph/extensibility-overview#considerations-for-using-directory-extensions) -- you can't find it let alone read it let alone write to it or delete it. You can recover from this by restoring the Enterprise Application, although if this is the source tenant for the Enterprise Application then you must restore the Registered Application first. Then you can resume using the data or you can delete the data. This is critical because of the [100 value limit and it still counts against your tenant even if the data is undiscoverable](https://learn.microsoft.com/en-us/graph/extensibility-overview?tabs=http#considerations-for-using-directory-extensions).
 
-![](/img/directory-extensions-small.jpg)
+![](/img/directoryextensions_doorsmashed_paintsplattered_small.png)
 
 [<- Previous -- D﻿ata Types](/blog/2025/09/custom-attributes-in-entra-id-data-types/)\
 [Next -- L﻿imitations ->](/blog/2025/10/custom-attributes-in-entra-id-limitations/)
