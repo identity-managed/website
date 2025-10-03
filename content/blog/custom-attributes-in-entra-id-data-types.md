@@ -6,11 +6,11 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-09-26T23:57:15.181Z
-banner: /img/all-the-doors-together2.jpg
+banner: /img/entra-custom-attribute-data-types_small.png
 authors:
   - DavidLundell
 ---
-![](/img/all-the-doors-together2.jpg)
+![](/img/entra-custom-attribute-data-types_small.png)
 
 This article is the fourth in a series about Custom Attributes in Entra ID and will discuss the Data Types that each of these approaches can use.
 
@@ -42,21 +42,29 @@ This article is the fourth in a series about Custom Attributes in Entra ID and w
 
 ## G﻿oing beyond single valued strings
 
+![](/img/extensionattributes_datatypes_small.png)
+
 I﻿f you need to go beyond single valued string data then Extension Attributes are out. If you need to go beyond Multi-valued String data then Open Extensions are out (although the apps use it can store whatever they want in the string and interpret it however they want). If you must use Extension Attributes then you are stuck with 15 single valued string attributes.
+
+![](/img/openextensions_datatypes_small.png)
 
 ## C﻿ustom Security Attributes -- ok but limited
 
 C﻿ustom Security Attributes have a 64 unicode character limit on strings, can't handle binary nor DateTime.
 
+![](/img/customsecurity_datatypes_small.png)
+
 ## S﻿chema Extensions -- ok but no multi-valued
 
 S﻿chema Extensions cannot do multi-valued or 64-bit integers, however they cover everything else.
+
+![](/img/schemaextensions_datatypes_small.png)
 
 ## D﻿irectory Extensions are the most flexible
 
 D﻿irectory Extensions are the most flexible although strings are limited to either 250 or 256 unicode characters ([Connect Sync docs say it truncates it 250](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-sync-feature-directory-extensions#:~:text=The%20maximum%20length%20is%20250%20characters.%20If%20an%20attribute%20value%20is%20longer%2C%20the%20sync%20engine%20truncates%20it.) but other [docs say limit is 256](https://learn.microsoft.com/en-us/graph/api/resources/extensionproperty?view=graph-rest-1.0#:~:text=256%20characters%20maximum) and they could both be right -- the actual limit could be 256 but Entra ID Connect is or was configured to truncate at 250 characters.
 
-![](/img/directory-extensions-small.jpg)
+![](/img/directoryextensions_datatypes_small.png)
 
 **W﻿hat type is missing?**
 
