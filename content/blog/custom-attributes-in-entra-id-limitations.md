@@ -47,7 +47,7 @@ C﻿ustom Security Attributes can only have **500** attribute definitions wherea
 
 ## D﻿irectory Extensions and Schema Extensions
 
-D﻿irectory Extensions and Schema Extensions are both limited to **100 values populated per resource**. 
+D﻿irectory Extensions and Schema Extensions are both limited to **100 values populated per resource**. Although for Schema Extensions it must be noted that this limitation only applies to directory resources (user, group, adminsitrativeUnit, and organization).
 
 ## Open Extensions
 
