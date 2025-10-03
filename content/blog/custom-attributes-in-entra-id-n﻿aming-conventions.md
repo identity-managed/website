@@ -63,6 +63,8 @@ T﻿o enforce uniqueness you can use a vanity domain or let Entra generate a pre
 
 ![](/img/openextensions_examplename-small.png)
 
+A﻿lthough the documentation seems to suggest using a reverse FQDN followed by the extension name, much like in Java or .NET programming languages: com.snappyslackers.coordinates and in this way uniqueness usually happens.
+
 ## C﻿ustom Security Attributes
 
 C﻿ustom Security Attributes names start with the name of the AttributeSet and then an underscore and then the name of the attribute. In terms of naming conventions I like this the best. Since these are limited to your tenant they only need to be unique inside your tenant.
