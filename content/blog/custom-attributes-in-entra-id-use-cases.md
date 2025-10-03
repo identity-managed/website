@@ -6,15 +6,13 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-10-01T03:46:51.314Z
-banner: /img/all-the-doors-together2.jpg
+banner: /img/entraidcustomattributes_usecases_small.png
 authors:
   - DavidLundell
 ---
-![](/img/all-the-doors-together2.jpg)
+![](/img/entraidcustomattributes_usecases_small.png)
 
-This article is the seventh in a series about Custom Attributes in Entra ID and will discuss the use cases
-
-of each these approaches.
+This article is the seventh in a series about Custom Attributes in Entra ID and will discuss the use cases of each these approaches. There are seven use cases that have only one solution, three exclusive use cases for Extension Attributes, three exclusive for Custom Security Attributes and one for Directory Extensions.
 
 1. [Names and aliases](/blog/2025/09/custom-attributes-in-entra-id/#names-and-aliases)
 2. [N﻿aming Conventions](/blog/2025/09/custom-attributes-in-entra-id-naming-conventions/)
