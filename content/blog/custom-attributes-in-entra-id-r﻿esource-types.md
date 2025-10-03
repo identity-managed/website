@@ -6,11 +6,11 @@ description: "Definitive guide to which way to put custom data into Entra ID:
 tags:
   - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
 date: 2025-09-26T21:03:55.416Z
-banner: /img/all-the-doors-together2.jpg
+banner: /img/all-together.png_resourcetypes.png
 authors:
   - DavidLundell
 ---
-![](/img/all-the-doors-together2.jpg)
+![](/img/all-together.png_resourcetypes.png)
 
 This article is the third in a series about Custom Attributes in Entra ID and will discuss the Resource Types that each of these approaches can use.
 
@@ -45,7 +45,7 @@ This article is the third in a series about Custom Attributes in Entra ID and wi
 
 T﻿he most startling thing this table reveals, is that the only way to extend Service Principals (aka Enterprise Applications -- this also includes Managed Identities) is with Custom Security Attributes.
 
-![](/img/custom-security-attributes-vault-door-small.png)
+![](/img/custom-security-attributes.png_resourcetypes.png)
 
 T﻿he second most startling thing is that Custom Security Attributes can apply to Service Principals and users.
 
@@ -53,21 +53,25 @@ T﻿he second most startling thing is that Custom Security Attributes can apply 
 
 O﻿pen Extensions can apply to anything but Service Principals, Administrative Units, and Applications, but are the only way to add to a todoTask or a todoTaskList.
 
-![](/img/open-extension-batwing-doors-small.png)
+![](/img/open-extensions.png_resourcetypes.png)
 
 ## S﻿chema Extensions apply to slightly fewer
 
 S﻿chema Extensions can apply to the same list as Open Extensions minus the todoTask and the todoTaskList but adding back the Application.
 
+![](/img/schema-extensions.png_resourcetypes.png)
+
 ## Directory Extensions are more limited still
 
 Directory Extensions are much more limited but still allow for a variety of resource types.
+
+![](/img/directoryextensions.png_resourcetypes.png)
 
 ## Extension Attributes in Entra only apply to users and devices
 
 Finally, Extension Attributes in Entra only apply to users and devices. What about groups? On-premises AD groups also have Extension Attributes, if your on-prem AD schema was extended by Exchange. In the cloud, Exchange also owns these attributes for groups and for whatever reason the Entra ID and Exchange Online teams did not make provisions for those attributes to be available through Entra ID. 
 
-![](/img/extensionattributes-small.jpg)
+![](/img/extensionattributes.png_resourcetypes.png)
 
 This creates an interesting problem: Connect Sync supports syncing these the Extension Attributes on groups to the cloud but Cloud Sync does not.
 
