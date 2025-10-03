@@ -55,7 +55,7 @@ T﻿o enforce uniqueness you can use a vanity domain or let Entra generate a pre
 
 ![](/img/schemaextensions_examplenames-small.png)
 
-\
+
 1﻿. You can pick it and make all of your schema extensions consistent
 2﻿. While the Schema Extension is in the InDevelopment status should you delete the extension before nulling out or deleting the data on the resources you can recreate the Schema Extension and then null out the data. This is not possible if you let Entra generate the random prefix. 
 
