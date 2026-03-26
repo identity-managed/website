@@ -5,19 +5,37 @@
     <loc>http://localhost:1313/authors/</loc>
     <lastmod>2025-10-01T22:41:06+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/azureactivedirectory/</loc>
+    <lastmod>2025-10-01T22:41:06+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-10-01T22:41:06+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/</loc>
     <lastmod>2025-10-01T22:41:06+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/customsecurityattributes/</loc>
+    <lastmod>2025-10-01T22:41:06+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/authors/davidlundell/</loc>
     <lastmod>2025-10-01T22:41:06+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/entraidentraazureactivedirectoryextensionattributesdirectoryextensionsschemaextensionscustomsecurityattributes/</loc>
+    <loc>http://localhost:1313/tags/directoryextensions/</loc>
+    <lastmod>2025-10-01T22:41:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/entra/</loc>
+    <lastmod>2025-10-01T22:41:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/entraid/</loc>
+    <lastmod>2025-10-01T22:41:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/extensionattributes/</loc>
     <lastmod>2025-10-01T22:41:06+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-01T22:41:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/schemaextensions/</loc>
     <lastmod>2025-10-01T22:41:06+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
