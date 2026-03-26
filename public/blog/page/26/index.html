@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta name="robots" content="all,follow" />
 <meta name="googlebot" content="index,follow,snippet,archive" />
@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>Blog</title>
-<meta name="author" content="David" />     <meta name="keywords" content="identity, hugo, go">  
+<meta name="author" content="map[email:david@identitymanaged.com name:David]" />     <meta name="keywords" content="identity, hugo, go">  
 <meta name="description" content="Identity Managed" />
 
-<meta name="generator" content="Hugo 0.120.4">
+<meta name="generator" content="Hugo 0.159.0">
 
 <link
   rel="stylesheet"
@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702678769" rel="stylesheet">
+<link href="/css/custom.css?1774497472" rel="stylesheet">
 
 
 
@@ -48,18 +48,18 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.com/index.xml"
+<link rel="alternate" href="http://localhost:1313/index.xml"
 type="application/rss+xml" title="Identity Managed">
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//feed.xml"
+  href="http://localhost:1313//feed.xml"
   title="Identity Managed"
 />
 
 
      <meta property="og:updated_time"
-content="2022-04-26T14:31:00-0700"> 
+content="2025-10-01T22:41:06Z"> 
 
 
 <meta
@@ -78,9 +78,13 @@ content="2022-04-26T14:31:00-0700">
     <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//index.xml"
+  href="http://localhost:1313//index.xml"
   title="Identity Managed"
 />
+
+<link rel=""alternate"" type=""application/rss+xml"" href=""http://localhost:1313/blog/index.xml"" title=""Identity Managed"" />
+
+
 
   </head>
 
@@ -266,7 +270,7 @@ content="2022-04-26T14:31:00-0700">
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/07/mvp-for-3rd-time.html">
+                                      <a href="http://localhost:1313/2010/02/final-update-for-fim-rc1-released.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -274,7 +278,7 @@ content="2022-04-26T14:31:00-0700">
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/07/mvp-for-3rd-time.html">MVP for the 3rd time</a></h2>
+                                    <h2><a href="http://localhost:1313/2010/02/final-update-for-fim-rc1-released.html">Final Update for FIM RC1 released</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -311,18 +315,54 @@ content="2022-04-26T14:31:00-0700">
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/07/mvp-for-3rd-time.html"><i class="far fa-calendar"></i> July 20, 2009</a>
+                                            <a href="http://localhost:1313/2010/02/final-update-for-fim-rc1-released.html"><i class="far fa-calendar"></i> February 1, 2010</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Both my colleague Brad Turner and I were renewed for ILM MVP.
-I am glad to receive this honor another year.
-Congrats to new ILM MVP Marc Mac Donnell
-You can see a list of all ILM MVP&rsquo;s that have chosen to make their profiles public (Marc hasn&rsquo;t setup his yet).
-I just hope I can win the MVP at home!
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/07/mvp-for-3rd-time.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>On Friday the product group released Update 3 for Forefront Identity Manager 2010 RC1 available through connect</p>
+<p><a href="https://connect.microsoft.com/site433/Downloads" title="https://connect.microsoft.com/site433/Downloads">https://connect.microsoft.com/site433/Downloads</a></p>
+<p>Major changes as part of Update 3 (my regurgitation and comments from the release notes):</p>
+<ul>
+<li>Fewer trips to the FIM Service event log – since the FIM MA export errors will now show up in the Synchronization Service Manager! Hallelujah!</li>
+<li>Less need for custom old style code
+<ul>
+<li>Now more than 1 MA can be authoritative for deleting an object (resource)</li>
+<li>New functions for Sync Rules (Declarative Provisioning) – I guess I will have to update <a href="http://www.ilmbestpractices.com/blog/2009/01/ilm-2-functions-explained.html">my function cheatsheet</a>
+<ul>
+<li>Null – not certain what they mean by this – null out the value or let another sync rule provide the value.</li>
+<li>ReplaceString</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>New type of MPR – Set Transition MPRs vs. request based MPRs
+<ul>
+<li>Run on Policy Update only applies to this type</li>
+<li>All other MPRs are – request based MPRs</li>
+<li>This should easy some of the difficulty in wrapping heads around MPRs.</li>
+</ul>
+</li>
+<li>DBA’s will love these:
+<ul>
+<li>Backups without stopping the FIM Service and now supported!</li>
+<li>SQL Failover Clusters are now supported! (I don’t know if this means that clustering the Synchronization Service is supported)</li>
+</ul>
+</li>
+<li>Prereqs have changed
+<ul>
+<li>Server Components
+<ul>
+<li>Windows Installer 4.5 is required,</li>
+</ul>
+</li>
+<li>FIM Service requires SQL 2008 SP 1</li>
+<li>The addin for Outlook now needs Outlook 2007 SP 2</li>
+</ul>
+</li>
+</ul>
+<p>Even the certificate management side got some improvements: Windows Server 2008 R2</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2010/02/final-update-for-fim-rc1-released.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -333,7 +373,7 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/07/webinar-how-microsoft-geneva.html">
+                                      <a href="http://localhost:1313/2010/02/fim-hand-on-labs.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -341,7 +381,7 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/07/webinar-how-microsoft-geneva.html">Webinar: How Microsoft Geneva Streamlines Business</a></h2>
+                                    <h2><a href="http://localhost:1313/2010/02/fim-hand-on-labs.html">FIM Hand on Labs</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -378,30 +418,14 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/07/webinar-how-microsoft-geneva.html"><i class="far fa-calendar"></i> July 20, 2009</a>
+                                            <a href="http://localhost:1313/2010/02/fim-hand-on-labs.html"><i class="far fa-calendar"></i> February 1, 2010</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">When:
-Wednesday, July 29, 2009
-10:30 to 11:30 (PST)
-12:30 to 1:30 (CST)
-1:30 to 2:30 (EST)
-[Register Now]
-Presenters:
-David Lundell, ILM MVP
-Identity Management
-Practice Leader, Ensynch
-Jonathan Sander
-IAM and Security Analyst
-Quest Software
-Webinar: How Microsoft Geneva
-Streamlines Business
-- Learn How to Reap the Benefits of True Web
-Single-Sign-On and Federation
-Has your organization been forced to deploy one-off solutions to solve login or compliance problems with a newly deployed technology?</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/07/webinar-how-microsoft-geneva.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>More Hands on Labs for Forefront Identity Manager will be coming up (similar to the <a href="http://www.ilmbestpractices.com/blog/2009/11/identity-synchronization-fim-2010-hol.html">one I did in Irvine, CA</a>) – Phoenix April 7th and 8th and then Dallas sometime in May.</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2010/02/fim-hand-on-labs.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -412,7 +436,7 @@ Has your organization been forced to deploy one-off solutions to solve login or 
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/07/4th-of-july-independence-day.html">
+                                      <a href="http://localhost:1313/2009/11/fim-rcdc-explained-in-brief.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -420,7 +444,7 @@ Has your organization been forced to deploy one-off solutions to solve login or 
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/07/4th-of-july-independence-day.html">4th of July -- Independence Day</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/11/fim-rcdc-explained-in-brief.html">FIM RCDC explained in brief</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -457,13 +481,14 @@ Has your organization been forced to deploy one-off solutions to solve login or 
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/07/4th-of-july-independence-day.html"><i class="far fa-calendar"></i> July 5, 2009</a>
+                                            <a href="http://localhost:1313/2009/11/fim-rcdc-explained-in-brief.html"><i class="far fa-calendar"></i> November 29, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">233 years ago, 56 men signed a document and began a labor to give birth to a nation. I am very grateful for their service and for their sacrifices and for each and every soldier, and dutiful civil servant since then. They have afforded me and my family a great many blessings. As well some of my family members have been privileged to serve. One of my grandfathers taught ground school during World War II and the other served in the Army and was stationed in Greenland.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/07/4th-of-july-independence-day.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>In this post I attempt to give you the reader a quick overview of how the FIM RCDC works conceptually. As for the mechanics of modifying the RCDC the nearly complete but growing collection of documents downloadable from MSFT will suffice.</p>
+<p>As you will recall FIM is the new abbreviation for ILM, since it has been renamed Forefront Identity Manager, and RCDC is the Resource Control Display Configuration formerly known as the Object Visualization Configuration (OVC). RCDC is the way you custom how FIM displays objects (now called resources) in the portal. Now for English: If you need to change the options and information users see in the FIM portal when they create new users, groups (security or distribution), or edit or view these resources you do it by modifying the RCDC. The RCDC is an XML object, and each resource type (user, group, request, etc) has three: Create, Edit and View. To get a handle on the terms take a look at the figure below:</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/11/fim-rcdc-explained-in-brief.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -474,7 +499,7 @@ Has your organization been forced to deploy one-off solutions to solve login or 
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html">
+                                      <a href="http://localhost:1313/2009/11/answering-my-fim-rc-1-question.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -482,7 +507,7 @@ Has your organization been forced to deploy one-off solutions to solve login or 
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html">The attributes behind Message Delivery Restrictions</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/11/answering-my-fim-rc-1-question.html">Answering my FIM RC 1 question</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -519,14 +544,14 @@ Has your organization been forced to deploy one-off solutions to solve login or 
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html"><i class="far fa-calendar"></i> June 29, 2009</a>
+                                            <a href="http://localhost:1313/2009/11/answering-my-fim-rc-1-question.html"><i class="far fa-calendar"></i> November 24, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Very helpfull!! I was about to block sending email&hellip; Paweł Jarosz - Sep 1, 2010
-Very helpfull!! I was about to block sending emails to disabled accounts - not mailbox but accounts - so I can easily and quick retrieve some data from inactive inboxes. The solution is to create an empty group in AD and set the &ldquo;dLMemSubmitPerms&rdquo; parameter to accept messages only from that empty group! Amazing and great many thanks!</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Thanks to <a href="http://blogs.msdn.com/darrylru/default.aspx">Darryl Russi</a> for answering my questions in my earlier post <a href="http://www.ilmbestpractices.com/blog/2009/11/update-to-fim-rc1.html" title="An Update to FIM RC1">An Update to FIM RC1</a> where I was asked about something I had read in the release notes:</p>
+<p>Some of those items raise a few questions, like how to setup a FIM service that only takes requests from the sync service? Do we setup multiple FIM Service instances and then configure the FIM MA to talk to one of them, and not make that one available to web clients?</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/11/answering-my-fim-rc-1-question.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -537,7 +562,7 @@ Very helpfull!! I was about to block sending emails to disabled accounts - not m
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html">
+                                      <a href="http://localhost:1313/2009/11/identity-synchronization-fim-2010-hol.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -545,7 +570,7 @@ Very helpfull!! I was about to block sending emails to disabled accounts - not m
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html">The attributes behind Message Delivery Restrictions</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/11/identity-synchronization-fim-2010-hol.html">Identity Synchronization FIM 2010 HOL Irvine California</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -582,14 +607,19 @@ Very helpfull!! I was about to block sending emails to disabled accounts - not m
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html"><i class="far fa-calendar"></i> June 29, 2009</a>
+                                            <a href="http://localhost:1313/2009/11/identity-synchronization-fim-2010-hol.html"><i class="far fa-calendar"></i> November 23, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Do you know what attributes are used to control who can and can&rsquo;t send to a Distribution List in Exchange 2003 and Exchange 2007? or Does it use a DACL?
-Knowing such things is key if you are going to automate distribution list management through .NET programs, or MIIS/ILM/FIM, Quest ARS or any other tool that is talking to LDAP attributes. For Powershell you need a separate list since the names are different.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/attributes-behind-message-delivery.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p><strong>I will be at the Microsoft Technical Center in Irvine on Dec 1 and 2 presenting this HOL with Marvin Tansley of Gemalto.</strong></p>
+<p><strong>Identity Synchronization – Hands on Training</strong></p>
+<p><strong><img src="http://i.microsoft.com/global/forefront/identitymanager/en/us/PublishingImages/Forefront-IM2010_h_rgb.jpg" alt="Home"><a href="http://www.ilmbestpractices.com/blog/uploaded_images/IdentitySynchronizationFIM2010HOLIrvineC_F980/clip_image001.jpg"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/IdentitySynchronizationFIM2010HOLIrvineC_F980/clip_image001_thumb.jpg" alt="clip_image001" title="clip_image001"></a><a href="http://www.ilmbestpractices.com/blog/uploaded_images/IdentitySynchronizationFIM2010HOLIrvineC_F980/clip_image0014.jpg"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/IdentitySynchronizationFIM2010HOLIrvineC_F980/clip_image0014_thumb.jpg" alt="clip_image001[4]" title="clip_image001[4]"></a><a href="http://www.ensynch.com/default.aspx"><img src="http://www.ensynch.com/images/logo.gif" alt=""></a></strong></p>
+<p><strong>Date:</strong> <strong>December 1-2, 2009</strong></p>
+<p><strong>Location:</strong>   3 Park Plaza, Suite 1800   Irvine, CA  92614     949-263-3000</p>
+<p><strong>Microsoft, Gemalto and Ensynch</strong> invite you to a free 2-day training seminar and hands-on-lab on Microsoft’s Forefront Lifecycle Manager (FIM 2010).</p>
+<p>Come and learn how FIM 2010 can help you by delivering simplicity, agility and efficiency while increasing security and compliance within your enterprise identity infrastructure.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/11/identity-synchronization-fim-2010-hol.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -600,7 +630,7 @@ Knowing such things is key if you are going to automate distribution list manage
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html">
+                                      <a href="http://localhost:1313/2009/11/update-to-fim-rc1.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -608,7 +638,7 @@ Knowing such things is key if you are going to automate distribution list manage
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html">H30, Geneva Cola, Sitrus and Orange Fizz</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/11/update-to-fim-rc1.html">An Update to FIM RC1</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -645,14 +675,24 @@ Knowing such things is key if you are going to automate distribution list manage
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html"><i class="far fa-calendar"></i> June 24, 2009</a>
+                                            <a href="http://localhost:1313/2009/11/update-to-fim-rc1.html"><i class="far fa-calendar"></i> November 8, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Back in business school I was a connoisseur of fine commercials. Recently I watched a commercial for Lipton Ice Tea (note I am a teetotaler who doesn&rsquo;t drink tea) and I have to admire their cleverness in coming up with names for competitor products (see the title) in their &ldquo;Lipton Tea, I think I love you&rdquo; commercial. (Lyrics here)
-Really the names are clever although the best is the H30 &ndash; I just love it, a chemical compound that as far as I can tell can&rsquo;t exist, but we all know they are making fun of flavored water.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/h30-geneva-cola-sitrus-and-orange-fizz.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Microsoft has posted an update to FIM RC 1, dated Nov 6.</p>
+<p>It looks like this update covers pretty much everywhere except Certificate Services (sorry Brian and Paul).</p>
+<p>The Release notes included in the download lists the follow improvements:</p>
+<ul>
+<li>
+<p>Query and Sets</p>
+</li>
+<li>
+<p>Resolved a number of issues that resulted in incorrect dynamic set membership.</p>
+</li>
+<li>
+<p>Removed support for the use of the != operator with multivalued attributes. Xpath equality expressions on multivalued attributes must use the not() function.  For example, the following xpath is not supported: /Group[Owner != /Person].  Instead, use the following xpath: /Group[not(Owner = /Person)]</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/11/update-to-fim-rc1.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -663,7 +703,7 @@ Really the names are clever although the best is the H30 &ndash; I just love it,
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html">
+                                      <a href="http://localhost:1313/2009/10/identity-management-luncheon-nyc.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -671,7 +711,7 @@ Really the names are clever although the best is the H30 &ndash; I just love it,
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html">Best Practices ILM 2007 Coding Conventions and Habits</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/10/identity-management-luncheon-nyc.html">Identity Management Luncheon NYC</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -708,19 +748,22 @@ Really the names are clever although the best is the H30 &ndash; I just love it,
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html"><i class="far fa-calendar"></i> June 22, 2009</a>
+                                            <a href="http://localhost:1313/2009/10/identity-management-luncheon-nyc.html"><i class="far fa-calendar"></i> October 29, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Thanks for writing this up, David. That&rsquo;s goo&hellip; matthew gibson - Jun 2, 2009
-Thanks for writing this up, David. That&rsquo;s good information.
-Can you explain this point&hellip;
-I have seen one developer use the flow rule names as a language to processor module to handle 90% of his string manipulation. That certainly cut down on the need for re-coding.
-I&rsquo;m not sure I follow.
-Thanks, Again. Matthew
-One developer wrote a module that could interpret stuff like this</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>I will be speaking at an Identity Management Luncheon in New York City on Nov 12th. I will be speaking on FIM.</p>
+<p>Come on down and join me if you can. (Please Register)</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/IdentityManagementLuncheonNYC_97DF/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/IdentityManagementLuncheonNYC_97DF/image_thumb.png" alt="image" title="image"></a></p>
+<p>**When:<strong>Thursday, November 12, 200910:45 AM to 2:00 PM (EST)</strong><br>
+<strong>Where:</strong><br>
+**Del Frisco&rsquo;s<br>
+Double Eagle Steak House<br>
+1221 Avenue of the Americas<br>
+New York, New York 10020</p>
+<p><em>Come join us at this exclusive luncheon at one of the best steak houses in NYC!</em></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/10/identity-management-luncheon-nyc.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -731,7 +774,7 @@ One developer wrote a module that could interpret stuff like this</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html">
+                                      <a href="http://localhost:1313/2009/10/password-reset.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -739,7 +782,7 @@ One developer wrote a module that could interpret stuff like this</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html">Best Practices ILM 2007 Coding Conventions and Habits</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/10/password-reset.html">Password Reset?</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -776,16 +819,17 @@ One developer wrote a module that could interpret stuff like this</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html"><i class="far fa-calendar"></i> June 22, 2009</a>
+                                            <a href="http://localhost:1313/2009/10/password-reset.html"><i class="far fa-calendar"></i> October 6, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">In response to question in the MMSUG yahoo group I thought I would post the following:
-Naming conventions for MV objects and attributes.
-Most CS objects and attributes come to us with names &ndash; the exception being when we are writing our own views in SQL or Oracle
-There are many object types and attributes pre-defined in the metaverse if you use those no need to rename most of them seem to come from the required and suggested attributes for either an X.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/best-practices-ilm-2007-coding.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>How would you feel if this was the only barrier between the hacker and your data – a single password reset question? Just one!</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/PasswordReset_821F/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/PasswordReset_821F/image_thumb.png" alt="image" title="image"></a></p>
+<p>I won’t tell you who this is since then you’ll just want to go after my data on that site.</p>
+<p>Oh well. The barn door won’t be shut until the wolf has gotten into the sheep</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/10/password-reset.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -796,7 +840,7 @@ There are many object types and attributes pre-defined in the metaverse if you u
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/desert-code-camp-sql-xpath-and-fim.html">
+                                      <a href="http://localhost:1313/2009/10/webinar-accelerate-your-businesses-for.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -804,7 +848,7 @@ There are many object types and attributes pre-defined in the metaverse if you u
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/desert-code-camp-sql-xpath-and-fim.html">Desert Code Camp -- SQL, XPath and FIM</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/10/webinar-accelerate-your-businesses-for.html">Webinar: Accelerate Your Businesses for the Future with Microsoft Geneva (ADFS) and the Cloud</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -841,20 +885,36 @@ There are many object types and attributes pre-defined in the metaverse if you u
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/desert-code-camp-sql-xpath-and-fim.html"><i class="far fa-calendar"></i> June 19, 2009</a>
+                                            <a href="http://localhost:1313/2009/10/webinar-accelerate-your-businesses-for.html"><i class="far fa-calendar"></i> October 5, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">I just presented 3 sessions at the 2009 Desert Code Camp on Saturday June 13, 2009 at Devry University
-Thanks to Devry for hosting it and thanks to Lorin Thwaits of KB Alertz for being the Code Camp Director and to all other volunteers.
-Title (and link to Desert Code Camp site)
-Abstract
-Presentation Link
-Comments
-I dream in SQL (writing queries)
-Learn how to write SQL queries: SELECT statements, JOIN clauses, group by with Practical examples from the realm of Identity Management</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/desert-code-camp-sql-xpath-and-fim.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image001.jpg"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image001_thumb.jpg" alt="clip_image001" title="clip_image001"></a></p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image002.jpg"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image002_thumb.jpg" alt="clip_image002" title="clip_image002"></a></p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image003.gif"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image003_thumb.gif" alt="clip_image003" title="clip_image003"></a></p>
+<p><strong>Get the rundown on Geneva from Frequent Industry Speaker and Nationally Recognized Microsoft ILM MVP,</strong>**<br>
+<strong>David Lundell</strong>**</p>
+<p><strong>When:</strong>**<br>
+<strong>Wednesday, October 14, 2009</strong><br>
+<strong>10:30 to 11:30 (PST)</strong><br>
+<strong>12:30 to 1:30 (CST)</strong><br>
+<strong>1:30 to 2:30 (EST)</strong>**</p>
+<p><strong>Where:</strong><br>
+Web/Online<br>
+Live Meeting Information<br>
+will be sent to attendees</p>
+<p><strong>Presenters:</strong><br>
+David Lundell,<br>
+Identity Management<br>
+Practice Leader, Ensynch</p>
+<p>Jonathan Sander<br>
+IAM and Security Analyst<br>
+Quest Software</p>
+<p><a href="http://cl.exct.net/?qs=ae57dcbc36f810606fbc9bc44fc29a040dc2c326b815e7d30ab7bb56472585cc"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/73de5400c0cd_9B71/clip_image004.gif" alt="clip_image004" title="clip_image004"></a></p>
+<p><strong>Webinar: Accelerate Your Businesses for the Future with Microsoft Geneva (ADFS) and the Cloud</strong><br>
+Has your organization been considering moving applications to the cloud or using Software as a Service (SaaS) providers? Have you already done it? Have you realized the cost savings?</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/10/webinar-accelerate-your-businesses-for.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -865,7 +925,7 @@ Learn how to write SQL queries: SELECT statements, JOIN clauses, group by with P
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html">
+                                      <a href="http://localhost:1313/2009/10/fim-rc-1-is-here-whats-new.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -873,7 +933,7 @@ Learn how to write SQL queries: SELECT statements, JOIN clauses, group by with P
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html">To PKI or not to PKI?</a></h2>
+                                    <h2><a href="http://localhost:1313/2009/10/fim-rc-1-is-here-whats-new.html">FIM RC 1 is here – what’s new?</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -910,16 +970,19 @@ Learn how to write SQL queries: SELECT statements, JOIN clauses, group by with P
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html"><i class="far fa-calendar"></i> June 2, 2009</a>
+                                            <a href="http://localhost:1313/2009/10/fim-rc-1-is-here-whats-new.html"><i class="far fa-calendar"></i> October 4, 2009</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Hey Dave, I didn&rsquo;t notice your blog before. Go&hellip; Unknown - Jun 0, 2009
-Hey Dave, I didn&rsquo;t notice your blog before. Good work. Gimme a call&hellip; Lets have lunch sometime soon. It would be nice to see you.
-justin harris
-justin@jwheel.com</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2009/06/to-pki-or-not-to-pki.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>FIM RC 1 is here.  Microsoft released it on Sept 30th which is the end of Q3 of 2009 which means the ILM/FIM team at Microsoft met their stated deadline announced back in March.</p>
+<p>Here is the download:</p>
+<p><a href="http://technet.microsoft.com/en-us/evalcenter/cc872861.aspx" title="http://technet.microsoft.com/en-us/evalcenter/cc872861.aspx">http://technet.microsoft.com/en-us/evalcenter/cc872861.aspx</a></p>
+<p>What’s new:</p>
+<p>Gil Kirkpatrick has a nice post about the differences in the data structure:</p>
+<p><a href="http://www.gilkirkpatrick.com/Blog/post/2009/09/02/Auditing-FIM-2010-RC1.aspx" title="Auditing FIM 2010 RC1">Auditing FIM 2010 RC1</a></p>
+<p>Darryl Russi a Sr. Test Lead at Microsoft has started blogging about FIM RC 1 performance:</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2009/10/fim-rc-1-is-here-whats-new.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -947,7 +1010,31 @@ justin@jwheel.com</p>
 
                         
 
-                        <a
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<a
   class="twitter-timeline"
   data-height="1000"
   href="https://twitter.com/DavidLundell?ref_src=twsrc%5Etfw"
@@ -1012,15 +1099,15 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad-fs</a>
+                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad fs</a>
             </li>
             
             <li >
-                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad-lds</a>
+                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad lds</a>
             </li>
             
             <li >
-                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad-rms</a>
+                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad rms</a>
             </li>
             
             <li >
@@ -1037,6 +1124,10 @@ justin@jwheel.com</p>
             
             <li >
                 <a href="/tags/azure"><i class="fas fa-tags"></i> azure</a>
+            </li>
+            
+            <li >
+                <a href="/tags/azureactivedirectory"><i class="fas fa-tags"></i> azureactivedirectory</a>
             </li>
             
             <li >
@@ -1072,7 +1163,7 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud-identity-summit</a>
+                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud identity summit</a>
             </li>
             
             <li >
@@ -1080,11 +1171,15 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial-conversations</a>
+                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial conversations</a>
             </li>
             
             <li >
-                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic-fibrosis</a>
+                <a href="/tags/customsecurityattributes"><i class="fas fa-tags"></i> customsecurityattributes</a>
+            </li>
+            
+            <li >
+                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic fibrosis</a>
             </li>
             
             <li >
@@ -1092,7 +1187,11 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory-services</a>
+                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory services</a>
+            </li>
+            
+            <li >
+                <a href="/tags/directoryextensions"><i class="fas fa-tags"></i> directoryextensions</a>
             </li>
             
             <li >
@@ -1108,11 +1207,23 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange-2007</a>
+                <a href="/tags/entra"><i class="fas fa-tags"></i> entra</a>
             </li>
             
             <li >
-                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange-2010</a>
+                <a href="/tags/entraid"><i class="fas fa-tags"></i> entraid</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange 2007</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange 2010</a>
+            </li>
+            
+            <li >
+                <a href="/tags/extensionattributes"><i class="fas fa-tags"></i> extensionattributes</a>
             </li>
             
             <li >
@@ -1124,7 +1235,7 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim-2010-r2</a>
+                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim 2010 r2</a>
             </li>
             
             <li >
@@ -1136,11 +1247,11 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront-identity-manager</a>
+                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund-raising</a>
+                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund raising</a>
             </li>
             
             <li >
@@ -1148,11 +1259,15 @@ justin@jwheel.com</p>
             </li>
             
             <li >
+                <a href="/tags/galsyncentraidcrosstenantsync"><i class="fas fa-tags"></i> galsync;entraid;crosstenantsync</a>
+            </li>
+            
+            <li >
                 <a href="/tags/geneva"><i class="fas fa-tags"></i> geneva</a>
             </li>
             
             <li >
-                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high-availability</a>
+                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high availability</a>
             </li>
             
             <li >
@@ -1168,7 +1283,7 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity-management</a>
+                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity management</a>
             </li>
             
             <li >
@@ -1184,15 +1299,15 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm-2-beta-3</a>
+                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm 2 beta 3</a>
             </li>
             
             <li >
-                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm-2-rc0</a>
+                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm 2 rc0</a>
             </li>
             
             <li >
-                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it-manager</a>
+                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it manager</a>
             </li>
             
             <li >
@@ -1220,11 +1335,11 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft-identity-manager</a>
+                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft-message-queue</a>
+                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft message queue</a>
             </li>
             
             <li >
@@ -1236,11 +1351,19 @@ justin@jwheel.com</p>
             </li>
             
             <li >
+                <a href="/tags/mimentraidsync"><i class="fas fa-tags"></i> mim;entraidsync</a>
+            </li>
+            
+            <li >
+                <a href="/tags/mimwalmimpowershell"><i class="fas fa-tags"></i> mimwal;mim;powershell</a>
+            </li>
+            
+            <li >
                 <a href="/tags/mirroring"><i class="fas fa-tags"></i> mirroring</a>
             </li>
             
             <li >
-                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile-phone</a>
+                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile phone</a>
             </li>
             
             <li >
@@ -1272,7 +1395,7 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/project-management"><i class="fas fa-tags"></i> project-management</a>
+                <a href="/tags/project-management"><i class="fas fa-tags"></i> project management</a>
             </li>
             
             <li >
@@ -1308,6 +1431,10 @@ justin@jwheel.com</p>
             </li>
             
             <li >
+                <a href="/tags/schemaextensions"><i class="fas fa-tags"></i> schemaextensions</a>
+            </li>
+            
+            <li >
                 <a href="/tags/scripting"><i class="fas fa-tags"></i> scripting</a>
             </li>
             
@@ -1320,7 +1447,7 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart-cards</a>
+                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart cards</a>
             </li>
             
             <li >
@@ -1332,19 +1459,19 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql-clustering</a>
+                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql clustering</a>
             </li>
             
             <li >
-                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql-pass</a>
+                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql pass</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql-server</a>
+                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql server</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql-server-service-broker</a>
+                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql server service broker</a>
             </li>
             
             <li >
@@ -1360,15 +1487,19 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star-wars</a>
+                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star wars</a>
             </li>
             
             <li >
-                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface-pro-3</a>
+                <a href="/tags/storechk"><i class="fas fa-tags"></i> storechk</a>
             </li>
             
             <li >
-                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync-rules</a>
+                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface pro 3</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync rules</a>
             </li>
             
             <li >
@@ -1396,19 +1527,19 @@ justin@jwheel.com</p>
             </li>
             
             <li >
-                <a href="/tags/web-services"><i class="fas fa-tags"></i> web-services</a>
+                <a href="/tags/web-services"><i class="fas fa-tags"></i> web services</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows-server-2003</a>
+                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows server 2003</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows-server-2008</a>
+                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows server 2008</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows-server-2012-r2</a>
+                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows server 2012 r2</a>
             </li>
             
             <li >
@@ -1475,40 +1606,40 @@ justin@jwheel.com</p>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                          <img src="/img/entra-id-custom-attribute-decision-tree.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Decision Tree">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">Custom Attributes in Entra ID -- Decision Tree</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                          <img src="/img/entraidcustomattributes_usecases_small.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Use Cases">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">Custom Attributes in Entra ID -- Use Cases</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                          <img src="/img/all-the-doors-together2.jpg" class="img-responsive" alt="Custom Attributes in Entra ID -- Limitations">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">Custom Attributes in Entra ID -- Limitations</a></h5>
                   </div>
               </div>
               
@@ -1536,7 +1667,7 @@ justin@jwheel.com</p>
       
           <div class="col-sm-4">
             
-            <p>Copyright (c) 2023 Identity Managed</p>
+            <p>Copyright (c) 2026 Identity Managed</p>
             
           </div>
 

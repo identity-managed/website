@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta name="robots" content="all,follow" />
 <meta name="googlebot" content="index,follow,snippet,archive" />
@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>Blog</title>
-<meta name="author" content="David" />     <meta name="keywords" content="identity, hugo, go">  
+<meta name="author" content="map[email:david@identitymanaged.com name:David]" />     <meta name="keywords" content="identity, hugo, go">  
 <meta name="description" content="Identity Managed" />
 
-<meta name="generator" content="Hugo 0.120.4">
+<meta name="generator" content="Hugo 0.159.0">
 
 <link
   rel="stylesheet"
@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702678769" rel="stylesheet">
+<link href="/css/custom.css?1774497471" rel="stylesheet">
 
 
 
@@ -48,18 +48,18 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.com/index.xml"
+<link rel="alternate" href="http://localhost:1313/index.xml"
 type="application/rss+xml" title="Identity Managed">
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//feed.xml"
+  href="http://localhost:1313//feed.xml"
   title="Identity Managed"
 />
 
 
      <meta property="og:updated_time"
-content="2022-04-26T14:31:00-0700"> 
+content="2025-10-01T22:41:06Z"> 
 
 
 <meta
@@ -78,9 +78,13 @@ content="2022-04-26T14:31:00-0700">
     <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//index.xml"
+  href="http://localhost:1313//index.xml"
   title="Identity Managed"
 />
+
+<link rel=""alternate"" type=""application/rss+xml"" href=""http://localhost:1313/blog/index.xml"" title=""Identity Managed"" />
+
+
 
   </head>
 
@@ -266,17 +270,19 @@ content="2022-04-26T14:31:00-0700">
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/05/european-identity-conference-2018.html">
+                                      <a href="http://localhost:1313/blog/2024/04/ssl-v-tls-with-entraid-sync-and-mims-generic-ldap-connector/">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/img/tls-authentication-options.png" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/05/european-identity-conference-2018.html">European Identity Conference 2018 -- Overview and Mon Night</a></h2>
+                                    <h2><a href="http://localhost:1313/blog/2024/04/ssl-v-tls-with-entraid-sync-and-mims-generic-ldap-connector/">SSL v TLS with EntraID Sync and MIM&#39;s Generic LDAP Connector</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
+                                          
+                                          
                                           
                                           
 
@@ -311,14 +317,23 @@ content="2022-04-26T14:31:00-0700">
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/05/european-identity-conference-2018.html"><i class="far fa-calendar"></i> May 17, 2018</a>
+                                            <a href="http://localhost:1313/blog/2024/04/ssl-v-tls-with-entraid-sync-and-mims-generic-ldap-connector/"><i class="far fa-calendar"></i> April 11, 2024</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">I have spent this week in Munich Germany, where it has been mostly cloudy, lots of rain, and a little thunder.
-I have seen a number of familiar faces to those who attended Directory Experts conference: Pamela Dingle, Alex Simons, Alex Weinert, Jackson Shaw, Jonathan Sander, Kim Cameron, and others. Also a lot of faces familiar to those who have attended Cloud Identity Summits: Andrew Hindle, Colin Wallis, Steve Hutchinson, Eve Maler, and Ian Glazer and fellow Microsoft MVP: Naohiro Fujie.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/05/european-identity-conference-2018.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Everyone knows that SSL is vulnerable and we should therefore use TLS. What isn&rsquo;t well understood is the options presented for Binding (authentication) when using the Generic LDAP Connector with AADConnect or the Generic LDAP ECMA 2.x  with MIM.</p>
+<p>We are presented 5 options:</p>
+<ul>
+<li>Anonymous</li>
+<li>Basic</li>
+<li>Kerberos</li>
+<li>SSL</li>
+<li>TLS</li>
+</ul>
+<p><img src="/img/tls-authentication-options.png" alt="Generic LDAP Authentication Options" title="Generic LDAP Authentication Options"></p>
+<p>When we tested we could get the SSL option to work over port 636, and we could get the TLS option to work on port 389 but we couldn&rsquo;t get the TLS option to work over port 636. Using a protocol analyzer we confirmed that both ways were using TLS 1.2.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/blog/2024/04/ssl-v-tls-with-entraid-sync-and-mims-generic-ldap-connector/" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -329,15 +344,15 @@ I have seen a number of familiar faces to those who attended Directory Experts c
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/05/mim-join-and-spaces.html">
+                                      <a href="http://localhost:1313/blog/2024/03/what-does-mims-storechk-exe-do/">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/img/mimsyncstorecheck_custom.png" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/05/mim-join-and-spaces.html">MIM Join and spaces</a></h2>
+                                    <h2><a href="http://localhost:1313/blog/2024/03/what-does-mims-storechk-exe-do/">What does MIM&#39;s StoreChk.exe do?</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -374,14 +389,13 @@ I have seen a number of familiar faces to those who attended Directory Experts c
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/05/mim-join-and-spaces.html"><i class="far fa-calendar"></i> May 5, 2018</a>
+                                            <a href="http://localhost:1313/blog/2024/03/what-does-mims-storechk-exe-do/"><i class="far fa-calendar"></i> March 29, 2024</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Working on a customer&rsquo;s lab and look what I found. They had created (through some other process) two user accounts for the same user, and the samAccountName was nearly identical, just a space, ascii 32, appended to the end of one of the samAccountNames differentiates the two. Apparently, AD allows this.
-The account with the space was projected into the Metaverse, and then later in the sync the account without the space attempted to join, and it matched.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/05/mim-join-and-spaces.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>I﻿ watched through SQL Profiler to better understand what these checks do, and I found an error with check #10. It says it is &ldquo;Checking Lineage Guid table for MV objects with invalid MV object ids&rdquo; but the SQL query it issues is the same as the query for Check # 9 &ldquo;Checking Lineage Date table for MV objects with invalid MV object ids.&rdquo; It queries the Lineate Date table instead of the Lineage GUID table like it says.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/blog/2024/03/what-does-mims-storechk-exe-do/" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -392,15 +406,15 @@ The account with the space was projected into the Metaverse, and then later in t
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/top-10-lessons-from-disasters-in.html">
+                                      <a href="http://localhost:1313/blog/2024/03/mim-storechk-exe-assumes-sql-is-local/">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/img/mimsyncstorecheck_custom.png" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/top-10-lessons-from-disasters-in.html">Top 10 Lessons from Disasters in Identity Management</a></h2>
+                                    <h2><a href="http://localhost:1313/blog/2024/03/mim-storechk-exe-assumes-sql-is-local/">MIM StoreChk.exe Assumes SQL is Local</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -437,16 +451,14 @@ The account with the space was projected into the Metaverse, and then later in t
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/top-10-lessons-from-disasters-in.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/blog/2024/03/mim-storechk-exe-assumes-sql-is-local/"><i class="far fa-calendar"></i> March 28, 2024</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">I will speak at Kuppinger Cole&rsquo;s European Identity Conference on Top 10 Lessons from Disasters in Identity Management in May in Munich.
-With great automation capability comes great responsibility! Come discuss and learn vital lessons gleaned from disasters in Identity Management.
-So if you would like your disaster story to be considered for inclusion let me know. I would love to add to the stories.
-This will be a fun interactive session.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/top-10-lessons-from-disasters-in.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>On occasion you (usually with the help of PSS &ndash; Product Support Services) may need to verify the integrity of the MIM Synchronization Service Database. To do this you can use the Store Check tool, StoreChk.exe located in the bin folder under the root of your MIM Synchronization install.</p>
+<p>W﻿hile the storechk tool does read the registry to find the name of the database (almost always is FIMSynchronizationService) it does not read the Server or Instance name registry values in the parameters key of the registry. Instead it defaults to assume that the SQL Server is co-located on the same machine as MIM Sync.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/blog/2024/03/mim-storechk-exe-assumes-sql-is-local/" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -457,17 +469,25 @@ This will be a fun interactive session.</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html">
+                                      <a href="http://localhost:1313/2022/04/sql-always-on-availability-groups-for.html">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/static/img/Always-On-Availability-Group.png" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html">Identiverse, Cloud Identity Summit</a></h2>
+                                    <h2><a href="http://localhost:1313/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
+                                          
+					  By <a href="/authors/david">David</a>
+                                          
+                                          
+                                          
+                                          in 
+                                          
+                                              <a href="/categories/mim">MIM</a>
                                           
                                           
 
@@ -502,13 +522,22 @@ This will be a fun interactive session.</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/2022/04/sql-always-on-availability-groups-for.html"><i class="far fa-calendar"></i> April 26, 2022</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Last summer I attended and spoke at the Cloud Identity Summit in Chicago. First big news: it was renamed to Identiverse and 2018 will be in Boston. As a consultant I have limited time to attend conferences and speak. So conferences have to be great. I do love this one, but in the interest of time, I will be skipping it this year in favor of speaking at the European Identity Conference in May 2018 in Munich, Germany.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/identiverse-cloud-identity-summit.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Image from: <a href="https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview</a></p>
+<p>Edited July 2 2022 after reviewing my Facebook discussion with Eugene Sergeev on Microsoft&rsquo;s product team.</p>
+<p>MIM 2016 SP2 (and 4.4.1459.0 or later <a href="https://support.microsoft.com/en-us/help/3200896/sql-server-availability-solutions-for-microsoft-identity-manager-servi">supports SQL Server Always On Availability Groups</a> (AG))! Yeah!</p>
+<p>Ok let&rsquo;s implement it!</p>
+<p><strong>But wait!</strong> It won&rsquo;t give us all we hope for!</p>
+<ul>
+<li>Up to the moment distributed backup of the data &ndash; yes!</li>
+<li>Automatic instant failover &ndash; not without a huge caveat!</li>
+</ul>
+<p>What do you mean it won&rsquo;t give us Automatic Instant Failover?</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2022/04/sql-always-on-availability-groups-for.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -519,7 +548,7 @@ This will be a fun interactive session.</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/to-farm-or-not-to-farm-part-2.html">
+                                      <a href="http://localhost:1313/2020/06/wanted-up-and-coming-cyber-security.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -527,7 +556,7 @@ This will be a fun interactive session.</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/to-farm-or-not-to-farm-part-2.html">To Farm or not to Farm Part 2</a></h2>
+                                    <h2><a href="http://localhost:1313/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -564,13 +593,27 @@ This will be a fun interactive session.</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/to-farm-or-not-to-farm-part-2.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/2020/06/wanted-up-and-coming-cyber-security.html"><i class="far fa-calendar"></i> June 18, 2020</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">In the original To Farm or Not to Farm post I discussed the pros and cons of setting up FIM on a SharePoint farm or using Stand Alone. Well we now have SharePoint 2016 and it isn&rsquo;t possible to install Stand Alone, although you can do a single server farm. Also, absolutely everything is virtualized and so we tend to share lots and lots of processing so we can&rsquo;t really think of a server as having spare cycles, because we share those processors with lots of other VM&rsquo;s.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/to-farm-or-not-to-farm-part-2.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Cyber Security &ndash; Identity Management Implementer</p>
+<p>Secure your identities against the dangers of the Cyber World, automate the repetitive, and empower your users!</p>
+<p>Let&rsquo;s</p>
+<ol>
+<li>Shut the front door on the most obvious  vector for Cyber-attacks</li>
+<li>Reduce the IT department&rsquo;s compliance burden (SOX, HIPAA, FERPA, GLBA, ISO etc).</li>
+<li>Free IT people to do tasks that require more brain power</li>
+</ol>
+<p>By</p>
+<ol>
+<li>
+<p>Automating the drone-like work of managing user identities</p>
+</li>
+<li>
+<p>Disabling accounts of terminated users</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2020/06/wanted-up-and-coming-cyber-security.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -581,15 +624,15 @@ This will be a fun interactive session.</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/sql-server-management-studio-sql-2016.html">
+                                      <a href="http://localhost:1313/2019/10/mim-portal-groups-whose-displayedowner.html">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/img/mim-portal-group-displayed-owner-not-in-owners.png" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/sql-server-management-studio-sql-2016.html">SQL Server Management Studio SQL 2016</a></h2>
+                                    <h2><a href="http://localhost:1313/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -626,14 +669,24 @@ This will be a fun interactive session.</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/sql-server-management-studio-sql-2016.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/2019/10/mim-portal-groups-whose-displayedowner.html"><i class="far fa-calendar"></i> October 30, 2019</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">So I went to install SQL 2016 on a server (been using it for a while, I get vm&rsquo;s on CloudShare where SQL is preinstallled, so first time installing it for myself) &ndash; no problem. Hey, where is SQL Management Studio (SSMS)? Well it isn&rsquo;t include in the 2.6 GB SQL Server ISO. You have to download it separately. 800 MB. All I can say is You&rsquo;re Welcome!
-I get why they did it &ndash; they can update SSMS much more often etc.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/sql-server-management-studio-sql-2016.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>In the MIM Portal it will create issues if you have a group whose displayedOwner isn&rsquo;t among the objects in the multivalued reference attribute Owner. Querying this through XPath is just about impossible so here is the SQL query to do it.</p>
+<p>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED</p>
+<p>GO​</p>
+<p>USE FIMService​</p>
+<p>GO​</p>
+<p>​</p>
+<p>SELECT DOwn.*</p>
+<p>FROM (​</p>
+<p>SELECT groupObjID = G.[objectID]</p>
+<p>           , GroupDisplayName = GAOVS.ValueString</p>
+<p>           , userDisplayName= UAOVS.ValueString</p>
+<p>           , UserObjID =  U.[objectid]​</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2019/10/mim-portal-groups-whose-displayedowner.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -644,15 +697,15 @@ I get why they did it &ndash; they can update SSMS much more often etc.</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/sharepoint-foundations-2013-identity.html">
+                                      <a href="http://localhost:1313/2019/01/latency-vs-cloud.html">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/img/latency_x_roundtrips_400.png" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/sharepoint-foundations-2013-identity.html">SharePoint Foundations 2013 -- Identity Extensions Installation error</a></h2>
+                                    <h2><a href="http://localhost:1313/2019/01/latency-vs-cloud.html">Latency vs the Cloud</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -689,16 +742,15 @@ I get why they did it &ndash; they can update SSMS much more often etc.</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/sharepoint-foundations-2013-identity.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/2019/01/latency-vs-cloud.html"><i class="far fa-calendar"></i> January 23, 2019</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">As you install SharePoint 2013 Foundations pre-reqs if you encounter &ldquo;Microsoft Identity Extensions Installation error&rdquo;
-and then when you install it manually you might encounter
-&ldquo;Installation of Microsoft Identity Extensions requires Windows Identity Foundation v1.0 to be installed&rdquo;
-Then when you go to install WIF through the Server Manager you realize that it is WIF 3.5 rather than WIF 1.0 and you think hmm&hellip; maybe that will work. It will. Take heart.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/sharepoint-foundations-2013-identity.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>&ldquo;The cloud is so fast! We can spin up servers and services so quickly to extend our environment and then all the users across the globe can access these services, so why does it take so long for you to get our users into the cloud?&rdquo;</p>
+<p><strong>(Latency) x (# of Round Trips)</strong></p>
+<p>Most Cloud Identity Management APIs are built so that consumers must retrieve the data one object at a time or load it one object at a time. This means one roundtrip per object. Naturally, a data set in the cloud tends to be farther away than between two servers in the same data center. So the one object at time paradigm that worked ok in the data center works fine in the cloud for very small sets of objects. Once you start loading even moderately sized data sets of objects the additional latency shows up quite harshly. More bandwidth won&rsquo;t solve the problem.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2019/01/latency-vs-cloud.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -709,7 +761,7 @@ Then when you go to install WIF through the Server Manager you realize that it i
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/finding-my-groove-again.html">
+                                      <a href="http://localhost:1313/2018/12/mim-open-source-schedulers.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -717,7 +769,7 @@ Then when you go to install WIF through the Server Manager you realize that it i
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/finding-my-groove-again.html">Finding my groove, again</a></h2>
+                                    <h2><a href="http://localhost:1313/2018/12/mim-open-source-schedulers.html">MIM Open Source Schedulers</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -754,14 +806,17 @@ Then when you go to install WIF through the Server Manager you realize that it i
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/finding-my-groove-again.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/2018/12/mim-open-source-schedulers.html"><i class="far fa-calendar"></i> December 17, 2018</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">In 2017 and the beginning of 2018 I have had some rough times. The Long and the Short of it is that late last year my mother passed away in the hospital. Then early this year, my father died, probably of a broken heart.
-Thanks to many friends from church, our neighborhood, professionally, other Microsoft MVP&rsquo;s, I have had a lot of support while mourning their temporary absence from my life.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/finding-my-groove-again.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Your MIM installation is in, the config is done, programming all set and now to automate the running of the Management Agents.</p>
+<p>Options? Most people use Windows Task Scheduler with a PowerShell script or VBScript &ndash; which works but can get cumbersome to maintain. With my SQL Server background, I often use SQL Server Agent Jobs because it has much better follow up and executing database commands.</p>
+<ul>
+<li>
+<p>Task Scheduler &ndash; runs as a windows service</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2018/12/mim-open-source-schedulers.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -772,7 +827,7 @@ Thanks to many friends from church, our neighborhood, professionally, other Micr
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html">
+                                      <a href="http://localhost:1313/2018/12/mim-open-source-schedulers-comments.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -780,7 +835,7 @@ Thanks to many friends from church, our neighborhood, professionally, other Micr
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html">SharePoint Foundation 2013 IIS Configuration Error</a></h2>
+                                    <h2><a href="http://localhost:1313/2018/12/mim-open-source-schedulers-comments.html">MIM Open Source Schedulers - Comments</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -817,14 +872,17 @@ Thanks to many friends from church, our neighborhood, professionally, other Micr
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html"><i class="far fa-calendar"></i> March 29, 2018</a>
+                                            <a href="http://localhost:1313/2018/12/mim-open-source-schedulers-comments.html"><i class="far fa-calendar"></i> December 17, 2018</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">SharePoint is a great product but I wish that FIM and MIM did not use it. In my opinion, it adds unnecessary infrastructure and really complicates the setup, because SharePoint must be installed and configured (and maintained). Leaving that aside, allow me to point out some gotchas that might impede your ability to install this MIM/FIM prerequisite.
-First up: if your server has limited access to the Internet you should probably download all of these prerequisites and copy them to the server &ndash; because that&rsquo;s what the SharePoint Installer has to do &ndash; it doesn&rsquo;t include these items.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/sharepoint-foundation-2013-iis.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="a-friend-have-point-out-that-my-run-script-was-men">A friend have point out that my run script was men&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/06291310595946583362" title="noreply@blogger.com">Andas</a> - <!-- raw HTML omitted -->Apr 0, 2019<!-- raw HTML omitted --></p>
+<p>A friend have point out that my run script was mentioned in you blog.<br>
+Have new version that I have used some time but not update on Github, have done so now.<br>
+The new version have some nice more functions, so you may script disconnects and previews.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2018/12/mim-open-source-schedulers-comments.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -835,15 +893,15 @@ First up: if your server has limited access to the Internet you should probably 
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2018/03/speaking-at-sql-saturday-tomorrow.html">
+                                      <a href="http://localhost:1313/2018/11/how-to-be-mvp-in-life-launching-nov-27th.html">
                                           
-                                          <img src="/img/placeholder.webp" class="img-responsive" alt="">
+                                          <img src="/img/mvp_3dbook_300.jpg" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2018/03/speaking-at-sql-saturday-tomorrow.html">Speaking at SQL Saturday Tomorrow</a></h2>
+                                    <h2><a href="http://localhost:1313/2018/11/how-to-be-mvp-in-life-launching-nov-27th.html">How to Be an MVP in Life -- Launching Nov 27th</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -880,13 +938,15 @@ First up: if your server has limited access to the Internet you should probably 
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2018/03/speaking-at-sql-saturday-tomorrow.html"><i class="far fa-calendar"></i> March 16, 2018</a>
+                                            <a href="http://localhost:1313/2018/11/how-to-be-mvp-in-life-launching-nov-27th.html"><i class="far fa-calendar"></i> November 21, 2018</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">As most of you know I am regarded as one of the SQL gurus among the Microsoft Identity Management Gurus. For years, in my book and in speaking I have been recommending Ola Hallengren&rsquo;s SQL Maintenance Solution to help take care of your ILM/FIM/MIM databases. But the SQL Maintenance Plan Wizard has come a long way. Tomorrow morning at 10 AM at Grand Canyon University I will be presenting as part of SQL Saturday #726 a showdown between the SQL Maintenance Plan Wizard and Ola&rsquo;s solution, discussing when you want to use one vs the other.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2018/03/speaking-at-sql-saturday-tomorrow.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>We are launching my new book, “<a href="https://turquoise-poodle-csmt.squarespace.com/mvpinlifebook">How to Be an MVP in Life: Lessons in Living and Leadership from Sports &amp; Tech MVPs</a>” on November 27th. It is available now for <a href="https://www.amazon.com/gp/product/B07K5NKRQK">Pre-order at Amazon</a>.</p>
+<p>Featuring an interview with the 2016 World Series MVP, Ben Zobrist, stories about 2-time Pro-Sports MVPs: Steve Nash, Dale Murphy, Steve Young and Sid the Kid Crosby, as well as interviews with 18 Microsoft MVPs.</p>
+<p><a href="https://www.davidplundell.com/mvp-in-life-blog/2018/11/19/how-to-be-an-mvp-in-life-launch-nov-27th">More info</a></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2018/11/how-to-be-mvp-in-life-launching-nov-27th.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -914,7 +974,31 @@ First up: if your server has limited access to the Internet you should probably 
 
                         
 
-                        <a
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<a
   class="twitter-timeline"
   data-height="1000"
   href="https://twitter.com/DavidLundell?ref_src=twsrc%5Etfw"
@@ -979,15 +1063,15 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad-fs</a>
+                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad fs</a>
             </li>
             
             <li >
-                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad-lds</a>
+                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad lds</a>
             </li>
             
             <li >
-                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad-rms</a>
+                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad rms</a>
             </li>
             
             <li >
@@ -1004,6 +1088,10 @@ First up: if your server has limited access to the Internet you should probably 
             
             <li >
                 <a href="/tags/azure"><i class="fas fa-tags"></i> azure</a>
+            </li>
+            
+            <li >
+                <a href="/tags/azureactivedirectory"><i class="fas fa-tags"></i> azureactivedirectory</a>
             </li>
             
             <li >
@@ -1039,7 +1127,7 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud-identity-summit</a>
+                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud identity summit</a>
             </li>
             
             <li >
@@ -1047,11 +1135,15 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial-conversations</a>
+                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial conversations</a>
             </li>
             
             <li >
-                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic-fibrosis</a>
+                <a href="/tags/customsecurityattributes"><i class="fas fa-tags"></i> customsecurityattributes</a>
+            </li>
+            
+            <li >
+                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic fibrosis</a>
             </li>
             
             <li >
@@ -1059,7 +1151,11 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory-services</a>
+                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory services</a>
+            </li>
+            
+            <li >
+                <a href="/tags/directoryextensions"><i class="fas fa-tags"></i> directoryextensions</a>
             </li>
             
             <li >
@@ -1075,11 +1171,23 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange-2007</a>
+                <a href="/tags/entra"><i class="fas fa-tags"></i> entra</a>
             </li>
             
             <li >
-                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange-2010</a>
+                <a href="/tags/entraid"><i class="fas fa-tags"></i> entraid</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange 2007</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange 2010</a>
+            </li>
+            
+            <li >
+                <a href="/tags/extensionattributes"><i class="fas fa-tags"></i> extensionattributes</a>
             </li>
             
             <li >
@@ -1091,7 +1199,7 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim-2010-r2</a>
+                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim 2010 r2</a>
             </li>
             
             <li >
@@ -1103,11 +1211,11 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront-identity-manager</a>
+                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund-raising</a>
+                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund raising</a>
             </li>
             
             <li >
@@ -1115,11 +1223,15 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
+                <a href="/tags/galsyncentraidcrosstenantsync"><i class="fas fa-tags"></i> galsync;entraid;crosstenantsync</a>
+            </li>
+            
+            <li >
                 <a href="/tags/geneva"><i class="fas fa-tags"></i> geneva</a>
             </li>
             
             <li >
-                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high-availability</a>
+                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high availability</a>
             </li>
             
             <li >
@@ -1135,7 +1247,7 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity-management</a>
+                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity management</a>
             </li>
             
             <li >
@@ -1151,15 +1263,15 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm-2-beta-3</a>
+                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm 2 beta 3</a>
             </li>
             
             <li >
-                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm-2-rc0</a>
+                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm 2 rc0</a>
             </li>
             
             <li >
-                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it-manager</a>
+                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it manager</a>
             </li>
             
             <li >
@@ -1187,11 +1299,11 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft-identity-manager</a>
+                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft-message-queue</a>
+                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft message queue</a>
             </li>
             
             <li >
@@ -1203,11 +1315,19 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
+                <a href="/tags/mimentraidsync"><i class="fas fa-tags"></i> mim;entraidsync</a>
+            </li>
+            
+            <li >
+                <a href="/tags/mimwalmimpowershell"><i class="fas fa-tags"></i> mimwal;mim;powershell</a>
+            </li>
+            
+            <li >
                 <a href="/tags/mirroring"><i class="fas fa-tags"></i> mirroring</a>
             </li>
             
             <li >
-                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile-phone</a>
+                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile phone</a>
             </li>
             
             <li >
@@ -1239,7 +1359,7 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/project-management"><i class="fas fa-tags"></i> project-management</a>
+                <a href="/tags/project-management"><i class="fas fa-tags"></i> project management</a>
             </li>
             
             <li >
@@ -1275,6 +1395,10 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
+                <a href="/tags/schemaextensions"><i class="fas fa-tags"></i> schemaextensions</a>
+            </li>
+            
+            <li >
                 <a href="/tags/scripting"><i class="fas fa-tags"></i> scripting</a>
             </li>
             
@@ -1287,7 +1411,7 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart-cards</a>
+                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart cards</a>
             </li>
             
             <li >
@@ -1299,19 +1423,19 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql-clustering</a>
+                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql clustering</a>
             </li>
             
             <li >
-                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql-pass</a>
+                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql pass</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql-server</a>
+                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql server</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql-server-service-broker</a>
+                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql server service broker</a>
             </li>
             
             <li >
@@ -1327,15 +1451,19 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star-wars</a>
+                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star wars</a>
             </li>
             
             <li >
-                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface-pro-3</a>
+                <a href="/tags/storechk"><i class="fas fa-tags"></i> storechk</a>
             </li>
             
             <li >
-                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync-rules</a>
+                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface pro 3</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync rules</a>
             </li>
             
             <li >
@@ -1363,19 +1491,19 @@ First up: if your server has limited access to the Internet you should probably 
             </li>
             
             <li >
-                <a href="/tags/web-services"><i class="fas fa-tags"></i> web-services</a>
+                <a href="/tags/web-services"><i class="fas fa-tags"></i> web services</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows-server-2003</a>
+                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows server 2003</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows-server-2008</a>
+                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows server 2008</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows-server-2012-r2</a>
+                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows server 2012 r2</a>
             </li>
             
             <li >
@@ -1442,40 +1570,40 @@ First up: if your server has limited access to the Internet you should probably 
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                          <img src="/img/entra-id-custom-attribute-decision-tree.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Decision Tree">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">Custom Attributes in Entra ID -- Decision Tree</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                          <img src="/img/entraidcustomattributes_usecases_small.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Use Cases">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">Custom Attributes in Entra ID -- Use Cases</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                          <img src="/img/all-the-doors-together2.jpg" class="img-responsive" alt="Custom Attributes in Entra ID -- Limitations">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">Custom Attributes in Entra ID -- Limitations</a></h5>
                   </div>
               </div>
               
@@ -1503,7 +1631,7 @@ First up: if your server has limited access to the Internet you should probably 
       
           <div class="col-sm-4">
             
-            <p>Copyright (c) 2023 Identity Managed</p>
+            <p>Copyright (c) 2026 Identity Managed</p>
             
           </div>
 

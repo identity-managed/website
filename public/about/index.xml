@@ -2,10 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Identity Managed</title>
-    <link>https://identitymanaged.com/about/</link>
+    <link>http://localhost:1313/about/</link>
     <description>Recent content in About on Identity Managed</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://identitymanaged.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>david@identitymanaged.com (David)</managingEditor>
+    <webMaster>david@identitymanaged.com (David)</webMaster>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>http://localhost:1313/www.davidplundell.com/books</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>david@identitymanaged.com (David)</author>
+      <guid>http://localhost:1313/www.davidplundell.com/books</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.davidplundell.com/books&#34;&gt;Books&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Case Studies</title>
+      <link>http://localhost:1313/about/case-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>david@identitymanaged.com (David)</author>
+      <guid>http://localhost:1313/about/case-studies/</guid>
+      <description>&lt;div class=&#34;container-fluid&#34; style=&#34;padding-bottom: 20px&#34;&gt;&#xD;&#xA;  &lt;img&#xD;&#xA;    class=&#34;img-responsive col-sm-5&#34;&#xD;&#xA;    src=&#34;http://localhost:1313/img/retail.webp&#34;&#xD;&#xA;    alt=&#34;User &amp;#43; Group Lifecycle Management&#34;&#xD;&#xA;  /&gt;&#xD;&#xA;  &lt;div class=&#34;col-sm-6&#34;&gt;&#xD;&#xA;    &lt;h2&gt;User + Group Lifecycle Management&lt;/h2&gt;&#xD;&#xA;    &lt;h4&gt;Retail (50k + Identities)&lt;/h4&gt;&#xD;&#xA;    &lt;p&gt;We saved this retail company $10’s of millions in Office365 license fees, and effort to manage the users, by implementing MIM for Largest Region over 1M identities and 4 additional instances of MIM to manage 6 other regions, which enabled the client to assign different license levels based on job roles and reclaim licenses promptly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our Founder</title>
+      <link>http://localhost:1313/about/founder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>david@identitymanaged.com (David)</author>
+      <guid>http://localhost:1313/about/founder/</guid>
+      <description>&lt;h3 id=&#34;david-lundell&#34;&gt;David Lundell&lt;/h3&gt;&#xA;&lt;p&gt;David got started in technology when his dad brought home first an Atari PC (not the video game console) and later an IBM PC. David picked up a book on programming in BASIC when he was 8. Every week when he was a teenager his dad dragged him into the office of his startup software company to vacuum, clean the bathrooms and haul out the trash. One day his dad handed him the manual for their network management software, sat him down at the computer and commanded, “Test the software!” That was just over 30 years ago.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

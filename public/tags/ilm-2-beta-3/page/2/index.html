@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta name="robots" content="all,follow" />
 <meta name="googlebot" content="index,follow,snippet,archive" />
@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>ILM 2 Beta 3</title>
-<meta name="author" content="David" />     <meta name="keywords" content="identity, hugo, go">  
+<meta name="author" content="map[email:david@identitymanaged.com name:David]" />     <meta name="keywords" content="identity, hugo, go">  
 <meta name="description" content="Identity Managed" />
 
-<meta name="generator" content="Hugo 0.120.4">
+<meta name="generator" content="Hugo 0.159.0">
 
 <link
   rel="stylesheet"
@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702678769" rel="stylesheet">
+<link href="/css/custom.css?1774497175" rel="stylesheet">
 
 
 
@@ -48,12 +48,12 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.com/index.xml"
+<link rel="alternate" href="http://localhost:1313/index.xml"
 type="application/rss+xml" title="Identity Managed">
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//feed.xml"
+  href="http://localhost:1313//feed.xml"
   title="Identity Managed"
 />
 
@@ -78,9 +78,10 @@ content="2009-04-15T07:46:00-0700">
     <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//index.xml"
+  href="http://localhost:1313//index.xml"
   title="Identity Managed"
 />
+
 
   </head>
 
@@ -286,7 +287,7 @@ content="2009-04-15T07:46:00-0700">
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html">
+                                      <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -294,7 +295,7 @@ content="2009-04-15T07:46:00-0700">
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html">a sprinkling of understanding Workflow in ILM 2</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html">a sprinkling of understanding Workflow in ILM 2</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -331,14 +332,148 @@ content="2009-04-15T07:46:00-0700">
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html"><i class="far fa-calendar"></i> September 16, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html"><i class="far fa-calendar"></i> September 16, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Very nice David, I would also urge readers to chec&hellip; Brad Turner - Sep 3, 2008
-Very nice David, I would also urge readers to check out Mark Gabarra&rsquo;s blog for information relating WF and ILM 2. I also hope that we&rsquo;ll be able to goad our own Paul Divan into bringing his experiences to the blogosphere!</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>So by now all of you know that understanding Windows Workflow Foundation is going to be quite helpful in implementing ILM 2.</p>
+<p>Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more about sprinkling</p>
+<p>So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Cateory</th>
+          <th>Activity</th>
+          <th>Composite</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Conditional</td>
+          <td>Invoke Web Service</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>Conditional Activity Group</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>IfElse</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>Policy</td>
+          <td></td>
+          <td>Akin to a switch statement or Select Case</td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>While</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Custom</td>
+          <td>Code</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Error</td>
+          <td>Compensate</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Error</td>
+          <td>Fault Handler</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Error</td>
+          <td>Throw</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Delay</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>EventDriven</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Listen</td>
+          <td>X</td>
+          <td>2+ event driven</td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Parallel</td>
+          <td>x</td>
+          <td>2+ sequence for each</td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>State</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Sequence</td>
+          <td>X</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>SetState</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>StateInitialization</td>
+          <td>X</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Suspend</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Terminate</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Transaction Scope</td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -349,7 +484,7 @@ Very nice David, I would also urge readers to check out Mark Gabarra&rsquo;s blo
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html">
+                                      <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -357,7 +492,7 @@ Very nice David, I would also urge readers to check out Mark Gabarra&rsquo;s blo
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html">a sprinkling of understanding Workflow in ILM 2</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html">a sprinkling of understanding Workflow in ILM 2 -- Comment</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -394,21 +529,16 @@ Very nice David, I would also urge readers to check out Mark Gabarra&rsquo;s blo
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html"><i class="far fa-calendar"></i> September 16, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html"><i class="far fa-calendar"></i> September 16, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">So by now all of you know that understanding Windows Workflow Foundation is going to be quite helpful in implementing ILM 2.
-Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more about sprinkling
-So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.
-Category
-Activity
-Composite
-Notes
-Invoke Web Service
-Conditional</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/09/sprinkling-of-understanding-workflow-in.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="very-nice-david-i-would-also-urge-readers-to-chec">Very nice David, I would also urge readers to chec&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Very nice David, I would also urge readers to check out Mark Gabarra&rsquo;s blog for information relating WF and ILM 2. I also hope that we&rsquo;ll be able to goad our own Paul Divan into bringing his experiences to the blogosphere!</p>
+<!-- raw HTML omitted --></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -419,7 +549,7 @@ Conditional</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html">
+                                      <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -427,7 +557,7 @@ Conditional</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -464,14 +594,16 @@ Conditional</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html"><i class="far fa-calendar"></i> September 12, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html"><i class="far fa-calendar"></i> September 12, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Yeah, so this one frustrated me for awhile and if &hellip; Brad Turner - Sep 3, 2008
-Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered this I would have lost even more time!</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="yeah-so-this-one-frustrated-me-for-awhile-and-if-">Yeah, so this one frustrated me for awhile and if &hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered this I would have lost even more time!</p>
+<!-- raw HTML omitted --></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -482,7 +614,7 @@ Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered th
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html">
+                                      <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -490,7 +622,7 @@ Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered th
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -527,20 +659,29 @@ Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered th
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html"><i class="far fa-calendar"></i> September 12, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html"><i class="far fa-calendar"></i> September 12, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">ID: 367381
-Description
-Action Process Function Evaluator Activity doesn&rsquo;t work when using only one field, but when I concatenate with 2 it works.
-Repro Steps
-Create an action Process
-Add one activity &ndash; Function Evaluator
-Set a destination to an attribute (like DisplayName) and select only one field in the value &ndash; LastName
-Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), Operations: Create and Modify</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/09/ilm-2-beta-3-bug-action-process.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p><a href="https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=367381&amp;SiteID=433">ID: 367381</a></p>
+<hr>
+<p>Description</p>
+<p>Action Process Function Evaluator Activity doesn&rsquo;t work when using only one field, but when I concatenate with 2 it works.</p>
+<p><strong>Repro Steps</strong></p>
+<p>Create an action Process<br>
+Add one activity &ndash; Function Evaluator<br>
+Set a destination to an attribute (like DisplayName) and select only one field in the value &ndash; LastName<br>
+Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), Operations: Create and Modify<br>
+Requestors: All People<br>
+All Attributes<br>
+Condition Before All People<br>
+Condition After All People<br>
+Policy Workflows: Add your Action Process<br>
+Then create or modify a user<br>
+open the user again and note that it did not work<br>
+Then look at search requests, view the request and note the following error: Data at the root level is invalid. Line 1, position 1.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -551,7 +692,7 @@ Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), 
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html">
+                                      <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -559,7 +700,7 @@ Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), 
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html">Expanding a Windows Server 2008 System partition on a HyperV Guest</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html">Expanding a Windows Server 2008 System partition on a HyperV Guest</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -596,15 +737,24 @@ Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), 
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html"><i class="far fa-calendar"></i> September 2, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html"><i class="far fa-calendar"></i> September 2, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Yeah, WOW, not a quick and easy process by any means! Brad Turner - Sep 3, 2008
-Yeah, WOW, not a quick and easy process by any means!
-Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="yeah-wow-not-a-quick-and-easy-process-by-any-means">Yeah, WOW, not a quick and easy process by any means!</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Yeah, WOW, not a quick and easy process by any means!</p>
+<!-- raw HTML omitted -->
+<p>Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:<br>
+diskpart<br>
+DISKPART&gt; list<br>
+DISKPART&gt; list volume<br>
+DISKPART&gt; select volume #<br>
+DISKPART&gt; extend<br>
+DISKPART&gt; extend filesystem<br>
+You&rsquo;ll need to run extend filesystem on ant 2008+ server regardless if it is in a Cluster or not&hellip;</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -615,7 +765,7 @@ Good Info - Important Note: If you are dealing with a vm guest attached to a Hyp
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html">
+                                      <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -623,7 +773,7 @@ Good Info - Important Note: If you are dealing with a vm guest attached to a Hyp
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html">Expanding a Windows Server 2008 System partition on a HyperV Guest</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html">Expanding a Windows Server 2008 System partition on a HyperV Guest</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -660,14 +810,14 @@ Good Info - Important Note: If you are dealing with a vm guest attached to a Hyp
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html"><i class="far fa-calendar"></i> September 2, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html"><i class="far fa-calendar"></i> September 2, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">While building out some virtual machines for our ILM 2 Beta 3 environment&hellip;
-We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition).</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/09/expanding-windows-server-2008-system.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>While building out some virtual machines for our ILM 2 Beta 3 environment&hellip;</p>
+<p>We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition). All of these programs install a lot of stuff on the system partition no matter what I select. While moving the paging file freed up some space it wasn&rsquo;t enough.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -678,7 +828,7 @@ We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is b
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html">
+                                      <a href="http://localhost:1313/2008/07/pending-exports-report-in-ilm.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -686,7 +836,7 @@ We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is b
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html">Pending Exports Report in ILM</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/07/pending-exports-report-in-ilm.html">Pending Exports Report in ILM</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -723,14 +873,14 @@ We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is b
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html"><i class="far fa-calendar"></i> July 30, 2008</a>
+                                            <a href="http://localhost:1313/2008/07/pending-exports-report-in-ilm.html"><i class="far fa-calendar"></i> July 30, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.
-As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.</p>
+<p>As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/07/pending-exports-report-in-ilm.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -741,7 +891,7 @@ As many of you aware, my colleague and fellow ILM MVP Brad Turner created the co
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html">
+                                      <a href="http://localhost:1313/2008/07/i-like-my-passwords-plain-in-plaintext.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -749,7 +899,7 @@ As many of you aware, my colleague and fellow ILM MVP Brad Turner created the co
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html">I like my passwords Plain --in plaintext that is</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/07/i-like-my-passwords-plain-in-plaintext.html">I like my passwords Plain --in plaintext that is</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -786,17 +936,18 @@ As many of you aware, my colleague and fellow ILM MVP Brad Turner created the co
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html"><i class="far fa-calendar"></i> July 3, 2008</a>
+                                            <a href="http://localhost:1313/2008/07/i-like-my-passwords-plain-in-plaintext.html"><i class="far fa-calendar"></i> July 3, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Bug in ILM2 Beta 3 &ndash; go vote on MSConnect to register your taste!
-Look for Bug ID 354953
-Do you like your passwords plain or with encrypted butter?
-As for me and my house we will choose the encrypted butter! I mean passwords.
-ILM 2 codeless provisioning looks great! You can add complex rules without code and then you can even see these rules as they get synchronized into the ILM synch engine (what we know and love from the MIIS 2003 and ILM 2007 days).</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/PlainPasswords_small-736260.jpg"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/PlainPasswords_small-736256.jpg" alt=""></a></p>
+<p>Bug in ILM2 Beta 3 &ndash; go vote on MSConnect to register your taste!</p>
+<p>Look for Bug ID 354953</p>
+<p><strong>Do you like your passwords plain or with encrypted butter?</strong></p>
+<p>As for me and my house we will choose the encrypted butter! I mean passwords.</p>
+<p>ILM 2 codeless provisioning looks great! You can add complex rules without code and then you can even see these rules as they get synchronized into the ILM synch engine (what we know and love from the MIIS 2003 and ILM 2007 days). But then oops! you can see my default password in plaintext!</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/07/i-like-my-passwords-plain-in-plaintext.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -807,7 +958,7 @@ ILM 2 codeless provisioning looks great! You can add complex rules without code 
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html">
+                                      <a href="http://localhost:1313/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -815,7 +966,7 @@ ILM 2 codeless provisioning looks great! You can add complex rules without code 
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html">Tech Ed -- Lotsa Buzz ILM 2 and CLM</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html">Tech Ed -- Lotsa Buzz ILM 2 and CLM</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -852,15 +1003,15 @@ ILM 2 codeless provisioning looks great! You can add complex rules without code 
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html"><i class="far fa-calendar"></i> June 16, 2008</a>
+                                            <a href="http://localhost:1313/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html"><i class="far fa-calendar"></i> June 16, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">On Tuesday Bob Muglia made a big announcement &ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.
-Thanks to Nima for inviting me to participate at the booth.
-Best session I went was by Candy Stark from MS IT.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>On Tuesday <a href="http://www.microsoft.com/presspass/exec/bobmuglia/default.mspx">Bob Muglia</a> made a big announcement &ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.</p>
+<p>Thanks to Nima for inviting me to participate at the booth.</p>
+<p>Best session I went was by Candy Stark from MS IT. She presented on the smart card deployment at MSFT using CLM.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -888,7 +1039,31 @@ Best session I went was by Candy Stark from MS IT.</p>
 
                         
 
-                        <a
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<a
   class="twitter-timeline"
   data-height="1000"
   href="https://twitter.com/DavidLundell?ref_src=twsrc%5Etfw"
@@ -953,15 +1128,15 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad-fs</a>
+                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad fs</a>
             </li>
             
             <li >
-                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad-lds</a>
+                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad lds</a>
             </li>
             
             <li >
-                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad-rms</a>
+                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad rms</a>
             </li>
             
             <li >
@@ -1013,7 +1188,7 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud-identity-summit</a>
+                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud identity summit</a>
             </li>
             
             <li >
@@ -1021,11 +1196,11 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial-conversations</a>
+                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial conversations</a>
             </li>
             
             <li >
-                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic-fibrosis</a>
+                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic fibrosis</a>
             </li>
             
             <li >
@@ -1033,7 +1208,7 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory-services</a>
+                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory services</a>
             </li>
             
             <li >
@@ -1049,11 +1224,15 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange-2007</a>
+                <a href="/tags/entraidentraazureactivedirectoryextensionattributesdirectoryextensionsschemaextensionscustomsecurityattributes"><i class="fas fa-tags"></i> entraid;entra;azureactivedirectory;extensionattributes;directoryextensions;schemaextensions;customsecurityattributes;</a>
             </li>
             
             <li >
-                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange-2010</a>
+                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange 2007</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange 2010</a>
             </li>
             
             <li >
@@ -1065,7 +1244,7 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim-2010-r2</a>
+                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim 2010 r2</a>
             </li>
             
             <li >
@@ -1077,11 +1256,11 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront-identity-manager</a>
+                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund-raising</a>
+                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund raising</a>
             </li>
             
             <li >
@@ -1089,11 +1268,15 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
+                <a href="/tags/galsyncentraidcrosstenantsync"><i class="fas fa-tags"></i> galsync;entraid;crosstenantsync</a>
+            </li>
+            
+            <li >
                 <a href="/tags/geneva"><i class="fas fa-tags"></i> geneva</a>
             </li>
             
             <li >
-                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high-availability</a>
+                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high availability</a>
             </li>
             
             <li >
@@ -1109,7 +1292,7 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity-management</a>
+                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity management</a>
             </li>
             
             <li >
@@ -1125,15 +1308,15 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li class="active">
-                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm-2-beta-3</a>
+                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm 2 beta 3</a>
             </li>
             
             <li >
-                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm-2-rc0</a>
+                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm 2 rc0</a>
             </li>
             
             <li >
-                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it-manager</a>
+                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it manager</a>
             </li>
             
             <li >
@@ -1161,11 +1344,11 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft-identity-manager</a>
+                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft-message-queue</a>
+                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft message queue</a>
             </li>
             
             <li >
@@ -1177,11 +1360,19 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
+                <a href="/tags/mimentraidsync"><i class="fas fa-tags"></i> mim;entraidsync</a>
+            </li>
+            
+            <li >
+                <a href="/tags/mimwalmimpowershell"><i class="fas fa-tags"></i> mimwal;mim;powershell</a>
+            </li>
+            
+            <li >
                 <a href="/tags/mirroring"><i class="fas fa-tags"></i> mirroring</a>
             </li>
             
             <li >
-                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile-phone</a>
+                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile phone</a>
             </li>
             
             <li >
@@ -1213,7 +1404,7 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/project-management"><i class="fas fa-tags"></i> project-management</a>
+                <a href="/tags/project-management"><i class="fas fa-tags"></i> project management</a>
             </li>
             
             <li >
@@ -1261,7 +1452,7 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart-cards</a>
+                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart cards</a>
             </li>
             
             <li >
@@ -1273,19 +1464,19 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql-clustering</a>
+                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql clustering</a>
             </li>
             
             <li >
-                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql-pass</a>
+                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql pass</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql-server</a>
+                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql server</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql-server-service-broker</a>
+                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql server service broker</a>
             </li>
             
             <li >
@@ -1301,15 +1492,19 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star-wars</a>
+                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star wars</a>
             </li>
             
             <li >
-                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface-pro-3</a>
+                <a href="/tags/storechk"><i class="fas fa-tags"></i> storechk</a>
             </li>
             
             <li >
-                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync-rules</a>
+                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface pro 3</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync rules</a>
             </li>
             
             <li >
@@ -1337,19 +1532,19 @@ Best session I went was by Candy Stark from MS IT.</p>
             </li>
             
             <li >
-                <a href="/tags/web-services"><i class="fas fa-tags"></i> web-services</a>
+                <a href="/tags/web-services"><i class="fas fa-tags"></i> web services</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows-server-2003</a>
+                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows server 2003</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows-server-2008</a>
+                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows server 2008</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows-server-2012-r2</a>
+                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows server 2012 r2</a>
             </li>
             
             <li >
@@ -1416,40 +1611,40 @@ Best session I went was by Candy Stark from MS IT.</p>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                          <img src="/img/entra-id-custom-attribute-decision-tree.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Decision Tree">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">Custom Attributes in Entra ID -- Decision Tree</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                          <img src="/img/entraidcustomattributes_usecases_small.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Use Cases">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">Custom Attributes in Entra ID -- Use Cases</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                          <img src="/img/all-the-doors-together2.jpg" class="img-responsive" alt="Custom Attributes in Entra ID -- Limitations">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">Custom Attributes in Entra ID -- Limitations</a></h5>
                   </div>
               </div>
               
@@ -1477,7 +1672,7 @@ Best session I went was by Candy Stark from MS IT.</p>
       
           <div class="col-sm-4">
             
-            <p>Copyright (c) 2023 Identity Managed</p>
+            <p>Copyright (c) 2026 Identity Managed</p>
             
           </div>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta name="robots" content="all,follow" />
 <meta name="googlebot" content="index,follow,snippet,archive" />
@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>Dependent Sync Rules – Disconnection on removal of a dependent Sync Rule</title>
-<meta name="author" content="David" />     <meta name="keywords" content="identity, hugo, go, Forefront Identity Manager, FIM">  
+<meta name="author" content="map[email:david@identitymanaged.com name:David]" />     <meta name="keywords" content="identity, hugo, go, Forefront Identity Manager, FIM">  
 <meta name="description" content="Identity Managed" />
 
-<meta name="generator" content="Hugo 0.120.4">
+<meta name="generator" content="Hugo 0.159.0">
 
 <link
   rel="stylesheet"
@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702678769" rel="stylesheet">
+<link href="/css/custom.css?1774497172" rel="stylesheet">
 
 
 
@@ -48,12 +48,12 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.com/index.xml"
+<link rel="alternate" href="http://localhost:1313/index.xml"
 type="application/rss+xml" title="Identity Managed">
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//feed.xml"
+  href="http://localhost:1313//feed.xml"
   title="Identity Managed"
 />
 
@@ -89,9 +89,10 @@ content="2010-06-29T14:32:00-0700">
     <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//index.xml"
+  href="http://localhost:1313//index.xml"
   title="Identity Managed"
 />
+
 
   </head>
 
@@ -308,15 +309,101 @@ content="2010-06-29T14:32:00-0700">
                         
 
                         <div id="post-content">
-                          <h4 id="hi-david-i-have-a-dependent-sync-rule-and-i-have">Hi David, I have a dependent sync rule and I have&hellip;</h4>
-<p><a href="https://www.blogger.com/profile/07657669311243080791" title="noreply@blogger.com">V</a> - <!-- raw HTML omitted -->Jul 1, 2013<!-- raw HTML omitted --></p>
-<p>Hi David,</p>
-<p>I have a dependent sync rule and I have confirmed that it will not disconnect the object when the dependent sync rule is removed. However, everytime the dependent sync rule is removed, FIM tries to export a &ldquo;Provisioning Delete/Add&rdquo; to AD. Have you experienced this issue? Any tips would be appreciated. Thanks</p>
-<!-- raw HTML omitted -->
+                          <p>Recently, I discovered that under certain conditions the removal of a dependent sync rule could cause the disconnection of objects in AD or other connected data sources. So I had to investigate the inner workings of dependent Sync Rules to uncover this mystery and fix it.</p>
+<p>FIM allows us to create dependent Sync Rules. First let me explain the what and then a little why. Then allow me to explain a bug that I discovered and how to work around it.</p>
+<p>A Dependent Sync Rule is an outbound sync rule, or and inbound and outbound sync rule (with only the outbound side working) that depends on and inherits (at the time of creation) from its parent or base sync rule.</p>
+<p>A base Sync Rule is one that doesn’t depend on any other sync rule.</p>
+<p>A dependent sync rule can depend on another dependent sync rule.</p>
+<p>A dependent sync rule cannot be applied to a resource until its parent sync rule has been applied</p>
+<p>When you create a sync rule as a dependent sync rule it inherits a number of attributes from the parent</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb.png" alt="image" title="image"></a></p>
+<p>Let’s break it down:</p>
+<blockquote>
+<p>The resource Type is obviously sync rule</p>
+</blockquote>
+<blockquote>
+<p>Create External System Resource, Create FIM Resource, and Disconnect External System Resource are all set to false because this is a dependent sync rule. Back in RC 1 Disconnect External System Resource inherited the value of the parent which leads to odd behavior I will describe further on in the post. The attributes and their corresponding actions are the province of base sync rules.</p>
+</blockquote>
+<blockquote>
+<p>Data Flow Direction (1 for outbound or 2 for in and out), External System, External System Resource Type, FIM Resource Type, and Relationship criteria are inherited from the parent.</p>
+</blockquote>
+<blockquote>
+<p>Workflow Parameters and persistent flow can be set as well as the DisplayName and the Description. Initial flow can’t be set as that is also the province of base sync rules.</p>
+</blockquote>
+<p>Why implement dependent sync rules? Flow additional attributes in a situational fashion but only if some base sync rule is already applied.</p>
+<p><strong>One danger can occur</strong>. If you create a base sync rule, set the Disconnect External System Resource to true and then change it to a dependent sync rule, the disconnect remains true and you have no way in the UI to change it since the scoping and relationship tabs are hidden for dependent sync rules. So the bug is either that you can’t change it in the UI or that the UI or service should be changing it to false if the rule becomes dependent.</p>
+<p>If this setting is set to true then it might disconnect the resource when the dependent sync rule is removed.</p>
+<p>This can also happen if you load a sync rule through the web service as dependent and set the Disconnect External System Resource to true.</p>
+<p>How did it get this way? Well if you were an RDP or TAP customer and you had RC 1 and then upgraded your FIM Service database it could be that way. Or if you export the FIM sync rule from one system and it was like that and then went to another it would load in with it set to true</p>
+<p>How to find out if you have this?</p>
+<p>Assuming you have already imported and sync’d from the FIM MA then In the Sync Service Manager, go to metaverse search. Search for Sync rules. Search for those with the DisconnectConnectedSystemObject set to true and dependency is present. If anything turns up then you have this issue.</p>
+<p>To solve it you can use the UI or this  PowerShell script against the web service.</p>
+<p>To use the UI you open the dependent sync rule change it to not have a dependency and then change it back to depend on the one that it had before. That seems to tell the UI to set Disconnect External System Resource to false</p>
+<p>Initially your dependent sync rule looks like this:</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_3.png" alt="image" title="image"></a></p>
+<p>So change it to look like this (but don’t click OK and submit – not yet anyway)</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_4.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_4.png" alt="image" title="image"></a></p>
+<p>Then change it back</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_3.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_3.png" alt="image" title="image"></a></p>
+<p>Then click OK and you should see this and nothing else getting changed</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_5.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/DependentSyncRulesDisconnectiononremoval_CC43/image_thumb_5.png" alt="image" title="image"></a></p>
+<p>Then click Submit.</p>
+<p>Or use PowerShell on your next import and sync from FIM your sync rule will be fixed.</p>
+<p>. C:\FIMTasks\FIMHelper\FIMPowerShell.ps1</p>
+<p># includes the helper functions from: <a href="http://technet.microsoft.com/en-us/library/ff720152(WS.10).aspx">http://technet.microsoft.com/en-us/library/ff720152(WS.10).aspx</a></p>
+<p># and the GenerateFilter from <a href="http://technet.microsoft.com/en-us/library/ff720142(WS.10).aspx">http://technet.microsoft.com/en-us/library/ff720142(WS.10).aspx</a></p>
+<p># and GetAttributeValueFromResource from <a href="http://technet.microsoft.com/en-us/library/ff720158(WS.10).aspx">http://technet.microsoft.com/en-us/library/ff720158(WS.10).aspx</a></p>
+<p># take the above helper functions and create a file called FIMPowerShell.ps1 and put them in it</p>
+<p># Purpose of this script is to Identify sync rules with dependencies</p>
+<p># where the DisconnectConnectedSystemObject=true and set it to false</p>
+<p># step 1 find Sync rules with dependencies and DisconnectConnectedSystemObject=true</p>
+<p># step 2 Modify the DisconnectConnectedSystemObject=false for each of these</p>
+<p># step 3 commit to FIM</p>
+<p>function QueryResourceOnlyBase</p>
+<p>{</p>
+<p>PARAM($Filter, $Uri = $DefaultUri)</p>
+<p>END</p>
+<p>{</p>
+<p>$resources = Export-FIMConfig -CustomConfig $Filter -Uri $Uri -OnlyBaseResources</p>
+<p>$resources</p>
+<p>}</p>
+<p>}</p>
+<p># step 1 find Sync rules with dependencies and DisconnectConnectedSystemObject=true</p>
+<p>$uri = &ldquo;<a href="http://localhost:5725/ResourceManagementService">http://localhost:5725/ResourceManagementService</a>&rdquo;</p>
+<p>$exportedSyncRules = QueryResourceOnlyBase -Filter &ldquo;/SynchronizationRule[DisconnectConnectedSystemObject=true</p>
+<p>and Dependency = /SynchronizationRule ]&rdquo; -Uri $Uri</p>
+<p>Write-Host (&ldquo;The script has exported &quot; + $exportedSyncRules.Count + &quot; sync rules based on the filter: &quot; + $query)</p>
+<p># step 2 Modify the DisconnectConnectedSystemObject=false for each of these</p>
+<p>$importList = @()</p>
+<p>foreach ($syncRule in $exportedSyncRules)</p>
+<p>{</p>
+<p>$importObject = ModifyImportObject $syncRule.ResourceManagementObject.ObjectIdentifier &ldquo;SynchronizationRule&rdquo;</p>
+<p>SetSingleValue $importObject &ldquo;DisconnectConnectedSystemObject&rdquo; &ldquo;false&rdquo; 1</p>
+<p>$importList += $importObject</p>
+<p>}</p>
+<p># step 3 commit to FIM</p>
+<p>if ($importList.Count -gt 0 )</p>
+<p>{</p>
+<p>$undoneChanges = $importList | Import-FIMConfig -Uri $Uri</p>
+<p># Use ConvertFrom-FIMResource cmdlet to convert contents of $undoneChanges to the file &ldquo;undone.xml&rdquo;.</p>
+<p>if ($undoneChanges.Count -gt 0)</p>
+<p>{</p>
+<p>Write-Host &ldquo;There are &quot; + $undoneChanges.Count + &quot; sync rules that failed to update&rdquo;</p>
+<p>Write-Host &ldquo;The undone imports are written to undone.xml&rdquo;</p>
+<p>$undoneChanges | ConvertFrom-FIMResource -file undone.xml</p>
+<p>}</p>
+<p>Write-Host &ldquo;Import complete&rdquo;</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>Write-Host &ldquo;Nothing to import&rdquo;</p>
+<p>}</p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p>
 
                         </div>
                         
                         
+						
 
                     </div>
                     
@@ -329,7 +416,31 @@ content="2010-06-29T14:32:00-0700">
 
                         
 
-                        <a
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<a
   class="twitter-timeline"
   data-height="1000"
   href="https://twitter.com/DavidLundell?ref_src=twsrc%5Etfw"
@@ -394,15 +505,15 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad-fs</a>
+                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad fs</a>
             </li>
             
             <li >
-                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad-lds</a>
+                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad lds</a>
             </li>
             
             <li >
-                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad-rms</a>
+                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad rms</a>
             </li>
             
             <li >
@@ -454,7 +565,7 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud-identity-summit</a>
+                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud identity summit</a>
             </li>
             
             <li >
@@ -462,11 +573,11 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial-conversations</a>
+                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial conversations</a>
             </li>
             
             <li >
-                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic-fibrosis</a>
+                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic fibrosis</a>
             </li>
             
             <li >
@@ -474,7 +585,7 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory-services</a>
+                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory services</a>
             </li>
             
             <li >
@@ -490,11 +601,15 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange-2007</a>
+                <a href="/tags/entraidentraazureactivedirectoryextensionattributesdirectoryextensionsschemaextensionscustomsecurityattributes"><i class="fas fa-tags"></i> entraid;entra;azureactivedirectory;extensionattributes;directoryextensions;schemaextensions;customsecurityattributes;</a>
             </li>
             
             <li >
-                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange-2010</a>
+                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange 2007</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange 2010</a>
             </li>
             
             <li >
@@ -506,7 +621,7 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim-2010-r2</a>
+                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim 2010 r2</a>
             </li>
             
             <li >
@@ -518,11 +633,11 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront-identity-manager</a>
+                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund-raising</a>
+                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund raising</a>
             </li>
             
             <li >
@@ -530,11 +645,15 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
+                <a href="/tags/galsyncentraidcrosstenantsync"><i class="fas fa-tags"></i> galsync;entraid;crosstenantsync</a>
+            </li>
+            
+            <li >
                 <a href="/tags/geneva"><i class="fas fa-tags"></i> geneva</a>
             </li>
             
             <li >
-                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high-availability</a>
+                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high availability</a>
             </li>
             
             <li >
@@ -550,7 +669,7 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity-management</a>
+                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity management</a>
             </li>
             
             <li >
@@ -566,15 +685,15 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm-2-beta-3</a>
+                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm 2 beta 3</a>
             </li>
             
             <li >
-                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm-2-rc0</a>
+                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm 2 rc0</a>
             </li>
             
             <li >
-                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it-manager</a>
+                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it manager</a>
             </li>
             
             <li >
@@ -602,11 +721,11 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft-identity-manager</a>
+                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft-message-queue</a>
+                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft message queue</a>
             </li>
             
             <li >
@@ -618,11 +737,19 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
+                <a href="/tags/mimentraidsync"><i class="fas fa-tags"></i> mim;entraidsync</a>
+            </li>
+            
+            <li >
+                <a href="/tags/mimwalmimpowershell"><i class="fas fa-tags"></i> mimwal;mim;powershell</a>
+            </li>
+            
+            <li >
                 <a href="/tags/mirroring"><i class="fas fa-tags"></i> mirroring</a>
             </li>
             
             <li >
-                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile-phone</a>
+                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile phone</a>
             </li>
             
             <li >
@@ -654,7 +781,7 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/project-management"><i class="fas fa-tags"></i> project-management</a>
+                <a href="/tags/project-management"><i class="fas fa-tags"></i> project management</a>
             </li>
             
             <li >
@@ -702,7 +829,7 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart-cards</a>
+                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart cards</a>
             </li>
             
             <li >
@@ -714,19 +841,19 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql-clustering</a>
+                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql clustering</a>
             </li>
             
             <li >
-                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql-pass</a>
+                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql pass</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql-server</a>
+                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql server</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql-server-service-broker</a>
+                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql server service broker</a>
             </li>
             
             <li >
@@ -742,15 +869,19 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star-wars</a>
+                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star wars</a>
             </li>
             
             <li >
-                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface-pro-3</a>
+                <a href="/tags/storechk"><i class="fas fa-tags"></i> storechk</a>
             </li>
             
             <li >
-                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync-rules</a>
+                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface pro 3</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync rules</a>
             </li>
             
             <li >
@@ -778,19 +909,19 @@ content="2010-06-29T14:32:00-0700">
             </li>
             
             <li >
-                <a href="/tags/web-services"><i class="fas fa-tags"></i> web-services</a>
+                <a href="/tags/web-services"><i class="fas fa-tags"></i> web services</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows-server-2003</a>
+                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows server 2003</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows-server-2008</a>
+                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows server 2008</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows-server-2012-r2</a>
+                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows server 2012 r2</a>
             </li>
             
             <li >
@@ -858,40 +989,40 @@ content="2010-06-29T14:32:00-0700">
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                          <img src="/img/entra-id-custom-attribute-decision-tree.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Decision Tree">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">Custom Attributes in Entra ID -- Decision Tree</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                          <img src="/img/entraidcustomattributes_usecases_small.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Use Cases">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">Custom Attributes in Entra ID -- Use Cases</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                          <img src="/img/all-the-doors-together2.jpg" class="img-responsive" alt="Custom Attributes in Entra ID -- Limitations">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">Custom Attributes in Entra ID -- Limitations</a></h5>
                   </div>
               </div>
               
@@ -919,7 +1050,7 @@ content="2010-06-29T14:32:00-0700">
       
           <div class="col-sm-4">
             
-            <p>Copyright (c) 2023 Identity Managed</p>
+            <p>Copyright (c) 2026 Identity Managed</p>
             
           </div>
 

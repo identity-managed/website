@@ -8,13 +8,14 @@ defaultContentLanguage = "en"
 paginate = 10
 title = "Identity Managed"
 baseurl = "https://identitymanaged.com/"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 
 
 [params]
 logo_text = "Identity Managed"
 mainSections = ["blog"]
-copyright = "Copyright (c) 2023 Identity Managed"
+copyright = "Copyright (c) 2026 Identity Managed"
 date_format = "January 2, 2006"
 defaultKeywords = ["identity", "hugo", "go"]
 logo = "img/logo.svg"
@@ -104,7 +105,7 @@ enable = true
 text = "              <button class=\"btn-primary\">\n                <a\n                  href=\"https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/\"\n                  class=\"btn\" style=\"color: white;\"\n                  target=\"_blank\"\n                >\n                  Free Consultation </a></button>\n            "
 
 [permalinks]
-blog = "/blog/:year/:month/:filename/"
+blog = "/blog/:year/:month/:contentbasename/"
 
 [taxonomies]
 category = "categories"

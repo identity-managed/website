@@ -15,7 +15,7 @@ tags:
 categories:
   - MIM
 date: 2022-04-26T14:31:00.004-07:00
-banner: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/media/availability-group-overview/00-endstatesamplenoelb.png?view=azuresql
+banner: /static/img/Always-On-Availability-Group.png
 authors:
   - David
 url: /2022/04/sql-always-on-availability-groups-for.html

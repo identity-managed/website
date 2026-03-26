@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta name="robots" content="all,follow" />
 <meta name="googlebot" content="index,follow,snippet,archive" />
@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>Blog</title>
-<meta name="author" content="David" />     <meta name="keywords" content="identity, hugo, go">  
+<meta name="author" content="map[email:david@identitymanaged.com name:David]" />     <meta name="keywords" content="identity, hugo, go">  
 <meta name="description" content="Identity Managed" />
 
-<meta name="generator" content="Hugo 0.120.4">
+<meta name="generator" content="Hugo 0.159.0">
 
 <link
   rel="stylesheet"
@@ -29,7 +29,7 @@
  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet"> 
 
 
-<link href="/css/custom.css?1702678769" rel="stylesheet">
+<link href="/css/custom.css?1774497472" rel="stylesheet">
 
 
 
@@ -48,18 +48,18 @@ type="image/x-icon" /> <link rel="apple-touch-icon" href="/img/apple-touch-icon.
 href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="https://identitymanaged.com/index.xml"
+<link rel="alternate" href="http://localhost:1313/index.xml"
 type="application/rss+xml" title="Identity Managed">
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//feed.xml"
+  href="http://localhost:1313//feed.xml"
   title="Identity Managed"
 />
 
 
      <meta property="og:updated_time"
-content="2022-04-26T14:31:00-0700"> 
+content="2025-10-01T22:41:06Z"> 
 
 
 <meta
@@ -78,9 +78,13 @@ content="2022-04-26T14:31:00-0700">
     <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://identitymanaged.com//index.xml"
+  href="http://localhost:1313//index.xml"
   title="Identity Managed"
 />
+
+<link rel=""alternate"" type=""application/rss+xml"" href=""http://localhost:1313/blog/index.xml"" title=""Identity Managed"" />
+
+
 
   </head>
 
@@ -266,7 +270,7 @@ content="2022-04-26T14:31:00-0700">
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html">
+                                      <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -274,7 +278,7 @@ content="2022-04-26T14:31:00-0700">
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html">Love One Note -- hate KB&#39;s with unintended consequences</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html">a sprinkling of understanding Workflow in ILM 2</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -311,14 +315,148 @@ content="2022-04-26T14:31:00-0700">
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html"><i class="far fa-calendar"></i> August 16, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html"><i class="far fa-calendar"></i> September 16, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">I posted this on a newsgroup and a Powerpoint MVP &hellip; David Lundell - Aug 6, 2008
-I posted this on a newsgroup and a Powerpoint MVP saved the day. Apparently, Powerpoint relies on the default printer driver to render the text. Since the KB article directed me to make the One Note Printer I created by hand the default print driver I wound up with scrunched text. Once I have his permission I will thank him by name</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>So by now all of you know that understanding Windows Workflow Foundation is going to be quite helpful in implementing ILM 2.</p>
+<p>Having lived 9 of the last 12 months in Redmond, WA, I now understand a lot more about sprinkling</p>
+<p>So I thought I would provide a sprinkling of understanding about Windows Workflow Foundation: a categorization of the built in workflows.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Cateory</th>
+          <th>Activity</th>
+          <th>Composite</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Conditional</td>
+          <td>Invoke Web Service</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>Conditional Activity Group</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>IfElse</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>Policy</td>
+          <td></td>
+          <td>Akin to a switch statement or Select Case</td>
+      </tr>
+      <tr>
+          <td>Conditional</td>
+          <td>While</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Custom</td>
+          <td>Code</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Error</td>
+          <td>Compensate</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Error</td>
+          <td>Fault Handler</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Error</td>
+          <td>Throw</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Delay</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>EventDriven</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Listen</td>
+          <td>X</td>
+          <td>2+ event driven</td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Parallel</td>
+          <td>x</td>
+          <td>2+ sequence for each</td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>State</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Sequence</td>
+          <td>X</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>SetState</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>StateInitialization</td>
+          <td>X</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Suspend</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Terminate</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Flow</td>
+          <td>Transaction Scope</td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -329,7 +467,7 @@ I posted this on a newsgroup and a Powerpoint MVP saved the day. Apparently, Pow
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html">
+                                      <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -337,7 +475,7 @@ I posted this on a newsgroup and a Powerpoint MVP saved the day. Apparently, Pow
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html">Love One Note -- hate KB&#39;s with unintended consequences</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html">a sprinkling of understanding Workflow in ILM 2 -- Comment</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -374,15 +512,16 @@ I posted this on a newsgroup and a Powerpoint MVP saved the day. Apparently, Pow
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html"><i class="far fa-calendar"></i> August 16, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html"><i class="far fa-calendar"></i> September 16, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">I love One Note. Especially on a tablet PC. I can take notes either by typing or writing on the screen, I can sign contracts it is great.
-We recently purchased a home. My real estate agent would send me documents, I would print to One Note and then sign them, print to PDF using Primo PDF and send them back.
-It was great until Print to One Note stopped working.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/08/love-one-note-hate-office-diagnostics.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="very-nice-david-i-would-also-urge-readers-to-chec">Very nice David, I would also urge readers to chec&hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Very nice David, I would also urge readers to check out Mark Gabarra&rsquo;s blog for information relating WF and ILM 2. I also hope that we&rsquo;ll be able to goad our own Paul Divan into bringing his experiences to the blogosphere!</p>
+<!-- raw HTML omitted --></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/sprinkling-of-understanding-workflow-in-Comment.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -393,7 +532,7 @@ It was great until Print to One Note stopped working.</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html">
+                                      <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -401,7 +540,7 @@ It was great until Print to One Note stopped working.</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html">Pending Exports Report in ILM</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -438,14 +577,16 @@ It was great until Print to One Note stopped working.</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html"><i class="far fa-calendar"></i> July 30, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html"><i class="far fa-calendar"></i> September 12, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Hopefully this topic will stir up some excitement among those wondering how to query objects in the connector space. The technique I am about to explicate for you works for both exports and imports.
-As many of you aware, my colleague and fellow ILM MVP Brad Turner created the community reporting pack for MIIS/ILM some time ago. This is a package of reports written in SQL Server Reporting Services (SSRS).</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/07/pending-exports-report-in-ilm.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="yeah-so-this-one-frustrated-me-for-awhile-and-if-">Yeah, so this one frustrated me for awhile and if &hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Yeah, so this one frustrated me for awhile and if you hadn&rsquo;t discovered this I would have lost even more time!</p>
+<!-- raw HTML omitted --></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process-comments.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -456,7 +597,7 @@ As many of you aware, my colleague and fellow ILM MVP Brad Turner created the co
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/07/scripting-sysadmin-survey.html">
+                                      <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -464,7 +605,7 @@ As many of you aware, my colleague and fellow ILM MVP Brad Turner created the co
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/07/scripting-sysadmin-survey.html">Scripting / SysAdmin Survey</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html">ILM 2 Beta 3 Bug: Action Process Function Evaluator Activity doesn&#39;t work when using only one field</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -501,17 +642,29 @@ As many of you aware, my colleague and fellow ILM MVP Brad Turner created the co
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/07/scripting-sysadmin-survey.html"><i class="far fa-calendar"></i> July 10, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html"><i class="far fa-calendar"></i> September 12, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">In repsonse to the &ldquo;tagging&rdquo; of my friend Laura Hunter I now respond with the answers to these deep mysteries. But first &ldquo;tagging&rdquo;? Is this equivalent to the gang tagging? I hope not!
-**How old were you when you started using computers?
-**I was 4 or 5 when &hellip;
-What was your first machine?
-My Dad brought home an Atari 800 computer &ndash; not the game console all though we did have games they just weren&rsquo;t as cool as the ones on the game console.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/07/scripting-sysadmin-survey.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p><a href="https://connect.microsoft.com/feedback/ViewFeedback.aspx?FeedbackID=367381&amp;SiteID=433">ID: 367381</a></p>
+<hr>
+<p>Description</p>
+<p>Action Process Function Evaluator Activity doesn&rsquo;t work when using only one field, but when I concatenate with 2 it works.</p>
+<p><strong>Repro Steps</strong></p>
+<p>Create an action Process<br>
+Add one activity &ndash; Function Evaluator<br>
+Set a destination to an attribute (like DisplayName) and select only one field in the value &ndash; LastName<br>
+Then build an MPR to apply to All People (don&rsquo;t check Grants Permission), Operations: Create and Modify<br>
+Requestors: All People<br>
+All Attributes<br>
+Condition Before All People<br>
+Condition After All People<br>
+Policy Workflows: Add your Action Process<br>
+Then create or modify a user<br>
+open the user again and note that it did not work<br>
+Then look at search requests, view the request and note the following error: Data at the root level is invalid. Line 1, position 1.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/ilm-2-beta-3-bug-action-process.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -522,7 +675,7 @@ My Dad brought home an Atari 800 computer &ndash; not the game console all thoug
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html">
+                                      <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -530,7 +683,7 @@ My Dad brought home an Atari 800 computer &ndash; not the game console all thoug
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html">I like my passwords Plain --in plaintext that is</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html">Expanding a Windows Server 2008 System partition on a HyperV Guest</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -567,17 +720,24 @@ My Dad brought home an Atari 800 computer &ndash; not the game console all thoug
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html"><i class="far fa-calendar"></i> July 3, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html"><i class="far fa-calendar"></i> September 2, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">Bug in ILM2 Beta 3 &ndash; go vote on MSConnect to register your taste!
-Look for Bug ID 354953
-Do you like your passwords plain or with encrypted butter?
-As for me and my house we will choose the encrypted butter! I mean passwords.
-ILM 2 codeless provisioning looks great! You can add complex rules without code and then you can even see these rules as they get synchronized into the ILM synch engine (what we know and love from the MIIS 2003 and ILM 2007 days).</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/07/i-like-my-passwords-plain-in-plaintext.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="yeah-wow-not-a-quick-and-easy-process-by-any-means">Yeah, WOW, not a quick and easy process by any means!</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>Yeah, WOW, not a quick and easy process by any means!</p>
+<!-- raw HTML omitted -->
+<p>Good Info - Important Note: If you are dealing with a vm guest attached to a Hyper-V Cluster, You&rsquo;ll need to use Failover Cluster Manager in Administration Tools on one of the Cluster Nodes - After making the change, go to a Command Prompt and enter the following:<br>
+diskpart<br>
+DISKPART&gt; list<br>
+DISKPART&gt; list volume<br>
+DISKPART&gt; select volume #<br>
+DISKPART&gt; extend<br>
+DISKPART&gt; extend filesystem<br>
+You&rsquo;ll need to run extend filesystem on ant 2008+ server regardless if it is in a Cluster or not&hellip;</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system-comments.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -588,7 +748,7 @@ ILM 2 codeless provisioning looks great! You can add complex rules without code 
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html">
+                                      <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -596,7 +756,7 @@ ILM 2 codeless provisioning looks great! You can add complex rules without code 
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html">Tech Ed -- Lotsa Buzz ILM 2 and CLM</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html">Expanding a Windows Server 2008 System partition on a HyperV Guest</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -633,15 +793,14 @@ ILM 2 codeless provisioning looks great! You can add complex rules without code 
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html"><i class="far fa-calendar"></i> June 16, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html"><i class="far fa-calendar"></i> September 2, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">On Tuesday Bob Muglia made a big announcement &ndash; ILM 2 Beta 3 has been released. While the beta install is only 64 bit on Microsoft Connect you can download the 32-bit Virtual PC. At the ILM 2 booth at Tech Ed the Microsoft ILM Product Group and I were handing them out like crazy.
-Thanks to Nima for inviting me to participate at the booth.
-Best session I went was by Candy Stark from MS IT.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/06/tech-ed-lotsa-buzz-ilm-2-and-clm.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>While building out some virtual machines for our ILM 2 Beta 3 environment&hellip;</p>
+<p>We setup a few virtual machines 64 bit Windows Server 2008 SP 1 (since SP 1 is built in to the RTM) running on HyperV. Everything is very slick! Except we only set aside 16 GB for the virtual disk for the system partition. Despite installing SQL, SharePoint, and ILM 2 to another drive the system partition quickly filled up, and didn&rsquo;t have enough room for Visual Studio (even though I wanted to install it on another partition). All of these programs install a lot of stuff on the system partition no matter what I select. While moving the paging file freed up some space it wasn&rsquo;t enough.</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/expanding-windows-server-2008-system.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -652,7 +811,7 @@ Best session I went was by Candy Stark from MS IT.</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/06/tech-ed-anyone.html">
+                                      <a href="http://localhost:1313/2008/09/experts-conference-tec-conference-comments.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -660,7 +819,7 @@ Best session I went was by Candy Stark from MS IT.</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/06/tech-ed-anyone.html">Tech Ed Anyone?</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/experts-conference-tec-conference-comments.html">The Experts Conference (TEC) -- the conference formerly known as DEC (Directory Experts Conference)</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -697,15 +856,16 @@ Best session I went was by Candy Stark from MS IT.</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/06/tech-ed-anyone.html"><i class="far fa-calendar"></i> June 1, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/experts-conference-tec-conference-comments.html"><i class="far fa-calendar"></i> September 2, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">I will be attending Tech-Ed IT-Pro in a little over a week. My employer Ensynch has a booth. I will also be spending some time at the Microsoft ILM Product Group&rsquo;s booth.
-Looking forward to seeing a bunch of folks out there and helping to demonstrate ILM 2 Beta 3! (Once it is released;)
-http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/06/tech-ed-anyone.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><h4 id="i-am-really-looking-forward-to-this-next-year-and-">I am really looking forward to this next year and &hellip;</h4>
+<p><a href="https://www.blogger.com/profile/13950085747222995199" title="noreply@blogger.com">Brad Turner</a> - <!-- raw HTML omitted -->Sep 3, 2008<!-- raw HTML omitted --></p>
+<p>I am really looking forward to this next year and can&rsquo;t wait to showcase what we&rsquo;ve unearthed as part of our TAP/RDP experience with ILM 2!</p>
+<!-- raw HTML omitted --></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/experts-conference-tec-conference-comments.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -716,7 +876,7 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/05/processing-actions-asynchronously.html">
+                                      <a href="http://localhost:1313/2008/09/experts-conference-tec-conference.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -724,7 +884,7 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/05/processing-actions-asynchronously.html">Processing Actions Asynchronously outside of ILM MA&#39;s</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/09/experts-conference-tec-conference.html">The Experts Conference (TEC) -- the conference formerly known as DEC (Directory Experts Conference)</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -761,13 +921,14 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/05/processing-actions-asynchronously.html"><i class="far fa-calendar"></i> May 15, 2008</a>
+                                            <a href="http://localhost:1313/2008/09/experts-conference-tec-conference.html"><i class="far fa-calendar"></i> September 2, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">For years developers have had access to the Microsoft Message Queue (MSMQ) as a way to be able to queue up actions for processing later or on a remote machine. With the release of SQL 2005 back in well 2005, developers with access to SQL 2005 could replace these MSMQ apps with SQL Service Broker Queues (SSB). With ILM 2007 /MIIS 2003 SP 2 supporting SQL 2005 the use of SQL Service Broker Queues became much more accessible to ILM Developers.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/05/processing-actions-asynchronously.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>Well the results are in! A good number of Ensynchians have been selected to speak at <a href="http://www.tec2009.com/">The Experts Conference</a> March 22-25, 2009 just outside of Las Vegas, NV. This will be my third time speaking at this event. They renamed it TEC because Gil Kirkpatrick and Company at Netpro have expanded the event to include a conference on Exchange Server. All three of these sessions were highlighted in the <a href="http://www.tec2009.com/vegas/general_info/news/pr_announcement.php">press release</a></p>
+<p><strong>Topic</strong></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/09/experts-conference-tec-conference.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -778,7 +939,7 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/05/sql-business-intelligence.html">
+                                      <a href="http://localhost:1313/2008/08/how-to-be-pro-at-google.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -786,7 +947,7 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/05/sql-business-intelligence.html">SQL Business Intelligence</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/08/how-to-be-pro-at-google.html">How to be a pro at Google</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -823,15 +984,14 @@ http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</p>
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/05/sql-business-intelligence.html"><i class="far fa-calendar"></i> May 14, 2008</a>
+                                            <a href="http://localhost:1313/2008/08/how-to-be-pro-at-google.html"><i class="far fa-calendar"></i> August 28, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">This evening I attended a nice SQL 2005 BI presentation by Kathrine Lord of Microsoft.
-She took the Arizona SQL Server Users Group through a nice tour of a datawarehouse that she built for a call center. (Thanks to Pete Miller of Statera for all these years of running and organizing the AZ SQL Server User&rsquo;s group).
-Her presentation was a quick end to end walkthrough: building cubes, MDX calculations, creation of named sets, Key Performance Indicators (KPI&rsquo;s) and using the Pivot Tables inside of Excel 2007.</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/05/sql-business-intelligence.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>My friend and coworker, <a href="http://www.identitychaos.com/">Brad Turner</a>, once joked that if asked what search engine he used he would say &ldquo;David Lundell&rdquo;. While I do have a way of phrasing my searches just so, I thought I would point everyone to some great lessons on how to be better at google. I learned about these from a former business associate, Gary Thede, now the President of Boost eLearning.</p>
+<p>Check out the following 3 free lessons from <a href="http://www.boostelearning.com/">Boost eLearning</a> on how to be a pro at googling!</p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/08/how-to-be-pro-at-google.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -842,7 +1002,7 @@ Her presentation was a quick end to end walkthrough: building cubes, MDX calcula
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html">
+                                      <a href="http://localhost:1313/2008/08/miisilm-error-systembadimageformatexcep.html">
                                           
                                           <img src="/img/placeholder.webp" class="img-responsive" alt="">
                                           
@@ -850,7 +1010,7 @@ Her presentation was a quick end to end walkthrough: building cubes, MDX calcula
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html">Identity Chaos? Get your Identities Ensynch!</a></h2>
+                                    <h2><a href="http://localhost:1313/2008/08/miisilm-error-systembadimageformatexcep.html">MIIS/ILM Error: System.BadImageFormatException</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
@@ -887,14 +1047,16 @@ Her presentation was a quick end to end walkthrough: building cubes, MDX calcula
                                         
 
                                         <p class="date-comments">
-                                            <a href="https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html"><i class="far fa-calendar"></i> May 14, 2008</a>
+                                            <a href="http://localhost:1313/2008/08/miisilm-error-systembadimageformatexcep.html"><i class="far fa-calendar"></i> August 20, 2008</a>
                                         </p>
                                         
                                     </div>
                                     
-                                    <p class="intro">If I post a comment on my own blog does that mean &hellip; David Lundell - May 3, 2008
-If I post a comment on my own blog does that mean I am having an Identity Crisis?</p>
-                                    <p class="read-more"><a href="https://identitymanaged.com/2008/05/identity-chaos-get-your-identities.html" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p>So I had MIIS 2003 SP 1 reporting to me that the format of my GalSync-Extension.dll is invalid. So I tried recompiling it &ndash; no luck. Same error. The only <a href="http://msdn.microsoft.com/en-us/library/k7137bfe(VS.80).aspx">MSDN article</a> on this indicated that unmanaged code is being passed to the load method.</p>
+<p>Through trial and error we found the solution: stop and start the MicrosoftIdentityIntegrationService. If that doesn&rsquo;t work try a reboot.</p>
+<p><a href="http://www.ilmbestpractices.com/blog/uploaded_images/WeirdMIISILMerroranditsresolution_AAE7/BadImageFormatException_screenshot.png"><img src="http://www.ilmbestpractices.com/blog/uploaded_images/WeirdMIISILMerroranditsresolution_AAE7/BadImageFormatException_screenshot_thumb.png" alt="BadImageFormatException_screenshot"></a></p>
+<p><a href="http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices">http://feeds.feedburner.com/IdentityLifecycleManagerilmBestPractices</a></p></p>
+                                    <p class="read-more"><a href="http://localhost:1313/2008/08/miisilm-error-systembadimageformatexcep.html" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                     
                                 </div>
@@ -922,7 +1084,31 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
 
                         
 
-                        <a
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<a
   class="twitter-timeline"
   data-height="1000"
   href="https://twitter.com/DavidLundell?ref_src=twsrc%5Etfw"
@@ -987,15 +1173,15 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad-fs</a>
+                <a href="/tags/ad-fs"><i class="fas fa-tags"></i> ad fs</a>
             </li>
             
             <li >
-                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad-lds</a>
+                <a href="/tags/ad-lds"><i class="fas fa-tags"></i> ad lds</a>
             </li>
             
             <li >
-                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad-rms</a>
+                <a href="/tags/ad-rms"><i class="fas fa-tags"></i> ad rms</a>
             </li>
             
             <li >
@@ -1012,6 +1198,10 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             
             <li >
                 <a href="/tags/azure"><i class="fas fa-tags"></i> azure</a>
+            </li>
+            
+            <li >
+                <a href="/tags/azureactivedirectory"><i class="fas fa-tags"></i> azureactivedirectory</a>
             </li>
             
             <li >
@@ -1047,7 +1237,7 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud-identity-summit</a>
+                <a href="/tags/cloud-identity-summit"><i class="fas fa-tags"></i> cloud identity summit</a>
             </li>
             
             <li >
@@ -1055,11 +1245,15 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial-conversations</a>
+                <a href="/tags/crucial-conversations"><i class="fas fa-tags"></i> crucial conversations</a>
             </li>
             
             <li >
-                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic-fibrosis</a>
+                <a href="/tags/customsecurityattributes"><i class="fas fa-tags"></i> customsecurityattributes</a>
+            </li>
+            
+            <li >
+                <a href="/tags/cystic-fibrosis"><i class="fas fa-tags"></i> cystic fibrosis</a>
             </li>
             
             <li >
@@ -1067,7 +1261,11 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory-services</a>
+                <a href="/tags/directory-services"><i class="fas fa-tags"></i> directory services</a>
+            </li>
+            
+            <li >
+                <a href="/tags/directoryextensions"><i class="fas fa-tags"></i> directoryextensions</a>
             </li>
             
             <li >
@@ -1083,11 +1281,23 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange-2007</a>
+                <a href="/tags/entra"><i class="fas fa-tags"></i> entra</a>
             </li>
             
             <li >
-                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange-2010</a>
+                <a href="/tags/entraid"><i class="fas fa-tags"></i> entraid</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2007"><i class="fas fa-tags"></i> exchange 2007</a>
+            </li>
+            
+            <li >
+                <a href="/tags/exchange-2010"><i class="fas fa-tags"></i> exchange 2010</a>
+            </li>
+            
+            <li >
+                <a href="/tags/extensionattributes"><i class="fas fa-tags"></i> extensionattributes</a>
             </li>
             
             <li >
@@ -1099,7 +1309,7 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim-2010-r2</a>
+                <a href="/tags/fim-2010-r2"><i class="fas fa-tags"></i> fim 2010 r2</a>
             </li>
             
             <li >
@@ -1111,11 +1321,11 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront-identity-manager</a>
+                <a href="/tags/forefront-identity-manager"><i class="fas fa-tags"></i> forefront identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund-raising</a>
+                <a href="/tags/fund-raising"><i class="fas fa-tags"></i> fund raising</a>
             </li>
             
             <li >
@@ -1123,11 +1333,15 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
+                <a href="/tags/galsyncentraidcrosstenantsync"><i class="fas fa-tags"></i> galsync;entraid;crosstenantsync</a>
+            </li>
+            
+            <li >
                 <a href="/tags/geneva"><i class="fas fa-tags"></i> geneva</a>
             </li>
             
             <li >
-                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high-availability</a>
+                <a href="/tags/high-availability"><i class="fas fa-tags"></i> high availability</a>
             </li>
             
             <li >
@@ -1143,7 +1357,7 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity-management</a>
+                <a href="/tags/identity-management"><i class="fas fa-tags"></i> identity management</a>
             </li>
             
             <li >
@@ -1159,15 +1373,15 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm-2-beta-3</a>
+                <a href="/tags/ilm-2-beta-3"><i class="fas fa-tags"></i> ilm 2 beta 3</a>
             </li>
             
             <li >
-                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm-2-rc0</a>
+                <a href="/tags/ilm-2-rc0"><i class="fas fa-tags"></i> ilm 2 rc0</a>
             </li>
             
             <li >
-                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it-manager</a>
+                <a href="/tags/it-manager"><i class="fas fa-tags"></i> it manager</a>
             </li>
             
             <li >
@@ -1195,11 +1409,11 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft-identity-manager</a>
+                <a href="/tags/microsoft-identity-manager"><i class="fas fa-tags"></i> microsoft identity manager</a>
             </li>
             
             <li >
-                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft-message-queue</a>
+                <a href="/tags/microsoft-message-queue"><i class="fas fa-tags"></i> microsoft message queue</a>
             </li>
             
             <li >
@@ -1211,11 +1425,19 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
+                <a href="/tags/mimentraidsync"><i class="fas fa-tags"></i> mim;entraidsync</a>
+            </li>
+            
+            <li >
+                <a href="/tags/mimwalmimpowershell"><i class="fas fa-tags"></i> mimwal;mim;powershell</a>
+            </li>
+            
+            <li >
                 <a href="/tags/mirroring"><i class="fas fa-tags"></i> mirroring</a>
             </li>
             
             <li >
-                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile-phone</a>
+                <a href="/tags/mobile-phone"><i class="fas fa-tags"></i> mobile phone</a>
             </li>
             
             <li >
@@ -1247,7 +1469,7 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/project-management"><i class="fas fa-tags"></i> project-management</a>
+                <a href="/tags/project-management"><i class="fas fa-tags"></i> project management</a>
             </li>
             
             <li >
@@ -1283,6 +1505,10 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
+                <a href="/tags/schemaextensions"><i class="fas fa-tags"></i> schemaextensions</a>
+            </li>
+            
+            <li >
                 <a href="/tags/scripting"><i class="fas fa-tags"></i> scripting</a>
             </li>
             
@@ -1295,7 +1521,7 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart-cards</a>
+                <a href="/tags/smart-cards"><i class="fas fa-tags"></i> smart cards</a>
             </li>
             
             <li >
@@ -1307,19 +1533,19 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql-clustering</a>
+                <a href="/tags/sql-clustering"><i class="fas fa-tags"></i> sql clustering</a>
             </li>
             
             <li >
-                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql-pass</a>
+                <a href="/tags/sql-pass"><i class="fas fa-tags"></i> sql pass</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql-server</a>
+                <a href="/tags/sql-server"><i class="fas fa-tags"></i> sql server</a>
             </li>
             
             <li >
-                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql-server-service-broker</a>
+                <a href="/tags/sql-server-service-broker"><i class="fas fa-tags"></i> sql server service broker</a>
             </li>
             
             <li >
@@ -1335,15 +1561,19 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star-wars</a>
+                <a href="/tags/star-wars"><i class="fas fa-tags"></i> star wars</a>
             </li>
             
             <li >
-                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface-pro-3</a>
+                <a href="/tags/storechk"><i class="fas fa-tags"></i> storechk</a>
             </li>
             
             <li >
-                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync-rules</a>
+                <a href="/tags/surface-pro-3"><i class="fas fa-tags"></i> surface pro 3</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sync-rules"><i class="fas fa-tags"></i> sync rules</a>
             </li>
             
             <li >
@@ -1371,19 +1601,19 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
             </li>
             
             <li >
-                <a href="/tags/web-services"><i class="fas fa-tags"></i> web-services</a>
+                <a href="/tags/web-services"><i class="fas fa-tags"></i> web services</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows-server-2003</a>
+                <a href="/tags/windows-server-2003"><i class="fas fa-tags"></i> windows server 2003</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows-server-2008</a>
+                <a href="/tags/windows-server-2008"><i class="fas fa-tags"></i> windows server 2008</a>
             </li>
             
             <li >
-                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows-server-2012-r2</a>
+                <a href="/tags/windows-server-2012-r2"><i class="fas fa-tags"></i> windows server 2012 r2</a>
             </li>
             
             <li >
@@ -1450,40 +1680,40 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="SQL Always On Availability Groups for MIM">
+                          <img src="/img/entra-id-custom-attribute-decision-tree.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Decision Tree">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2022/04/sql-always-on-availability-groups-for.html">SQL Always On Availability Groups for MIM</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-decision-tree/">Custom Attributes in Entra ID -- Decision Tree</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="Wanted: Up and coming Cyber Security Professionals">
+                          <img src="/img/entraidcustomattributes_usecases_small.png" class="img-responsive" alt="Custom Attributes in Entra ID -- Use Cases">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2020/06/wanted-up-and-coming-cyber-security.html">Wanted: Up and coming Cyber Security Professionals</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-use-cases/">Custom Attributes in Entra ID -- Use Cases</a></h5>
                   </div>
               </div>
               
               <div class="item same-height-row clearfix">
                   <div class="image same-height-always">
-                      <a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">
+                      <a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">
                         
-                          <img src="/img/placeholder.webp" class="img-responsive" alt="MIM Portal Groups whose displayedOwner isn&#39;t among the Owners">
+                          <img src="/img/all-the-doors-together2.jpg" class="img-responsive" alt="Custom Attributes in Entra ID -- Limitations">
                         
                       </a>
                   </div>
                   <div class="name same-height-always">
-                      <h5><a href="https://identitymanaged.com/2019/10/mim-portal-groups-whose-displayedowner.html">MIM Portal Groups whose displayedOwner isn&#39;t among the Owners</a></h5>
+                      <h5><a href="http://localhost:1313/blog/2025/10/custom-attributes-in-entra-id-limitations/">Custom Attributes in Entra ID -- Limitations</a></h5>
                   </div>
               </div>
               
@@ -1511,7 +1741,7 @@ If I post a comment on my own blog does that mean I am having an Identity Crisis
       
           <div class="col-sm-4">
             
-            <p>Copyright (c) 2023 Identity Managed</p>
+            <p>Copyright (c) 2026 Identity Managed</p>
             
           </div>
 

@@ -45,11 +45,13 @@
                           {{ .Content }}
                         </div>
                         <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
+                        {{ if .Site.Config.Services.Disqus.Shortname }}
                         <div id="comments">
                             {{ template "_internal/disqus.html" . }}
-                        </div>
+                        </div> 
+						
                         {{ end }}
+						
 
                     </div>
                     <!-- /#blog-post -->

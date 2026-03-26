@@ -4,7 +4,13 @@ description: "Definitive guide to which way to put custom data into Entra ID:
   Extension Attributes, Directory Extensions, Schema Extensions, or Custom
   Security Attributes. Use Cases."
 tags:
-  - EntraID;Entra;AzureActiveDirectory;ExtensionAttributes;DirectoryExtensions;SchemaExtensions;CustomSecurityAttributes;
+  - EntraID
+  - Entra
+  - AzureActiveDirectory
+  - ExtensionAttributes
+  - DirectoryExtensions
+  - SchemaExtensions
+  - CustomSecurityAttributes
 date: 2025-10-01T03:46:51.314Z
 banner: /img/entraidcustomattributes_usecases_small.png
 authors:
