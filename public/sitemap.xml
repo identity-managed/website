@@ -1459,5 +1459,7 @@
     <loc>http://localhost:1313/about/founder/</loc>
   </url><url>
     <loc>http://localhost:1313/privacy-policy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/terms_scheduling_appointments/</loc>
   </url>
 </urlset>

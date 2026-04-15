@@ -2,7 +2,7 @@
 title = "Terms and Conditions related to scheduling appointments"
 description = "Terms and Conditions related to scheduling appointments"
 +++
-**Effective Date:** [Insert Date]
+**Effective Date:** April 15 2026
 
 These Terms and Conditions ("Terms") explain how services are provided by **Identity Managed LLC** ("Identity Managed," "we," or "us"). They apply to all consulting, advisory, assessment, and professional services booked through our website, Microsoft Bookings, or any other engagement method.
 
