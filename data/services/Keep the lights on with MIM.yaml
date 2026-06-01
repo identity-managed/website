@@ -1,5 +1,5 @@
-weight: 2
-name: For Identity Centered on Premise
+weight: 20
+name: Keep the Lights on with MIM
 image: /img/MIMcentered.png
 description: While support for Microsoft Identity Manager goes away in early
   2029 -- Many orgs continue to use MIM, especially for those with large

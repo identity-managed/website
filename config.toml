@@ -1,23 +1,30 @@
-languageCode = "en-us"
-disqusShortname = ""
+baseurl = "https://identitymanaged.com/"																																																		 
+title = "Identity Managed"			   
 theme = "idm"
+languageCode = "en-us"
 pluralizelisttitles = false
-summaryLength = 70
-googleAnalytics = "G-Y1PZ7MRJ4H"
+
+
 defaultContentLanguage = "en"
+disqusShortname = ""				   
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "G-Y1PZ7MRJ4H"		
 paginate = 10
-title = "Identity Managed"
-baseurl = "https://identitymanaged.com/"
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
 ignoreLogs = ['warning-goldmark-raw-html']
 
 
 
 [params]
+viewMorePostLink = "/blog/"
+
 logo_text = "Identity Managed"
-mainSections = ["blog"]
 copyright = "Copyright (c) 2026 Identity Managed"
 date_format = "January 2, 2006"
 defaultKeywords = ["identity", "hugo", "go"]
+mainSections = ["blog"]
 logo = "img/logo.svg"
 disabled_logo = false
 about_us = "<p>We are a US based Identity Management consulting firm focusing on automating provisioning, deprovisioning, synchronization, GRC, SSO, and MFA to large enterprises.</p>"
@@ -25,7 +32,7 @@ contact_url = ""
 googleRecaptchaKey = "site_key_for_google_recaptcha"
 style = "default"
 logo_small = "img/logo-small.svg"
-viewMorePostLink = "/blog/"
+
 
 enableRecaptchaInContactForm = false
 defaultDescription = "Identity Managed"
@@ -36,15 +43,21 @@ dropdown_mouse_over = false
     email = "david@identitymanaged.com"
 
 [params.video]
-latest_video = "PLOC8OGpoDmFXMrwrUwtrXAtpK0p93FBUI" 
+#latest_video = "PLOC8OGpoDmFXMrwrUwtrXAtpK0p93FBUI" 
+latest_video = "LHXfFoygiOA"
 introduction_video = "xN-icWvnlWw?si=2o84rhvBmzr52fsF" 
-featured_video = "hzePpzGsIGo?si=6gWtbaz899ojleYu" 
+featured_video = "PLOC8OGpoDmFX6bkZq_B4X6xpCI2nY7dia" 
+
+
+[params.services]
+enable = true
+cols = 3
 
 [params.see_more]
 enable = true
 icon = "far fa-file-alt"
-title = "Let us lock down your digital fortress"
-subtitle = "We have secured over 2.7 million identities. We can do it for you. Book a free 20 min consultation."
+title = "Hybrid Identity Defense Accelerated"
+subtitle = "We have secured over 3 million identities. We can do it for you. Book a free 20 min consultation."
 link_url = "https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/"
 link_text = "Book Time with an Expert"
 
@@ -54,7 +67,7 @@ title = "Our Clients"
 subtitle = ""
 
 [params.carouselHomepage]
-enable = false
+enable = true
 auto_play = true
 slide_speed = 2000
 pagination_speed = 1000
@@ -96,13 +109,11 @@ enable = true
 enable = true
 cols = 3
 
-[params.services]
-enable = true
-cols = 3
+
 
 [params.topbar]
 enable = true
-text = "              <button class=\"btn-primary\">\n                <a\n                  href=\"https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/\"\n                  class=\"btn\" style=\"color: white;\"\n                  target=\"_blank\"\n                >\n                  Free Consultation </a></button>\n            "
+text = "              <button class=\"btn-primary\">\n                <a\n                  href=\"https://outlook.office365.com/book/IdentityManagedLLC@identitymanaged.com/\"\n                  class=\"btn\" style=\"color: white;\"\n                  target=\"_blank\"\n                >\n                  20 min to Improve your Entra ID Secure Score by 20%</a></button>\n            "
 
 [permalinks]
 blog = "/blog/:year/:month/:contentbasename/"
@@ -113,7 +124,7 @@ tag = "tags"
 author = "authors"
 
 [menu]
-
+#Main Menu
 [[menu.main]]
 name = "Home"
 identifier = "menu.home"

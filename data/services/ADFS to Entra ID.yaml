@@ -1,0 +1,4 @@
+weight: 8
+name: Reduce Risk & Admin Burden by Migrating from ADFS to Entra ID
+image: /img/Adfs to Entra ID.png
+description: "Let's protect against Golden SAML attacks and simplify your Hybrid Identity Management burden by migrating from ADFS to Entra ID both for Office 365 authentication and your SaaS Apps."

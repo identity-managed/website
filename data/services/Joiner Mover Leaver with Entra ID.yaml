@@ -1,0 +1,5 @@
+weight: 10
+name: From HR/ERP/SIS to Entra ID, AD and Apps
+image: /img/energy.webp
+description: "Provision Identities into Entra ID, AD and Apps from your HR, ERP and/or Student Information Systems using Entra ID's capabilities or Software IDM's HyperSync"
+
